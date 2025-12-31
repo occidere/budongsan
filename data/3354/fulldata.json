@@ -825,81 +825,6 @@
             },
             {
                 "complex_name": "신도림대림1,2차(e편한세상)",
-                "article_number": "2569633305",
-                "article_name": "신도림대림1,2차(e편한세상)",
-                "dong_name": "201동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 126.59,
-                    "contract_space": 165.13,
-                    "exclusive_space": 101.48,
-                    "land_space": 74075,
-                    "supply_space_name": "126",
-                    "exclusive_space_name": "101",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19991127",
-                    "approval_elapsed_year": 27
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-27",
-                    "article_confirm_date": "2025-12-27"
-                },
-                "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "태영공인중개사사무소",
-                    "broker_name": "부동산뱅크",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "특올수리 샷시포함 올확장 이사협의가능",
-                    "direct_trade": false,
-                    "floor_info": "22/27",
-                    "floor_detail_info": {
-                        "target_floor": "22",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.881539,
-                        "y_coordinate": 37.505479
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1470000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 250000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림대림1,2차(e편한세상)",
                 "article_number": "2569527425",
                 "article_name": "신도림대림1,2차(e편한세상)",
                 "dong_name": "201동",
@@ -973,6 +898,81 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 220000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림대림1,2차(e편한세상)",
+                "article_number": "2569633305",
+                "article_name": "신도림대림1,2차(e편한세상)",
+                "dong_name": "201동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 126.59,
+                    "contract_space": 165.13,
+                    "exclusive_space": 101.48,
+                    "land_space": 74075,
+                    "supply_space_name": "126",
+                    "exclusive_space_name": "101",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19991127",
+                    "approval_elapsed_year": 27
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-27",
+                    "article_confirm_date": "2025-12-27"
+                },
+                "broker_info": {
+                    "cp_id": "NEONET",
+                    "brokerage_name": "태영공인중개사사무소",
+                    "broker_name": "부동산뱅크",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "특올수리 샷시포함 올확장 이사협의가능",
+                    "direct_trade": false,
+                    "floor_info": "22/27",
+                    "floor_detail_info": {
+                        "target_floor": "22",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.881539,
+                        "y_coordinate": 37.505479
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1470000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 250000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -1519,7 +1519,7 @@
             "min": 1470000000,
             "max": 1500000000
         },
-        "updated_at": "2025-12-31T15:49:13.451440",
+        "updated_at": "2025-12-31T16:34:35.964932",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1683,7 +1683,7 @@
             "min": 1450000000,
             "max": 1450000000
         },
-        "updated_at": "2025-12-31T15:49:13.451476",
+        "updated_at": "2025-12-31T16:34:35.964968",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1845,7 +1845,7 @@
             "min": 1450000000,
             "max": 1450000000
         },
-        "updated_at": "2025-12-31T15:49:13.451568",
+        "updated_at": "2025-12-31T16:34:35.965059",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2009,7 +2009,7 @@
             "min": 1340000000,
             "max": 1340000000
         },
-        "updated_at": "2025-12-31T15:49:13.451536",
+        "updated_at": "2025-12-31T16:34:35.965027",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2250,7 +2250,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2025-12-31T15:49:13.451472",
+        "updated_at": "2025-12-31T16:34:35.964963",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2414,7 +2414,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2025-12-31T15:49:13.451553",
+        "updated_at": "2025-12-31T16:34:35.965044",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2586,7 +2586,7 @@
             "min": 1380000000,
             "max": 1380000000
         },
-        "updated_at": "2025-12-31T15:49:13.451480",
+        "updated_at": "2025-12-31T16:34:35.964972",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2750,7 +2750,7 @@
             "min": 1500000000,
             "max": 1500000000
         },
-        "updated_at": "2025-12-31T15:49:13.451531",
+        "updated_at": "2025-12-31T16:34:35.965022",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3067,7 +3067,7 @@
             "min": 800000000,
             "max": 800000000
         },
-        "updated_at": "2025-12-31T15:49:13.451453",
+        "updated_at": "2025-12-31T16:34:35.964945",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3476,7 +3476,7 @@
             "min": 1390000000,
             "max": 1500000000
         },
-        "updated_at": "2025-12-31T15:49:13.451490",
+        "updated_at": "2025-12-31T16:34:35.964982",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3640,7 +3640,7 @@
             "min": 1480000000,
             "max": 1480000000
         },
-        "updated_at": "2025-12-31T15:49:13.451564",
+        "updated_at": "2025-12-31T16:34:35.965055",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3891,7 +3891,7 @@
             "min": 1550000000,
             "max": 1550000000
         },
-        "updated_at": "2025-12-31T15:49:13.451461",
+        "updated_at": "2025-12-31T16:34:35.964953",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4083,7 +4083,7 @@
             "min": 1550000000,
             "max": 1550000000
         },
-        "updated_at": "2025-12-31T15:49:13.451572",
+        "updated_at": "2025-12-31T16:34:35.965064",
         "is_deleted": false,
         "deleted_at": null
     },
