@@ -821,7 +821,7 @@
                     </div>
                     <div class="card-info location">
                         <span>${rep.dong_name} <span style="color:#aaa">|</span> ${rep.article_detail.floor_info}층 <span style="color:#aaa">|</span> <span class="direction">${direction}</span></span>
-                        <span>공급 ${rep.space_info.supply_space_name}㎡ (전용 ${rep.space_info.exclusive_space_name}㎡)</span>
+                        <span>공급 ${rep.space_info.supply_space_name} (전용 ${rep.space_info.exclusive_space_name})</span>
                     </div>
                     ${imageUrl ? `<a href="${imageUrl}" target="_blank"><img src="${imageUrl}" class="card-image" alt="매물 사진" onerror="this.style.display='none'"></a>` : ''}
                     <div class="card-info description">
@@ -1264,3 +1264,4 @@
 </body>
 
 </html>
+
