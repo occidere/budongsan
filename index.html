@@ -709,6 +709,53 @@
     let map = null;
     let markers = [];
 
+    // localStorage에서 필터 상태 복원
+    function loadFiltersFromStorage() {
+        try {
+            const saved = localStorage.getItem('realEstateFilters');
+            if (saved) {
+                const filters = JSON.parse(saved);
+                if (filters.complexes) selectedComplexes = new Set(filters.complexes);
+                if (filters.tradeTypes) selectedTradeTypes = new Set(filters.tradeTypes);
+                if (filters.statuses) selectedStatuses = new Set(filters.statuses);
+                if (filters.sortOrder) selectedSortOrder = filters.sortOrder;
+                console.log('Loaded filters from storage:', filters);
+            }
+        } catch (e) {
+            console.warn('Failed to load filters from storage:', e);
+        }
+    }
+
+    // localStorage에 필터 상태 저장
+    function saveFiltersToStorage() {
+        try {
+            const filters = {
+                complexes: Array.from(selectedComplexes),
+                tradeTypes: Array.from(selectedTradeTypes),
+                statuses: Array.from(selectedStatuses),
+                sortOrder: selectedSortOrder
+            };
+            localStorage.setItem('realEstateFilters', JSON.stringify(filters));
+        } catch (e) {
+            console.warn('Failed to save filters to storage:', e);
+        }
+    }
+
+    // 복원된 필터 상태와 UI 동기화
+    function syncUIWithFilters() {
+        // 거래 유형 체크박스 동기화
+        document.getElementById('trade-sale').checked = selectedTradeTypes.has('A1');
+        document.getElementById('trade-jeonse').checked = selectedTradeTypes.has('B1');
+        document.getElementById('trade-rent').checked = selectedTradeTypes.has('B2');
+
+        // 매물 상태 체크박스 동기화
+        document.getElementById('status-active').checked = selectedStatuses.has('active');
+        document.getElementById('status-deleted').checked = selectedStatuses.has('deleted');
+
+        // 정렬 순서 드롭다운 동기화
+        document.getElementById('sortOrder').value = selectedSortOrder;
+    }
+
     function formatPrice(price) {
         if (price >= 100000000) {
             const uk = Math.floor(price / 100000000);
@@ -858,6 +905,7 @@
                     }
                     selectedComplexes.add(id);
                 }
+                saveFiltersToStorage();
                 renderSearchDropdown(document.getElementById('complexSearch').value);
                 renderSelectedTags();
                 renderCards();
@@ -889,6 +937,7 @@
 
         document.getElementById('clearAllComplexes').addEventListener('click', () => {
             selectedComplexes.clear();
+            saveFiltersToStorage();
             renderSelectedTags();
             renderCards();
             updateMap();
@@ -918,6 +967,7 @@
                         }
                         selectedComplexes.add(id);
                     }
+                    saveFiltersToStorage();
                     renderModalList();
                     renderSelectedTags();
                     renderCards();
@@ -947,7 +997,11 @@
             }
         });
 
-        selectedComplexes.add('3354');
+        // localStorage에 저장된 값이 없으면 기본 단지 추가
+        if (selectedComplexes.size === 0) {
+            selectedComplexes.add('3354');
+            saveFiltersToStorage();
+        }
     }
 
     function initTradeTypeFilter() {
@@ -961,6 +1015,7 @@
                 } else {
                     selectedTradeTypes.delete(tradeTypes[index]);
                 }
+                saveFiltersToStorage();
                 renderCards();
                 updateMap();
             });
@@ -978,6 +1033,7 @@
                 } else {
                     selectedStatuses.delete(statuses[index]);
                 }
+                saveFiltersToStorage();
                 renderCards();
                 updateMap();
             });
@@ -988,6 +1044,7 @@
         const sortSelect = document.getElementById('sortOrder');
         sortSelect.addEventListener('change', (e) => {
             selectedSortOrder = e.target.value;
+            saveFiltersToStorage();
             renderCards();
         });
     }
@@ -1092,6 +1149,10 @@
     function renderCards() {
         const cardsContainer = document.getElementById('cards');
 
+        // 31일 전 날짜 계산
+        const thirtyOneDaysAgo = new Date();
+        thirtyOneDaysAgo.setDate(thirtyOneDaysAgo.getDate() - 31);
+
         let filteredData = [];
         selectedComplexes.forEach(complexId => {
             if (allData[complexId]) {
@@ -1102,6 +1163,14 @@
                     const isDeleted = value.is_deleted === true;
                     const status = isDeleted ? 'deleted' : 'active';
                     if (!selectedStatuses.has(status)) return;
+
+                    // 삭제된 매물인 경우 최근 31일 이내만 표시
+                    if (isDeleted) {
+                        const deletedDate = new Date(value.deleted_at);
+                        if (deletedDate < thirtyOneDaysAgo) {
+                            return; // 31일 이전 삭제 매물은 제외
+                        }
+                    }
 
                     filteredData.push({ key, value, complexId });
                 });
@@ -1150,6 +1219,9 @@
 
     async function loadData() {
         try {
+            // localStorage에서 필터 상태 복원
+            loadFiltersFromStorage();
+
             const cardsContainer = document.getElementById('cards');
             cardsContainer.innerHTML = '<div class="loading">매물 데이터 로딩 중...</div>';
 
@@ -1165,6 +1237,9 @@
             });
 
             await Promise.all(loadPromises);
+
+            // UI를 복원된 상태와 동기화
+            syncUIWithFilters();
 
             initComplexSearch();
             renderSelectedTags();
