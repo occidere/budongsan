@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부동산 매물 목록</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-header {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1a73e8;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e8f0fe;
+        }
+
+        .card-info {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 6px;
+        }
+
+        .card-info.location {
+            font-weight: 600;
+            color: #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-info.description {
+            color: #666;
+            font-style: italic;
+            margin: 10px 0;
+            padding: 8px;
+            background: #f9f9f9;
+            border-radius: 6px;
+        }
+
+        .card-info.broker {
+            color: #888;
+            font-size: 13px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-updated {
+            font-size: 12px;
+            color: #999;
+            margin-top: 8px;
+        }
+
+        .card.deleted {
+            opacity: 0.6;
+            border-left: 4px solid #e53935;
+        }
+
+        .deleted-badge {
+            background: #ffebee;
+            color: #c62828;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+
+        .deleted-info-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 14px;
+            height: 14px;
+            background: #ff9800;
+            color: white;
+            border-radius: 50%;
+            font-size: 10px;
+            font-weight: bold;
+            cursor: help;
+            position: relative;
+        }
+
+        .deleted-info-icon:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: calc(100% + 8px);
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.9);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: normal;
+            white-space: nowrap;
+            z-index: 1000;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .deleted-info-icon:hover::before {
+            content: '';
+            position: absolute;
+            bottom: calc(100% + 3px);
+            left: 50%;
+            transform: translateX(-50%);
+            border: 5px solid transparent;
+            border-top-color: rgba(0, 0, 0, 0.9);
+            z-index: 1000;
+        }
+
+        .card-image {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+
+        .card-image:hover {
+            transform: scale(1.05);
+        }
+
+        .card-price {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid #eee;
+        }
+
+        .card-header a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        .card-header a:hover {
+            text-decoration: underline;
+        }
+
+        .price-label {
+            font-size: 12px;
+            color: #888;
+        }
+
+        .price-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #e53935;
+        }
+
+        .trade-type {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 8px;
+        }
+
+        .trade-type.sale {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        .trade-type.jeonse {
+            background: #e3f2fd;
+            color: #1565c0;
+        }
+
+        .trade-type.rent {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+
+        .article-count {
+            font-size: 12px;
+            color: #888;
+            margin-left: 8px;
+        }
+
+        .direction {
+            display: inline-block;
+            padding: 2px 6px;
+            background: #e8f5e9;
+            color: #2e7d32;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .filter-section {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .filter-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 12px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+        }
+
+        .checkbox-item input[type="checkbox"],
+        .checkbox-item input[type="radio"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+            accent-color: #1a73e8;
+        }
+
+        .checkbox-item label {
+            font-size: 14px;
+            color: #555;
+            cursor: pointer;
+        }
+
+        .sort-select {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            color: #333;
+            background-color: white;
+            cursor: pointer;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .sort-select:hover {
+            border-color: #1a73e8;
+        }
+
+        .sort-select:focus {
+            border-color: #1a73e8;
+            box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.1);
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+        }
+
+        .no-data {
+            text-align: center;
+            padding: 40px;
+            color: #888;
+            grid-column: 1 / -1;
+        }
+
+        .selected-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .selected-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 10px;
+            background: #e8f0fe;
+            color: #1a73e8;
+            border-radius: 16px;
+            font-size: 13px;
+        }
+
+        .selected-tag .remove-tag {
+            cursor: pointer;
+            font-weight: bold;
+            color: #1a73e8;
+        }
+
+        .selected-tag .remove-tag:hover {
+            color: #c62828;
+        }
+
+        .search-container {
+            position: relative;
+            margin-bottom: 16px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px 14px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-input:focus {
+            border-color: #1a73e8;
+        }
+
+        .search-input::placeholder {
+            color: #aaa;
+        }
+
+        .search-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border: 1px solid #ddd;
+            border-top: none;
+            border-radius: 0 0 8px 8px;
+            max-height: 250px;
+            overflow-y: auto;
+            z-index: 100;
+            display: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .search-dropdown.open {
+            display: block;
+        }
+
+        .search-dropdown-item {
+            padding: 10px 14px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .search-dropdown-item:hover {
+            background: #f5f5f5;
+        }
+
+        .search-dropdown-item.selected {
+            background: #e8f0fe;
+        }
+
+        .search-dropdown-item input {
+            width: 16px;
+            height: 16px;
+            accent-color: #1a73e8;
+        }
+
+        .search-no-result {
+            padding: 12px 14px;
+            color: #888;
+            font-size: 13px;
+        }
+
+        .clear-btn {
+            margin-left: 12px;
+            padding: 4px 10px;
+            font-size: 12px;
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .clear-btn:hover {
+            background: #e0e0e0;
+        }
+
+        .filter-title-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .filter-title-left {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .list-btn {
+            padding: 4px 10px;
+            font-size: 12px;
+            background: #e8f0fe;
+            color: #1a73e8;
+            border: 1px solid #1a73e8;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .list-btn:hover {
+            background: #d2e3fc;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-overlay.open {
+            display: flex;
+        }
+
+        .modal {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            max-width: 400px;
+            width: 90%;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        .modal-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .modal-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .modal-list li {
+            padding: 10px 12px;
+            border-bottom: 1px solid #eee;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            border-radius: 6px;
+            margin-bottom: 4px;
+        }
+
+        .modal-list li:hover {
+            background: #f5f5f5;
+        }
+
+        .modal-list li.selected {
+            background: #e8f0fe;
+        }
+
+        .modal-list li:last-child {
+            border-bottom: none;
+        }
+
+        .modal-list li input {
+            width: 16px;
+            height: 16px;
+            accent-color: #1a73e8;
+        }
+
+        .modal-close {
+            margin-top: 16px;
+            width: 100%;
+            padding: 10px;
+            background: #f5f5f5;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .modal-close:hover {
+            background: #e0e0e0;
+        }
+
+        #map {
+            height: 400px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-section {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .leaflet-popup-content {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .popup-title {
+            font-weight: 700;
+            color: #1a73e8;
+            margin-bottom: 8px;
+        }
+
+        .popup-info {
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 4px;
+        }
+
+        .popup-price {
+            font-weight: 700;
+            color: #e53935;
+            margin-top: 8px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <h1>부동산 매물 목록</h1>
+
+    <div class="filter-section">
+        <div class="filter-title-row">
+            <div class="filter-title-left">단지 선택
+                <button id="clearAllComplexes" class="clear-btn">초기화</button>
+                <span class="deleted-info-icon" style="margin-left: 4px;" data-tooltip="전체 단지 선택이 해제됩니다">?</span>
+            </div>
+            <button id="showComplexList" class="list-btn">등록된 전체 단지 목록</button>
+        </div>
+        <div class="search-container">
+            <input type="text" id="complexSearch" class="search-input" placeholder="단지명 검색..." autocomplete="off">
+            <div class="search-dropdown" id="searchDropdown"></div>
+        </div>
+        <div class="selected-tags" id="selectedTags"></div>
+    </div>
+
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+        <div class="filter-section" style="flex: 1; min-width: 200px;">
+            <div class="filter-title">거래 유형</div>
+            <div class="checkbox-group" id="tradeTypeFilter">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="trade-sale" value="A1" checked>
+                    <label for="trade-sale">매매</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="trade-jeonse" value="B1" checked>
+                    <label for="trade-jeonse">전세</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="trade-rent" value="B2" checked>
+                    <label for="trade-rent">월세</label>
+                </div>
+            </div>
+        </div>
+        <div class="filter-section" style="flex: 1; min-width: 200px;">
+            <div class="filter-title">매물 상태</div>
+            <div class="checkbox-group" id="articleStatusFilter">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="status-active" value="active" checked>
+                    <label for="status-active">활성 매물</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="status-deleted" value="deleted">
+                    <label for="status-deleted">삭제된 매물</label>
+                    <span class="deleted-info-icon" data-tooltip="삭제 매물은 최근 1개월치 데이터만 확인 가능합니다">?</span>
+                </div>
+            </div>
+        </div>
+        <div class="filter-section" style="flex: 1; min-width: 200px;">
+            <div class="filter-title">정렬 순서</div>
+            <select id="sortOrder" class="sort-select">
+                <option value="latest">최신 날짜순</option>
+                <option value="oldest">오래된 날짜순</option>
+                <option value="price-high">높은 가격순</option>
+                <option value="price-low">낮은 가격순</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="map-section">
+        <div class="filter-title">위치</div>
+        <div id="map"></div>
+    </div>
+
+    <div class="cards" id="cards"></div>
+
+    <footer class="footer">
+        본 페이지는 개인적인 매물 확인 및 학습 목적으로 제작되었으며, 상업적 용도로 사용되지 않습니다.
+    </footer>
+</div>
+
+<div class="modal-overlay" id="complexListModal">
+    <div class="modal">
+        <div class="modal-title">등록된 단지 목록</div>
+        <ul class="modal-list" id="complexModalList"></ul>
+        <button class="modal-close" id="closeModal">닫기</button>
+    </div>
+</div>
+
+<script>
+    const COMPLEXES = [
+        { id: '3354', name: '신도림대림1,2차(e편한세상)' },
+        { id: '1074', name: '신도림동아1차' },
+        { id: '3209', name: '신도림동아2차' },
+        { id: '3210', name: '신도림동아3차' },
+        { id: '3356', name: '신도림4차e-편한세상' },
+        { id: '8919', name: '신도림7차e-편한세상' },
+        { id: '3204', name: '신도림태영타운' },
+        { id: '3457', name: '영등포푸르지오' },
+        { id: '912', name: '구로두산' },
+    ];
+
+    const DIRECTION_MAP = {
+        'SS': '남향',
+        'ES': '남동향',
+        'WS': '남서향',
+        'EE': '동향',
+        'WW': '서향',
+        'NN': '북향',
+        'EN': '북동향',
+        'WN': '북서향'
+    };
+
+    const TRADE_TYPE_MAP = {
+        'A1': { label: '매매', class: 'sale' },
+        'B1': { label: '전세', class: 'jeonse' },
+        'B2': { label: '월세', class: 'rent' }
+    };
+
+    let allData = {};
+    let selectedComplexes = new Set();
+    let selectedTradeTypes = new Set(['A1', 'B1', 'B2']);
+    let selectedStatuses = new Set(['active']);
+    let selectedSortOrder = 'latest';
+    let map = null;
+    let markers = [];
+
+    function formatPrice(price) {
+        if (price >= 100000000) {
+            const uk = Math.floor(price / 100000000);
+            const man = Math.floor((price % 100000000) / 10000);
+            if (man > 0) {
+                return `${uk}억 ${man.toLocaleString()}만`;
+            }
+            return `${uk}억`;
+        } else if (price >= 10000) {
+            return `${Math.floor(price / 10000).toLocaleString()}만`;
+        }
+        return price.toLocaleString();
+    }
+
+    function formatDate(dateString) {
+        if (!dateString) return '-';
+        const date = new Date(dateString);
+        const year = date.getFullYear();
+        const month = (date.getMonth() + 1).toString().padStart(2, '0');
+        const day = date.getDate().toString().padStart(2, '0');
+        const hours = date.getHours().toString().padStart(2, '0');
+        const minutes = date.getMinutes().toString().padStart(2, '0');
+        return `${year}.${month}.${day} ${hours}:${minutes}`;
+    }
+
+    function formatDateOnly(dateString) {
+        if (!dateString) return '-';
+        const date = new Date(dateString);
+        const year = date.getFullYear();
+        const month = (date.getMonth() + 1).toString().padStart(2, '0');
+        const day = date.getDate().toString().padStart(2, '0');
+        return `${year}.${month}.${day}`;
+    }
+
+    function getPriceDisplay(priceInfo, tradeType) {
+        if (tradeType === 'A1') {
+            return { label: '매매가', value: formatPrice(priceInfo.deal_price) };
+        } else if (tradeType === 'B1') {
+            return { label: '전세가', value: formatPrice(priceInfo.warranty_price) };
+        } else if (tradeType === 'B2') {
+            const deposit = formatPrice(priceInfo.warranty_price);
+            const rent = formatPrice(priceInfo.rent_price);
+            return { label: '월세', value: `${deposit} / ${rent}` };
+        }
+        return { label: '가격', value: '-' };
+    }
+
+    function renderCard(key, data) {
+        const rep = data.representative;
+        const tradeInfo = TRADE_TYPE_MAP[rep.trade_type] || { label: rep.trade_type, class: '' };
+        const direction = DIRECTION_MAP[rep.article_detail.direction] || rep.article_detail.direction;
+        const priceDisplay = getPriceDisplay(rep.price_info, rep.trade_type);
+        const imageUrl = rep.article_media?.image_url;
+        const articleUrl = `https://fin.land.naver.com/articles/${rep.article_number}`;
+        const isDeleted = data.is_deleted === true;
+
+        return `
+                <div class="card ${isDeleted ? 'deleted' : ''}">
+                    <div class="card-header">
+                        <a href="${articleUrl}" target="_blank">${rep.complex_name}</a>
+                        <span class="trade-type ${tradeInfo.class}">${tradeInfo.label}</span>
+                        ${isDeleted ? '<span class="deleted-badge">삭제됨</span>' : ''}
+                    </div>
+                    <div class="card-info location">
+                        <span>${rep.dong_name} <span style="color:#aaa">|</span> ${rep.article_detail.floor_info}층 <span style="color:#aaa">|</span> <span class="direction">${direction}</span></span>
+                        <span>공급 ${rep.space_info.supply_space_name}㎡ (전용 ${rep.space_info.exclusive_space_name}㎡)</span>
+                    </div>
+                    ${imageUrl ? `<a href="${imageUrl}" target="_blank"><img src="${imageUrl}" class="card-image" alt="매물 사진" onerror="this.style.display='none'"></a>` : ''}
+                    <div class="card-info description">
+                        ${rep.article_detail.article_feature_description || '-'}
+                    </div>
+                    <div class="card-info broker">
+                        <span>${rep.broker_info.brokerage_name}</span>
+                        ${data.article_count > 1 ? `<span class="article-count">동일매물 ${data.article_count}건</span>` : ''}
+                    </div>
+                    <div class="card-updated">${isDeleted ? '삭제일' : '등록일'} ${formatDateOnly(rep.verification_info.exposure_start_date)}</div>
+                    <div class="card-price">
+                        <span class="price-label">${priceDisplay.label}</span>
+                        <div class="price-value">${priceDisplay.value}</div>
+                    </div>
+                </div>
+            `;
+    }
+
+    function renderSelectedTags() {
+        const tagsContainer = document.getElementById('selectedTags');
+        if (selectedComplexes.size === 0) {
+            tagsContainer.innerHTML = '<span style="color: #888; font-size: 13px;">선택된 단지가 없습니다</span>';
+            return;
+        }
+
+        const html = Array.from(selectedComplexes).map(id => {
+            const complex = COMPLEXES.find(c => c.id === id);
+            if (!complex) return '';
+            return `<span class="selected-tag">${complex.name}<span class="remove-tag" data-id="${id}">×</span></span>`;
+        }).join('');
+        tagsContainer.innerHTML = html;
+
+        tagsContainer.querySelectorAll('.remove-tag').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const id = e.target.dataset.id;
+                selectedComplexes.delete(id);
+                renderSelectedTags();
+                renderSearchDropdown(document.getElementById('complexSearch').value);
+                renderCards();
+                updateMap();
+            });
+        });
+    }
+
+    function renderSearchDropdown(searchTerm = '') {
+        const dropdown = document.getElementById('searchDropdown');
+
+        if (searchTerm.length === 0) {
+            dropdown.classList.remove('open');
+            return;
+        }
+
+        const filteredComplexes = COMPLEXES.filter(complex =>
+            complex.name.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+
+        if (filteredComplexes.length === 0) {
+            dropdown.innerHTML = '<div class="search-no-result">검색 결과가 없습니다</div>';
+            dropdown.classList.add('open');
+            return;
+        }
+
+        const html = filteredComplexes.map(complex => `
+                <div class="search-dropdown-item ${selectedComplexes.has(complex.id) ? 'selected' : ''}" data-id="${complex.id}">
+                    <input type="checkbox" ${selectedComplexes.has(complex.id) ? 'checked' : ''}>
+                    ${complex.name}
+                </div>
+            `).join('');
+        dropdown.innerHTML = html;
+        dropdown.classList.add('open');
+
+        dropdown.querySelectorAll('.search-dropdown-item').forEach(item => {
+            item.addEventListener('click', (e) => {
+                const id = item.dataset.id;
+                if (selectedComplexes.has(id)) {
+                    selectedComplexes.delete(id);
+                } else {
+                    if (selectedComplexes.size >= 5) {
+                        alert('최대 5개 단지까지만 선택할 수 있습니다.');
+                        return;
+                    }
+                    selectedComplexes.add(id);
+                }
+                renderSearchDropdown(document.getElementById('complexSearch').value);
+                renderSelectedTags();
+                renderCards();
+                updateMap();
+            });
+        });
+    }
+
+    function initComplexSearch() {
+        const searchInput = document.getElementById('complexSearch');
+        const dropdown = document.getElementById('searchDropdown');
+
+        searchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value;
+            renderSearchDropdown(searchTerm);
+        });
+
+        searchInput.addEventListener('focus', () => {
+            if (searchInput.value.length > 0) {
+                dropdown.classList.add('open');
+            }
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.search-container')) {
+                dropdown.classList.remove('open');
+            }
+        });
+
+        document.getElementById('clearAllComplexes').addEventListener('click', () => {
+            selectedComplexes.clear();
+            renderSelectedTags();
+            renderCards();
+            updateMap();
+        });
+
+        // 등록된 단지 목록 모달
+        const modal = document.getElementById('complexListModal');
+        const modalList = document.getElementById('complexModalList');
+
+        function renderModalList() {
+            modalList.innerHTML = COMPLEXES.map(c => `
+                    <li class="${selectedComplexes.has(c.id) ? 'selected' : ''}" data-id="${c.id}">
+                        <input type="checkbox" ${selectedComplexes.has(c.id) ? 'checked' : ''}>
+                        ${c.name}
+                    </li>
+                `).join('');
+
+            modalList.querySelectorAll('li').forEach(li => {
+                li.addEventListener('click', () => {
+                    const id = li.dataset.id;
+                    if (selectedComplexes.has(id)) {
+                        selectedComplexes.delete(id);
+                    } else {
+                        if (selectedComplexes.size >= 5) {
+                            alert('최대 5개 단지까지만 선택할 수 있습니다.');
+                            return;
+                        }
+                        selectedComplexes.add(id);
+                    }
+                    renderModalList();
+                    renderSelectedTags();
+                    renderCards();
+                    updateMap();
+                });
+            });
+        }
+
+        document.getElementById('showComplexList').addEventListener('click', () => {
+            renderModalList();
+            modal.classList.add('open');
+        });
+
+        document.getElementById('closeModal').addEventListener('click', () => {
+            modal.classList.remove('open');
+        });
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.classList.remove('open');
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && modal.classList.contains('open')) {
+                modal.classList.remove('open');
+            }
+        });
+
+        selectedComplexes.add('3354');
+    }
+
+    function initTradeTypeFilter() {
+        const tradeTypes = ['A1', 'B1', 'B2'];
+        const tradeIds = ['trade-sale', 'trade-jeonse', 'trade-rent'];
+
+        tradeIds.forEach((id, index) => {
+            document.getElementById(id).addEventListener('change', (e) => {
+                if (e.target.checked) {
+                    selectedTradeTypes.add(tradeTypes[index]);
+                } else {
+                    selectedTradeTypes.delete(tradeTypes[index]);
+                }
+                renderCards();
+                updateMap();
+            });
+        });
+    }
+
+    function initStatusFilter() {
+        const statuses = ['active', 'deleted'];
+        const statusIds = ['status-active', 'status-deleted'];
+
+        statusIds.forEach((id, index) => {
+            document.getElementById(id).addEventListener('change', (e) => {
+                if (e.target.checked) {
+                    selectedStatuses.add(statuses[index]);
+                } else {
+                    selectedStatuses.delete(statuses[index]);
+                }
+                renderCards();
+                updateMap();
+            });
+        });
+    }
+
+    function initSortFilter() {
+        const sortSelect = document.getElementById('sortOrder');
+        sortSelect.addEventListener('change', (e) => {
+            selectedSortOrder = e.target.value;
+            renderCards();
+        });
+    }
+
+    function getPriceValue(priceInfo, tradeType) {
+        if (tradeType === 'A1') {
+            return priceInfo.deal_price || 0;
+        } else if (tradeType === 'B1') {
+            return priceInfo.warranty_price || 0;
+        } else if (tradeType === 'B2') {
+            return (priceInfo.warranty_price || 0) + (priceInfo.rent_price || 0) * 100;
+        }
+        return 0;
+    }
+
+    function initMap() {
+        map = L.map('map').setView([37.509, 126.886], 16);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+    }
+
+    function updateMap() {
+        markers.forEach(marker => map.removeLayer(marker));
+        markers = [];
+
+        const complexLocations = {};
+
+        // 31일 전 날짜 계산
+        const thirtyOneDaysAgo = new Date();
+        thirtyOneDaysAgo.setDate(thirtyOneDaysAgo.getDate() - 31);
+
+        selectedComplexes.forEach(complexId => {
+            if (allData[complexId]) {
+                Object.entries(allData[complexId]).forEach(([key, value]) => {
+                    const rep = value.representative;
+                    const tradeType = rep?.trade_type;
+                    if (!selectedTradeTypes.has(tradeType)) return;
+
+                    const isDeleted = value.is_deleted === true;
+                    const status = isDeleted ? 'deleted' : 'active';
+                    if (!selectedStatuses.has(status)) return;
+
+                    // 삭제된 매물인 경우 최근 31일 이내만 표시
+                    if (isDeleted) {
+                        const deletedDate = new Date(value.deleted_at);
+                        if (deletedDate < thirtyOneDaysAgo) {
+                            return; // 31일 이전 삭제 매물은 제외
+                        }
+                    }
+
+                    const coords = rep?.address?.coordinates;
+                    if (!coords) return;
+
+                    const locKey = `${coords.y_coordinate},${coords.x_coordinate}`;
+                    if (!complexLocations[locKey]) {
+                        complexLocations[locKey] = {
+                            lat: coords.y_coordinate,
+                            lng: coords.x_coordinate,
+                            name: rep.complex_name,
+                            articles: []
+                        };
+                    }
+                    complexLocations[locKey].articles.push(value);
+                });
+            }
+        });
+
+        Object.values(complexLocations).forEach(loc => {
+            const popupContent = createPopupContent(loc);
+            const marker = L.marker([loc.lat, loc.lng])
+                .addTo(map)
+                .bindPopup(popupContent, { maxWidth: 300 });
+            markers.push(marker);
+        });
+
+        if (markers.length > 0) {
+            const group = L.featureGroup(markers);
+            map.fitBounds(group.getBounds().pad(0.1));
+        }
+    }
+
+    function createPopupContent(loc) {
+        const articleCount = loc.articles.length;
+        const prices = loc.articles.map(a => {
+            const rep = a.representative;
+            const priceDisplay = getPriceDisplay(rep.price_info, rep.trade_type);
+            const tradeInfo = TRADE_TYPE_MAP[rep.trade_type] || { label: rep.trade_type };
+            return `<div class="popup-info">${tradeInfo.label}: ${priceDisplay.value}</div>`;
+        }).slice(0, 5).join('');
+
+        const moreText = articleCount > 5 ? `<div class="popup-info">... 외 ${articleCount - 5}건</div>` : '';
+
+        return `
+                <div class="popup-title">${loc.name}</div>
+                <div class="popup-info">매물 ${articleCount}건</div>
+                ${prices}
+                ${moreText}
+            `;
+    }
+
+    function renderCards() {
+        const cardsContainer = document.getElementById('cards');
+
+        let filteredData = [];
+        selectedComplexes.forEach(complexId => {
+            if (allData[complexId]) {
+                Object.entries(allData[complexId]).forEach(([key, value]) => {
+                    const tradeType = value.representative?.trade_type;
+                    if (!selectedTradeTypes.has(tradeType)) return;
+
+                    const isDeleted = value.is_deleted === true;
+                    const status = isDeleted ? 'deleted' : 'active';
+                    if (!selectedStatuses.has(status)) return;
+
+                    filteredData.push({ key, value, complexId });
+                });
+            }
+        });
+
+        if (filteredData.length === 0) {
+            cardsContainer.innerHTML = '<div class="no-data">선택된 단지가 없거나 매물이 없습니다.</div>';
+            return;
+        }
+
+
+        // 정렬 적용
+        filteredData.sort((a, b) => {
+            if (selectedSortOrder === 'latest') {
+                // 최신 날짜순
+                const dateA = new Date(a.value.representative?.verification_info?.exposure_start_date || 0);
+                const dateB = new Date(b.value.representative?.verification_info?.exposure_start_date || 0);
+                return dateB - dateA;
+            } else if (selectedSortOrder === 'oldest') {
+                // 오래된 날짜순
+                const dateA = new Date(a.value.representative?.verification_info?.exposure_start_date || 0);
+                const dateB = new Date(b.value.representative?.verification_info?.exposure_start_date || 0);
+                return dateA - dateB;
+            } else if (selectedSortOrder === 'price-high') {
+                // 높은 가격순
+                const priceA = getPriceValue(a.value.representative.price_info, a.value.representative.trade_type);
+                const priceB = getPriceValue(b.value.representative.price_info, b.value.representative.trade_type);
+                return priceB - priceA;
+            } else if (selectedSortOrder === 'price-low') {
+                // 낮은 가격순
+                const priceA = getPriceValue(a.value.representative.price_info, a.value.representative.trade_type);
+                const priceB = getPriceValue(b.value.representative.price_info, b.value.representative.trade_type);
+                return priceA - priceB;
+            }
+            return 0;
+        });
+
+
+        const html = filteredData
+            .map(({ key, value }) => renderCard(key, value))
+            .join('');
+
+        cardsContainer.innerHTML = html;
+    }
+
+    async function loadData() {
+        try {
+            const cardsContainer = document.getElementById('cards');
+            cardsContainer.innerHTML = '<div class="loading">매물 데이터 로딩 중...</div>';
+
+            const loadPromises = COMPLEXES.map(async (complex) => {
+                try {
+                    const response = await fetch(`./data/${complex.id}/fulldata.json`);
+                    const data = await response.json();
+                    allData[complex.id] = data;
+                } catch (error) {
+                    console.warn(`${complex.name} 데이터 로드 실패:`, error);
+                    allData[complex.id] = {};
+                }
+            });
+
+            await Promise.all(loadPromises);
+
+            initComplexSearch();
+            renderSelectedTags();
+            initTradeTypeFilter();
+            initStatusFilter();
+            initSortFilter();
+            initMap();
+            renderCards();
+            updateMap();
+        } catch (error) {
+            console.error('데이터 로드 실패:', error);
+            document.getElementById('cards').innerHTML = `
+                    <p style="color: red; text-align: center;">
+                        데이터를 불러올 수 없습니다. 로컬 서버에서 실행해주세요.
+                    </p>
+                `;
+        }
+    }
+
+    loadData();
+</script>
+</body>
+
+</html>
