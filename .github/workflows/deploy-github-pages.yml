@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'index.html'
-      - 'data/**/fulldata.json'
+      - 'data/list.json'
   workflow_dispatch:
 
 permissions:
