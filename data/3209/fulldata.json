@@ -159,7 +159,7 @@
             "min": 1470000000,
             "max": 1470000000
         },
-        "updated_at": "2026-01-01T03:45:11.912621",
+        "updated_at": "2026-01-01T04:42:44.545573",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -323,7 +323,7 @@
             "min": 750000000,
             "max": 750000000
         },
-        "updated_at": "2026-01-01T03:45:11.912642",
+        "updated_at": "2026-01-01T04:42:44.545594",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -564,7 +564,7 @@
             "min": 1450000000,
             "max": 1450000000
         },
-        "updated_at": "2026-01-01T03:45:11.912665",
+        "updated_at": "2026-01-01T04:42:44.545616",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -728,7 +728,7 @@
             "min": 1460000000,
             "max": 1460000000
         },
-        "updated_at": "2026-01-01T03:45:11.912626",
+        "updated_at": "2026-01-01T04:42:44.545578",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -892,7 +892,7 @@
             "min": 1450000000,
             "max": 1450000000
         },
-        "updated_at": "2026-01-01T03:45:11.912659",
+        "updated_at": "2026-01-01T04:42:44.545610",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1133,7 +1133,7 @@
             "min": 101500000,
             "max": 101500000
         },
-        "updated_at": "2026-01-01T03:45:11.912637",
+        "updated_at": "2026-01-01T04:42:44.545589",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1297,7 +1297,7 @@
             "min": 42000000,
             "max": 42000000
         },
-        "updated_at": "2026-01-01T03:45:11.912654",
+        "updated_at": "2026-01-01T04:42:44.545606",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1645,7 +1645,7 @@
             "min": 1250000000,
             "max": 1250000000
         },
-        "updated_at": "2026-01-01T03:45:11.912649",
+        "updated_at": "2026-01-01T04:42:44.545601",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1738,6 +1738,81 @@
         "all_articles": [
             {
                 "complex_name": "신도림동아2차",
+                "article_number": "2570279401",
+                "article_name": "신도림동아2차",
+                "dong_name": "201동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 139.6,
+                    "contract_space": 185.24,
+                    "exclusive_space": 112.35,
+                    "land_space": 18021,
+                    "supply_space_name": "139",
+                    "exclusive_space_name": "112",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20000517",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-31",
+                    "article_confirm_date": "2025-12-31"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "시티공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "42. 일부구수리되어 세대내부 깔끔하고 이사일정 26년2월23일임.",
+                    "direct_trade": false,
+                    "floor_info": "5/25",
+                    "floor_detail_info": {
+                        "target_floor": "5",
+                        "total_floor": "25",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.885458,
+                        "y_coordinate": 37.50894
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 500000000,
+                    "rent_price": 1500000,
+                    "management_fee_amount": 280000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림동아2차",
                 "article_number": "2570214907",
                 "article_name": "신도림동아2차",
                 "dong_name": "201동",
@@ -1813,7 +1888,7 @@
             },
             {
                 "complex_name": "신도림동아2차",
-                "article_number": "2570279401",
+                "article_number": "2570091536",
                 "article_name": "신도림동아2차",
                 "dong_name": "201동",
                 "trade_type": "B2",
@@ -1836,19 +1911,244 @@
                 "verification_info": {
                     "verification_type": "OWNER",
                     "is_association_article": false,
-                    "exposure_start_date": "2025-12-31",
-                    "article_confirm_date": "2025-12-31"
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "신도림영광부동산공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "부분수리, 깨끗, 채광 최상, 신도림역세권, 초중고 인접",
+                    "direct_trade": false,
+                    "floor_info": "5/25",
+                    "floor_detail_info": {
+                        "target_floor": "5",
+                        "total_floor": "25",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.885458,
+                        "y_coordinate": 37.50894
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 500000000,
+                    "rent_price": 1500000,
+                    "management_fee_amount": 290000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림동아2차",
+                "article_number": "2570046743",
+                "article_name": "신도림동아2차",
+                "dong_name": "201동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 139.6,
+                    "contract_space": 185.24,
+                    "exclusive_space": 112.35,
+                    "land_space": 18021,
+                    "supply_space_name": "139",
+                    "exclusive_space_name": "112",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20000517",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "114공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "구 부분수리 내부상태 깨끗  단지내 하나로마트 .근처 초.중.고도보7분 ",
+                    "direct_trade": false,
+                    "floor_info": "5/25",
+                    "floor_detail_info": {
+                        "target_floor": "5",
+                        "total_floor": "25",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.885458,
+                        "y_coordinate": 37.50894
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 500000000,
+                    "rent_price": 1500000,
+                    "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림동아2차",
+                "article_number": "2570099447",
+                "article_name": "신도림동아2차",
+                "dong_name": "201동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 139.6,
+                    "contract_space": 185.24,
+                    "exclusive_space": 112.35,
+                    "land_space": 18021,
+                    "supply_space_name": "139",
+                    "exclusive_space_name": "112",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20000517",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
+                },
+                "broker_info": {
+                    "cp_id": "NEONET",
+                    "brokerage_name": "명문공인중개사사무소",
+                    "broker_name": "부동산뱅크",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "방4개화2개.구수리집상태깨끗.전망트인남향집으로햇빛통풍굿.신도림초중고",
+                    "direct_trade": false,
+                    "floor_info": "5/25",
+                    "floor_detail_info": {
+                        "target_floor": "5",
+                        "total_floor": "25",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.885458,
+                        "y_coordinate": 37.50894
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 500000000,
+                    "rent_price": 1500000,
+                    "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림동아2차",
+                "article_number": "2570034577",
+                "article_name": "신도림동아2차",
+                "dong_name": "201동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 139.6,
+                    "contract_space": 185.24,
+                    "exclusive_space": 112.35,
+                    "land_space": 18021,
+                    "supply_space_name": "139",
+                    "exclusive_space_name": "112",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20000517",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "시티공인중개사사무소",
+                    "brokerage_name": "신도림공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "WS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "42. 일부구수리되어 세대내부 깔끔하고 이사일정 26년2월23일임.",
+                    "article_feature_description": "깨끗함 신도림역도보7분거리 입주2026년2월23일협의가능",
                     "direct_trade": false,
                     "floor_info": "5/25",
                     "floor_detail_info": {
@@ -2035,306 +2335,6 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
-            },
-            {
-                "complex_name": "신도림동아2차",
-                "article_number": "2570091536",
-                "article_name": "신도림동아2차",
-                "dong_name": "201동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 139.6,
-                    "contract_space": 185.24,
-                    "exclusive_space": 112.35,
-                    "land_space": 18021,
-                    "supply_space_name": "139",
-                    "exclusive_space_name": "112",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20000517",
-                    "approval_elapsed_year": 26
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "신도림영광부동산공인중개사사무소",
-                    "broker_name": "한경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "부분수리, 깨끗, 채광 최상, 신도림역세권, 초중고 인접",
-                    "direct_trade": false,
-                    "floor_info": "5/25",
-                    "floor_detail_info": {
-                        "target_floor": "5",
-                        "total_floor": "25",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.885458,
-                        "y_coordinate": 37.50894
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 500000000,
-                    "rent_price": 1500000,
-                    "management_fee_amount": 290000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림동아2차",
-                "article_number": "2570034577",
-                "article_name": "신도림동아2차",
-                "dong_name": "201동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 139.6,
-                    "contract_space": 185.24,
-                    "exclusive_space": 112.35,
-                    "land_space": 18021,
-                    "supply_space_name": "139",
-                    "exclusive_space_name": "112",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20000517",
-                    "approval_elapsed_year": 26
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "신도림공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "깨끗함 신도림역도보7분거리 입주2026년2월23일협의가능",
-                    "direct_trade": false,
-                    "floor_info": "5/25",
-                    "floor_detail_info": {
-                        "target_floor": "5",
-                        "total_floor": "25",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.885458,
-                        "y_coordinate": 37.50894
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 500000000,
-                    "rent_price": 1500000,
-                    "management_fee_amount": 280000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림동아2차",
-                "article_number": "2570099447",
-                "article_name": "신도림동아2차",
-                "dong_name": "201동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 139.6,
-                    "contract_space": 185.24,
-                    "exclusive_space": 112.35,
-                    "land_space": 18021,
-                    "supply_space_name": "139",
-                    "exclusive_space_name": "112",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20000517",
-                    "approval_elapsed_year": 26
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "명문공인중개사사무소",
-                    "broker_name": "부동산뱅크",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "방4개화2개.구수리집상태깨끗.전망트인남향집으로햇빛통풍굿.신도림초중고",
-                    "direct_trade": false,
-                    "floor_info": "5/25",
-                    "floor_detail_info": {
-                        "target_floor": "5",
-                        "total_floor": "25",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.885458,
-                        "y_coordinate": 37.50894
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 500000000,
-                    "rent_price": 1500000,
-                    "management_fee_amount": 300000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림동아2차",
-                "article_number": "2570046743",
-                "article_name": "신도림동아2차",
-                "dong_name": "201동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 139.6,
-                    "contract_space": 185.24,
-                    "exclusive_space": 112.35,
-                    "land_space": 18021,
-                    "supply_space_name": "139",
-                    "exclusive_space_name": "112",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20000517",
-                    "approval_elapsed_year": 26
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "114공인중개사사무소",
-                    "broker_name": "한경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "구 부분수리 내부상태 깨끗  단지내 하나로마트 .근처 초.중.고도보7분 ",
-                    "direct_trade": false,
-                    "floor_info": "5/25",
-                    "floor_detail_info": {
-                        "target_floor": "5",
-                        "total_floor": "25",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.885458,
-                        "y_coordinate": 37.50894
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 500000000,
-                    "rent_price": 1500000,
-                    "management_fee_amount": 300000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
             }
         ],
         "article_count": 8,
@@ -2342,7 +2342,7 @@
             "min": 501500000,
             "max": 501500000
         },
-        "updated_at": "2026-01-01T03:45:11.912608",
+        "updated_at": "2026-01-01T04:42:44.545560",
         "is_deleted": false,
         "deleted_at": null
     }
