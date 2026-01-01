@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" xmlns="http://www.w3.org/1999/html">
 
 <head>
     <meta charset="UTF-8">
@@ -476,9 +476,9 @@
             background: white;
             border-radius: 12px;
             padding: 24px;
-            max-width: 400px;
+            max-width: 460px;
             width: 90%;
-            max-height: 70vh;
+            max-height: 100vh;
             overflow-y: auto;
         }
 
@@ -717,69 +717,69 @@
     <!-- Tab Content: Listings -->
     <div class="tab-content active" id="tab-listings">
         <div class="filter-section">
-        <div class="filter-title-row">
-            <div class="filter-title-left">단지 선택
-                <button id="clearAllComplexes" class="clear-btn">초기화</button>
-                <span class="deleted-info-icon" style="margin-left: 4px;" data-tooltip="전체 단지 선택이 해제됩니다">?</span>
+            <div class="filter-title-row">
+                <div class="filter-title-left">단지 선택
+                    <button id="clearAllComplexes" class="clear-btn">초기화</button>
+                    <span class="deleted-info-icon" style="margin-left: 4px;" data-tooltip="전체 단지 선택이 해제됩니다">?</span>
+                </div>
+                <button id="showComplexList" class="list-btn">등록된 전체 단지 목록</button>
             </div>
-            <button id="showComplexList" class="list-btn">등록된 전체 단지 목록</button>
+            <div class="search-container">
+                <input type="text" id="complexSearch" class="search-input" placeholder="단지명 검색..." autocomplete="off">
+                <div class="search-dropdown" id="searchDropdown"></div>
+            </div>
+            <div class="selected-tags" id="selectedTags"></div>
         </div>
-        <div class="search-container">
-            <input type="text" id="complexSearch" class="search-input" placeholder="단지명 검색..." autocomplete="off">
-            <div class="search-dropdown" id="searchDropdown"></div>
-        </div>
-        <div class="selected-tags" id="selectedTags"></div>
-    </div>
 
-    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-        <div class="filter-section" style="flex: 1; min-width: 200px;">
-            <div class="filter-title">거래 유형</div>
-            <div class="checkbox-group" id="tradeTypeFilter">
-                <div class="checkbox-item">
-                    <input type="checkbox" id="trade-sale" value="A1" checked>
-                    <label for="trade-sale">매매</label>
-                </div>
-                <div class="checkbox-item">
-                    <input type="checkbox" id="trade-jeonse" value="B1" checked>
-                    <label for="trade-jeonse">전세</label>
-                </div>
-                <div class="checkbox-item">
-                    <input type="checkbox" id="trade-rent" value="B2" checked>
-                    <label for="trade-rent">월세</label>
-                </div>
-            </div>
-        </div>
-        <div class="filter-section" style="flex: 1; min-width: 200px;">
-            <div class="filter-title">매물 상태</div>
-            <div class="checkbox-group" id="articleStatusFilter">
-                <div class="checkbox-item">
-                    <input type="checkbox" id="status-active" value="active" checked>
-                    <label for="status-active">활성 매물</label>
-                </div>
-                <div class="checkbox-item">
-                    <input type="checkbox" id="status-deleted" value="deleted">
-                    <label for="status-deleted">삭제된 매물</label>
-                    <span class="deleted-info-icon" data-tooltip="삭제 매물은 최근 1개월치 데이터만 확인 가능합니다">?</span>
+        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+            <div class="filter-section" style="flex: 1; min-width: 200px;">
+                <div class="filter-title">거래 유형</div>
+                <div class="checkbox-group" id="tradeTypeFilter">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="trade-sale" value="A1" checked>
+                        <label for="trade-sale">매매</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="trade-jeonse" value="B1" checked>
+                        <label for="trade-jeonse">전세</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="trade-rent" value="B2" checked>
+                        <label for="trade-rent">월세</label>
+                    </div>
                 </div>
             </div>
+            <div class="filter-section" style="flex: 1; min-width: 200px;">
+                <div class="filter-title">매물 상태</div>
+                <div class="checkbox-group" id="articleStatusFilter">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="status-active" value="active" checked>
+                        <label for="status-active">활성 매물</label>
+                    </div>
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="status-deleted" value="deleted">
+                        <label for="status-deleted">삭제된 매물</label>
+                        <span class="deleted-info-icon" data-tooltip="삭제 매물은 최근 3개월치 데이터만 확인 가능합니다">?</span>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-section" style="flex: 1; min-width: 200px;">
+                <div class="filter-title">정렬 순서</div>
+                <select id="sortOrder" class="sort-select">
+                    <option value="latest">최신 날짜순</option>
+                    <option value="oldest">오래된 날짜순</option>
+                    <option value="price-high">높은 가격순</option>
+                    <option value="price-low">낮은 가격순</option>
+                </select>
+            </div>
         </div>
-        <div class="filter-section" style="flex: 1; min-width: 200px;">
-            <div class="filter-title">정렬 순서</div>
-            <select id="sortOrder" class="sort-select">
-                <option value="latest">최신 날짜순</option>
-                <option value="oldest">오래된 날짜순</option>
-                <option value="price-high">높은 가격순</option>
-                <option value="price-low">낮은 가격순</option>
-            </select>
+
+        <div class="map-section">
+            <div class="filter-title">위치</div>
+            <div id="map"></div>
         </div>
-    </div>
 
-    <div class="map-section">
-        <div class="filter-title">위치</div>
-        <div id="map"></div>
-    </div>
-
-    <div class="cards" id="cards"></div>
+        <div class="cards" id="cards"></div>
     </div>
 
     <!-- Tab Content: FAQ -->
@@ -788,40 +788,48 @@
             <div class="faq-item">
                 <div class="faq-question">이 서비스는 무엇인가요?</div>
                 <div class="faq-answer">
-                    네이버 부동산 매물의 등록, 삭제, 가격 변동 등을 실시간으로 모니터링할 수 있습니다.
-                    개인적인 매물 확인 및 학습 목적으로 제작되었으며, 상업적 용도로 사용되지 않습니다.
+                    네이버 부동산 매물의 등록, 삭제, 가격 변동 등을 실시간으로 모니터링할 수 있습니다.<br>
+                    개인적인 매물 확인 및 학습 목적으로 제작되었으며, <strong>상업적 용도로 사용되지 않습니다.</strong>
                 </div>
             </div>
 
             <div class="faq-item">
                 <div class="faq-question">데이터는 얼마나 자주 업데이트되나요?</div>
                 <div class="faq-answer">
-                    2025년 12월 20일 부터의 데이터를 포함하고 있습니다.
-                    일반적으로 1~2시간 주기로 갱신되며, 각 매물의 최신 정보와 변경 이력을 추적합니다.
+                    보통 1~2시간 주기로 갱신되며, 각 매물의 최신 정보와 변경 이력을 추적합니다.
                 </div>
             </div>
 
             <div class="faq-item">
                 <div class="faq-question">원하는 단지가 목록이 없어요</div>
                 <div class="faq-answer">
-                    현재는 일부 단지 대상으로만 서비스가 제공되고 있습니다. 추후 더 많은 단지가 추가될 예정이며,
-                    추가를 원하는 단지가 있으시다면 문의 주시기 바랍니다.
+                    현재는 일부 단지 대상으로만 서비스가 제공되고 있습니다.<br>
+                    추후 더 많은 단지가 추가될 예정이며, 추가를 원하는 단지가 있으시다면 문의 주시기 바랍니다.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">일부 과거 데이터가 없는 것 같아요</div>
+                <div class="faq-answer">
+                    단지별로 추적 시작일이 다르기 때문에, 일부 단지는 과거 데이터가 제한적일 수 있습니다. <br>
+                    추적 시작일은 등록된 전체 단지 목록에서 확인할 수 있습니다.
                 </div>
             </div>
 
             <div class="faq-item">
                 <div class="faq-question">삭제된 매물은 어떻게 표시되나요?</div>
                 <div class="faq-answer">
-                    매물 상태 필터에서 "삭제된 매물"을 체크하면 확인할 수 있습니다. 삭제된 매물은 반투명하게 표시되며,
-                    언제 삭제되었는지 정보가 표시됩니다. 최근 1개월치 삭제 매물 데이터가 보관됩니다.
+                    매물 상태 필터에서 "삭제된 매물"을 체크하면 확인할 수 있습니다. <br>
+                    삭제된 매물은 반투명하게 표시되며, 언제 삭제되었는지 정보가 표시됩니다.<br>
+                    최대 최근 3개월치 삭제 매물 확인이 가능합니다.
                 </div>
             </div>
 
             <div class="faq-item">
                 <div class="faq-question">지도의 마커는 무엇을 의미하나요?</div>
                 <div class="faq-answer">
-                    각 마커는 아파트 단지의 위치를 나타냅니다. 마커를 클릭하면 해당 단지의 이름이 표시되며,
-                    현재 필터링된 매물들의 단지만 지도에 표시됩니다.
+                    각 마커는 아파트 단지의 위치를 나타냅니다.<br>
+                    마커를 클릭하면 해당 단지의 이름이 표시되며, 현재 필터링된 매물들의 단지만 지도에 표시됩니다.
                 </div>
             </div>
 
@@ -841,7 +849,7 @@
             <div class="faq-item">
                 <div class="faq-question">필터 설정은 저장되나요?</div>
                 <div class="faq-answer">
-                    네, 선택한 필터 설정(단지, 거래 유형, 매물 상태, 정렬 순서)은 브라우저의 로컬 스토리지에 자동으로 저장됩니다.
+                    네, 선택한 필터 설정(단지, 거래 유형, 매물 상태, 정렬 순서)은 브라우저의 로컬 스토리지에 자동으로 저장됩니다.<br>
                     다음에 페이지를 방문하면 이전 설정이 그대로 유지됩니다.
                 </div>
             </div>
@@ -857,7 +865,7 @@
                         <li><strong>면적:</strong> 공급면적 / 전용면적 (m²)</li>
                         <li><strong>방향:</strong> 집의 향 (남향, 동향 등)</li>
                         <li><strong>설명:</strong> 중개사가 작성한 매물 설명</li>
-                        <li><strong>중개사 정보:</strong> 중개사무소 이름 및 전화번호</li>
+                        <li><strong>중개사 정보:</strong> 매물이 등록된 중개사무소 이름</li>
                         <li><strong>등록일:</strong> 매물이 등록된 날짜</li>
                     </ul>
                 </div>
@@ -866,7 +874,7 @@
             <div class="faq-item">
                 <div class="faq-question">모바일에서도 사용할 수 있나요?</div>
                 <div class="faq-answer">
-                    네, 반응형 디자인으로 제작되어 모바일 기기에서도 원활하게 사용할 수 있습니다.
+                    네, 반응형 디자인으로 제작되어 모바일 기기에서도 원활하게 사용할 수 있습니다.<br>
                     화면 크기에 따라 레이아웃이 자동으로 조정됩니다.
                 </div>
             </div>
@@ -888,16 +896,37 @@
 
 <script>
     const COMPLEXES = [
-        { id: '3354', name: '신도림대림1,2차(e편한세상)' },
-        { id: '1074', name: '신도림동아1차' },
-        { id: '3209', name: '신도림동아2차' },
-        { id: '3210', name: '신도림동아3차' },
-        { id: '3356', name: '신도림4차e-편한세상' },
-        { id: '8919', name: '신도림7차e-편한세상' },
-        { id: '3204', name: '신도림태영타운' },
-        { id: '3457', name: '영등포푸르지오' },
-        { id: '912', name: '구로두산' },
-    ];
+        { id: '3354', name: '신도림대림1,2차(e편한세상)', start_date: '2025-12-20', is_active: true },
+        { id: '3355', name: '신도림대림3차(e편한세상)', start_date: '2026-01-01', is_active: true },
+        { id: '3356', name: '신도림4차e-편한세상', start_date: '2025-12-20', is_active: true },
+        { id: '8714', name: '신도림5차e-편한세상', start_date: '2026-01-01', is_active: true },
+        { id: '8715', name: '신도림6차e-편한세상', start_date: '2026-01-01', is_active: true },
+        { id: '8919', name: '신도림7차e-편한세상', start_date: '2025-12-20', is_active: true },
+        { id: '1074', name: '신도림동아1차', start_date: '2025-12-20', is_active: true },
+        { id: '3209', name: '신도림동아2차', start_date: '2025-12-20', is_active: true },
+        { id: '3210', name: '신도림동아3차', start_date: '2025-12-20', is_active: true },
+        { id: '27310', name: '디큐브시티(주상복합)', start_date: '2026-01-01', is_active: true },
+        { id: '149', name: '미성', start_date: '2026-01-01', is_active: true },
+        { id: '3211', name: '현대', start_date: '2026-01-01', is_active: true },
+        { id: '151', name: '우성1차', start_date: '2026-01-01', is_active: true },
+        { id: '153', name: '우성2차', start_date: '2026-01-01', is_active: true },
+        { id: '152', name: '신도림우성3차', start_date: '2026-01-01', is_active: true },
+        { id: '150', name: '신도림우성5차', start_date: '2026-01-01', is_active: true },
+        { id: '13085', name: '신도림SK뷰(주상복합)', start_date: '2026-01-01', is_active: true },
+        { id: '17667', name: '신도림팰러티움(주상복합)', start_date: '2026-01-01', is_active: true },
+        { id: '3204', name: '신도림태영타운', start_date: '2025-12-20', is_active: true },
+        { id: '9937', name: '신도림현대', start_date: '2026-01-01', is_active: true },
+        { id: '132', name: '신도림롯데', start_date: '2026-01-01', is_active: true },
+        { id: '912', name: '구로두산', start_date: '2025-12-20', is_active: true },
+        { id: '3457', name: '영등포푸르지오', start_date: '2025-12-20', is_active: true },
+        { id: '1636', name: '주공9단지', start_date: '2026-01-01', is_active: true },
+        { id: '3342', name: '우방리버파크', start_date: '2026-01-01', is_active: true },
+        { id: '100692', name: '래미안옥수리버젠', start_date: '2026-01-01', is_active: true },
+        { id: '111117', name: '위례지웰푸르지오', start_date: '2026-01-01', is_active: true },
+        { id: '119933', name: 'e편한세상강동에코포레', start_date: '2026-01-01', is_active: true },
+        { id: '19578', name: '프라이어팰리스', start_date: '2026-01-01', is_active: true },
+        { id: '109217', name: '성내올림픽파크한양수자인', start_date: '2026-01-01', is_active: true },
+    ].filter(complex => complex.is_active);
 
     const DIRECTION_MAP = {
         'SS': '남향',
@@ -1188,12 +1217,16 @@
         const modalList = document.getElementById('complexModalList');
 
         function renderModalList() {
-            modalList.innerHTML = COMPLEXES.map(c => `
+            modalList.innerHTML = COMPLEXES.map(c => {
+                const formattedDate = c.start_date.replace(/-/g, '.');
+                return `
                     <li class="${selectedComplexes.has(c.id) ? 'selected' : ''}" data-id="${c.id}">
                         <input type="checkbox" ${selectedComplexes.has(c.id) ? 'checked' : ''}>
-                        ${c.name}
+                        <span>${c.name}</span>
+                        <span style="font-size: 0.75em; color: #888; margin-left: auto;">(등록일 ${formattedDate})</span>
                     </li>
-                `).join('');
+                `;
+            }).join('');
 
             modalList.querySelectorAll('li').forEach(li => {
                 li.addEventListener('click', () => {
@@ -1313,9 +1346,9 @@
 
         const complexLocations = {};
 
-        // 31일 전 날짜 계산
-        const thirtyOneDaysAgo = new Date();
-        thirtyOneDaysAgo.setDate(thirtyOneDaysAgo.getDate() - 31);
+        // 90일 전 날짜 계산
+        const ninetyDaysAgo = new Date();
+        ninetyDaysAgo.setDate(ninetyDaysAgo.getDate() - 90);
 
         selectedComplexes.forEach(complexId => {
             if (allData[complexId]) {
@@ -1328,11 +1361,11 @@
                     const status = isDeleted ? 'deleted' : 'active';
                     if (!selectedStatuses.has(status)) return;
 
-                    // 삭제된 매물인 경우 최근 31일 이내만 표시
+                    // 삭제된 매물인 경우 최근 90일 이내만 표시
                     if (isDeleted) {
                         const deletedDate = new Date(value.deleted_at);
-                        if (deletedDate < thirtyOneDaysAgo) {
-                            return; // 31일 이전 삭제 매물은 제외
+                        if (deletedDate < ninetyDaysAgo) {
+                            return; // 90일 이전 삭제 매물은 제외
                         }
                     }
 
@@ -1389,9 +1422,9 @@
     function renderCards() {
         const cardsContainer = document.getElementById('cards');
 
-        // 31일 전 날짜 계산
-        const thirtyOneDaysAgo = new Date();
-        thirtyOneDaysAgo.setDate(thirtyOneDaysAgo.getDate() - 31);
+        // 90일 전 날짜 계산
+        const ninetyDaysAgo = new Date();
+        ninetyDaysAgo.setDate(ninetyDaysAgo.getDate() - 90);
 
         let filteredData = [];
         selectedComplexes.forEach(complexId => {
@@ -1404,11 +1437,11 @@
                     const status = isDeleted ? 'deleted' : 'active';
                     if (!selectedStatuses.has(status)) return;
 
-                    // 삭제된 매물인 경우 최근 31일 이내만 표시
+                    // 삭제된 매물인 경우 최근 90일 이내만 표시
                     if (isDeleted) {
                         const deletedDate = new Date(value.deleted_at);
-                        if (deletedDate < thirtyOneDaysAgo) {
-                            return; // 31일 이전 삭제 매물은 제외
+                        if (deletedDate < ninetyDaysAgo) {
+                            return; // 90일 이전 삭제 매물은 제외
                         }
                     }
 
@@ -1505,4 +1538,3 @@
 </body>
 
 </html>
-
