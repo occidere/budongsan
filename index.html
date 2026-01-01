@@ -586,6 +586,13 @@
             border-top: 1px solid #eee;
             color: #999;
             font-size: 12px;
+            line-height: 1.6;
+        }
+
+        .footer .copyright {
+            margin-top: 8px;
+            font-size: 11px;
+            color: #aaa;
         }
 
         /* Tab Navigation */
@@ -707,7 +714,7 @@
 
 <body>
 <div class="container">
-    <h1>부동산 매물 변경 이력 확인</h1>
+    <h1>우리동네 부동산 히스토리</h1>
 
     <!-- Tab Navigation -->
     <div class="tab-navigation">
@@ -883,7 +890,8 @@
     </div>
 
     <footer class="footer">
-        본 페이지는 개인적인 매물 확인 및 학습 목적으로 제작되었으며, 상업적 용도로 사용되지 않습니다.
+        <div>본 페이지는 개인적인 매물 확인 및 학습 목적으로 제작되었으며, 상업적 용도로 사용되지 않습니다.</div>
+        <div class="copyright">© 2026 occidere. All rights reserved.</div>
     </footer>
 </div>
 
@@ -1114,6 +1122,7 @@
         const tagsContainer = document.getElementById('selectedTags');
         if (selectedComplexes.size === 0) {
             tagsContainer.innerHTML = '<span style="color: #888; font-size: 13px;">선택된 단지가 없습니다</span>';
+            updateTradeTypeCounts();
             return;
         }
 
@@ -1128,12 +1137,16 @@
             btn.addEventListener('click', (e) => {
                 const id = e.target.dataset.id;
                 selectedComplexes.delete(id);
+                saveFiltersToStorage();
                 renderSelectedTags();
                 renderSearchDropdown(document.getElementById('complexSearch').value);
                 renderCards();
                 updateMap();
             });
         });
+
+        // 단지 변경 시 거래 유형 건수 업데이트
+        updateTradeTypeCounts();
     }
 
     function renderSearchDropdown(searchTerm = '') {
@@ -1278,6 +1291,40 @@
         }
     }
 
+    function updateTradeTypeCounts() {
+        // 거래 유형별 건수 계산
+        const counts = { 'A1': 0, 'B1': 0, 'B2': 0 };
+
+        // 90일 전 날짜 계산
+        const ninetyDaysAgo = new Date();
+        ninetyDaysAgo.setDate(ninetyDaysAgo.getDate() - 90);
+
+        selectedComplexes.forEach(complexId => {
+            if (allData[complexId]) {
+                Object.values(allData[complexId]).forEach(value => {
+                    const tradeType = value.representative?.trade_type;
+                    if (tradeType && counts.hasOwnProperty(tradeType)) {
+                        // 삭제된 매물은 90일 이내만 카운트
+                        const isDeleted = value.is_deleted === true;
+                        if (isDeleted) {
+                            const deletedDate = new Date(value.deleted_at);
+                            if (deletedDate >= ninetyDaysAgo) {
+                                counts[tradeType]++;
+                            }
+                        } else {
+                            counts[tradeType]++;
+                        }
+                    }
+                });
+            }
+        });
+
+        // 레이블 업데이트
+        document.querySelector('label[for="trade-sale"]').textContent = `매매 (${counts['A1']})`;
+        document.querySelector('label[for="trade-jeonse"]').textContent = `전세 (${counts['B1']})`;
+        document.querySelector('label[for="trade-rent"]').textContent = `월세 (${counts['B2']})`;
+    }
+
     function initTradeTypeFilter() {
         const tradeTypes = ['A1', 'B1', 'B2'];
         const tradeIds = ['trade-sale', 'trade-jeonse', 'trade-rent'];
@@ -1294,6 +1341,9 @@
                 updateMap();
             });
         });
+
+        // 초기 건수 표시
+        updateTradeTypeCounts();
     }
 
     function initStatusFilter() {
