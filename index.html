@@ -586,6 +586,121 @@
             color: #999;
             font-size: 12px;
         }
+
+        /* Tab Navigation */
+        .tab-navigation {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .tab-button {
+            padding: 12px 24px;
+            background: none;
+            border: none;
+            font-size: 16px;
+            font-weight: 500;
+            color: #666;
+            cursor: pointer;
+            position: relative;
+            transition: color 0.2s;
+        }
+
+        .tab-button:hover {
+            color: #1a73e8;
+        }
+
+        .tab-button.active {
+            color: #1a73e8;
+            font-weight: 600;
+        }
+
+        .tab-button.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #1a73e8;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* FAQ Styles */
+        .faq-section {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #eee;
+            padding: 20px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .faq-question::before {
+            content: 'Q.';
+            color: #1a73e8;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .faq-answer {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.8;
+            padding-left: 28px;
+        }
+
+        .faq-answer::before {
+            content: 'A.';
+            color: #e53935;
+            font-weight: 700;
+            font-size: 16px;
+            margin-right: 8px;
+        }
+
+        .faq-answer ul {
+            margin-top: 8px;
+            padding-left: 20px;
+        }
+
+        .faq-answer li {
+            margin-bottom: 6px;
+        }
+
+        .faq-answer code {
+            background: #f5f5f5;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+            color: #c62828;
+        }
     </style>
 </head>
 
@@ -593,7 +708,15 @@
 <div class="container">
     <h1>부동산 매물 목록</h1>
 
-    <div class="filter-section">
+    <!-- Tab Navigation -->
+    <div class="tab-navigation">
+        <button class="tab-button active" data-tab="listings">매물 목록</button>
+        <button class="tab-button" data-tab="faq">FAQ</button>
+    </div>
+
+    <!-- Tab Content: Listings -->
+    <div class="tab-content active" id="tab-listings">
+        <div class="filter-section">
         <div class="filter-title-row">
             <div class="filter-title-left">단지 선택
                 <button id="clearAllComplexes" class="clear-btn">초기화</button>
@@ -657,6 +780,99 @@
     </div>
 
     <div class="cards" id="cards"></div>
+    </div>
+
+    <!-- Tab Content: FAQ -->
+    <div class="tab-content" id="tab-faq">
+        <div class="faq-section">
+            <div class="faq-item">
+                <div class="faq-question">이 서비스는 무엇인가요?</div>
+                <div class="faq-answer">
+                    네이버 부동산 API를 활용하여 특정 아파트 단지의 매물 정보를 자동으로 수집하고 추적하는 개인 프로젝트입니다.
+                    매물의 등록, 삭제, 가격 변동 등을 실시간으로 모니터링할 수 있습니다.
+                    본 페이지는 개인적인 매물 확인 및 학습 목적으로 제작되었으며, 상업적 용도로 사용되지 않습니다.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">데이터는 얼마나 자주 업데이트되나요?</div>
+                <div class="faq-answer">
+                    2025년 12월 20일 부터의 데이터를 포함하고 있습니다.
+                    일반적으로 1~2시간 주기로 갱신되며, 각 매물의 최신 정보와 변경 이력을 추적합니다.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">원하는 단지가 목록이 없어요</div>
+                <div class="faq-answer">
+                    현재는 일부 단지 대상으로만 서비스가 제공되고 있습니다. 추후 더 많은 단지가 추가될 예정이며,
+                    추가를 원하는 단지가 있으시다면 문의 주시기 바랍니다.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">삭제된 매물은 어떻게 표시되나요?</div>
+                <div class="faq-answer">
+                    매물 상태 필터에서 "삭제된 매물"을 체크하면 확인할 수 있습니다. 삭제된 매물은 반투명하게 표시되며,
+                    언제 삭제되었는지 정보가 표시됩니다. 최근 1개월치 삭제 매물 데이터가 보관됩니다.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">지도의 마커는 무엇을 의미하나요?</div>
+                <div class="faq-answer">
+                    각 마커는 아파트 단지의 위치를 나타냅니다. 마커를 클릭하면 해당 단지의 이름이 표시되며,
+                    현재 필터링된 매물들의 단지만 지도에 표시됩니다.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">매물 정렬은 어떻게 하나요?</div>
+                <div class="faq-answer">
+                    정렬 순서 드롭다운을 사용하여 다음과 같이 정렬할 수 있습니다:
+                    <ul>
+                        <li><strong>최신 날짜순:</strong> 가장 최근에 등록된 매물부터 표시</li>
+                        <li><strong>오래된 날짜순:</strong> 가장 오래전에 등록된 매물부터 표시</li>
+                        <li><strong>높은 가격순:</strong> 가격이 높은 매물부터 표시</li>
+                        <li><strong>낮은 가격순:</strong> 가격이 낮은 매물부터 표시</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">필터 설정은 저장되나요?</div>
+                <div class="faq-answer">
+                    네, 선택한 필터 설정(단지, 거래 유형, 매물 상태, 정렬 순서)은 브라우저의 로컬 스토리지에 자동으로 저장됩니다.
+                    다음에 페이지를 방문하면 이전 설정이 그대로 유지됩니다.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">매물 카드의 정보는 무엇을 의미하나요?</div>
+                <div class="faq-answer">
+                    각 매물 카드는 다음 정보를 포함합니다:
+                    <ul>
+                        <li><strong>거래 유형:</strong> 매매/전세/월세</li>
+                        <li><strong>가격:</strong> 해당 거래 유형의 가격 (월세는 보증금/월세 형태)</li>
+                        <li><strong>층 정보:</strong> 매물이 위치한 층</li>
+                        <li><strong>면적:</strong> 공급면적 / 전용면적 (m²)</li>
+                        <li><strong>방향:</strong> 집의 향 (남향, 동향 등)</li>
+                        <li><strong>설명:</strong> 중개사가 작성한 매물 설명</li>
+                        <li><strong>중개사 정보:</strong> 중개사무소 이름 및 전화번호</li>
+                        <li><strong>등록일:</strong> 매물이 등록된 날짜</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">모바일에서도 사용할 수 있나요?</div>
+                <div class="faq-answer">
+                    네, 반응형 디자인으로 제작되어 모바일 기기에서도 원활하게 사용할 수 있습니다.
+                    화면 크기에 따라 레이아웃이 자동으로 조정됩니다.
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer">
         본 페이지는 개인적인 매물 확인 및 학습 목적으로 제작되었으며, 상업적 용도로 사용되지 않습니다.
@@ -708,6 +924,31 @@
     let selectedSortOrder = 'latest';
     let map = null;
     let markers = [];
+
+    // Tab switching functionality
+    function initTabSwitching() {
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const targetTab = button.getAttribute('data-tab');
+
+                // Remove active class from all buttons and contents
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                tabContents.forEach(content => content.classList.remove('active'));
+
+                // Add active class to clicked button and corresponding content
+                button.classList.add('active');
+                document.getElementById(`tab-${targetTab}`).classList.add('active');
+
+                // If switching to listings tab and map not initialized, initialize it
+                if (targetTab === 'listings' && !map) {
+                    setTimeout(() => initMap(), 100);
+                }
+            });
+        });
+    }
 
     // localStorage에서 필터 상태 복원
     function loadFiltersFromStorage() {
@@ -1241,6 +1482,7 @@
             // UI를 복원된 상태와 동기화
             syncUIWithFilters();
 
+            initTabSwitching();
             initComplexSearch();
             renderSelectedTags();
             initTradeTypeFilter();
@@ -1264,4 +1506,3 @@
 </body>
 
 </html>
-
