@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>우리동네 부동산 히스토리 - 우리동네 부동산 매물 변경 이력 추적기</title>
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
@@ -71,6 +77,44 @@
             justify-content: center;
             gap: 20px;
             position: relative;
+        }
+
+        .logo {
+            height: 80px;
+            width: auto;
+            max-width: 90%;
+            transition: opacity 0.3s ease;
+        }
+
+        /* 라이트 모드에서는 light 로고만 표시 */
+        .logo-light {
+            display: block;
+        }
+
+        .logo-dark {
+            display: none;
+        }
+
+        /* 다크 모드에서는 dark 로고만 표시 */
+        body.dark-mode .logo-light {
+            display: none;
+        }
+
+        body.dark-mode .logo-dark {
+            display: block;
+        }
+
+        /* 반응형 로고 크기 */
+        @media (min-width: 768px) {
+            .logo {
+                height: 100px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .logo {
+                height: 120px;
+            }
         }
 
         .container {
@@ -826,7 +870,8 @@
 <body>
 <div class="container">
     <h1>
-        우리동네 부동산 히스토리
+        <img src="logo-light.png" alt="우리동네 부동산 히스토리" class="logo logo-light">
+        <img src="logo-dark.png" alt="우리동네 부동산 히스토리" class="logo logo-dark">
         <button class="dark-mode-toggle" id="darkModeToggle" aria-label="다크모드 토글">
             <span id="darkModeIcon">🌙</span>
         </button>
