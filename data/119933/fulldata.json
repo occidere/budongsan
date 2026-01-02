@@ -159,7 +159,7 @@
             "min": 750000000,
             "max": 750000000
         },
-        "updated_at": "2026-01-01T14:52:24.174050",
+        "updated_at": "2026-01-02T01:11:04.856882",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -323,7 +323,7 @@
             "min": 1590000000,
             "max": 1590000000
         },
-        "updated_at": "2026-01-01T14:52:24.174084",
+        "updated_at": "2026-01-02T01:11:04.856903",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -487,18 +487,19 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-01T14:52:24.174099",
+        "updated_at": "2026-01-02T01:11:04.856918",
         "is_deleted": false,
         "deleted_at": null
     },
     "102동:고/21:84B:A1": {
         "property_key": "102동:고/21:84B:A1",
         "article_numbers": [
-            "2566196620"
+            "2569632714",
+            "2569787641"
         ],
         "representative": {
             "complex_name": "e편한세상강동에코포레",
-            "article_number": "2566196620",
+            "article_number": "2569632714",
             "article_name": "e편한세상강동에코포레",
             "dong_name": "102동",
             "trade_type": "A1",
@@ -521,19 +522,19 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-09",
-                "article_confirm_date": "2025-12-09"
+                "exposure_start_date": "2025-12-27",
+                "article_confirm_date": "2025-12-27"
             },
             "broker_info": {
-                "cp_id": "fine",
-                "brokerage_name": "여왕공인중개사사무소(강동헤리티자이)",
-                "broker_name": "부동산포스",
+                "cp_id": "bizmk",
+                "brokerage_name": "신동아공인중개사사무소",
+                "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
-                "direction": "WS",
+                "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "주인거주 만족스러운 로얄동.로얄층 옵션좋은 매매",
+                "article_feature_description": "신축5년  에어컨 냉장고 9호선연장호재 신명초중인접 초록뷰 식세기등",
                 "direct_trade": false,
                 "floor_info": "고/21",
                 "floor_detail_info": {
@@ -566,14 +567,14 @@
                 "deal_price": 1600000000,
                 "warranty_price": 0,
                 "rent_price": 0,
-                "management_fee_amount": 250000,
+                "management_fee_amount": 350000,
                 "price_change_status": 0
             }
         },
         "all_articles": [
             {
                 "complex_name": "e편한세상강동에코포레",
-                "article_number": "2566196620",
+                "article_number": "2569632714",
                 "article_name": "e편한세상강동에코포레",
                 "dong_name": "102동",
                 "trade_type": "A1",
@@ -596,19 +597,19 @@
                 "verification_info": {
                     "verification_type": "OWNER",
                     "is_association_article": false,
-                    "exposure_start_date": "2025-12-09",
-                    "article_confirm_date": "2025-12-09"
+                    "exposure_start_date": "2025-12-27",
+                    "article_confirm_date": "2025-12-27"
                 },
                 "broker_info": {
-                    "cp_id": "fine",
-                    "brokerage_name": "여왕공인중개사사무소(강동헤리티자이)",
-                    "broker_name": "부동산포스",
+                    "cp_id": "bizmk",
+                    "brokerage_name": "신동아공인중개사사무소",
+                    "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
-                    "direction": "WS",
+                    "direction": "ES",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "주인거주 만족스러운 로얄동.로얄층 옵션좋은 매매",
+                    "article_feature_description": "신축5년  에어컨 냉장고 9호선연장호재 신명초중인접 초록뷰 식세기등",
                     "direct_trade": false,
                     "floor_info": "고/21",
                     "floor_detail_info": {
@@ -641,17 +642,93 @@
                     "deal_price": 1600000000,
                     "warranty_price": 0,
                     "rent_price": 0,
-                    "management_fee_amount": 250000,
+                    "management_fee_amount": 350000,
                     "price_change_status": 0
-                }
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "e편한세상강동에코포레",
+                "article_number": "2569787641",
+                "article_name": "e편한세상강동에코포레",
+                "dong_name": "102동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 110.52,
+                    "contract_space": 181.45,
+                    "exclusive_space": 84.99,
+                    "land_space": 11440,
+                    "supply_space_name": "110B",
+                    "exclusive_space_name": "84B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20200414",
+                    "approval_elapsed_year": 6
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-29",
+                    "article_confirm_date": "2025-12-29"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "4989부동산중개사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "녹지바라보는 탁트인뷰 입주가 협의가능",
+                    "direct_trade": false,
+                    "floor_info": "고/21",
+                    "floor_detail_info": {
+                        "target_floor": "고",
+                        "total_floor": "21",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "강동구",
+                    "sector": "길동",
+                    "coordinates": {
+                        "x_coordinate": 127.14837,
+                        "y_coordinate": 37.540858
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1600000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
             }
         ],
-        "article_count": 1,
+        "article_count": 2,
         "price_range": {
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-01T14:52:24.174109",
+        "updated_at": "2026-01-02T01:11:04.856876",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -843,7 +920,7 @@
             "min": 1590000000,
             "max": 1590000000
         },
-        "updated_at": "2026-01-01T14:52:24.174113",
+        "updated_at": "2026-01-02T01:11:04.856927",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1007,7 +1084,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-01T14:52:24.174094",
+        "updated_at": "2026-01-02T01:11:04.856912",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1171,7 +1248,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-01T14:52:24.174080",
+        "updated_at": "2026-01-02T01:11:04.856899",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1796,7 +1873,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-01T14:52:24.174017",
+        "updated_at": "2026-01-02T01:11:04.856838",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1960,7 +2037,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-01T14:52:24.174089",
+        "updated_at": "2026-01-02T01:11:04.856908",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2132,7 +2209,7 @@
             "min": 1420000000,
             "max": 1420000000
         },
-        "updated_at": "2026-01-01T14:52:24.174075",
+        "updated_at": "2026-01-02T01:11:04.856894",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2296,7 +2373,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-01T14:52:24.174118",
+        "updated_at": "2026-01-02T01:11:04.856932",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2625,7 +2702,179 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-01T14:52:24.174032",
+        "updated_at": "2026-01-02T01:11:04.856865",
+        "is_deleted": false,
+        "deleted_at": null
+    },
+    "105동:저/21:59A:A1": {
+        "property_key": "105동:저/21:59A:A1",
+        "article_numbers": [
+            "2600251918"
+        ],
+        "representative": {
+            "complex_name": "e편한세상강동에코포레",
+            "article_number": "2600251918",
+            "article_name": "e편한세상강동에코포레",
+            "dong_name": "105동",
+            "trade_type": "A1",
+            "real_estate_type": "A01",
+            "space_info": {
+                "supply_space": 82.71,
+                "contract_space": 132.76,
+                "exclusive_space": 59.97,
+                "land_space": 11440,
+                "supply_space_name": "82A",
+                "exclusive_space_name": "59A",
+                "name_type": "A"
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "20200414",
+                "approval_elapsed_year": 6
+            },
+            "verification_info": {
+                "verification_type": "NDOC1",
+                "is_association_article": false,
+                "exposure_start_date": "2026-01-02",
+                "article_confirm_date": "2026-01-02"
+            },
+            "broker_info": {
+                "cp_id": "asil",
+                "brokerage_name": "강동 헤리티지 자이 공인중개사사무소",
+                "broker_name": "아실",
+                "cp_out_link_type": "ALL"
+            },
+            "article_detail": {
+                "direction": "ES",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "입주가능 에4,안방 슬라이딩장  탁 드인 정원뷰, 확장형",
+                "direct_trade": false,
+                "floor_info": "저/21",
+                "floor_detail_info": {
+                    "target_floor": "저",
+                    "total_floor": "21",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "20"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_url": "https://landthumb-phinf.pstatic.net/20260102_209/1767311952128zRfyO_JPEG/2026010119132113000_43955_ws.jpg",
+                "image_type": "10",
+                "image_count": 15,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_url": "https://landthumb-phinf.pstatic.net/20260102_209/1767311952128zRfyO_JPEG/2026010119132113000_43955_ws.jpg",
+                "image_type": "10",
+                "image_count": 15,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "강동구",
+                "sector": "길동",
+                "coordinates": {
+                    "x_coordinate": 127.147912,
+                    "y_coordinate": 37.541596
+                }
+            },
+            "price_info": {
+                "deal_price": 1400000000,
+                "warranty_price": 0,
+                "rent_price": 0,
+                "management_fee_amount": 220000,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "e편한세상강동에코포레",
+                "article_number": "2600251918",
+                "article_name": "e편한세상강동에코포레",
+                "dong_name": "105동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 82.71,
+                    "contract_space": 132.76,
+                    "exclusive_space": 59.97,
+                    "land_space": 11440,
+                    "supply_space_name": "82A",
+                    "exclusive_space_name": "59A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20200414",
+                    "approval_elapsed_year": 6
+                },
+                "verification_info": {
+                    "verification_type": "NDOC1",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "asil",
+                    "brokerage_name": "강동 헤리티지 자이 공인중개사사무소",
+                    "broker_name": "아실",
+                    "cp_out_link_type": "ALL"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "입주가능 에4,안방 슬라이딩장  탁 드인 정원뷰, 확장형",
+                    "direct_trade": false,
+                    "floor_info": "저/21",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "21",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260102_209/1767311952128zRfyO_JPEG/2026010119132113000_43955_ws.jpg",
+                    "image_type": "10",
+                    "image_count": 15,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260102_209/1767311952128zRfyO_JPEG/2026010119132113000_43955_ws.jpg",
+                    "image_type": "10",
+                    "image_count": 15,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "강동구",
+                    "sector": "길동",
+                    "coordinates": {
+                        "x_coordinate": 127.147912,
+                        "y_coordinate": 37.541596
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1400000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 220000,
+                    "price_change_status": 0
+                }
+            }
+        ],
+        "article_count": 1,
+        "price_range": {
+            "min": 1400000000,
+            "max": 1400000000
+        },
+        "updated_at": "2026-01-02T01:11:04.856858",
         "is_deleted": false,
         "deleted_at": null
     }
