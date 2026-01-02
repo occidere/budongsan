@@ -1289,7 +1289,7 @@
                         <span>${rep.broker_info.brokerage_name}</span>
                         ${data.article_count > 1 ? `<span class="article-count">동일매물 ${data.article_count}건</span>` : ''}
                     </div>
-                    <div class="card-updated">${isDeleted ? '삭제일' : '등록일'} ${formatDateOnly(rep.verification_info.exposure_start_date)}</div>
+                    <div class="card-updated">${isDeleted ? '삭제일' : '등록일'} ${isDeleted ? formatDateOnly(data.deleted_at) : formatDateOnly(rep.verification_info.exposure_start_date)}</div>
                     <div class="card-price">
                         <span class="price-label">${priceDisplay.label}</span>
                         <div class="price-value">${priceDisplay.value}</div>
