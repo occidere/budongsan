@@ -244,7 +244,7 @@
             "min": 3000000000,
             "max": 3000000000
         },
-        "updated_at": "2026-01-02T09:22:44.268703",
+        "updated_at": "2026-01-02T10:19:14.237342",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1345,14 +1345,14 @@
             "2569755558",
             "2570107717",
             "2570269176",
-            "2570312198",
             "2600324832",
             "2600338889",
-            "2600353477"
+            "2600353477",
+            "2600555029"
         ],
         "representative": {
             "complex_name": "래미안옥수리버젠",
-            "article_number": "2600353477",
+            "article_number": "2600555029",
             "article_name": "래미안옥수리버젠",
             "dong_name": "102동",
             "trade_type": "B1",
@@ -1379,15 +1379,15 @@
                 "article_confirm_date": "2026-01-02"
             },
             "broker_info": {
-                "cp_id": "sunbang",
+                "cp_id": "bizmk",
                 "brokerage_name": "부동산멘토공인중개사사무소",
-                "broker_name": "선방",
+                "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "4월 중순이후 입주협의. 신혼부부추천. 방2.화장실1. 조용한 동",
+                "article_feature_description": "4월 중순 입주협의. 신혼부부추천. 조용한 동. 방2,화장실1",
                 "direct_trade": false,
                 "floor_info": "저/15",
                 "floor_detail_info": {
@@ -1425,81 +1425,6 @@
             }
         },
         "all_articles": [
-            {
-                "complex_name": "래미안옥수리버젠",
-                "article_number": "2600353477",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "102동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 79.43,
-                    "contract_space": 113.23,
-                    "exclusive_space": 59.25,
-                    "land_space": 65362,
-                    "supply_space_name": "79B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "sunbang",
-                    "brokerage_name": "부동산멘토공인중개사사무소",
-                    "broker_name": "선방",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "4월 중순이후 입주협의. 신혼부부추천. 방2.화장실1. 조용한 동",
-                    "direct_trade": false,
-                    "floor_info": "저/15",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.012496,
-                        "y_coordinate": 37.545375
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 780000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 190000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
             {
                 "complex_name": "래미안옥수리버젠",
                 "article_number": "2600338889",
@@ -1577,7 +1502,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2570312198",
+                "article_number": "2600353477",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "102동",
                 "trade_type": "B1",
@@ -1600,8 +1525,83 @@
                 "verification_info": {
                     "verification_type": "OWNER",
                     "is_association_article": false,
-                    "exposure_start_date": "2025-12-31",
-                    "article_confirm_date": "2025-12-31"
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "sunbang",
+                    "brokerage_name": "부동산멘토공인중개사사무소",
+                    "broker_name": "선방",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "4월 중순이후 입주협의. 신혼부부추천. 방2.화장실1. 조용한 동",
+                    "direct_trade": false,
+                    "floor_info": "저/15",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.012496,
+                        "y_coordinate": 37.545375
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 780000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 190000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600555029",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "102동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 79.43,
+                    "contract_space": 113.23,
+                    "exclusive_space": 59.25,
+                    "land_space": 65362,
+                    "supply_space_name": "79B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
@@ -2106,7 +2106,7 @@
             "min": 780000000,
             "max": 780000000
         },
-        "updated_at": "2026-01-02T09:22:43.016408",
+        "updated_at": "2026-01-02T10:19:12.180384",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2955,7 +2955,7 @@
             "min": 2300000000,
             "max": 2300000000
         },
-        "updated_at": "2026-01-02T09:22:44.268609",
+        "updated_at": "2026-01-02T10:19:14.237185",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3500,7 +3500,7 @@
             "min": 850000000,
             "max": 850000000
         },
-        "updated_at": "2026-01-02T09:22:43.016354",
+        "updated_at": "2026-01-02T10:19:12.180428",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3817,7 +3817,7 @@
             "min": 601000000,
             "max": 601000000
         },
-        "updated_at": "2026-01-02T09:22:43.016384",
+        "updated_at": "2026-01-02T10:19:12.180446",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4992,7 +4992,7 @@
             "min": 2700000000,
             "max": 2700000000
         },
-        "updated_at": "2026-01-02T09:22:43.016505",
+        "updated_at": "2026-01-02T10:19:12.180557",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5927,7 +5927,7 @@
             "min": 2650000000,
             "max": 2700000000
         },
-        "updated_at": "2026-01-02T09:22:43.016475",
+        "updated_at": "2026-01-02T10:19:12.180527",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6168,7 +6168,7 @@
             "min": 700500000,
             "max": 700500000
         },
-        "updated_at": "2026-01-02T09:22:44.268716",
+        "updated_at": "2026-01-02T10:19:14.237355",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6641,81 +6641,6 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2570339200",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "103동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 111.59,
-                    "contract_space": 159.93,
-                    "exclusive_space": 84.73,
-                    "land_space": 65362,
-                    "supply_space_name": "111A",
-                    "exclusive_space_name": "84A",
-                    "name_type": "A"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-31",
-                    "article_confirm_date": "2025-12-31"
-                },
-                "broker_info": {
-                    "cp_id": "asil",
-                    "brokerage_name": "미래옥수파크힐스공인중개사사무소",
-                    "broker_name": "아실",
-                    "cp_out_link_type": "ALL"
-                },
-                "article_detail": {
-                    "direction": "EE",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "입주1월중가능, 확장형, 시스템3대, 단지조경뷰",
-                    "direct_trade": false,
-                    "floor_info": "고/15",
-                    "floor_detail_info": {
-                        "target_floor": "고",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.013126,
-                        "y_coordinate": 37.545505
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 1000000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 300000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
                 "article_number": "2570243786",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "103동",
@@ -6785,6 +6710,81 @@
                     "warranty_price": 1000000000,
                     "rent_price": 0,
                     "management_fee_amount": 280000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2570339200",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "103동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 111.59,
+                    "contract_space": 159.93,
+                    "exclusive_space": 84.73,
+                    "land_space": 65362,
+                    "supply_space_name": "111A",
+                    "exclusive_space_name": "84A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-31",
+                    "article_confirm_date": "2025-12-31"
+                },
+                "broker_info": {
+                    "cp_id": "asil",
+                    "brokerage_name": "미래옥수파크힐스공인중개사사무소",
+                    "broker_name": "아실",
+                    "cp_out_link_type": "ALL"
+                },
+                "article_detail": {
+                    "direction": "EE",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "입주1월중가능, 확장형, 시스템3대, 단지조경뷰",
+                    "direct_trade": false,
+                    "floor_info": "고/15",
+                    "floor_detail_info": {
+                        "target_floor": "고",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.013126,
+                        "y_coordinate": 37.545505
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 1000000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 300000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -7245,7 +7245,7 @@
             "min": 1000000000,
             "max": 1000000000
         },
-        "updated_at": "2026-01-02T09:22:43.016517",
+        "updated_at": "2026-01-02T10:19:12.180569",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7409,7 +7409,7 @@
             "min": 750000000,
             "max": 750000000
         },
-        "updated_at": "2026-01-02T09:22:44.268762",
+        "updated_at": "2026-01-02T10:19:14.237401",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7573,7 +7573,7 @@
             "min": 3165000000,
             "max": 3165000000
         },
-        "updated_at": "2026-01-02T09:22:44.268776",
+        "updated_at": "2026-01-02T10:19:14.237415",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7737,7 +7737,7 @@
             "min": 3400000000,
             "max": 3400000000
         },
-        "updated_at": "2026-01-02T09:22:46.948035",
+        "updated_at": "2026-01-02T10:19:16.195499",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7989,7 +7989,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600408541",
+                "article_number": "2600491805",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "104동",
                 "trade_type": "A1",
@@ -8017,14 +8017,14 @@
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "행복공인중개사사무소",
+                    "brokerage_name": "웰컴부동산공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "EN",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "협의 입주 가능, 개방감 있는 내부 깨끗한 집",
+                    "article_feature_description": "입주협의.  확장형.  방3,화장실2 .관리 잘 된 내부상태",
                     "direct_trade": false,
                     "floor_info": "중/14",
                     "floor_detail_info": {
@@ -8057,7 +8057,7 @@
                     "deal_price": 2300000000,
                     "warranty_price": 0,
                     "rent_price": 0,
-                    "management_fee_amount": 150000,
+                    "management_fee_amount": 200000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -8139,7 +8139,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600491805",
+                "article_number": "2600408541",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "104동",
                 "trade_type": "A1",
@@ -8167,14 +8167,14 @@
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "웰컴부동산공인중개사사무소",
+                    "brokerage_name": "행복공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "EN",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "입주협의.  확장형.  방3,화장실2 .관리 잘 된 내부상태",
+                    "article_feature_description": "협의 입주 가능, 개방감 있는 내부 깨끗한 집",
                     "direct_trade": false,
                     "floor_info": "중/14",
                     "floor_detail_info": {
@@ -8207,7 +8207,7 @@
                     "deal_price": 2300000000,
                     "warranty_price": 0,
                     "rent_price": 0,
-                    "management_fee_amount": 200000,
+                    "management_fee_amount": 150000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -8814,81 +8814,6 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2567635521",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "104동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 79.43,
-                    "contract_space": 113.23,
-                    "exclusive_space": 59.25,
-                    "land_space": 65362,
-                    "supply_space_name": "79B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-17",
-                    "article_confirm_date": "2025-12-17"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "단지내파크힐스공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "EN",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "전체확장형, 트인 전망, 깔끔한 세대관리, 입주협의",
-                    "direct_trade": false,
-                    "floor_info": "중/14",
-                    "floor_detail_info": {
-                        "target_floor": "중",
-                        "total_floor": "14",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.013531,
-                        "y_coordinate": 37.545949
-                    }
-                },
-                "price_info": {
-                    "deal_price": 2300000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
                 "article_number": "2567759102",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "104동",
@@ -8958,6 +8883,81 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 190000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2567635521",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "104동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 79.43,
+                    "contract_space": 113.23,
+                    "exclusive_space": 59.25,
+                    "land_space": 65362,
+                    "supply_space_name": "79B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-17",
+                    "article_confirm_date": "2025-12-17"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "단지내파크힐스공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "EN",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "전체확장형, 트인 전망, 깔끔한 세대관리, 입주협의",
+                    "direct_trade": false,
+                    "floor_info": "중/14",
+                    "floor_detail_info": {
+                        "target_floor": "중",
+                        "total_floor": "14",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.013531,
+                        "y_coordinate": 37.545949
+                    }
+                },
+                "price_info": {
+                    "deal_price": 2300000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -9118,7 +9118,7 @@
             "min": 2300000000,
             "max": 2300000000
         },
-        "updated_at": "2026-01-02T09:22:44.268732",
+        "updated_at": "2026-01-02T10:19:14.237370",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -9217,156 +9217,6 @@
             }
         },
         "all_articles": [
-            {
-                "complex_name": "래미안옥수리버젠",
-                "article_number": "2600323686",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "105동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 79.43,
-                    "contract_space": 113.23,
-                    "exclusive_space": 59.25,
-                    "land_space": 65362,
-                    "supply_space_name": "79B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "(단지내)명품래미안공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "SS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올확장",
-                    "direct_trade": false,
-                    "floor_info": "10/14",
-                    "floor_detail_info": {
-                        "target_floor": "10",
-                        "total_floor": "14",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.012499,
-                        "y_coordinate": 37.544573
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 820000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 250000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
-                "article_number": "2600309743",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "105동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 79.43,
-                    "contract_space": 113.23,
-                    "exclusive_space": 59.25,
-                    "land_space": 65362,
-                    "supply_space_name": "79B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "파크힐스미래공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "거실뷰 개방감좋음 , 관리잘한 컨디션 굿, 방3 화장실2, 입주협의",
-                    "direct_trade": false,
-                    "floor_info": "10/14",
-                    "floor_detail_info": {
-                        "target_floor": "10",
-                        "total_floor": "14",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.012499,
-                        "y_coordinate": 37.544573
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 820000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
             {
                 "complex_name": "래미안옥수리버젠",
                 "article_number": "2600283966",
@@ -9519,7 +9369,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600365116",
+                "article_number": "2600323686",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "105동",
                 "trade_type": "B1",
@@ -9547,14 +9397,14 @@
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "명품(단지내)리버젠공인중개사사무소",
+                    "brokerage_name": "(단지내)명품래미안공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
-                    "direction": "ES",
+                    "direction": "SS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "탁트인조망 ,빠른입주가능",
+                    "article_feature_description": "올확장",
                     "direct_trade": false,
                     "floor_info": "10/14",
                     "floor_detail_info": {
@@ -9587,7 +9437,7 @@
                     "deal_price": 0,
                     "warranty_price": 820000000,
                     "rent_price": 0,
-                    "management_fee_amount": 200000,
+                    "management_fee_amount": 250000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -9705,6 +9555,156 @@
                     "direction": "ES",
                     "direction_standard": "거실 기준",
                     "article_feature_description": "24 올확장. 개방감좋은 환한집. 내부컨디션굿. 입주협의가능",
+                    "direct_trade": false,
+                    "floor_info": "10/14",
+                    "floor_detail_info": {
+                        "target_floor": "10",
+                        "total_floor": "14",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.012499,
+                        "y_coordinate": 37.544573
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 820000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600365116",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "105동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 79.43,
+                    "contract_space": 113.23,
+                    "exclusive_space": 59.25,
+                    "land_space": 65362,
+                    "supply_space_name": "79B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "명품(단지내)리버젠공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "탁트인조망 ,빠른입주가능",
+                    "direct_trade": false,
+                    "floor_info": "10/14",
+                    "floor_detail_info": {
+                        "target_floor": "10",
+                        "total_floor": "14",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.012499,
+                        "y_coordinate": 37.544573
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 820000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600309743",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "105동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 79.43,
+                    "contract_space": 113.23,
+                    "exclusive_space": 59.25,
+                    "land_space": 65362,
+                    "supply_space_name": "79B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "파크힐스미래공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "거실뷰 개방감좋음 , 관리잘한 컨디션 굿, 방3 화장실2, 입주협의",
                     "direct_trade": false,
                     "floor_info": "10/14",
                     "floor_detail_info": {
@@ -10427,7 +10427,7 @@
             "min": 820000000,
             "max": 820000000
         },
-        "updated_at": "2026-01-02T09:22:43.016259",
+        "updated_at": "2026-01-02T10:19:12.180324",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10591,7 +10591,7 @@
             "min": 800000000,
             "max": 800000000
         },
-        "updated_at": "2026-01-02T09:22:44.268788",
+        "updated_at": "2026-01-02T10:19:14.237428",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10912,7 +10912,7 @@
             "min": 103000000,
             "max": 103000000
         },
-        "updated_at": "2026-01-02T09:22:44.268783",
+        "updated_at": "2026-01-02T10:19:14.237422",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -11076,7 +11076,7 @@
             "min": 2275000000,
             "max": 2275000000
         },
-        "updated_at": "2026-01-02T09:22:43.016458",
+        "updated_at": "2026-01-02T10:19:12.180510",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -11557,7 +11557,7 @@
             "min": 1070000000,
             "max": 1070000000
         },
-        "updated_at": "2026-01-02T09:22:43.016377",
+        "updated_at": "2026-01-02T10:19:12.180439",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -12123,7 +12123,7 @@
             "min": 2480000000,
             "max": 2480000000
         },
-        "updated_at": "2026-01-02T09:22:43.016397",
+        "updated_at": "2026-01-02T10:19:12.180459",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -12287,7 +12287,7 @@
             "min": 104000000,
             "max": 104000000
         },
-        "updated_at": "2026-01-02T09:22:44.268628",
+        "updated_at": "2026-01-02T10:19:14.237208",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -13153,81 +13153,6 @@
         "all_articles": [
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600350715",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "107동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 79.43,
-                    "contract_space": 113.23,
-                    "exclusive_space": 59.25,
-                    "land_space": 65362,
-                    "supply_space_name": "79B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "NDOC1",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "asil",
-                    "brokerage_name": "OK옥수파크힐스공인중개사사무소",
-                    "broker_name": "아실",
-                    "cp_out_link_type": "ALL"
-                },
-                "article_detail": {
-                    "direction": "EN",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "2월말입주협의 전체확장  26.9.28이후 월차임인상예정",
-                    "direct_trade": false,
-                    "floor_info": "저/20",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.013631,
-                        "y_coordinate": 37.54508
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 150000000,
-                    "rent_price": 1880000,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
                 "article_number": "2600391002",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "107동",
@@ -13303,7 +13228,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2570272274",
+                "article_number": "2600350715",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "107동",
                 "trade_type": "B2",
@@ -13324,21 +13249,21 @@
                     "approval_elapsed_year": 14
                 },
                 "verification_info": {
-                    "verification_type": "OWNER",
+                    "verification_type": "NDOC1",
                     "is_association_article": false,
-                    "exposure_start_date": "2025-12-31",
-                    "article_confirm_date": "2025-12-31"
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
                 },
                 "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "OK파크힐스(단지내)공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
+                    "cp_id": "asil",
+                    "brokerage_name": "OK옥수파크힐스공인중개사사무소",
+                    "broker_name": "아실",
+                    "cp_out_link_type": "ALL"
                 },
                 "article_detail": {
                     "direction": "EN",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "2월말협의 전체확장 신혼부부추천 9.28이후 월차임인상 예정",
+                    "article_feature_description": "2월말입주협의 전체확장  26.9.28이후 월차임인상예정",
                     "direct_trade": false,
                     "floor_info": "저/20",
                     "floor_detail_info": {
@@ -13450,6 +13375,81 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2570272274",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "107동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 79.43,
+                    "contract_space": 113.23,
+                    "exclusive_space": 59.25,
+                    "land_space": 65362,
+                    "supply_space_name": "79B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-31",
+                    "article_confirm_date": "2025-12-31"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "OK파크힐스(단지내)공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "EN",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "2월말협의 전체확장 신혼부부추천 9.28이후 월차임인상 예정",
+                    "direct_trade": false,
+                    "floor_info": "저/20",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.013631,
+                        "y_coordinate": 37.54508
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 150000000,
+                    "rent_price": 1880000,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
             }
         ],
         "article_count": 4,
@@ -13457,7 +13457,7 @@
             "min": 151880000,
             "max": 152800000
         },
-        "updated_at": "2026-01-02T09:22:43.016391",
+        "updated_at": "2026-01-02T10:19:12.180453",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -13545,81 +13545,6 @@
             }
         },
         "all_articles": [
-            {
-                "complex_name": "래미안옥수리버젠",
-                "article_number": "2600419711",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "107동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 79.43,
-                    "contract_space": 113.23,
-                    "exclusive_space": 59.25,
-                    "land_space": 65362,
-                    "supply_space_name": "79B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "미래옥수파크힐스공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "빠른입주협의가능, 에어컨있음, 커뮤니티연결동, 넓은 다이닝룸",
-                    "direct_trade": false,
-                    "floor_info": "중/20",
-                    "floor_detail_info": {
-                        "target_floor": "중",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.013631,
-                        "y_coordinate": 37.54508
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 50000000,
-                    "rent_price": 3200000,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
             {
                 "complex_name": "래미안옥수리버젠",
                 "article_number": "2600310955",
@@ -13770,6 +13695,81 @@
                     "warranty_price": 50000000,
                     "rent_price": 3200000,
                     "management_fee_amount": 190000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600419711",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "107동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 79.43,
+                    "contract_space": 113.23,
+                    "exclusive_space": 59.25,
+                    "land_space": 65362,
+                    "supply_space_name": "79B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "미래옥수파크힐스공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "빠른입주협의가능, 에어컨있음, 커뮤니티연결동, 넓은 다이닝룸",
+                    "direct_trade": false,
+                    "floor_info": "중/20",
+                    "floor_detail_info": {
+                        "target_floor": "중",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.013631,
+                        "y_coordinate": 37.54508
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 50000000,
+                    "rent_price": 3200000,
+                    "management_fee_amount": 200000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -13930,7 +13930,7 @@
             "min": 53200000,
             "max": 53200000
         },
-        "updated_at": "2026-01-02T09:22:43.016346",
+        "updated_at": "2026-01-02T10:19:12.180420",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -14095,7 +14095,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2570317457",
+                "article_number": "2570233248",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "107동",
                 "trade_type": "B2",
@@ -14122,15 +14122,15 @@
                     "article_confirm_date": "2025-12-31"
                 },
                 "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "부동산멘토공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
+                    "cp_id": "asil",
+                    "brokerage_name": "비전부동산공인중개사사무소",
+                    "broker_name": "아실",
+                    "cp_out_link_type": "ALL"
                 },
                 "article_detail": {
                     "direction": "EE",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "26년1월 입주협의. 로얄동. 내부컨디션깔끔. 전체확장. 커뮤니티이용편리",
+                    "article_feature_description": "전체확장  풀시스템에어컨  커뮤니티연결동",
                     "direct_trade": false,
                     "floor_info": "중/20",
                     "floor_detail_info": {
@@ -14170,7 +14170,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2570233248",
+                "article_number": "2570317457",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "107동",
                 "trade_type": "B2",
@@ -14197,15 +14197,15 @@
                     "article_confirm_date": "2025-12-31"
                 },
                 "broker_info": {
-                    "cp_id": "asil",
-                    "brokerage_name": "비전부동산공인중개사사무소",
-                    "broker_name": "아실",
-                    "cp_out_link_type": "ALL"
+                    "cp_id": "bizmk",
+                    "brokerage_name": "부동산멘토공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "EE",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "전체확장  풀시스템에어컨  커뮤니티연결동",
+                    "article_feature_description": "26년1월 입주협의. 로얄동. 내부컨디션깔끔. 전체확장. 커뮤니티이용편리",
                     "direct_trade": false,
                     "floor_info": "중/20",
                     "floor_detail_info": {
@@ -14399,7 +14399,7 @@
             "min": 602000000,
             "max": 602000000
         },
-        "updated_at": "2026-01-02T09:22:43.016453",
+        "updated_at": "2026-01-02T10:19:12.180505",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -14504,81 +14504,6 @@
         "all_articles": [
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600343907",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "108동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 148.38,
-                    "contract_space": 213.14,
-                    "exclusive_space": 113.52,
-                    "land_space": 65362,
-                    "supply_space_name": "148A",
-                    "exclusive_space_name": "113A",
-                    "name_type": "A"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "NDOC1",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "리버젠힐부동산공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "EE",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "확장형, 풀시스템에어컨, 관리상태최상, 추천매물",
-                    "direct_trade": false,
-                    "floor_info": "고/20",
-                    "floor_detail_info": {
-                        "target_floor": "고",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.01417,
-                        "y_coordinate": 37.545484
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 1450000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 380000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
                 "article_number": "2600321483",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "108동",
@@ -14648,6 +14573,81 @@
                     "warranty_price": 1500000000,
                     "rent_price": 0,
                     "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600343907",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "108동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 148.38,
+                    "contract_space": 213.14,
+                    "exclusive_space": 113.52,
+                    "land_space": 65362,
+                    "supply_space_name": "148A",
+                    "exclusive_space_name": "113A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "NDOC1",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "리버젠힐부동산공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "EE",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "확장형, 풀시스템에어컨, 관리상태최상, 추천매물",
+                    "direct_trade": false,
+                    "floor_info": "고/20",
+                    "floor_detail_info": {
+                        "target_floor": "고",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.01417,
+                        "y_coordinate": 37.545484
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 1450000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 380000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -14954,6 +14954,81 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
+                "article_number": "2600317241",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "108동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 148.38,
+                    "contract_space": 213.14,
+                    "exclusive_space": 113.52,
+                    "land_space": 65362,
+                    "supply_space_name": "148A",
+                    "exclusive_space_name": "113A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "파크힐스미래공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "EE",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "방4화장실2, 올확장, 풀에어컨,  한강조망,  추천매물",
+                    "direct_trade": false,
+                    "floor_info": "고/20",
+                    "floor_detail_info": {
+                        "target_floor": "고",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.01417,
+                        "y_coordinate": 37.545484
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 1450000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 400000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
                 "article_number": "2600408109",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "108동",
@@ -15065,81 +15140,6 @@
                     "direction": "EE",
                     "direction_standard": "거실 기준",
                     "article_feature_description": "입주협의  전망좋은집 풀에어컨 올확장",
-                    "direct_trade": false,
-                    "floor_info": "고/20",
-                    "floor_detail_info": {
-                        "target_floor": "고",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.01417,
-                        "y_coordinate": 37.545484
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 1450000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 400000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
-                "article_number": "2600317241",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "108동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 148.38,
-                    "contract_space": 213.14,
-                    "exclusive_space": 113.52,
-                    "land_space": 65362,
-                    "supply_space_name": "148A",
-                    "exclusive_space_name": "113A",
-                    "name_type": "A"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "파크힐스미래공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "EE",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "방4화장실2, 올확장, 풀에어컨,  한강조망,  추천매물",
                     "direct_trade": false,
                     "floor_info": "고/20",
                     "floor_detail_info": {
@@ -15329,81 +15329,6 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2569771016",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "108동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 148.38,
-                    "contract_space": 213.14,
-                    "exclusive_space": 113.52,
-                    "land_space": 65362,
-                    "supply_space_name": "148A",
-                    "exclusive_space_name": "113A",
-                    "name_type": "A"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-29",
-                    "article_confirm_date": "2025-12-29"
-                },
-                "broker_info": {
-                    "cp_id": "industry",
-                    "brokerage_name": "태양공인중개사사무소",
-                    "broker_name": "산업부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "EE",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "확장형 전망좋은 세대 시스템에어컨 11말 입주",
-                    "direct_trade": false,
-                    "floor_info": "고/20",
-                    "floor_detail_info": {
-                        "target_floor": "고",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.01417,
-                        "y_coordinate": 37.545484
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 1450000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 360000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
                 "article_number": "2569754644",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "108동",
@@ -15473,6 +15398,81 @@
                     "warranty_price": 1500000000,
                     "rent_price": 0,
                     "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2569771016",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "108동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 148.38,
+                    "contract_space": 213.14,
+                    "exclusive_space": 113.52,
+                    "land_space": 65362,
+                    "supply_space_name": "148A",
+                    "exclusive_space_name": "113A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-29",
+                    "article_confirm_date": "2025-12-29"
+                },
+                "broker_info": {
+                    "cp_id": "industry",
+                    "brokerage_name": "태양공인중개사사무소",
+                    "broker_name": "산업부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "EE",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "확장형 전망좋은 세대 시스템에어컨 11말 입주",
+                    "direct_trade": false,
+                    "floor_info": "고/20",
+                    "floor_detail_info": {
+                        "target_floor": "고",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.01417,
+                        "y_coordinate": 37.545484
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 1450000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 360000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -16017,7 +16017,7 @@
             "min": 1450000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-02T09:22:43.016435",
+        "updated_at": "2026-01-02T10:19:12.180488",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -16410,7 +16410,7 @@
             "min": 103200000,
             "max": 103200000
         },
-        "updated_at": "2026-01-02T09:22:44.268653",
+        "updated_at": "2026-01-02T10:19:14.237284",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -17646,7 +17646,7 @@
             "min": 1380000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-02T09:22:43.016323",
+        "updated_at": "2026-01-02T10:19:12.180399",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -18039,7 +18039,7 @@
             "min": 3500000000,
             "max": 3500000000
         },
-        "updated_at": "2026-01-02T09:22:43.016481",
+        "updated_at": "2026-01-02T10:19:12.180534",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -18444,7 +18444,7 @@
             "min": 1271000000,
             "max": 1271000000
         },
-        "updated_at": "2026-01-02T09:22:44.268710",
+        "updated_at": "2026-01-02T10:19:14.237348",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -18769,7 +18769,7 @@
             "min": 651650000,
             "max": 651650000
         },
-        "updated_at": "2026-01-02T09:22:43.016464",
+        "updated_at": "2026-01-02T10:19:12.180517",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -18933,7 +18933,7 @@
             "min": 945000000,
             "max": 945000000
         },
-        "updated_at": "2026-01-02T09:22:44.268809",
+        "updated_at": "2026-01-02T10:19:14.237449",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -19097,7 +19097,7 @@
             "min": 3500000000,
             "max": 3500000000
         },
-        "updated_at": "2026-01-02T09:22:44.268737",
+        "updated_at": "2026-01-02T10:19:14.237375",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -19281,7 +19281,7 @@
             "min": 1390000000,
             "max": 1390000000
         },
-        "updated_at": "2026-01-02T09:22:44.268814",
+        "updated_at": "2026-01-02T10:19:14.237454",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -19369,7 +19369,7 @@
         "all_articles": [
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600444966",
+                "article_number": "2600316440",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "108동",
                 "trade_type": "B2",
@@ -19397,14 +19397,14 @@
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "미래옥수파크힐스공인중개사사무소",
+                    "brokerage_name": "파크힐스미래공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "EN",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "입주 3월 27일 고정, 시스템에어컨 O, 방3화2, 올확장",
+                    "article_feature_description": "방3화2, 올확장, 시스템에어컨3, 식세기, 입주3월27, 공동죄송",
                     "direct_trade": false,
                     "floor_info": "중/20",
                     "floor_detail_info": {
@@ -19444,7 +19444,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600316440",
+                "article_number": "2600444966",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "108동",
                 "trade_type": "B2",
@@ -19472,14 +19472,14 @@
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "파크힐스미래공인중개사사무소",
+                    "brokerage_name": "미래옥수파크힐스공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "EN",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "방3화2, 올확장, 시스템에어컨3, 식세기, 입주3월27, 공동죄송",
+                    "article_feature_description": "입주 3월 27일 고정, 시스템에어컨 O, 방3화2, 올확장",
                     "direct_trade": false,
                     "floor_info": "중/20",
                     "floor_detail_info": {
@@ -19597,7 +19597,7 @@
             "min": 202600000,
             "max": 202600000
         },
-        "updated_at": "2026-01-02T09:22:43.016331",
+        "updated_at": "2026-01-02T10:19:12.180406",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -19838,7 +19838,7 @@
             "min": 2700000000,
             "max": 2700000000
         },
-        "updated_at": "2026-01-02T09:22:46.948028",
+        "updated_at": "2026-01-02T10:19:16.195493",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -20091,7 +20091,7 @@
             "min": 801000000,
             "max": 801000000
         },
-        "updated_at": "2026-01-02T09:22:44.268698",
+        "updated_at": "2026-01-02T10:19:14.237336",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -20263,80 +20263,6 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600339570",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "111동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 111.59,
-                    "contract_space": 159.93,
-                    "exclusive_space": 84.73,
-                    "land_space": 65362,
-                    "supply_space_name": "111A",
-                    "exclusive_space_name": "84A",
-                    "name_type": "A"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "태양공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "EE",
-                    "direction_standard": "거실 기준",
-                    "direct_trade": false,
-                    "floor_info": "18/20",
-                    "floor_detail_info": {
-                        "target_floor": "18",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.014178,
-                        "y_coordinate": 37.544628
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 1200000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 280000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
                 "article_number": "2600323309",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "111동",
@@ -20406,6 +20332,80 @@
                     "warranty_price": 1200000000,
                     "rent_price": 0,
                     "management_fee_amount": 250000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600339570",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "111동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 111.59,
+                    "contract_space": 159.93,
+                    "exclusive_space": 84.73,
+                    "land_space": 65362,
+                    "supply_space_name": "111A",
+                    "exclusive_space_name": "84A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "태양공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "EE",
+                    "direction_standard": "거실 기준",
+                    "direct_trade": false,
+                    "floor_info": "18/20",
+                    "floor_detail_info": {
+                        "target_floor": "18",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.014178,
+                        "y_coordinate": 37.544628
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 1200000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 280000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -20787,81 +20787,6 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2569452908",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "111동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 111.59,
-                    "contract_space": 159.93,
-                    "exclusive_space": 84.73,
-                    "land_space": 65362,
-                    "supply_space_name": "111A",
-                    "exclusive_space_name": "84A",
-                    "name_type": "A"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-26",
-                    "article_confirm_date": "2025-12-26"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "한양공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "EE",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "한강뷰최고 확장형 에어컨 입주협의",
-                    "direct_trade": false,
-                    "floor_info": "18/20",
-                    "floor_detail_info": {
-                        "target_floor": "18",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.014178,
-                        "y_coordinate": 37.544628
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 1200000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 270000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
                 "article_number": "2569299290",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "111동",
@@ -20931,6 +20856,81 @@
                     "warranty_price": 1200000000,
                     "rent_price": 0,
                     "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2569452908",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "111동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 111.59,
+                    "contract_space": 159.93,
+                    "exclusive_space": 84.73,
+                    "land_space": 65362,
+                    "supply_space_name": "111A",
+                    "exclusive_space_name": "84A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-26",
+                    "article_confirm_date": "2025-12-26"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "한양공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "EE",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "한강뷰최고 확장형 에어컨 입주협의",
+                    "direct_trade": false,
+                    "floor_info": "18/20",
+                    "floor_detail_info": {
+                        "target_floor": "18",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.014178,
+                        "y_coordinate": 37.544628
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 1200000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 270000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -21091,7 +21091,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-02T09:22:43.016271",
+        "updated_at": "2026-01-02T10:19:12.180337",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -21255,7 +21255,7 @@
             "min": 1030000000,
             "max": 1030000000
         },
-        "updated_at": "2026-01-02T09:22:44.268742",
+        "updated_at": "2026-01-02T10:19:14.237380",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -21583,7 +21583,7 @@
             "min": 2595000000,
             "max": 2595000000
         },
-        "updated_at": "2026-01-02T09:22:44.268766",
+        "updated_at": "2026-01-02T10:19:14.237405",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -21828,81 +21828,6 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600486312",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "112동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 111.2,
-                    "contract_space": 159.59,
-                    "exclusive_space": 84.81,
-                    "land_space": 65362,
-                    "supply_space_name": "111B",
-                    "exclusive_space_name": "84B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "삼성리버젠 공인중개사 사무소",
-                    "broker_name": "부동산뱅크",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "33B타입, 확장, 채광좋고, 예쁜집",
-                    "direct_trade": false,
-                    "floor_info": "저/20",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.014763,
-                        "y_coordinate": 37.545073
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 1000000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 330000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
                 "article_number": "2600320930",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "112동",
@@ -21972,6 +21897,81 @@
                     "warranty_price": 1000000000,
                     "rent_price": 0,
                     "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600486312",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "112동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 111.2,
+                    "contract_space": 159.59,
+                    "exclusive_space": 84.81,
+                    "land_space": 65362,
+                    "supply_space_name": "111B",
+                    "exclusive_space_name": "84B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "NEONET",
+                    "brokerage_name": "삼성리버젠 공인중개사 사무소",
+                    "broker_name": "부동산뱅크",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "33B타입, 확장, 채광좋고, 예쁜집",
+                    "direct_trade": false,
+                    "floor_info": "저/20",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.014763,
+                        "y_coordinate": 37.545073
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 1000000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 330000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -22203,81 +22203,6 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2569263747",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "112동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 111.2,
-                    "contract_space": 159.59,
-                    "exclusive_space": 84.81,
-                    "land_space": 65362,
-                    "supply_space_name": "111B",
-                    "exclusive_space_name": "84B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-26",
-                    "article_confirm_date": "2025-12-26"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "하나부동산공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "가격추천 상가이용편리 중문 및 주방 수리되어 깔끔 2월협의가능 풀확장",
-                    "direct_trade": false,
-                    "floor_info": "저/20",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.014763,
-                        "y_coordinate": 37.545073
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 1000000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 270000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
                 "article_number": "2569293725",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "112동",
@@ -22347,6 +22272,81 @@
                     "warranty_price": 1000000000,
                     "rent_price": 0,
                     "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2569263747",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "112동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 111.2,
+                    "contract_space": 159.59,
+                    "exclusive_space": 84.81,
+                    "land_space": 65362,
+                    "supply_space_name": "111B",
+                    "exclusive_space_name": "84B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-26",
+                    "article_confirm_date": "2025-12-26"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "하나부동산공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "가격추천 상가이용편리 중문 및 주방 수리되어 깔끔 2월협의가능 풀확장",
+                    "direct_trade": false,
+                    "floor_info": "저/20",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.014763,
+                        "y_coordinate": 37.545073
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 1000000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 270000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -22432,7 +22432,7 @@
             "min": 1000000000,
             "max": 1000000000
         },
-        "updated_at": "2026-01-02T09:22:44.268676",
+        "updated_at": "2026-01-02T10:19:14.237314",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -22760,6 +22760,81 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
+                "article_number": "2600368549",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "113동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 79.43,
+                    "contract_space": 113.23,
+                    "exclusive_space": 59.25,
+                    "land_space": 65362,
+                    "supply_space_name": "79B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "OK파크힐스(단지내)공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "입주협의 로얄동 내부컨디션굿 확장형 에어컨3",
+                    "direct_trade": false,
+                    "floor_info": "저/12",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "12",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.014218,
+                        "y_coordinate": 37.544165
+                    }
+                },
+                "price_info": {
+                    "deal_price": 2280000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
                 "article_number": "2600315859",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "113동",
@@ -22904,81 +22979,6 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 190000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
-                "article_number": "2600368549",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "113동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 79.43,
-                    "contract_space": 113.23,
-                    "exclusive_space": 59.25,
-                    "land_space": 65362,
-                    "supply_space_name": "79B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "OK파크힐스(단지내)공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "입주협의 로얄동 내부컨디션굿 확장형 에어컨3",
-                    "direct_trade": false,
-                    "floor_info": "저/12",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "12",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.014218,
-                        "y_coordinate": 37.544165
-                    }
-                },
-                "price_info": {
-                    "deal_price": 2280000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -23889,7 +23889,7 @@
             "min": 2280000000,
             "max": 2280000000
         },
-        "updated_at": "2026-01-02T09:22:44.268692",
+        "updated_at": "2026-01-02T10:19:14.237330",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -24431,7 +24431,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2567714811",
+                "article_number": "2567717679",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "113동",
                 "trade_type": "A1",
@@ -24459,14 +24459,14 @@
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "미래옥수파크힐스공인중개사사무소",
+                    "brokerage_name": "단지내파크힐스공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "SS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "올확장, 시스템에어컨O, 내부상태 깔끔",
+                    "article_feature_description": "남향, 전체확장형, 트인 전망, 입주협의",
                     "direct_trade": false,
                     "floor_info": "저/12",
                     "floor_detail_info": {
@@ -24506,7 +24506,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2567717679",
+                "article_number": "2567714811",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "113동",
                 "trade_type": "A1",
@@ -24534,14 +24534,14 @@
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "단지내파크힐스공인중개사사무소",
+                    "brokerage_name": "미래옥수파크힐스공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "SS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "남향, 전체확장형, 트인 전망, 입주협의",
+                    "article_feature_description": "올확장, 시스템에어컨O, 내부상태 깔끔",
                     "direct_trade": false,
                     "floor_info": "저/12",
                     "floor_detail_info": {
@@ -24660,7 +24660,7 @@
             "min": 2850000000,
             "max": 2850000000
         },
-        "updated_at": "2026-01-02T09:22:43.016445",
+        "updated_at": "2026-01-02T10:19:12.180497",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -24901,7 +24901,7 @@
             "min": 3200000000,
             "max": 3200000000
         },
-        "updated_at": "2026-01-02T09:22:43.016337",
+        "updated_at": "2026-01-02T10:19:12.180411",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -25750,7 +25750,7 @@
             "min": 980000000,
             "max": 980000000
         },
-        "updated_at": "2026-01-02T09:22:44.268665",
+        "updated_at": "2026-01-02T10:19:14.237302",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -26446,7 +26446,7 @@
             "min": 203500000,
             "max": 702000000
         },
-        "updated_at": "2026-01-02T09:22:44.268622",
+        "updated_at": "2026-01-02T10:19:14.237199",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -26552,6 +26552,306 @@
             }
         },
         "all_articles": [
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600367842",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "114동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 111.2,
+                    "contract_space": 159.59,
+                    "exclusive_space": 84.81,
+                    "land_space": 65362,
+                    "supply_space_name": "111B",
+                    "exclusive_space_name": "84B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "(단지내)명품래미안공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "1월중순1월말 입주, 시스템에어컨, 상가동",
+                    "direct_trade": false,
+                    "floor_info": "8/16",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "16",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.01472,
+                        "y_coordinate": 37.544195
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 1100000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600403856",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "114동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 111.2,
+                    "contract_space": 159.59,
+                    "exclusive_space": 84.81,
+                    "land_space": 65362,
+                    "supply_space_name": "111B",
+                    "exclusive_space_name": "84B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "행복공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "최근 도배, 조경수조망 예쁘고 상가 이동 편리한 집",
+                    "direct_trade": false,
+                    "floor_info": "8/16",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "16",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.01472,
+                        "y_coordinate": 37.544195
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 1100000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600414674",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "114동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 111.2,
+                    "contract_space": 159.59,
+                    "exclusive_space": 84.81,
+                    "land_space": 65362,
+                    "supply_space_name": "111B",
+                    "exclusive_space_name": "84B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "투미공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "공동가능. 확장형. 로얄동. 상가이용편리. 내부상태최상. 빠른입주가능",
+                    "direct_trade": false,
+                    "floor_info": "8/16",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "16",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.01472,
+                        "y_coordinate": 37.544195
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 1100000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 280000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600333531",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "114동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 111.2,
+                    "contract_space": 159.59,
+                    "exclusive_space": 84.81,
+                    "land_space": 65362,
+                    "supply_space_name": "111B",
+                    "exclusive_space_name": "84B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "태양공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "확장형 편리한 상가동 시스템에어컨 1월 입주",
+                    "direct_trade": false,
+                    "floor_info": "8/16",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "16",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.01472,
+                        "y_coordinate": 37.544195
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 1100000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 280000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "래미안옥수리버젠",
                 "article_number": "2600419775",
@@ -26704,7 +27004,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600367842",
+                "article_number": "2600523329",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "114동",
                 "trade_type": "B1",
@@ -26731,15 +27031,15 @@
                     "article_confirm_date": "2026-01-02"
                 },
                 "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "(단지내)명품래미안공인중개사사무소",
-                    "broker_name": "매경부동산",
+                    "cp_id": "NEONET",
+                    "brokerage_name": "삼성리버젠 공인중개사 사무소",
+                    "broker_name": "부동산뱅크",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "WS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "1월중순1월말 입주, 시스템에어컨, 상가동",
+                    "article_feature_description": "로얄동 로얄층 컨디션최상 시스템에어컨",
                     "direct_trade": false,
                     "floor_info": "8/16",
                     "floor_detail_info": {
@@ -26772,157 +27072,7 @@
                     "deal_price": 0,
                     "warranty_price": 1100000000,
                     "rent_price": 0,
-                    "management_fee_amount": 300000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
-                "article_number": "2600333531",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "114동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 111.2,
-                    "contract_space": 159.59,
-                    "exclusive_space": 84.81,
-                    "land_space": 65362,
-                    "supply_space_name": "111B",
-                    "exclusive_space_name": "84B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "태양공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "확장형 편리한 상가동 시스템에어컨 1월 입주",
-                    "direct_trade": false,
-                    "floor_info": "8/16",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "16",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.01472,
-                        "y_coordinate": 37.544195
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 1100000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 280000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
-                "article_number": "2600414674",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "114동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 111.2,
-                    "contract_space": 159.59,
-                    "exclusive_space": 84.81,
-                    "land_space": 65362,
-                    "supply_space_name": "111B",
-                    "exclusive_space_name": "84B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "투미공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "공동가능. 확장형. 로얄동. 상가이용편리. 내부상태최상. 빠른입주가능",
-                    "direct_trade": false,
-                    "floor_info": "8/16",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "16",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.01472,
-                        "y_coordinate": 37.544195
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 1100000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 280000,
+                    "management_fee_amount": 275000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -27073,156 +27223,6 @@
                     "warranty_price": 1100000000,
                     "rent_price": 0,
                     "management_fee_amount": 300000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
-                "article_number": "2600403856",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "114동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 111.2,
-                    "contract_space": 159.59,
-                    "exclusive_space": 84.81,
-                    "land_space": 65362,
-                    "supply_space_name": "111B",
-                    "exclusive_space_name": "84B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "행복공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "최근 도배, 조경수조망 예쁘고 상가 이동 편리한 집",
-                    "direct_trade": false,
-                    "floor_info": "8/16",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "16",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.01472,
-                        "y_coordinate": 37.544195
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 1100000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
-                "article_number": "2600523329",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "114동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 111.2,
-                    "contract_space": 159.59,
-                    "exclusive_space": 84.81,
-                    "land_space": 65362,
-                    "supply_space_name": "111B",
-                    "exclusive_space_name": "84B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "삼성리버젠 공인중개사 사무소",
-                    "broker_name": "부동산뱅크",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "로얄동 로얄층 컨디션최상 시스템에어컨",
-                    "direct_trade": false,
-                    "floor_info": "8/16",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "16",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.01472,
-                        "y_coordinate": 37.544195
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 1100000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 275000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -28283,7 +28283,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-02T09:22:43.016208",
+        "updated_at": "2026-01-02T10:19:12.180261",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -28524,7 +28524,7 @@
             "min": 800900000,
             "max": 801000000
         },
-        "updated_at": "2026-01-02T09:22:44.268748",
+        "updated_at": "2026-01-02T10:19:14.237386",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -28917,7 +28917,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-02T09:22:44.268800",
+        "updated_at": "2026-01-02T10:19:14.237439",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -29081,7 +29081,7 @@
             "min": 801000000,
             "max": 801000000
         },
-        "updated_at": "2026-01-02T09:22:44.268805",
+        "updated_at": "2026-01-02T10:19:14.237444",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -29259,7 +29259,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600340606",
+                "article_number": "2600342433",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "115동",
                 "trade_type": "B2",
@@ -29287,14 +29287,14 @@
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "태양공인중개사사무소",
+                    "brokerage_name": "OK파크힐스(단지내)공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "EN",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "확장형 상가동 도배 시스템에어컨 1월 중순 이후 입주 협의",
+                    "article_feature_description": "새로 에어컨설치 ,도배예정  26.1월20일이후 입주협의",
                     "direct_trade": false,
                     "floor_info": "2/16",
                     "floor_detail_info": {
@@ -29327,7 +29327,7 @@
                     "deal_price": 0,
                     "warranty_price": 100000000,
                     "rent_price": 4000000,
-                    "management_fee_amount": 280000,
+                    "management_fee_amount": 300000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -29409,7 +29409,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600342433",
+                "article_number": "2600340606",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "115동",
                 "trade_type": "B2",
@@ -29437,14 +29437,14 @@
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "OK파크힐스(단지내)공인중개사사무소",
+                    "brokerage_name": "태양공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "EN",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "새로 에어컨설치 ,도배예정  26.1월20일이후 입주협의",
+                    "article_feature_description": "확장형 상가동 도배 시스템에어컨 1월 중순 이후 입주 협의",
                     "direct_trade": false,
                     "floor_info": "2/16",
                     "floor_detail_info": {
@@ -29477,7 +29477,7 @@
                     "deal_price": 0,
                     "warranty_price": 100000000,
                     "rent_price": 4000000,
-                    "management_fee_amount": 300000,
+                    "management_fee_amount": 280000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -30538,7 +30538,7 @@
             "min": 104000000,
             "max": 104000000
         },
-        "updated_at": "2026-01-02T09:22:43.016290",
+        "updated_at": "2026-01-02T10:19:12.180356",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -32195,7 +32195,7 @@
             "min": 3500000000,
             "max": 4100000000
         },
-        "updated_at": "2026-01-02T09:22:43.016308",
+        "updated_at": "2026-01-02T10:19:12.180373",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -32359,7 +32359,7 @@
             "min": 3490000000,
             "max": 3490000000
         },
-        "updated_at": "2026-01-02T09:22:44.268793",
+        "updated_at": "2026-01-02T10:19:14.237432",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -32523,7 +32523,7 @@
             "min": 1370000000,
             "max": 1370000000
         },
-        "updated_at": "2026-01-02T09:22:44.268757",
+        "updated_at": "2026-01-02T10:19:14.237396",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -32765,7 +32765,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600469269",
+                "article_number": "2600419641",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "103동",
                 "trade_type": "B1",
@@ -32793,14 +32793,14 @@
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "웰컴부동산공인중개사사무소",
+                    "brokerage_name": "OK파크힐스(단지내)공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "ES",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "3월초 입주가능. 방3화장실2. 확장형. 주인거주 관리로 상태 굿.",
+                    "article_feature_description": "3월입주협의 주인거주로 관리상태굿 방3화2",
                     "direct_trade": false,
                     "floor_info": "중/15",
                     "floor_detail_info": {
@@ -32840,7 +32840,7 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600419641",
+                "article_number": "2600469269",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "103동",
                 "trade_type": "B1",
@@ -32868,14 +32868,14 @@
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "OK파크힐스(단지내)공인중개사사무소",
+                    "brokerage_name": "웰컴부동산공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "ES",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "3월입주협의 주인거주로 관리상태굿 방3화2",
+                    "article_feature_description": "3월초 입주가능. 방3화장실2. 확장형. 주인거주 관리로 상태 굿.",
                     "direct_trade": false,
                     "floor_info": "중/15",
                     "floor_detail_info": {
@@ -33000,81 +33000,6 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600327037",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "103동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 79.43,
-                    "contract_space": 113.23,
-                    "exclusive_space": 59.25,
-                    "land_space": 65362,
-                    "supply_space_name": "79B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "SERVE",
-                    "brokerage_name": "파크힐스미래공인중개사사무소",
-                    "broker_name": "부동산써브",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "방3화장실2, 확장, 조용한동, 주인거주로 내부컨디션굿, 월세도가능",
-                    "direct_trade": false,
-                    "floor_info": "중/15",
-                    "floor_detail_info": {
-                        "target_floor": "중",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.013126,
-                        "y_coordinate": 37.545505
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 800000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
                 "article_number": "2600504451",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "103동",
@@ -33147,6 +33072,81 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600327037",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "103동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 79.43,
+                    "contract_space": 113.23,
+                    "exclusive_space": 59.25,
+                    "land_space": 65362,
+                    "supply_space_name": "79B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "SERVE",
+                    "brokerage_name": "파크힐스미래공인중개사사무소",
+                    "broker_name": "부동산써브",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "방3화장실2, 확장, 조용한동, 주인거주로 내부컨디션굿, 월세도가능",
+                    "direct_trade": false,
+                    "floor_info": "중/15",
+                    "floor_detail_info": {
+                        "target_floor": "중",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.013126,
+                        "y_coordinate": 37.545505
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 800000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
             }
         ],
         "article_count": 7,
@@ -33154,7 +33154,7 @@
             "min": 750000000,
             "max": 800000000
         },
-        "updated_at": "2026-01-02T09:22:43.016228",
+        "updated_at": "2026-01-02T10:19:12.180293",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -33318,7 +33318,7 @@
             "min": 800000000,
             "max": 800000000
         },
-        "updated_at": "2026-01-02T09:22:43.016521",
+        "updated_at": "2026-01-02T10:19:12.180574",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -33564,81 +33564,6 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600320297",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "107동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 79.43,
-                    "contract_space": 113.23,
-                    "exclusive_space": 59.25,
-                    "land_space": 65362,
-                    "supply_space_name": "79B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "(단지내)명품래미안공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올확장 사이조망",
-                    "direct_trade": false,
-                    "floor_info": "고/20",
-                    "floor_detail_info": {
-                        "target_floor": "고",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.013631,
-                        "y_coordinate": 37.54508
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 600000000,
-                    "rent_price": 1000000,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
                 "article_number": "2600292072",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "107동",
@@ -33696,6 +33621,81 @@
                     "image_url": "https://landthumb-phinf.pstatic.net/20260102_203/1767318368368qo9dF_JPEG/107-1601-1.jpg",
                     "image_type": "10",
                     "image_count": 3,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.013631,
+                        "y_coordinate": 37.54508
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 600000000,
+                    "rent_price": 1000000,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600320297",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "107동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 79.43,
+                    "contract_space": 113.23,
+                    "exclusive_space": 59.25,
+                    "land_space": 65362,
+                    "supply_space_name": "79B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "(단지내)명품래미안공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "올확장 사이조망",
+                    "direct_trade": false,
+                    "floor_info": "고/20",
+                    "floor_detail_info": {
+                        "target_floor": "고",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
                     "is_vr_exposed": false
                 },
                 "address": {
@@ -33943,81 +33943,6 @@
             },
             {
                 "complex_name": "래미안옥수리버젠",
-                "article_number": "2600404991",
-                "article_name": "래미안옥수리버젠",
-                "dong_name": "107동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 79.43,
-                    "contract_space": 113.23,
-                    "exclusive_space": 59.25,
-                    "land_space": 65362,
-                    "supply_space_name": "79B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20121228",
-                    "approval_elapsed_year": 14
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "행복공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "편의시설 이용편리한 위치 좋은 집",
-                    "direct_trade": false,
-                    "floor_info": "고/20",
-                    "floor_detail_info": {
-                        "target_floor": "고",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "성동구",
-                    "sector": "옥수동",
-                    "coordinates": {
-                        "x_coordinate": 127.013631,
-                        "y_coordinate": 37.54508
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 600000000,
-                    "rent_price": 1000000,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "래미안옥수리버젠",
                 "article_number": "2600342038",
                 "article_name": "래미안옥수리버젠",
                 "dong_name": "107동",
@@ -34087,6 +34012,81 @@
                     "warranty_price": 600000000,
                     "rent_price": 1000000,
                     "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "래미안옥수리버젠",
+                "article_number": "2600404991",
+                "article_name": "래미안옥수리버젠",
+                "dong_name": "107동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 79.43,
+                    "contract_space": 113.23,
+                    "exclusive_space": 59.25,
+                    "land_space": 65362,
+                    "supply_space_name": "79B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20121228",
+                    "approval_elapsed_year": 14
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "행복공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "편의시설 이용편리한 위치 좋은 집",
+                    "direct_trade": false,
+                    "floor_info": "고/20",
+                    "floor_detail_info": {
+                        "target_floor": "고",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "성동구",
+                    "sector": "옥수동",
+                    "coordinates": {
+                        "x_coordinate": 127.013631,
+                        "y_coordinate": 37.54508
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 600000000,
+                    "rent_price": 1000000,
+                    "management_fee_amount": 150000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -34247,7 +34247,7 @@
             "min": 601000000,
             "max": 601000000
         },
-        "updated_at": "2026-01-02T09:22:43.016243",
+        "updated_at": "2026-01-02T10:19:12.180309",
         "is_deleted": false,
         "deleted_at": null
     }
