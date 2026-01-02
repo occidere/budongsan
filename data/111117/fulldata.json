@@ -636,7 +636,7 @@
             "min": 1080000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-02T11:18:06.368265",
+        "updated_at": "2026-01-02T12:31:55.015811",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -808,7 +808,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-02T11:18:07.511656",
+        "updated_at": "2026-01-02T12:31:56.539688",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1377,7 +1377,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-02T11:18:06.368313",
+        "updated_at": "2026-01-02T12:31:55.015858",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1474,85 +1474,6 @@
         "all_articles": [
             {
                 "complex_name": "위례지웰푸르지오",
-                "article_number": "2600255486",
-                "article_name": "위례지웰푸르지오",
-                "dong_name": "102동",
-                "trade_type": "A1",
-                "real_estate_type": "A02",
-                "space_info": {
-                    "supply_space": 113.3,
-                    "contract_space": 153.53,
-                    "exclusive_space": 84.61,
-                    "land_space": 22860,
-                    "supply_space_name": "153A",
-                    "exclusive_space_name": "84A",
-                    "name_type": "A"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20180326",
-                    "approval_elapsed_year": 8
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "지웰푸르지오공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "고층산뷰 도서관.수변공원바로접  인기4베이 각종인프라굿  세끼고갭투자",
-                    "direct_trade": false,
-                    "floor_info": "28/29",
-                    "floor_detail_info": {
-                        "target_floor": "28",
-                        "total_floor": "29",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260102_248/1767282306857RUA5B_JPEG/%B1%F2%B2%FB%C1%D6%B9%E6.jpg",
-                    "image_type": "10",
-                    "image_count": 15,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260102_248/1767282306857RUA5B_JPEG/%B1%F2%B2%FB%C1%D6%B9%E6.jpg",
-                    "image_type": "10",
-                    "image_count": 15,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "경기도",
-                    "division": "하남시",
-                    "sector": "학암동",
-                    "coordinates": {
-                        "x_coordinate": 127.148051,
-                        "y_coordinate": 37.48183
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1100000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 250000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "위례지웰푸르지오",
                 "article_number": "2600293057",
                 "article_name": "위례지웰푸르지오",
                 "dong_name": "102동",
@@ -1626,6 +1547,85 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "위례지웰푸르지오",
+                "article_number": "2600255486",
+                "article_name": "위례지웰푸르지오",
+                "dong_name": "102동",
+                "trade_type": "A1",
+                "real_estate_type": "A02",
+                "space_info": {
+                    "supply_space": 113.3,
+                    "contract_space": 153.53,
+                    "exclusive_space": 84.61,
+                    "land_space": 22860,
+                    "supply_space_name": "153A",
+                    "exclusive_space_name": "84A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20180326",
+                    "approval_elapsed_year": 8
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "지웰푸르지오공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "고층산뷰 도서관.수변공원바로접  인기4베이 각종인프라굿  세끼고갭투자",
+                    "direct_trade": false,
+                    "floor_info": "28/29",
+                    "floor_detail_info": {
+                        "target_floor": "28",
+                        "total_floor": "29",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260102_248/1767282306857RUA5B_JPEG/%B1%F2%B2%FB%C1%D6%B9%E6.jpg",
+                    "image_type": "10",
+                    "image_count": 15,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260102_248/1767282306857RUA5B_JPEG/%B1%F2%B2%FB%C1%D6%B9%E6.jpg",
+                    "image_type": "10",
+                    "image_count": 15,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "경기도",
+                    "division": "하남시",
+                    "sector": "학암동",
+                    "coordinates": {
+                        "x_coordinate": 127.148051,
+                        "y_coordinate": 37.48183
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1100000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 250000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -2110,7 +2110,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-02T11:18:06.368211",
+        "updated_at": "2026-01-02T12:31:55.015758",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2302,7 +2302,7 @@
             "min": 1150000000,
             "max": 1150000000
         },
-        "updated_at": "2026-01-02T11:18:07.511715",
+        "updated_at": "2026-01-02T12:31:56.539746",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2723,7 +2723,7 @@
             "min": 52500000,
             "max": 52500000
         },
-        "updated_at": "2026-01-02T11:18:07.511647",
+        "updated_at": "2026-01-02T12:31:56.539677",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2887,7 +2887,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-02T11:18:06.368340",
+        "updated_at": "2026-01-02T12:31:55.015885",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3059,7 +3059,7 @@
             "min": 1300000000,
             "max": 1300000000
         },
-        "updated_at": "2026-01-02T11:18:06.368362",
+        "updated_at": "2026-01-02T12:31:55.015907",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3231,7 +3231,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-02T11:18:07.511710",
+        "updated_at": "2026-01-02T12:31:56.539741",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3956,7 +3956,7 @@
             "min": 202200000,
             "max": 202200000
         },
-        "updated_at": "2026-01-02T11:18:06.368233",
+        "updated_at": "2026-01-02T12:31:55.015779",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4357,7 +4357,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-02T11:18:07.511604",
+        "updated_at": "2026-01-02T12:31:56.539633",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4521,7 +4521,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-02T11:18:07.511661",
+        "updated_at": "2026-01-02T12:31:56.539692",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4693,7 +4693,7 @@
             "min": 1110000000,
             "max": 1110000000
         },
-        "updated_at": "2026-01-02T11:18:07.511671",
+        "updated_at": "2026-01-02T12:31:56.539702",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5014,7 +5014,7 @@
             "min": 52500000,
             "max": 52500000
         },
-        "updated_at": "2026-01-02T11:18:07.511632",
+        "updated_at": "2026-01-02T12:31:56.539662",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5186,7 +5186,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-02T11:18:07.511705",
+        "updated_at": "2026-01-02T12:31:56.539737",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5350,7 +5350,7 @@
             "min": 450800000,
             "max": 450800000
         },
-        "updated_at": "2026-01-02T11:18:07.511652",
+        "updated_at": "2026-01-02T12:31:56.539683",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5671,7 +5671,7 @@
             "min": 401200000,
             "max": 401200000
         },
-        "updated_at": "2026-01-02T11:18:07.511613",
+        "updated_at": "2026-01-02T12:31:56.539641",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6076,7 +6076,7 @@
             "min": 580000000,
             "max": 580000000
         },
-        "updated_at": "2026-01-02T11:18:07.511588",
+        "updated_at": "2026-01-02T12:31:56.539618",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6321,7 +6321,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-02T11:18:07.511676",
+        "updated_at": "2026-01-02T12:31:56.539708",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6493,7 +6493,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-02T11:18:07.511666",
+        "updated_at": "2026-01-02T12:31:56.539697",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6657,7 +6657,7 @@
             "min": 820000000,
             "max": 820000000
         },
-        "updated_at": "2026-01-02T11:18:06.368330",
+        "updated_at": "2026-01-02T12:31:55.015875",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6821,7 +6821,7 @@
             "min": 1250000000,
             "max": 1250000000
         },
-        "updated_at": "2026-01-02T11:18:07.511687",
+        "updated_at": "2026-01-02T12:31:56.539718",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6993,7 +6993,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-02T11:18:06.368300",
+        "updated_at": "2026-01-02T12:31:55.015845",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7638,7 +7638,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-02T11:18:06.368242",
+        "updated_at": "2026-01-02T12:31:55.015788",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8127,85 +8127,6 @@
             },
             {
                 "complex_name": "위례지웰푸르지오",
-                "article_number": "2568526136",
-                "article_name": "위례지웰푸르지오",
-                "dong_name": "106동",
-                "trade_type": "A1",
-                "real_estate_type": "A02",
-                "space_info": {
-                    "supply_space": 113.3,
-                    "contract_space": 153.53,
-                    "exclusive_space": 84.61,
-                    "land_space": 22860,
-                    "supply_space_name": "153A",
-                    "exclusive_space_name": "84A",
-                    "name_type": "A"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20180326",
-                    "approval_elapsed_year": 8
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-22",
-                    "article_confirm_date": "2025-12-22"
-                },
-                "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "써니공인중개사사무소",
-                    "broker_name": "부동산뱅크",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "SS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "투자추천,하늘이보이는멋진뷰,  집상태최고",
-                    "direct_trade": false,
-                    "floor_info": "30/33",
-                    "floor_detail_info": {
-                        "target_floor": "30",
-                        "total_floor": "33",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20251222_279/1766373226435lf3md_JPEG/1735200312928520.jpg",
-                    "image_type": "10",
-                    "image_count": 6,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20251222_279/1766373226435lf3md_JPEG/1735200312928520.jpg",
-                    "image_type": "10",
-                    "image_count": 6,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "경기도",
-                    "division": "하남시",
-                    "sector": "학암동",
-                    "coordinates": {
-                        "x_coordinate": 127.149883,
-                        "y_coordinate": 37.481285
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1050000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 250000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "위례지웰푸르지오",
                 "article_number": "2568528011",
                 "article_name": "위례지웰푸르지오",
                 "dong_name": "106동",
@@ -8261,6 +8182,85 @@
                 },
                 "article_media": {
                     "image_url": "https://landthumb-phinf.pstatic.net/20251222_151/1766373340157Iptzv_JPEG/1fdf0f91-df81-4987-a87c-ee542bf1dace.jpg",
+                    "image_type": "10",
+                    "image_count": 6,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "경기도",
+                    "division": "하남시",
+                    "sector": "학암동",
+                    "coordinates": {
+                        "x_coordinate": 127.149883,
+                        "y_coordinate": 37.481285
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1050000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 250000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "위례지웰푸르지오",
+                "article_number": "2568526136",
+                "article_name": "위례지웰푸르지오",
+                "dong_name": "106동",
+                "trade_type": "A1",
+                "real_estate_type": "A02",
+                "space_info": {
+                    "supply_space": 113.3,
+                    "contract_space": 153.53,
+                    "exclusive_space": 84.61,
+                    "land_space": 22860,
+                    "supply_space_name": "153A",
+                    "exclusive_space_name": "84A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20180326",
+                    "approval_elapsed_year": 8
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-22",
+                    "article_confirm_date": "2025-12-22"
+                },
+                "broker_info": {
+                    "cp_id": "NEONET",
+                    "brokerage_name": "써니공인중개사사무소",
+                    "broker_name": "부동산뱅크",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "SS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "투자추천,하늘이보이는멋진뷰,  집상태최고",
+                    "direct_trade": false,
+                    "floor_info": "30/33",
+                    "floor_detail_info": {
+                        "target_floor": "30",
+                        "total_floor": "33",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20251222_279/1766373226435lf3md_JPEG/1735200312928520.jpg",
+                    "image_type": "10",
+                    "image_count": 6,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20251222_279/1766373226435lf3md_JPEG/1735200312928520.jpg",
                     "image_type": "10",
                     "image_count": 6,
                     "is_vr_exposed": false
@@ -8443,7 +8443,7 @@
             "min": 1050000000,
             "max": 1050000000
         },
-        "updated_at": "2026-01-02T11:18:06.368221",
+        "updated_at": "2026-01-02T12:31:55.015768",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -9168,7 +9168,7 @@
             "min": 880000000,
             "max": 880000000
         },
-        "updated_at": "2026-01-02T11:18:06.368199",
+        "updated_at": "2026-01-02T12:31:55.015746",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10200,85 +10200,6 @@
             },
             {
                 "complex_name": "위례지웰푸르지오",
-                "article_number": "2566141346",
-                "article_name": "위례지웰푸르지오",
-                "dong_name": "106동",
-                "trade_type": "A1",
-                "real_estate_type": "A02",
-                "space_info": {
-                    "supply_space": 113.25,
-                    "contract_space": 153.34,
-                    "exclusive_space": 84.32,
-                    "land_space": 22860,
-                    "supply_space_name": "153P",
-                    "exclusive_space_name": "84P",
-                    "name_type": "P"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20180326",
-                    "approval_elapsed_year": 8
-                },
-                "verification_info": {
-                    "verification_type": "NDOC1",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-09",
-                    "article_confirm_date": "2025-12-09"
-                },
-                "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "위례부자(02-431-5454)공인중개사사무소",
-                    "broker_name": "부동산뱅크",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "SS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "펜트,올수리,생활권 편리, 야외테라스뷰좋음",
-                    "direct_trade": false,
-                    "floor_info": "33/33",
-                    "floor_detail_info": {
-                        "target_floor": "33",
-                        "total_floor": "33",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20251209_278/17652603857859rtD9_JPEG/1702367061672211.jpg",
-                    "image_type": "10",
-                    "image_count": 4,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20251209_278/17652603857859rtD9_JPEG/1702367061672211.jpg",
-                    "image_type": "10",
-                    "image_count": 4,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "경기도",
-                    "division": "하남시",
-                    "sector": "학암동",
-                    "coordinates": {
-                        "x_coordinate": 127.149883,
-                        "y_coordinate": 37.481285
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1500000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "위례지웰푸르지오",
                 "article_number": "2566099459",
                 "article_name": "위례지웰푸르지오",
                 "dong_name": "106동",
@@ -10352,6 +10273,85 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 250000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "위례지웰푸르지오",
+                "article_number": "2566141346",
+                "article_name": "위례지웰푸르지오",
+                "dong_name": "106동",
+                "trade_type": "A1",
+                "real_estate_type": "A02",
+                "space_info": {
+                    "supply_space": 113.25,
+                    "contract_space": 153.34,
+                    "exclusive_space": 84.32,
+                    "land_space": 22860,
+                    "supply_space_name": "153P",
+                    "exclusive_space_name": "84P",
+                    "name_type": "P"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20180326",
+                    "approval_elapsed_year": 8
+                },
+                "verification_info": {
+                    "verification_type": "NDOC1",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-09",
+                    "article_confirm_date": "2025-12-09"
+                },
+                "broker_info": {
+                    "cp_id": "NEONET",
+                    "brokerage_name": "위례부자(02-431-5454)공인중개사사무소",
+                    "broker_name": "부동산뱅크",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "SS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "펜트,올수리,생활권 편리, 야외테라스뷰좋음",
+                    "direct_trade": false,
+                    "floor_info": "33/33",
+                    "floor_detail_info": {
+                        "target_floor": "33",
+                        "total_floor": "33",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20251209_278/17652603857859rtD9_JPEG/1702367061672211.jpg",
+                    "image_type": "10",
+                    "image_count": 4,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20251209_278/17652603857859rtD9_JPEG/1702367061672211.jpg",
+                    "image_type": "10",
+                    "image_count": 4,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "경기도",
+                    "division": "하남시",
+                    "sector": "학암동",
+                    "coordinates": {
+                        "x_coordinate": 127.149883,
+                        "y_coordinate": 37.481285
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1500000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -10437,7 +10437,7 @@
             "min": 1500000000,
             "max": 1650000000
         },
-        "updated_at": "2026-01-02T11:18:06.368279",
+        "updated_at": "2026-01-02T12:31:55.015824",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10762,7 +10762,7 @@
             "min": 830000000,
             "max": 830000000
         },
-        "updated_at": "2026-01-02T11:18:06.368256",
+        "updated_at": "2026-01-02T12:31:55.015802",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10926,7 +10926,7 @@
             "min": 430000000,
             "max": 430000000
         },
-        "updated_at": "2026-01-02T11:18:06.368304",
+        "updated_at": "2026-01-02T12:31:55.015849",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -11098,7 +11098,7 @@
             "min": 830000000,
             "max": 830000000
         },
-        "updated_at": "2026-01-02T11:18:07.511696",
+        "updated_at": "2026-01-02T12:31:56.539728",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -11262,7 +11262,7 @@
             "min": 1070000000,
             "max": 1070000000
         },
-        "updated_at": "2026-01-02T11:18:07.511719",
+        "updated_at": "2026-01-02T12:31:56.539750",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -11516,81 +11516,6 @@
             },
             {
                 "complex_name": "위례지웰푸르지오",
-                "article_number": "2569619421",
-                "article_name": "위례지웰푸르지오",
-                "dong_name": "106동",
-                "trade_type": "B1",
-                "real_estate_type": "A02",
-                "space_info": {
-                    "supply_space": 113.3,
-                    "contract_space": 153.53,
-                    "exclusive_space": 84.61,
-                    "land_space": 22860,
-                    "supply_space_name": "153A",
-                    "exclusive_space_name": "84A",
-                    "name_type": "A"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20180326",
-                    "approval_elapsed_year": 8
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-27",
-                    "article_confirm_date": "2025-12-27"
-                },
-                "broker_info": {
-                    "cp_id": "sunbang",
-                    "brokerage_name": "위례성원공인중개사사무소",
-                    "broker_name": "선방",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WW",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "융자없어요 트인전망 시스템에어컨유 관리잘된집 입주협의",
-                    "direct_trade": false,
-                    "floor_info": "저/33",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "33",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "경기도",
-                    "division": "하남시",
-                    "sector": "학암동",
-                    "coordinates": {
-                        "x_coordinate": 127.149883,
-                        "y_coordinate": 37.481285
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 700000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 300000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "위례지웰푸르지오",
                 "article_number": "2569509952",
                 "article_name": "위례지웰푸르지오",
                 "dong_name": "106동",
@@ -11648,6 +11573,81 @@
                     "image_url": "https://landthumb-phinf.pstatic.net/20251227_216/17667724845604Q643_JPEG/KakaoTalk_20250314_170627881_11.jpg",
                     "image_type": "10",
                     "image_count": 4,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "경기도",
+                    "division": "하남시",
+                    "sector": "학암동",
+                    "coordinates": {
+                        "x_coordinate": 127.149883,
+                        "y_coordinate": 37.481285
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 700000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "위례지웰푸르지오",
+                "article_number": "2569619421",
+                "article_name": "위례지웰푸르지오",
+                "dong_name": "106동",
+                "trade_type": "B1",
+                "real_estate_type": "A02",
+                "space_info": {
+                    "supply_space": 113.3,
+                    "contract_space": 153.53,
+                    "exclusive_space": 84.61,
+                    "land_space": 22860,
+                    "supply_space_name": "153A",
+                    "exclusive_space_name": "84A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20180326",
+                    "approval_elapsed_year": 8
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-27",
+                    "article_confirm_date": "2025-12-27"
+                },
+                "broker_info": {
+                    "cp_id": "sunbang",
+                    "brokerage_name": "위례성원공인중개사사무소",
+                    "broker_name": "선방",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WW",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "융자없어요 트인전망 시스템에어컨유 관리잘된집 입주협의",
+                    "direct_trade": false,
+                    "floor_info": "저/33",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "33",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
                     "is_vr_exposed": false
                 },
                 "address": {
@@ -11907,7 +11907,7 @@
             "min": 700000000,
             "max": 700000000
         },
-        "updated_at": "2026-01-02T11:18:06.368391",
+        "updated_at": "2026-01-02T12:31:55.015936",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -12400,7 +12400,7 @@
             "min": 251700000,
             "max": 351300000
         },
-        "updated_at": "2026-01-02T11:18:06.368383",
+        "updated_at": "2026-01-02T12:31:55.015927",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -12725,7 +12725,7 @@
             "min": 850000000,
             "max": 850000000
         },
-        "updated_at": "2026-01-02T11:18:07.511682",
+        "updated_at": "2026-01-02T12:31:56.539714",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -13042,7 +13042,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-02T11:18:06.368325",
+        "updated_at": "2026-01-02T12:31:55.015871",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -13447,7 +13447,7 @@
             "min": 890000000,
             "max": 890000000
         },
-        "updated_at": "2026-01-02T11:18:06.368249",
+        "updated_at": "2026-01-02T12:31:55.015796",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -13619,7 +13619,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-02T11:18:06.368295",
+        "updated_at": "2026-01-02T12:31:55.015840",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -13940,7 +13940,7 @@
             "min": 1650000000,
             "max": 1650000000
         },
-        "updated_at": "2026-01-02T11:18:06.368290",
+        "updated_at": "2026-01-02T12:31:55.015835",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -14185,7 +14185,7 @@
             "min": 880000000,
             "max": 880000000
         },
-        "updated_at": "2026-01-02T11:18:06.368350",
+        "updated_at": "2026-01-02T12:31:55.015895",
         "is_deleted": false,
         "deleted_at": null
     }
