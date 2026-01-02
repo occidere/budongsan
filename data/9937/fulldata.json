@@ -540,7 +540,7 @@
             "min": 201300000,
             "max": 301000000
         },
-        "updated_at": "2026-01-01T14:50:54.155368",
+        "updated_at": "2026-01-02T01:09:24.942317",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -552,12 +552,12 @@
             "2566345337",
             "2568970161",
             "2569087778",
-            "2569449907",
-            "2570372040"
+            "2570372040",
+            "2600272336"
         ],
         "representative": {
             "complex_name": "신도림현대",
-            "article_number": "2570372040",
+            "article_number": "2600272336",
             "article_name": "신도림현대",
             "dong_name": "101동",
             "trade_type": "A1",
@@ -580,19 +580,19 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-31",
-                "article_confirm_date": "2025-12-31"
+                "exposure_start_date": "2026-01-02",
+                "article_confirm_date": "2026-01-02"
             },
             "broker_info": {
-                "cp_id": "fine",
-                "brokerage_name": "리치공인중개사사무소",
-                "broker_name": "부동산포스",
+                "cp_id": "bizmk",
+                "brokerage_name": "부동산뉴스공인중개사사무소",
+                "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "샷시까지 특올수리, 신도림역세권 남향집으로전망트임",
+                "article_feature_description": "샷시포특올수리 상태최상 전망트인남향",
                 "direct_trade": false,
                 "floor_info": "4/19",
                 "floor_detail_info": {
@@ -625,11 +625,86 @@
                 "deal_price": 1030000000,
                 "warranty_price": 0,
                 "rent_price": 0,
-                "management_fee_amount": 230000,
+                "management_fee_amount": 250000,
                 "price_change_status": 0
             }
         },
         "all_articles": [
+            {
+                "complex_name": "신도림현대",
+                "article_number": "2600272336",
+                "article_name": "신도림현대",
+                "dong_name": "101동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 95.93,
+                    "contract_space": 111.8,
+                    "exclusive_space": 80.01,
+                    "land_space": 14064,
+                    "supply_space_name": "95",
+                    "exclusive_space_name": "80",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19940121",
+                    "approval_elapsed_year": 32
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "부동산뉴스공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "샷시포특올수리 상태최상 전망트인남향",
+                    "direct_trade": false,
+                    "floor_info": "4/19",
+                    "floor_detail_info": {
+                        "target_floor": "4",
+                        "total_floor": "19",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "구로동",
+                    "coordinates": {
+                        "x_coordinate": 126.88592,
+                        "y_coordinate": 37.504475
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1030000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 250000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "신도림현대",
                 "article_number": "2570372040",
@@ -701,81 +776,6 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 230000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림현대",
-                "article_number": "2569449907",
-                "article_name": "신도림현대",
-                "dong_name": "101동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 95.93,
-                    "contract_space": 111.8,
-                    "exclusive_space": 80.01,
-                    "land_space": 14064,
-                    "supply_space_name": "95",
-                    "exclusive_space_name": "80",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19940121",
-                    "approval_elapsed_year": 32
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-26",
-                    "article_confirm_date": "2025-12-26"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "부동산뉴스공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "샷시포특올수리 상태최상 전망트인남향",
-                    "direct_trade": false,
-                    "floor_info": "4/19",
-                    "floor_detail_info": {
-                        "target_floor": "4",
-                        "total_floor": "19",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.88592,
-                        "y_coordinate": 37.504475
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1030000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 250000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -1165,7 +1165,7 @@
             "min": 1030000000,
             "max": 1030000000
         },
-        "updated_at": "2026-01-01T14:50:54.155332",
+        "updated_at": "2026-01-02T01:09:24.942281",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1406,7 +1406,7 @@
             "min": 570000000,
             "max": 580000000
         },
-        "updated_at": "2026-01-01T14:50:54.155358",
+        "updated_at": "2026-01-02T01:09:24.942307",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1723,15 +1723,13 @@
             "min": 520000000,
             "max": 520000000
         },
-        "updated_at": "2026-01-01T14:50:54.155380",
+        "updated_at": "2026-01-02T01:09:24.942329",
         "is_deleted": false,
         "deleted_at": null
     },
     "103동:13/21:80:B1": {
         "property_key": "103동:13/21:80:B1",
         "article_numbers": [
-            "2564929488",
-            "2564929955",
             "2567484937",
             "2567677135",
             "2567679024",
@@ -2339,184 +2337,14 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
-            },
-            {
-                "complex_name": "신도림현대",
-                "article_number": "2564929488",
-                "article_name": "신도림현대",
-                "dong_name": "103동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 95.93,
-                    "contract_space": 111.8,
-                    "exclusive_space": 80.01,
-                    "land_space": 14064,
-                    "supply_space_name": "95",
-                    "exclusive_space_name": "80",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19940121",
-                    "approval_elapsed_year": 32
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-02",
-                    "article_confirm_date": "2025-12-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "쌍용플래티넘노블공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "EE",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "전세대출가능 방3화2 수리되어 깨끗 2월중순 입주협의가능",
-                    "direct_trade": false,
-                    "floor_info": "13/21",
-                    "floor_detail_info": {
-                        "target_floor": "13",
-                        "total_floor": "21",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.885853,
-                        "y_coordinate": 37.505159
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 530000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 180000,
-                    "price_change_status": -1,
-                    "price_change_histories": [
-                        {
-                            "modified_date": "2025-12-02T17:54:05",
-                            "warranty_price": 550000000
-                        },
-                        {
-                            "modified_date": "2025-12-17T18:28:01",
-                            "warranty_price": 530000000
-                        }
-                    ]
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림현대",
-                "article_number": "2564929955",
-                "article_name": "신도림현대",
-                "dong_name": "103동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 95.93,
-                    "contract_space": 111.8,
-                    "exclusive_space": 80.01,
-                    "land_space": 14064,
-                    "supply_space_name": "95",
-                    "exclusive_space_name": "80",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19940121",
-                    "approval_elapsed_year": 32
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-02",
-                    "article_confirm_date": "2025-12-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "쌍용공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "EE",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "수리된 밝은 집 입주일 2월중순 협의 방3화2  지하주차장굿",
-                    "direct_trade": false,
-                    "floor_info": "13/21",
-                    "floor_detail_info": {
-                        "target_floor": "13",
-                        "total_floor": "21",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.885853,
-                        "y_coordinate": 37.505159
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 530000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 180000,
-                    "price_change_status": -1,
-                    "price_change_histories": [
-                        {
-                            "modified_date": "2025-12-02T17:54:02",
-                            "warranty_price": 550000000
-                        },
-                        {
-                            "modified_date": "2025-12-17T18:31:01",
-                            "warranty_price": 530000000
-                        }
-                    ]
-                },
-                "have_favorite": false
             }
         ],
-        "article_count": 9,
+        "article_count": 7,
         "price_range": {
             "min": 530000000,
             "max": 530000000
         },
-        "updated_at": "2026-01-01T14:50:54.155351",
+        "updated_at": "2026-01-02T01:09:24.942300",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2680,7 +2508,7 @@
             "min": 51900000,
             "max": 51900000
         },
-        "updated_at": "2026-01-01T14:50:54.155385",
+        "updated_at": "2026-01-02T01:09:24.942333",
         "is_deleted": false,
         "deleted_at": null
     }
