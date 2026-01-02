@@ -1690,14 +1690,22 @@
         // 정렬 적용
         filteredData.sort((a, b) => {
             if (selectedSortOrder === 'latest') {
-                // 최신 날짜순
-                const dateA = new Date(a.value.representative?.verification_info?.exposure_start_date || 0);
-                const dateB = new Date(b.value.representative?.verification_info?.exposure_start_date || 0);
+                // 최신 날짜순 - 삭제된 매물은 deleted_at, 활성 매물은 exposure_start_date 사용
+                const dateA = a.value.is_deleted
+                    ? new Date(a.value.deleted_at || 0)
+                    : new Date(a.value.representative?.verification_info?.exposure_start_date || 0);
+                const dateB = b.value.is_deleted
+                    ? new Date(b.value.deleted_at || 0)
+                    : new Date(b.value.representative?.verification_info?.exposure_start_date || 0);
                 return dateB - dateA;
             } else if (selectedSortOrder === 'oldest') {
-                // 오래된 날짜순
-                const dateA = new Date(a.value.representative?.verification_info?.exposure_start_date || 0);
-                const dateB = new Date(b.value.representative?.verification_info?.exposure_start_date || 0);
+                // 오래된 날짜순 - 삭제된 매물은 deleted_at, 활성 매물은 exposure_start_date 사용
+                const dateA = a.value.is_deleted
+                    ? new Date(a.value.deleted_at || 0)
+                    : new Date(a.value.representative?.verification_info?.exposure_start_date || 0);
+                const dateB = b.value.is_deleted
+                    ? new Date(b.value.deleted_at || 0)
+                    : new Date(b.value.representative?.verification_info?.exposure_start_date || 0);
                 return dateA - dateB;
             } else if (selectedSortOrder === 'price-high') {
                 // 높은 가격순
