@@ -236,7 +236,7 @@
             "min": 530000000,
             "max": 530000000
         },
-        "updated_at": "2026-01-03T10:17:25.236641",
+        "updated_at": "2026-01-03T11:15:14.693966",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -400,7 +400,7 @@
             "min": 500000000,
             "max": 500000000
         },
-        "updated_at": "2026-01-03T10:17:27.409944",
+        "updated_at": "2026-01-03T11:15:16.052688",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -564,7 +564,7 @@
             "min": 500000000,
             "max": 500000000
         },
-        "updated_at": "2026-01-03T10:17:25.236615",
+        "updated_at": "2026-01-03T11:15:14.693942",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -825,81 +825,6 @@
         "all_articles": [
             {
                 "complex_name": "구로두산",
-                "article_number": "2569868549",
-                "article_name": "구로두산",
-                "dong_name": "102동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 66.66,
-                    "contract_space": 78.84,
-                    "exclusive_space": 44.64,
-                    "land_space": 25167,
-                    "supply_space_name": "66",
-                    "exclusive_space_name": "44",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19981130",
-                    "approval_elapsed_year": 28
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-29",
-                    "article_confirm_date": "2025-12-29"
-                },
-                "broker_info": {
-                    "cp_id": "SERVE",
-                    "brokerage_name": "한신휴플러스공인중개사사무소",
-                    "broker_name": "부동산써브",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "즉시입주가능 해잘들고 수리되어 깨끗 외국인은 안됩니다",
-                    "direct_trade": false,
-                    "floor_info": "19/22",
-                    "floor_detail_info": {
-                        "target_floor": "19",
-                        "total_floor": "22",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.890054,
-                        "y_coordinate": 37.489566
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 20000000,
-                    "rent_price": 1150000,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "구로두산",
                 "article_number": "2569893473",
                 "article_name": "구로두산",
                 "dong_name": "102동",
@@ -969,6 +894,81 @@
                     "warranty_price": 20000000,
                     "rent_price": 1150000,
                     "management_fee_amount": 165000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "구로두산",
+                "article_number": "2569868549",
+                "article_name": "구로두산",
+                "dong_name": "102동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 66.66,
+                    "contract_space": 78.84,
+                    "exclusive_space": 44.64,
+                    "land_space": 25167,
+                    "supply_space_name": "66",
+                    "exclusive_space_name": "44",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19981130",
+                    "approval_elapsed_year": 28
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-29",
+                    "article_confirm_date": "2025-12-29"
+                },
+                "broker_info": {
+                    "cp_id": "SERVE",
+                    "brokerage_name": "한신휴플러스공인중개사사무소",
+                    "broker_name": "부동산써브",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "즉시입주가능 해잘들고 수리되어 깨끗 외국인은 안됩니다",
+                    "direct_trade": false,
+                    "floor_info": "19/22",
+                    "floor_detail_info": {
+                        "target_floor": "19",
+                        "total_floor": "22",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "구로동",
+                    "coordinates": {
+                        "x_coordinate": 126.890054,
+                        "y_coordinate": 37.489566
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 20000000,
+                    "rent_price": 1150000,
+                    "management_fee_amount": 150000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -1153,7 +1153,7 @@
             "min": 21150000,
             "max": 21150000
         },
-        "updated_at": "2026-01-03T10:17:25.236583",
+        "updated_at": "2026-01-03T11:15:14.693880",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1317,7 +1317,7 @@
             "min": 470000000,
             "max": 470000000
         },
-        "updated_at": "2026-01-03T10:17:25.236680",
+        "updated_at": "2026-01-03T11:15:14.694003",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1481,7 +1481,7 @@
             "min": 280000000,
             "max": 280000000
         },
-        "updated_at": "2026-01-03T10:17:27.409919",
+        "updated_at": "2026-01-03T11:15:16.052666",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1645,7 +1645,7 @@
             "min": 450000000,
             "max": 450000000
         },
-        "updated_at": "2026-01-03T10:17:25.236652",
+        "updated_at": "2026-01-03T11:15:14.693976",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1809,7 +1809,7 @@
             "min": 510000000,
             "max": 510000000
         },
-        "updated_at": "2026-01-03T10:17:25.236656",
+        "updated_at": "2026-01-03T11:15:14.693980",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2693,7 +2693,7 @@
             "min": 475000000,
             "max": 475000000
         },
-        "updated_at": "2026-01-03T10:17:25.236624",
+        "updated_at": "2026-01-03T11:15:14.693949",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3055,7 +3055,7 @@
             "min": 21100000,
             "max": 21100000
         },
-        "updated_at": "2026-01-03T10:17:25.236570",
+        "updated_at": "2026-01-03T11:15:14.693868",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3296,7 +3296,7 @@
             "min": 515000000,
             "max": 515000000
         },
-        "updated_at": "2026-01-03T10:17:25.236559",
+        "updated_at": "2026-01-03T11:15:14.693858",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3785,7 +3785,7 @@
             "min": 540000000,
             "max": 540000000
         },
-        "updated_at": "2026-01-03T10:17:25.236496",
+        "updated_at": "2026-01-03T11:15:14.693806",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4254,7 +4254,7 @@
             "min": 380000000,
             "max": 380000000
         },
-        "updated_at": "2026-01-03T10:17:25.236541",
+        "updated_at": "2026-01-03T11:15:14.693843",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4495,7 +4495,7 @@
             "min": 350000000,
             "max": 350000000
         },
-        "updated_at": "2026-01-03T10:17:25.236675",
+        "updated_at": "2026-01-03T11:15:14.693999",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4823,7 +4823,7 @@
             "min": 101500000,
             "max": 101500000
         },
-        "updated_at": "2026-01-03T10:17:27.409953",
+        "updated_at": "2026-01-03T11:15:16.052697",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4987,7 +4987,7 @@
             "min": 800000000,
             "max": 800000000
         },
-        "updated_at": "2026-01-03T10:17:25.236565",
+        "updated_at": "2026-01-03T11:15:14.693863",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5151,7 +5151,7 @@
             "min": 760000000,
             "max": 760000000
         },
-        "updated_at": "2026-01-03T10:17:27.409965",
+        "updated_at": "2026-01-03T11:15:16.052712",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5315,7 +5315,7 @@
             "min": 800000000,
             "max": 800000000
         },
-        "updated_at": "2026-01-03T10:17:27.409973",
+        "updated_at": "2026-01-03T11:15:16.052721",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5728,7 +5728,7 @@
             "min": 620000000,
             "max": 620000000
         },
-        "updated_at": "2026-01-03T10:17:25.236441",
+        "updated_at": "2026-01-03T11:15:14.693763",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5991,7 +5991,7 @@
         "all_articles": [
             {
                 "complex_name": "구로두산",
-                "article_number": "2600430869",
+                "article_number": "2600517536",
                 "article_name": "구로두산",
                 "dong_name": "107동",
                 "trade_type": "B1",
@@ -6018,15 +6018,15 @@
                     "article_confirm_date": "2026-01-02"
                 },
                 "broker_info": {
-                    "cp_id": "SERVE",
-                    "brokerage_name": "한신공인중개사사무소",
-                    "broker_name": "부동산써브",
+                    "cp_id": "bizmk",
+                    "brokerage_name": "두산공인중개사사무소",
+                    "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "ES",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "빠른입주가능 수리되고 깨긋한 집 계단식 지하주차장유 해잘들어요",
+                    "article_feature_description": "남동향집으로  계단식 구조이며  완벽하게 수리해서 현재 공실 임",
                     "direct_trade": false,
                     "floor_info": "4/17",
                     "floor_detail_info": {
@@ -6039,15 +6039,11 @@
                     "is_safe_lessor_of_hug": false
                 },
                 "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260102_238/1767332778230v8zOP_JPEG/KakaoTalk_20250701_121718292_09.jpg",
-                    "image_type": "10",
-                    "image_count": 7,
+                    "image_count": 0,
                     "is_vr_exposed": false
                 },
                 "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260102_238/1767332778230v8zOP_JPEG/KakaoTalk_20250701_121718292_09.jpg",
-                    "image_type": "10",
-                    "image_count": 7,
+                    "image_count": 0,
                     "is_vr_exposed": false
                 },
                 "address": {
@@ -6063,7 +6059,7 @@
                     "deal_price": 0,
                     "warranty_price": 430000000,
                     "rent_price": 0,
-                    "management_fee_amount": 209000,
+                    "management_fee_amount": 250000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -6149,7 +6145,7 @@
             },
             {
                 "complex_name": "구로두산",
-                "article_number": "2600517536",
+                "article_number": "2600430869",
                 "article_name": "구로두산",
                 "dong_name": "107동",
                 "trade_type": "B1",
@@ -6176,15 +6172,15 @@
                     "article_confirm_date": "2026-01-02"
                 },
                 "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "두산공인중개사사무소",
-                    "broker_name": "매경부동산",
+                    "cp_id": "SERVE",
+                    "brokerage_name": "한신공인중개사사무소",
+                    "broker_name": "부동산써브",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "ES",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "남동향집으로  계단식 구조이며  완벽하게 수리해서 현재 공실 임",
+                    "article_feature_description": "빠른입주가능 수리되고 깨긋한 집 계단식 지하주차장유 해잘들어요",
                     "direct_trade": false,
                     "floor_info": "4/17",
                     "floor_detail_info": {
@@ -6197,11 +6193,15 @@
                     "is_safe_lessor_of_hug": false
                 },
                 "article_media_dto": {
-                    "image_count": 0,
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260102_238/1767332778230v8zOP_JPEG/KakaoTalk_20250701_121718292_09.jpg",
+                    "image_type": "10",
+                    "image_count": 7,
                     "is_vr_exposed": false
                 },
                 "article_media": {
-                    "image_count": 0,
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260102_238/1767332778230v8zOP_JPEG/KakaoTalk_20250701_121718292_09.jpg",
+                    "image_type": "10",
+                    "image_count": 7,
                     "is_vr_exposed": false
                 },
                 "address": {
@@ -6217,7 +6217,7 @@
                     "deal_price": 0,
                     "warranty_price": 430000000,
                     "rent_price": 0,
-                    "management_fee_amount": 250000,
+                    "management_fee_amount": 209000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -7073,7 +7073,7 @@
             "min": 430000000,
             "max": 430000000
         },
-        "updated_at": "2026-01-03T10:17:25.236524",
+        "updated_at": "2026-01-03T11:15:14.693828",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7257,7 +7257,7 @@
             "min": 680000000,
             "max": 680000000
         },
-        "updated_at": "2026-01-03T10:17:27.409969",
+        "updated_at": "2026-01-03T11:15:16.052717",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7749,7 +7749,7 @@
             "min": 21100000,
             "max": 21100000
         },
-        "updated_at": "2026-01-03T10:17:25.236669",
+        "updated_at": "2026-01-03T11:15:14.693993",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7913,7 +7913,7 @@
             "min": 465000000,
             "max": 465000000
         },
-        "updated_at": "2026-01-03T10:17:27.409978",
+        "updated_at": "2026-01-03T11:15:16.052726",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8382,7 +8382,7 @@
             "min": 21100000,
             "max": 21100000
         },
-        "updated_at": "2026-01-03T10:17:25.236597",
+        "updated_at": "2026-01-03T11:15:14.693922",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8546,7 +8546,7 @@
             "min": 515000000,
             "max": 515000000
         },
-        "updated_at": "2026-01-03T10:17:27.409948",
+        "updated_at": "2026-01-03T11:15:16.052692",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8798,81 +8798,6 @@
         "all_articles": [
             {
                 "complex_name": "구로두산",
-                "article_number": "2600549000",
-                "article_name": "구로두산",
-                "dong_name": "109동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 66.66,
-                    "contract_space": 78.84,
-                    "exclusive_space": 44.64,
-                    "land_space": 25167,
-                    "supply_space_name": "66",
-                    "exclusive_space_name": "44",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19981130",
-                    "approval_elapsed_year": 28
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-03",
-                    "article_confirm_date": "2026-01-03"
-                },
-                "broker_info": {
-                    "cp_id": "SERVE",
-                    "brokerage_name": "한양(02-838-9988)공인중개사사무소",
-                    "broker_name": "부동산써브",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "샤시포함올수리. 깨끗. 층간소음없음. 2월협의",
-                    "direct_trade": false,
-                    "floor_info": "25/25",
-                    "floor_detail_info": {
-                        "target_floor": "25",
-                        "total_floor": "25",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.889462,
-                        "y_coordinate": 37.489082
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 315000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "구로두산",
                 "article_number": "2600576291",
                 "article_name": "구로두산",
                 "dong_name": "109동",
@@ -8942,6 +8867,81 @@
                     "warranty_price": 315000000,
                     "rent_price": 0,
                     "management_fee_amount": 143000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "구로두산",
+                "article_number": "2600549000",
+                "article_name": "구로두산",
+                "dong_name": "109동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 66.66,
+                    "contract_space": 78.84,
+                    "exclusive_space": 44.64,
+                    "land_space": 25167,
+                    "supply_space_name": "66",
+                    "exclusive_space_name": "44",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19981130",
+                    "approval_elapsed_year": 28
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-03",
+                    "article_confirm_date": "2026-01-03"
+                },
+                "broker_info": {
+                    "cp_id": "SERVE",
+                    "brokerage_name": "한양(02-838-9988)공인중개사사무소",
+                    "broker_name": "부동산써브",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "샤시포함올수리. 깨끗. 층간소음없음. 2월협의",
+                    "direct_trade": false,
+                    "floor_info": "25/25",
+                    "floor_detail_info": {
+                        "target_floor": "25",
+                        "total_floor": "25",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "구로동",
+                    "coordinates": {
+                        "x_coordinate": 126.889462,
+                        "y_coordinate": 37.489082
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 315000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 150000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -9031,7 +9031,7 @@
             "min": 315000000,
             "max": 315000000
         },
-        "updated_at": "2026-01-03T10:17:25.236631",
+        "updated_at": "2026-01-03T11:15:14.693956",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -9274,7 +9274,7 @@
             },
             {
                 "complex_name": "구로두산",
-                "article_number": "2600485786",
+                "article_number": "2600494334",
                 "article_name": "구로두산",
                 "dong_name": "110동",
                 "trade_type": "A1",
@@ -9302,14 +9302,14 @@
                 },
                 "broker_info": {
                     "cp_id": "R114",
-                    "brokerage_name": "구로공인",
+                    "brokerage_name": "남양부동산공인중개사",
                     "broker_name": "부동산114",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "EN",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "외부샷시빼고 내부올수리,협의가",
+                    "article_feature_description": "4월1일 이전 입주협의  삿슈 중문 저렴한 매물 집상태 좋음",
                     "direct_trade": false,
                     "floor_info": "10/23",
                     "floor_detail_info": {
@@ -9342,14 +9342,14 @@
                     "deal_price": 490000000,
                     "warranty_price": 0,
                     "rent_price": 0,
-                    "management_fee_amount": 150000,
+                    "management_fee_amount": 160000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
             },
             {
                 "complex_name": "구로두산",
-                "article_number": "2600501674",
+                "article_number": "2600471189",
                 "article_name": "구로두산",
                 "dong_name": "110동",
                 "trade_type": "A1",
@@ -9377,14 +9377,14 @@
                 },
                 "broker_info": {
                     "cp_id": "SERVE",
-                    "brokerage_name": "한신휴플러스공인중개사사무소",
+                    "brokerage_name": "한양(02-838-9988)공인중개사사무소",
                     "broker_name": "부동산써브",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "EN",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "급매 내부샤시 욕실,씽크대 등 올수리하여 깨끗 입주협의",
+                    "article_feature_description": "올수리. 중문. 수리됨. 아주깨끗. 입주협의",
                     "direct_trade": false,
                     "floor_info": "10/23",
                     "floor_detail_info": {
@@ -9499,7 +9499,7 @@
             },
             {
                 "complex_name": "구로두산",
-                "article_number": "2600494334",
+                "article_number": "2600501674",
                 "article_name": "구로두산",
                 "dong_name": "110동",
                 "trade_type": "A1",
@@ -9526,15 +9526,15 @@
                     "article_confirm_date": "2026-01-02"
                 },
                 "broker_info": {
-                    "cp_id": "R114",
-                    "brokerage_name": "남양부동산공인중개사",
-                    "broker_name": "부동산114",
+                    "cp_id": "SERVE",
+                    "brokerage_name": "한신휴플러스공인중개사사무소",
+                    "broker_name": "부동산써브",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "EN",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "4월1일 이전 입주협의  삿슈 중문 저렴한 매물 집상태 좋음",
+                    "article_feature_description": "급매 내부샤시 욕실,씽크대 등 올수리하여 깨끗 입주협의",
                     "direct_trade": false,
                     "floor_info": "10/23",
                     "floor_detail_info": {
@@ -9567,7 +9567,7 @@
                     "deal_price": 490000000,
                     "warranty_price": 0,
                     "rent_price": 0,
-                    "management_fee_amount": 160000,
+                    "management_fee_amount": 150000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -9649,7 +9649,7 @@
             },
             {
                 "complex_name": "구로두산",
-                "article_number": "2600471189",
+                "article_number": "2600485786",
                 "article_name": "구로두산",
                 "dong_name": "110동",
                 "trade_type": "A1",
@@ -9676,15 +9676,15 @@
                     "article_confirm_date": "2026-01-02"
                 },
                 "broker_info": {
-                    "cp_id": "SERVE",
-                    "brokerage_name": "한양(02-838-9988)공인중개사사무소",
-                    "broker_name": "부동산써브",
+                    "cp_id": "R114",
+                    "brokerage_name": "구로공인",
+                    "broker_name": "부동산114",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "EN",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리. 중문. 수리됨. 아주깨끗. 입주협의",
+                    "article_feature_description": "외부샷시빼고 내부올수리,협의가",
                     "direct_trade": false,
                     "floor_info": "10/23",
                     "floor_detail_info": {
@@ -9728,7 +9728,7 @@
             "min": 490000000,
             "max": 490000000
         },
-        "updated_at": "2026-01-03T10:17:25.236553",
+        "updated_at": "2026-01-03T11:15:14.693853",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10057,7 +10057,7 @@
             "min": 530000000,
             "max": 530000000
         },
-        "updated_at": "2026-01-03T10:17:25.236648",
+        "updated_at": "2026-01-03T11:15:14.693972",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10373,7 +10373,7 @@
             "min": 515000000,
             "max": 515000000
         },
-        "updated_at": "2026-01-03T10:17:27.409934",
+        "updated_at": "2026-01-03T11:15:16.052682",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10854,7 +10854,7 @@
             "min": 500000000,
             "max": 500000000
         },
-        "updated_at": "2026-01-03T10:17:25.236459",
+        "updated_at": "2026-01-03T11:15:14.693776",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -11289,7 +11289,7 @@
             "min": 490000000,
             "max": 490000000
         },
-        "updated_at": "2026-01-03T10:17:25.236636",
+        "updated_at": "2026-01-03T11:15:14.693961",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -11779,6 +11779,81 @@
             },
             {
                 "complex_name": "구로두산",
+                "article_number": "2569547951",
+                "article_name": "구로두산",
+                "dong_name": "110동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 66.66,
+                    "contract_space": 78.84,
+                    "exclusive_space": 44.64,
+                    "land_space": 25167,
+                    "supply_space_name": "66",
+                    "exclusive_space_name": "44",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19981130",
+                    "approval_elapsed_year": 28
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-27",
+                    "article_confirm_date": "2025-12-27"
+                },
+                "broker_info": {
+                    "cp_id": "R114",
+                    "brokerage_name": "구로공인",
+                    "broker_name": "부동산114",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "중층으로 남동향,협의가",
+                    "direct_trade": false,
+                    "floor_info": "7/23",
+                    "floor_detail_info": {
+                        "target_floor": "7",
+                        "total_floor": "23",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "구로동",
+                    "coordinates": {
+                        "x_coordinate": 126.8895,
+                        "y_coordinate": 37.488831
+                    }
+                },
+                "price_info": {
+                    "deal_price": 505000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 165000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "구로두산",
                 "article_number": "2569591108",
                 "article_name": "구로두산",
                 "dong_name": "110동",
@@ -11861,81 +11936,6 @@
                     ]
                 },
                 "have_favorite": false
-            },
-            {
-                "complex_name": "구로두산",
-                "article_number": "2569547951",
-                "article_name": "구로두산",
-                "dong_name": "110동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 66.66,
-                    "contract_space": 78.84,
-                    "exclusive_space": 44.64,
-                    "land_space": 25167,
-                    "supply_space_name": "66",
-                    "exclusive_space_name": "44",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19981130",
-                    "approval_elapsed_year": 28
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-27",
-                    "article_confirm_date": "2025-12-27"
-                },
-                "broker_info": {
-                    "cp_id": "R114",
-                    "brokerage_name": "구로공인",
-                    "broker_name": "부동산114",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "중층으로 남동향,협의가",
-                    "direct_trade": false,
-                    "floor_info": "7/23",
-                    "floor_detail_info": {
-                        "target_floor": "7",
-                        "total_floor": "23",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.8895,
-                        "y_coordinate": 37.488831
-                    }
-                },
-                "price_info": {
-                    "deal_price": 505000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 165000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
             }
         ],
         "article_count": 4,
@@ -11943,7 +11943,7 @@
             "min": 500000000,
             "max": 505000000
         },
-        "updated_at": "2026-01-03T10:17:25.236531",
+        "updated_at": "2026-01-03T11:15:14.693834",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -12107,7 +12107,7 @@
             "min": 290000000,
             "max": 290000000
         },
-        "updated_at": "2026-01-03T10:17:27.409957",
+        "updated_at": "2026-01-03T11:15:16.052702",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -12271,7 +12271,7 @@
             "min": 525000000,
             "max": 525000000
         },
-        "updated_at": "2026-01-03T10:17:25.236588",
+        "updated_at": "2026-01-03T11:15:14.693884",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -12443,7 +12443,7 @@
             "min": 600000000,
             "max": 600000000
         },
-        "updated_at": "2026-01-03T10:17:25.236575",
+        "updated_at": "2026-01-03T11:15:14.693872",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -12607,7 +12607,7 @@
             "min": 460000000,
             "max": 460000000
         },
-        "updated_at": "2026-01-03T10:17:27.409961",
+        "updated_at": "2026-01-03T11:15:16.052707",
         "is_deleted": false,
         "deleted_at": null
     }
