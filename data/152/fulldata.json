@@ -158,81 +158,6 @@
             },
             {
                 "complex_name": "신도림우성3차",
-                "article_number": "2566896369",
-                "article_name": "신도림우성3차",
-                "dong_name": "301동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 102.58,
-                    "contract_space": 107.84,
-                    "exclusive_space": 84.75,
-                    "land_space": 11191,
-                    "supply_space_name": "102A",
-                    "exclusive_space_name": "84A",
-                    "name_type": "A"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19931213",
-                    "approval_elapsed_year": 33
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-13",
-                    "article_confirm_date": "2025-12-13"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "대우사랑 공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "SS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "구올수리됨 협의이사임.개발호재",
-                    "direct_trade": false,
-                    "floor_info": "11/15",
-                    "floor_detail_info": {
-                        "target_floor": "11",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.885048,
-                        "y_coordinate": 37.512891
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1250000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림우성3차",
                 "article_number": "2567006150",
                 "article_name": "신도림우성3차",
                 "dong_name": "301동",
@@ -305,6 +230,81 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
+            },
+            {
+                "complex_name": "신도림우성3차",
+                "article_number": "2566896369",
+                "article_name": "신도림우성3차",
+                "dong_name": "301동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 102.58,
+                    "contract_space": 107.84,
+                    "exclusive_space": 84.75,
+                    "land_space": 11191,
+                    "supply_space_name": "102A",
+                    "exclusive_space_name": "84A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19931213",
+                    "approval_elapsed_year": 33
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-13",
+                    "article_confirm_date": "2025-12-13"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "대우사랑 공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "SS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "구올수리됨 협의이사임.개발호재",
+                    "direct_trade": false,
+                    "floor_info": "11/15",
+                    "floor_detail_info": {
+                        "target_floor": "11",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.885048,
+                        "y_coordinate": 37.512891
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1250000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 150000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
             }
         ],
         "article_count": 3,
@@ -312,7 +312,7 @@
             "min": 1250000000,
             "max": 1250000000
         },
-        "updated_at": "2026-01-03T07:16:16.286996",
+        "updated_at": "2026-01-03T08:20:32.855233",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -496,7 +496,7 @@
             "min": 1250000000,
             "max": 1250000000
         },
-        "updated_at": "2026-01-03T07:16:16.286989",
+        "updated_at": "2026-01-03T08:20:32.855226",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -813,7 +813,7 @@
             "min": 1300000000,
             "max": 1300000000
         },
-        "updated_at": "2026-01-03T07:16:16.286965",
+        "updated_at": "2026-01-03T08:20:32.855201",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -977,7 +977,7 @@
             "min": 1250000000,
             "max": 1250000000
         },
-        "updated_at": "2026-01-03T07:16:16.286985",
+        "updated_at": "2026-01-03T08:20:32.855222",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1141,7 +1141,7 @@
             "min": 550000000,
             "max": 550000000
         },
-        "updated_at": "2026-01-03T07:16:16.286979",
+        "updated_at": "2026-01-03T08:20:32.855215",
         "is_deleted": false,
         "deleted_at": null
     }
