@@ -159,7 +159,7 @@
             "min": 750000000,
             "max": 750000000
         },
-        "updated_at": "2026-01-03T06:26:07.497825",
+        "updated_at": "2026-01-03T07:18:53.689481",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -323,7 +323,7 @@
             "min": 1590000000,
             "max": 1590000000
         },
-        "updated_at": "2026-01-03T06:26:07.497846",
+        "updated_at": "2026-01-03T07:18:53.689502",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -487,7 +487,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-03T06:26:07.497861",
+        "updated_at": "2026-01-03T07:18:53.689516",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -728,7 +728,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-03T06:26:07.497819",
+        "updated_at": "2026-01-03T07:18:53.689476",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -920,7 +920,7 @@
             "min": 1590000000,
             "max": 1590000000
         },
-        "updated_at": "2026-01-03T06:26:07.497872",
+        "updated_at": "2026-01-03T07:18:53.689526",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1084,7 +1084,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-03T06:26:07.497856",
+        "updated_at": "2026-01-03T07:18:53.689511",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1248,7 +1248,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-03T06:26:07.497842",
+        "updated_at": "2026-01-03T07:18:53.689498",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1340,81 +1340,6 @@
         "all_articles": [
             {
                 "complex_name": "e편한세상강동에코포레",
-                "article_number": "2569639700",
-                "article_name": "e편한세상강동에코포레",
-                "dong_name": "104동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 83.43,
-                    "contract_space": 133.49,
-                    "exclusive_space": 59.99,
-                    "land_space": 11440,
-                    "supply_space_name": "83B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20200414",
-                    "approval_elapsed_year": 6
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-27",
-                    "article_confirm_date": "2025-12-27"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "반석공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "앞전망굿 고층 신명초,중학교인접 학세권",
-                    "direct_trade": false,
-                    "floor_info": "21/21",
-                    "floor_detail_info": {
-                        "target_floor": "21",
-                        "total_floor": "21",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "강동구",
-                    "sector": "길동",
-                    "coordinates": {
-                        "x_coordinate": 127.14839,
-                        "y_coordinate": 37.541202
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1400000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 110000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "e편한세상강동에코포레",
                 "article_number": "2569592609",
                 "article_name": "e편한세상강동에코포레",
                 "dong_name": "104동",
@@ -1484,6 +1409,81 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 130000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "e편한세상강동에코포레",
+                "article_number": "2569639700",
+                "article_name": "e편한세상강동에코포레",
+                "dong_name": "104동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 83.43,
+                    "contract_space": 133.49,
+                    "exclusive_space": 59.99,
+                    "land_space": 11440,
+                    "supply_space_name": "83B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20200414",
+                    "approval_elapsed_year": 6
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-27",
+                    "article_confirm_date": "2025-12-27"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "반석공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "앞전망굿 고층 신명초,중학교인접 학세권",
+                    "direct_trade": false,
+                    "floor_info": "21/21",
+                    "floor_detail_info": {
+                        "target_floor": "21",
+                        "total_floor": "21",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "강동구",
+                    "sector": "길동",
+                    "coordinates": {
+                        "x_coordinate": 127.14839,
+                        "y_coordinate": 37.541202
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1400000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 110000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -1873,7 +1873,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-03T06:26:07.497780",
+        "updated_at": "2026-01-03T07:18:53.689438",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2037,7 +2037,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-03T06:26:07.497851",
+        "updated_at": "2026-01-03T07:18:53.689506",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2209,7 +2209,7 @@
             "min": 1420000000,
             "max": 1420000000
         },
-        "updated_at": "2026-01-03T06:26:07.497837",
+        "updated_at": "2026-01-03T07:18:53.689494",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2373,7 +2373,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-03T06:26:07.497877",
+        "updated_at": "2026-01-03T07:18:53.689531",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2702,7 +2702,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-03T06:26:07.497808",
+        "updated_at": "2026-01-03T07:18:53.689465",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2874,7 +2874,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-03T06:26:07.497801",
+        "updated_at": "2026-01-03T07:18:53.689458",
         "is_deleted": false,
         "deleted_at": null
     }
