@@ -756,6 +756,81 @@
         "all_articles": [
             {
                 "complex_name": "신도림대림1,2차(e편한세상)",
+                "article_number": "2570337829",
+                "article_name": "신도림대림1,2차(e편한세상)",
+                "dong_name": "201동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 126.59,
+                    "contract_space": 165.13,
+                    "exclusive_space": 101.48,
+                    "land_space": 74075,
+                    "supply_space_name": "126",
+                    "exclusive_space_name": "101",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19991127",
+                    "approval_elapsed_year": 27
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-31",
+                    "article_confirm_date": "2025-12-31"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "에이스공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "샷시포함 올확장  특올수리   햇살 전망 좋고  초품아 대단지입니다",
+                    "direct_trade": false,
+                    "floor_info": "22/27",
+                    "floor_detail_info": {
+                        "target_floor": "22",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.881539,
+                        "y_coordinate": 37.505479
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1480000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 280000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림대림1,2차(e편한세상)",
                 "article_number": "2570229700",
                 "article_name": "신도림대림1,2차(e편한세상)",
                 "dong_name": "201동",
@@ -829,81 +904,6 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 262000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림대림1,2차(e편한세상)",
-                "article_number": "2570337829",
-                "article_name": "신도림대림1,2차(e편한세상)",
-                "dong_name": "201동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 126.59,
-                    "contract_space": 165.13,
-                    "exclusive_space": 101.48,
-                    "land_space": 74075,
-                    "supply_space_name": "126",
-                    "exclusive_space_name": "101",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19991127",
-                    "approval_elapsed_year": 27
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-31",
-                    "article_confirm_date": "2025-12-31"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "에이스공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "샷시포함 올확장  특올수리   햇살 전망 좋고  초품아 대단지입니다",
-                    "direct_trade": false,
-                    "floor_info": "22/27",
-                    "floor_detail_info": {
-                        "target_floor": "22",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.881539,
-                        "y_coordinate": 37.505479
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1480000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 280000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -1683,7 +1683,7 @@
             "min": 1470000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-03T10:13:37.758962",
+        "updated_at": "2026-01-03T11:11:15.480873",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1847,7 +1847,7 @@
             "min": 1450000000,
             "max": 1450000000
         },
-        "updated_at": "2026-01-03T10:13:37.758993",
+        "updated_at": "2026-01-03T11:11:15.480949",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2009,7 +2009,7 @@
             "min": 1450000000,
             "max": 1450000000
         },
-        "updated_at": "2026-01-03T10:13:37.759081",
+        "updated_at": "2026-01-03T11:11:15.481044",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2173,7 +2173,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-03T10:13:37.759063",
+        "updated_at": "2026-01-03T11:11:15.481023",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2529,7 +2529,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-03T10:13:37.759033",
+        "updated_at": "2026-01-03T11:11:15.480992",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2701,7 +2701,7 @@
             "min": 1150000000,
             "max": 1150000000
         },
-        "updated_at": "2026-01-03T10:13:37.758967",
+        "updated_at": "2026-01-03T11:11:15.480879",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2873,7 +2873,7 @@
             "min": 1130000000,
             "max": 1130000000
         },
-        "updated_at": "2026-01-03T10:13:37.759002",
+        "updated_at": "2026-01-03T11:11:15.480958",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3037,7 +3037,7 @@
             "min": 1340000000,
             "max": 1340000000
         },
-        "updated_at": "2026-01-03T10:13:37.759050",
+        "updated_at": "2026-01-03T11:11:15.481010",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3278,7 +3278,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-03T10:13:37.758989",
+        "updated_at": "2026-01-03T11:11:15.480944",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3442,7 +3442,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-03T10:13:37.759067",
+        "updated_at": "2026-01-03T11:11:15.481028",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3614,7 +3614,7 @@
             "min": 1380000000,
             "max": 1380000000
         },
-        "updated_at": "2026-01-03T10:13:37.758997",
+        "updated_at": "2026-01-03T11:11:15.480953",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3778,7 +3778,7 @@
             "min": 600000000,
             "max": 600000000
         },
-        "updated_at": "2026-01-03T10:13:37.759011",
+        "updated_at": "2026-01-03T11:11:15.480967",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3950,7 +3950,7 @@
             "min": 1250000000,
             "max": 1250000000
         },
-        "updated_at": "2026-01-03T10:13:37.759019",
+        "updated_at": "2026-01-03T11:11:15.480976",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4114,7 +4114,7 @@
             "min": 1500000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-03T10:13:37.759046",
+        "updated_at": "2026-01-03T11:11:15.481006",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4355,7 +4355,7 @@
             "min": 800000000,
             "max": 800000000
         },
-        "updated_at": "2026-01-03T10:13:37.758973",
+        "updated_at": "2026-01-03T11:11:15.480885",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4764,7 +4764,7 @@
             "min": 1390000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-03T10:13:37.759006",
+        "updated_at": "2026-01-03T11:11:15.480963",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4928,7 +4928,7 @@
             "min": 1480000000,
             "max": 1480000000
         },
-        "updated_at": "2026-01-03T10:13:37.759077",
+        "updated_at": "2026-01-03T11:11:15.481040",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5179,7 +5179,7 @@
             "min": 1550000000,
             "max": 1550000000
         },
-        "updated_at": "2026-01-03T10:13:37.758980",
+        "updated_at": "2026-01-03T11:11:15.480926",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5371,7 +5371,7 @@
             "min": 1550000000,
             "max": 1550000000
         },
-        "updated_at": "2026-01-03T10:13:37.759086",
+        "updated_at": "2026-01-03T11:11:15.481048",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5891,7 +5891,7 @@
             "min": 1250000000,
             "max": 1250000000
         },
-        "updated_at": "2026-01-03T10:13:37.759059",
+        "updated_at": "2026-01-03T11:11:15.481019",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5990,81 +5990,6 @@
             }
         },
         "all_articles": [
-            {
-                "complex_name": "신도림대림1,2차(e편한세상)",
-                "article_number": "2570348791",
-                "article_name": "신도림대림1,2차(e편한세상)",
-                "dong_name": "505동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 82.5,
-                    "contract_space": 105.22,
-                    "exclusive_space": 59.88,
-                    "land_space": 74075,
-                    "supply_space_name": "82B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19991127",
-                    "approval_elapsed_year": 27
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-31",
-                    "article_confirm_date": "2025-12-31"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "대림부동산공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "중간층  채광좋은집으로  일부수리되어 있어요.입주협의가능",
-                    "direct_trade": false,
-                    "floor_info": "10/27",
-                    "floor_detail_info": {
-                        "target_floor": "10",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.878069,
-                        "y_coordinate": 37.505338
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 530000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
             {
                 "complex_name": "신도림대림1,2차(e편한세상)",
                 "article_number": "2570196543",
@@ -6217,6 +6142,81 @@
             },
             {
                 "complex_name": "신도림대림1,2차(e편한세상)",
+                "article_number": "2570348791",
+                "article_name": "신도림대림1,2차(e편한세상)",
+                "dong_name": "505동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 82.5,
+                    "contract_space": 105.22,
+                    "exclusive_space": 59.88,
+                    "land_space": 74075,
+                    "supply_space_name": "82B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19991127",
+                    "approval_elapsed_year": 27
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-31",
+                    "article_confirm_date": "2025-12-31"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "대림부동산공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "중간층  채광좋은집으로  일부수리되어 있어요.입주협의가능",
+                    "direct_trade": false,
+                    "floor_info": "10/27",
+                    "floor_detail_info": {
+                        "target_floor": "10",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.878069,
+                        "y_coordinate": 37.505338
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 530000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 150000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림대림1,2차(e편한세상)",
                 "article_number": "2570215052",
                 "article_name": "신도림대림1,2차(e편한세상)",
                 "dong_name": "505동",
@@ -6296,81 +6296,6 @@
             },
             {
                 "complex_name": "신도림대림1,2차(e편한세상)",
-                "article_number": "2570090546",
-                "article_name": "신도림대림1,2차(e편한세상)",
-                "dong_name": "505동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 82.5,
-                    "contract_space": 105.22,
-                    "exclusive_space": 59.88,
-                    "land_space": 74075,
-                    "supply_space_name": "82B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19991127",
-                    "approval_elapsed_year": 27
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "에이스공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "햇살 좋고 조용합니다. 싱크대 교체  깨끗 초품아대단지입니다",
-                    "direct_trade": false,
-                    "floor_info": "10/27",
-                    "floor_detail_info": {
-                        "target_floor": "10",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.878069,
-                        "y_coordinate": 37.505338
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 530000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 140000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림대림1,2차(e편한세상)",
                 "article_number": "2569991050",
                 "article_name": "신도림대림1,2차(e편한세상)",
                 "dong_name": "505동",
@@ -6440,156 +6365,6 @@
                     "warranty_price": 530000000,
                     "rent_price": 0,
                     "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림대림1,2차(e편한세상)",
-                "article_number": "2570056796",
-                "article_name": "신도림대림1,2차(e편한세상)",
-                "dong_name": "505동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 82.5,
-                    "contract_space": 105.22,
-                    "exclusive_space": 59.88,
-                    "land_space": 74075,
-                    "supply_space_name": "82B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19991127",
-                    "approval_elapsed_year": 27
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "중앙공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "초.품.아 대단지.전망,조망트인 깨끗한 전세.220일입주",
-                    "direct_trade": false,
-                    "floor_info": "10/27",
-                    "floor_detail_info": {
-                        "target_floor": "10",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.878069,
-                        "y_coordinate": 37.505338
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 530000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림대림1,2차(e편한세상)",
-                "article_number": "2569958233",
-                "article_name": "신도림대림1,2차(e편한세상)",
-                "dong_name": "505동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 82.5,
-                    "contract_space": 105.22,
-                    "exclusive_space": 59.88,
-                    "land_space": 74075,
-                    "supply_space_name": "82B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19991127",
-                    "approval_elapsed_year": 27
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "21세기공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "매우깨끗,정상,대단지단지내초등학교,구로역7분,일조량매우좋음,정상",
-                    "direct_trade": false,
-                    "floor_info": "10/27",
-                    "floor_detail_info": {
-                        "target_floor": "10",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.878069,
-                        "y_coordinate": 37.505338
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 530000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 130000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -6746,7 +6521,7 @@
             },
             {
                 "complex_name": "신도림대림1,2차(e편한세상)",
-                "article_number": "2569889876",
+                "article_number": "2570056796",
                 "article_name": "신도림대림1,2차(e편한세상)",
                 "dong_name": "505동",
                 "trade_type": "B1",
@@ -6769,19 +6544,19 @@
                 "verification_info": {
                     "verification_type": "OWNER",
                     "is_association_article": false,
-                    "exposure_start_date": "2025-12-29",
-                    "article_confirm_date": "2025-12-29"
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
                 },
                 "broker_info": {
-                    "cp_id": "thebiz",
-                    "brokerage_name": "뉴비전부동산공인중개사사무소",
-                    "broker_name": "이실장플러스",
-                    "cp_out_link_type": "NONE"
+                    "cp_id": "bizmk",
+                    "brokerage_name": "중앙공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "ES",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "부분수리, 앞이 트여있어 채광,통풍좋아요, 26년2월중순 입주협의",
+                    "article_feature_description": "초.품.아 대단지.전망,조망트인 깨끗한 전세.220일입주",
                     "direct_trade": false,
                     "floor_info": "10/27",
                     "floor_detail_info": {
@@ -6814,7 +6589,157 @@
                     "deal_price": 0,
                     "warranty_price": 530000000,
                     "rent_price": 0,
-                    "management_fee_amount": 153000,
+                    "management_fee_amount": 150000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림대림1,2차(e편한세상)",
+                "article_number": "2570090546",
+                "article_name": "신도림대림1,2차(e편한세상)",
+                "dong_name": "505동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 82.5,
+                    "contract_space": 105.22,
+                    "exclusive_space": 59.88,
+                    "land_space": 74075,
+                    "supply_space_name": "82B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19991127",
+                    "approval_elapsed_year": 27
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "에이스공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "햇살 좋고 조용합니다. 싱크대 교체  깨끗 초품아대단지입니다",
+                    "direct_trade": false,
+                    "floor_info": "10/27",
+                    "floor_detail_info": {
+                        "target_floor": "10",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.878069,
+                        "y_coordinate": 37.505338
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 530000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 140000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림대림1,2차(e편한세상)",
+                "article_number": "2569958233",
+                "article_name": "신도림대림1,2차(e편한세상)",
+                "dong_name": "505동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 82.5,
+                    "contract_space": 105.22,
+                    "exclusive_space": 59.88,
+                    "land_space": 74075,
+                    "supply_space_name": "82B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19991127",
+                    "approval_elapsed_year": 27
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "21세기공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "매우깨끗,정상,대단지단지내초등학교,구로역7분,일조량매우좋음,정상",
+                    "direct_trade": false,
+                    "floor_info": "10/27",
+                    "floor_detail_info": {
+                        "target_floor": "10",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.878069,
+                        "y_coordinate": 37.505338
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 530000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 130000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -6856,156 +6781,6 @@
                 "article_detail": {
                     "direction": "ES",
                     "direction_standard": "거실 기준",
-                    "direct_trade": false,
-                    "floor_info": "10/27",
-                    "floor_detail_info": {
-                        "target_floor": "10",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.878069,
-                        "y_coordinate": 37.505338
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 530000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림대림1,2차(e편한세상)",
-                "article_number": "2569895590",
-                "article_name": "신도림대림1,2차(e편한세상)",
-                "dong_name": "505동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 82.5,
-                    "contract_space": 105.22,
-                    "exclusive_space": 59.88,
-                    "land_space": 74075,
-                    "supply_space_name": "82B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19991127",
-                    "approval_elapsed_year": 27
-                },
-                "verification_info": {
-                    "verification_type": "NDOC1",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-29",
-                    "article_confirm_date": "2025-12-29"
-                },
-                "broker_info": {
-                    "cp_id": "SERVE",
-                    "brokerage_name": "롯데공인중개사",
-                    "broker_name": "부동산써브",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "부분수리",
-                    "direct_trade": false,
-                    "floor_info": "10/27",
-                    "floor_detail_info": {
-                        "target_floor": "10",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.878069,
-                        "y_coordinate": 37.505338
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 530000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 155000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림대림1,2차(e편한세상)",
-                "article_number": "2569912751",
-                "article_name": "신도림대림1,2차(e편한세상)",
-                "dong_name": "505동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 82.5,
-                    "contract_space": 105.22,
-                    "exclusive_space": 59.88,
-                    "land_space": 74075,
-                    "supply_space_name": "82B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19991127",
-                    "approval_elapsed_year": 27
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-29",
-                    "article_confirm_date": "2025-12-29"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "성광공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "대단지 역세권으로 앞전망트임 싱크대새로하고 집깨끗함",
                     "direct_trade": false,
                     "floor_info": "10/27",
                     "floor_detail_info": {
@@ -7120,6 +6895,81 @@
             },
             {
                 "complex_name": "신도림대림1,2차(e편한세상)",
+                "article_number": "2569895590",
+                "article_name": "신도림대림1,2차(e편한세상)",
+                "dong_name": "505동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 82.5,
+                    "contract_space": 105.22,
+                    "exclusive_space": 59.88,
+                    "land_space": 74075,
+                    "supply_space_name": "82B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19991127",
+                    "approval_elapsed_year": 27
+                },
+                "verification_info": {
+                    "verification_type": "NDOC1",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-29",
+                    "article_confirm_date": "2025-12-29"
+                },
+                "broker_info": {
+                    "cp_id": "SERVE",
+                    "brokerage_name": "롯데공인중개사",
+                    "broker_name": "부동산써브",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "부분수리",
+                    "direct_trade": false,
+                    "floor_info": "10/27",
+                    "floor_detail_info": {
+                        "target_floor": "10",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.878069,
+                        "y_coordinate": 37.505338
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 530000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 155000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림대림1,2차(e편한세상)",
                 "article_number": "2569900342",
                 "article_name": "신도림대림1,2차(e편한세상)",
                 "dong_name": "505동",
@@ -7192,6 +7042,156 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
+            },
+            {
+                "complex_name": "신도림대림1,2차(e편한세상)",
+                "article_number": "2569912751",
+                "article_name": "신도림대림1,2차(e편한세상)",
+                "dong_name": "505동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 82.5,
+                    "contract_space": 105.22,
+                    "exclusive_space": 59.88,
+                    "land_space": 74075,
+                    "supply_space_name": "82B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19991127",
+                    "approval_elapsed_year": 27
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-29",
+                    "article_confirm_date": "2025-12-29"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "성광공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "대단지 역세권으로 앞전망트임 싱크대새로하고 집깨끗함",
+                    "direct_trade": false,
+                    "floor_info": "10/27",
+                    "floor_detail_info": {
+                        "target_floor": "10",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.878069,
+                        "y_coordinate": 37.505338
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 530000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 150000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림대림1,2차(e편한세상)",
+                "article_number": "2569889876",
+                "article_name": "신도림대림1,2차(e편한세상)",
+                "dong_name": "505동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 82.5,
+                    "contract_space": 105.22,
+                    "exclusive_space": 59.88,
+                    "land_space": 74075,
+                    "supply_space_name": "82B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19991127",
+                    "approval_elapsed_year": 27
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-29",
+                    "article_confirm_date": "2025-12-29"
+                },
+                "broker_info": {
+                    "cp_id": "thebiz",
+                    "brokerage_name": "뉴비전부동산공인중개사사무소",
+                    "broker_name": "이실장플러스",
+                    "cp_out_link_type": "NONE"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "부분수리, 앞이 트여있어 채광,통풍좋아요, 26년2월중순 입주협의",
+                    "direct_trade": false,
+                    "floor_info": "10/27",
+                    "floor_detail_info": {
+                        "target_floor": "10",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.878069,
+                        "y_coordinate": 37.505338
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 530000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 153000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
             }
         ],
         "article_count": 16,
@@ -7199,7 +7199,7 @@
             "min": 530000000,
             "max": 530000000
         },
-        "updated_at": "2026-01-03T10:13:37.758923",
+        "updated_at": "2026-01-03T11:11:15.480835",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7383,7 +7383,7 @@
             "min": 580000000,
             "max": 580000000
         },
-        "updated_at": "2026-01-03T10:13:37.759054",
+        "updated_at": "2026-01-03T11:11:15.481015",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7547,7 +7547,7 @@
             "min": 131400000,
             "max": 131400000
         },
-        "updated_at": "2026-01-03T10:13:37.758940",
+        "updated_at": "2026-01-03T11:11:15.480853",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8176,7 +8176,7 @@
             "min": 530000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-03T10:13:37.759028",
+        "updated_at": "2026-01-03T11:11:15.480985",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8421,7 +8421,7 @@
             "min": 400700000,
             "max": 400700000
         },
-        "updated_at": "2026-01-03T10:13:37.759073",
+        "updated_at": "2026-01-03T11:11:15.481035",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8749,7 +8749,7 @@
             "min": 960000000,
             "max": 960000000
         },
-        "updated_at": "2026-01-03T10:13:37.759038",
+        "updated_at": "2026-01-03T11:11:15.480997",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -9077,7 +9077,7 @@
             "min": 51900000,
             "max": 51900000
         },
-        "updated_at": "2026-01-03T10:13:37.759015",
+        "updated_at": "2026-01-03T11:11:15.480972",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -9405,7 +9405,7 @@
             "min": 550000000,
             "max": 550000000
         },
-        "updated_at": "2026-01-03T10:13:37.758984",
+        "updated_at": "2026-01-03T11:11:15.480937",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -9589,7 +9589,7 @@
             "min": 580000000,
             "max": 580000000
         },
-        "updated_at": "2026-01-03T10:13:37.759042",
+        "updated_at": "2026-01-03T11:11:15.481001",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -9753,7 +9753,7 @@
             "min": 1250000000,
             "max": 1250000000
         },
-        "updated_at": "2026-01-03T10:13:37.758946",
+        "updated_at": "2026-01-03T11:11:15.480859",
         "is_deleted": false,
         "deleted_at": null
     }
