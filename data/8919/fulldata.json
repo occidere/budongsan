@@ -85,81 +85,6 @@
         "all_articles": [
             {
                 "complex_name": "신도림7차e-편한세상",
-                "article_number": "2570224693",
-                "article_name": "신도림7차e-편한세상",
-                "dong_name": "802동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 145.34,
-                    "contract_space": 212.47,
-                    "exclusive_space": 116.3,
-                    "land_space": 17051,
-                    "supply_space_name": "145",
-                    "exclusive_space_name": "116",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20040616",
-                    "approval_elapsed_year": 22
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-31",
-                    "article_confirm_date": "2025-12-31"
-                },
-                "broker_info": {
-                    "cp_id": "thebiz",
-                    "brokerage_name": "뉴비전부동산공인중개사사무소",
-                    "broker_name": "이실장플러스",
-                    "cp_out_link_type": "NONE"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "43 거실, 작은방 확장, 내부깨끗, 넓은 베란다, 2월말 입주협의",
-                    "direct_trade": false,
-                    "floor_info": "11/24",
-                    "floor_detail_info": {
-                        "target_floor": "11",
-                        "total_floor": "24",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.882298,
-                        "y_coordinate": 37.508477
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 850000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 294000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림7차e-편한세상",
                 "article_number": "2570348546",
                 "article_name": "신도림7차e-편한세상",
                 "dong_name": "802동",
@@ -304,6 +229,81 @@
                     "warranty_price": 850000000,
                     "rent_price": 0,
                     "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림7차e-편한세상",
+                "article_number": "2570224693",
+                "article_name": "신도림7차e-편한세상",
+                "dong_name": "802동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 145.34,
+                    "contract_space": 212.47,
+                    "exclusive_space": 116.3,
+                    "land_space": 17051,
+                    "supply_space_name": "145",
+                    "exclusive_space_name": "116",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20040616",
+                    "approval_elapsed_year": 22
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-31",
+                    "article_confirm_date": "2025-12-31"
+                },
+                "broker_info": {
+                    "cp_id": "thebiz",
+                    "brokerage_name": "뉴비전부동산공인중개사사무소",
+                    "broker_name": "이실장플러스",
+                    "cp_out_link_type": "NONE"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "43 거실, 작은방 확장, 내부깨끗, 넓은 베란다, 2월말 입주협의",
+                    "direct_trade": false,
+                    "floor_info": "11/24",
+                    "floor_detail_info": {
+                        "target_floor": "11",
+                        "total_floor": "24",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.882298,
+                        "y_coordinate": 37.508477
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 850000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 294000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -464,7 +464,7 @@
             "min": 850000000,
             "max": 850000000
         },
-        "updated_at": "2026-01-04T12:26:28.089172",
+        "updated_at": "2026-01-04T13:26:25.673481",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1053,7 +1053,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-04T12:26:28.089197",
+        "updated_at": "2026-01-04T13:26:25.673519",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1217,7 +1217,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-04T12:26:28.089203",
+        "updated_at": "2026-01-04T13:26:25.673526",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1622,7 +1622,7 @@
             "min": 401300000,
             "max": 401300000
         },
-        "updated_at": "2026-01-04T12:26:28.089189",
+        "updated_at": "2026-01-04T13:26:25.673511",
         "is_deleted": false,
         "deleted_at": null
     }
