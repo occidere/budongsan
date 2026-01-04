@@ -165,7 +165,7 @@
             "min": 870000000,
             "max": 870000000
         },
-        "updated_at": "2026-01-04T01:15:41.423978",
+        "updated_at": "2026-01-04T03:47:52.969532",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -406,7 +406,7 @@
             "min": 900000000,
             "max": 900000000
         },
-        "updated_at": "2026-01-04T01:15:41.423987",
+        "updated_at": "2026-01-04T03:47:52.969542",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -570,7 +570,7 @@
             "min": 780000000,
             "max": 780000000
         },
-        "updated_at": "2026-01-04T01:15:41.423982",
+        "updated_at": "2026-01-04T03:47:52.969537",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -742,7 +742,7 @@
             "min": 910000000,
             "max": 910000000
         },
-        "updated_at": "2026-01-04T01:15:41.424001",
+        "updated_at": "2026-01-04T03:47:52.969556",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -906,7 +906,7 @@
             "min": 900000000,
             "max": 900000000
         },
-        "updated_at": "2026-01-04T01:15:41.423997",
+        "updated_at": "2026-01-04T03:47:52.969552",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1068,7 +1068,7 @@
             "min": 800000000,
             "max": 800000000
         },
-        "updated_at": "2026-01-04T01:15:41.423954",
+        "updated_at": "2026-01-04T03:47:52.969509",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1549,7 +1549,7 @@
             "min": 800000000,
             "max": 800000000
         },
-        "updated_at": "2026-01-04T01:15:41.423973",
+        "updated_at": "2026-01-04T03:47:52.969528",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1790,7 +1790,7 @@
             "min": 800000000,
             "max": 800000000
         },
-        "updated_at": "2026-01-04T01:15:41.423960",
+        "updated_at": "2026-01-04T03:47:52.969515",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2905,7 +2905,7 @@
             "min": 820000000,
             "max": 860000000
         },
-        "updated_at": "2026-01-04T01:15:41.423930",
+        "updated_at": "2026-01-04T03:47:52.969485",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3069,7 +3069,7 @@
             "min": 850000000,
             "max": 850000000
         },
-        "updated_at": "2026-01-04T01:15:41.424006",
+        "updated_at": "2026-01-04T03:47:52.969561",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3310,7 +3310,7 @@
             "min": 800000000,
             "max": 800000000
         },
-        "updated_at": "2026-01-04T01:15:41.423965",
+        "updated_at": "2026-01-04T03:47:52.969520",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3563,6 +3563,81 @@
             },
             {
                 "complex_name": "신도림팰러티움(주상복합)",
+                "article_number": "2567302997",
+                "article_name": "신도림팰러티움(주상복합)",
+                "dong_name": "101동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 107.02,
+                    "contract_space": 162.11,
+                    "exclusive_space": 84.95,
+                    "land_space": 2521,
+                    "supply_space_name": "107B",
+                    "exclusive_space_name": "84B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20061009",
+                    "approval_elapsed_year": 20
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-15",
+                    "article_confirm_date": "2025-12-15"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "리치공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "올수리 초역세권  남향으로해잘드는집",
+                    "direct_trade": false,
+                    "floor_info": "8/26",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "26",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.882002,
+                        "y_coordinate": 37.504005
+                    }
+                },
+                "price_info": {
+                    "deal_price": 800000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 230000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림팰러티움(주상복합)",
                 "article_number": "2567136562",
                 "article_name": "신도림팰러티움(주상복합)",
                 "dong_name": "101동",
@@ -3636,81 +3711,6 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 250000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림팰러티움(주상복합)",
-                "article_number": "2567302997",
-                "article_name": "신도림팰러티움(주상복합)",
-                "dong_name": "101동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 107.02,
-                    "contract_space": 162.11,
-                    "exclusive_space": 84.95,
-                    "land_space": 2521,
-                    "supply_space_name": "107B",
-                    "exclusive_space_name": "84B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20061009",
-                    "approval_elapsed_year": 20
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-15",
-                    "article_confirm_date": "2025-12-15"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "리치공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리 초역세권  남향으로해잘드는집",
-                    "direct_trade": false,
-                    "floor_info": "8/26",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "26",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.882002,
-                        "y_coordinate": 37.504005
-                    }
-                },
-                "price_info": {
-                    "deal_price": 800000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 230000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -3885,7 +3885,7 @@
             "min": 800000000,
             "max": 820000000
         },
-        "updated_at": "2026-01-04T01:15:41.423947",
+        "updated_at": "2026-01-04T03:47:52.969502",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4049,7 +4049,7 @@
             "min": 850000000,
             "max": 850000000
         },
-        "updated_at": "2026-01-04T01:15:41.423992",
+        "updated_at": "2026-01-04T03:47:52.969547",
         "is_deleted": false,
         "deleted_at": null
     }
