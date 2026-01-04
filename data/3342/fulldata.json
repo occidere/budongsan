@@ -159,7 +159,7 @@
             "min": 2000000000,
             "max": 2000000000
         },
-        "updated_at": "2026-01-04T09:18:14.980408",
+        "updated_at": "2026-01-04T10:18:21.398340",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -323,7 +323,7 @@
             "min": 850000000,
             "max": 850000000
         },
-        "updated_at": "2026-01-04T09:18:14.980403",
+        "updated_at": "2026-01-04T10:18:21.398336",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -487,7 +487,7 @@
             "min": 800600000,
             "max": 800600000
         },
-        "updated_at": "2026-01-04T09:18:14.980393",
+        "updated_at": "2026-01-04T10:18:21.398326",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -590,81 +590,6 @@
             }
         },
         "all_articles": [
-            {
-                "complex_name": "우방리버파크",
-                "article_number": "2600678069",
-                "article_name": "우방리버파크",
-                "dong_name": "102동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 77.77,
-                    "contract_space": 103.91,
-                    "exclusive_space": 59.87,
-                    "land_space": 5494,
-                    "supply_space_name": "77",
-                    "exclusive_space_name": "59",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20031014",
-                    "approval_elapsed_year": 23
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-03",
-                    "article_confirm_date": "2026-01-03"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "대영공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "SS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "남향o지하주차장o자양역역세권o입주3월10일에서15일협의",
-                    "direct_trade": false,
-                    "floor_info": "저/25",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "25",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "광진구",
-                    "sector": "자양동",
-                    "coordinates": {
-                        "x_coordinate": 127.070194,
-                        "y_coordinate": 37.531091
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 350000000,
-                    "rent_price": 1100000,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
             {
                 "complex_name": "우방리버파크",
                 "article_number": "2600625498",
@@ -817,7 +742,7 @@
             },
             {
                 "complex_name": "우방리버파크",
-                "article_number": "2600303564",
+                "article_number": "2600678069",
                 "article_name": "우방리버파크",
                 "dong_name": "102동",
                 "trade_type": "B2",
@@ -840,19 +765,19 @@
                 "verification_info": {
                     "verification_type": "DOC",
                     "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
+                    "exposure_start_date": "2026-01-03",
+                    "article_confirm_date": "2026-01-03"
                 },
                 "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "베스트공인중개사사무소",
-                    "broker_name": "부동산뱅크",
+                    "cp_id": "bizmk",
+                    "brokerage_name": "대영공인중개사사무소",
+                    "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "SS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "7호선 초역세권 한강공원 도보 1분 남향 컨디션 우수 신혼추천",
+                    "article_feature_description": "남향o지하주차장o자양역역세권o입주3월10일에서15일협의",
                     "direct_trade": false,
                     "floor_info": "저/25",
                     "floor_detail_info": {
@@ -892,7 +817,7 @@
             },
             {
                 "complex_name": "우방리버파크",
-                "article_number": "2570051715",
+                "article_number": "2600303564",
                 "article_name": "우방리버파크",
                 "dong_name": "102동",
                 "trade_type": "B2",
@@ -915,94 +840,19 @@
                 "verification_info": {
                     "verification_type": "DOC",
                     "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "행복공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "SS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "남향 깨끗  상태 좋음요. 3월중순경 협의 입주",
-                    "direct_trade": false,
-                    "floor_info": "저/25",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "25",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "광진구",
-                    "sector": "자양동",
-                    "coordinates": {
-                        "x_coordinate": 127.070194,
-                        "y_coordinate": 37.531091
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 350000000,
-                    "rent_price": 1100000,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "우방리버파크",
-                "article_number": "2569997493",
-                "article_name": "우방리버파크",
-                "dong_name": "102동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 77.77,
-                    "contract_space": 103.91,
-                    "exclusive_space": 59.87,
-                    "land_space": 5494,
-                    "supply_space_name": "77",
-                    "exclusive_space_name": "59",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20031014",
-                    "approval_elapsed_year": 23
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
                 },
                 "broker_info": {
                     "cp_id": "NEONET",
-                    "brokerage_name": "사랑공인중개사사무소",
+                    "brokerage_name": "베스트공인중개사사무소",
                     "broker_name": "부동산뱅크",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "SS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "BB 신혼추천. 자양역. 한강공원앞. 남향. 주차편리. 교통편리",
+                    "article_feature_description": "7호선 초역세권 한강공원 도보 1분 남향 컨디션 우수 신혼추천",
                     "direct_trade": false,
                     "floor_info": "저/25",
                     "floor_detail_info": {
@@ -1117,6 +967,81 @@
             },
             {
                 "complex_name": "우방리버파크",
+                "article_number": "2569997493",
+                "article_name": "우방리버파크",
+                "dong_name": "102동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 77.77,
+                    "contract_space": 103.91,
+                    "exclusive_space": 59.87,
+                    "land_space": 5494,
+                    "supply_space_name": "77",
+                    "exclusive_space_name": "59",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20031014",
+                    "approval_elapsed_year": 23
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
+                },
+                "broker_info": {
+                    "cp_id": "NEONET",
+                    "brokerage_name": "사랑공인중개사사무소",
+                    "broker_name": "부동산뱅크",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "SS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "BB 신혼추천. 자양역. 한강공원앞. 남향. 주차편리. 교통편리",
+                    "direct_trade": false,
+                    "floor_info": "저/25",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "25",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "광진구",
+                    "sector": "자양동",
+                    "coordinates": {
+                        "x_coordinate": 127.070194,
+                        "y_coordinate": 37.531091
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 350000000,
+                    "rent_price": 1100000,
+                    "management_fee_amount": 150000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우방리버파크",
                 "article_number": "2570148147",
                 "article_name": "우방리버파크",
                 "dong_name": "102동",
@@ -1185,6 +1110,81 @@
                     "warranty_price": 350000000,
                     "rent_price": 1100000,
                     "management_fee_amount": 190000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우방리버파크",
+                "article_number": "2570051715",
+                "article_name": "우방리버파크",
+                "dong_name": "102동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 77.77,
+                    "contract_space": 103.91,
+                    "exclusive_space": 59.87,
+                    "land_space": 5494,
+                    "supply_space_name": "77",
+                    "exclusive_space_name": "59",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20031014",
+                    "approval_elapsed_year": 23
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "행복공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "SS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "남향 깨끗  상태 좋음요. 3월중순경 협의 입주",
+                    "direct_trade": false,
+                    "floor_info": "저/25",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "25",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "광진구",
+                    "sector": "자양동",
+                    "coordinates": {
+                        "x_coordinate": 127.070194,
+                        "y_coordinate": 37.531091
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 350000000,
+                    "rent_price": 1100000,
+                    "management_fee_amount": 200000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -1566,81 +1566,6 @@
             },
             {
                 "complex_name": "우방리버파크",
-                "article_number": "2568130746",
-                "article_name": "우방리버파크",
-                "dong_name": "102동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 77.77,
-                    "contract_space": 103.91,
-                    "exclusive_space": 59.87,
-                    "land_space": 5494,
-                    "supply_space_name": "77",
-                    "exclusive_space_name": "59",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20031014",
-                    "approval_elapsed_year": 23
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-19",
-                    "article_confirm_date": "2025-12-19"
-                },
-                "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "이튼명가공인중개사사무소",
-                    "broker_name": "부동산뱅크",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "SS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "입주3월10일부터중순까지 남향 지하주차장연결주차편리 자양역바로옆",
-                    "direct_trade": false,
-                    "floor_info": "저/25",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "25",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "광진구",
-                    "sector": "자양동",
-                    "coordinates": {
-                        "x_coordinate": 127.070194,
-                        "y_coordinate": 37.531091
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 350000000,
-                    "rent_price": 1100000,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "우방리버파크",
                 "article_number": "2568098904",
                 "article_name": "우방리버파크",
                 "dong_name": "102동",
@@ -1710,6 +1635,81 @@
                     "warranty_price": 350000000,
                     "rent_price": 1100000,
                     "management_fee_amount": 150000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우방리버파크",
+                "article_number": "2568130746",
+                "article_name": "우방리버파크",
+                "dong_name": "102동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 77.77,
+                    "contract_space": 103.91,
+                    "exclusive_space": 59.87,
+                    "land_space": 5494,
+                    "supply_space_name": "77",
+                    "exclusive_space_name": "59",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20031014",
+                    "approval_elapsed_year": 23
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-19",
+                    "article_confirm_date": "2025-12-19"
+                },
+                "broker_info": {
+                    "cp_id": "NEONET",
+                    "brokerage_name": "이튼명가공인중개사사무소",
+                    "broker_name": "부동산뱅크",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "SS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "입주3월10일부터중순까지 남향 지하주차장연결주차편리 자양역바로옆",
+                    "direct_trade": false,
+                    "floor_info": "저/25",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "25",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "광진구",
+                    "sector": "자양동",
+                    "coordinates": {
+                        "x_coordinate": 127.070194,
+                        "y_coordinate": 37.531091
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 350000000,
+                    "rent_price": 1100000,
+                    "management_fee_amount": 200000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -2095,7 +2095,7 @@
             "min": 351100000,
             "max": 351100000
         },
-        "updated_at": "2026-01-04T09:18:14.980344",
+        "updated_at": "2026-01-04T10:18:21.398277",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2259,7 +2259,7 @@
             "min": 551200000,
             "max": 551200000
         },
-        "updated_at": "2026-01-04T09:18:14.980388",
+        "updated_at": "2026-01-04T10:18:21.398321",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2423,7 +2423,7 @@
             "min": 551200000,
             "max": 551200000
         },
-        "updated_at": "2026-01-04T09:18:14.980398",
+        "updated_at": "2026-01-04T10:18:21.398331",
         "is_deleted": false,
         "deleted_at": null
     }
