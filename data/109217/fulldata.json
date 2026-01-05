@@ -167,7 +167,7 @@
             "min": 1720000000,
             "max": 1720000000
         },
-        "updated_at": "2026-01-05T01:17:31.404750",
+        "updated_at": "2026-01-05T03:54:17.543619",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -351,7 +351,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T01:17:31.404799",
+        "updated_at": "2026-01-05T03:54:17.543669",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -515,7 +515,7 @@
             "min": 2000000000,
             "max": 2000000000
         },
-        "updated_at": "2026-01-05T01:17:31.404720",
+        "updated_at": "2026-01-05T03:54:17.543586",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -679,7 +679,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T01:17:31.404724",
+        "updated_at": "2026-01-05T03:54:17.543590",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -843,7 +843,7 @@
             "min": 2000000000,
             "max": 2000000000
         },
-        "updated_at": "2026-01-05T01:17:31.404745",
+        "updated_at": "2026-01-05T03:54:17.543614",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1171,7 +1171,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T01:17:31.404777",
+        "updated_at": "2026-01-05T03:54:17.543644",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1249,10 +1249,20 @@
             },
             "price_info": {
                 "deal_price": 0,
-                "warranty_price": 950000000,
+                "warranty_price": 930000000,
                 "rent_price": 0,
                 "management_fee_amount": 180000,
-                "price_change_status": 0
+                "price_change_status": -1,
+                "price_change_histories": [
+                    {
+                        "modified_date": "2025-12-30T11:56:28",
+                        "warranty_price": 950000000
+                    },
+                    {
+                        "modified_date": "2026-01-05T12:05:59",
+                        "warranty_price": 930000000
+                    }
+                ]
             }
         },
         "all_articles": [
@@ -1324,10 +1334,20 @@
                 },
                 "price_info": {
                     "deal_price": 0,
-                    "warranty_price": 950000000,
+                    "warranty_price": 930000000,
                     "rent_price": 0,
                     "management_fee_amount": 180000,
-                    "price_change_status": 0
+                    "price_change_status": -1,
+                    "price_change_histories": [
+                        {
+                            "modified_date": "2025-12-30T11:56:28",
+                            "warranty_price": 950000000
+                        },
+                        {
+                            "modified_date": "2026-01-05T12:05:59",
+                            "warranty_price": 930000000
+                        }
+                    ]
                 },
                 "have_favorite": false
             },
@@ -1399,20 +1419,30 @@
                 },
                 "price_info": {
                     "deal_price": 0,
-                    "warranty_price": 950000000,
+                    "warranty_price": 930000000,
                     "rent_price": 0,
                     "management_fee_amount": 220000,
-                    "price_change_status": 0
+                    "price_change_status": -1,
+                    "price_change_histories": [
+                        {
+                            "modified_date": "2025-12-22T12:04:41",
+                            "warranty_price": 950000000
+                        },
+                        {
+                            "modified_date": "2026-01-05T10:39:26",
+                            "warranty_price": 930000000
+                        }
+                    ]
                 },
                 "have_favorite": false
             }
         ],
         "article_count": 2,
         "price_range": {
-            "min": 950000000,
-            "max": 950000000
+            "min": 930000000,
+            "max": 930000000
         },
-        "updated_at": "2026-01-05T01:17:31.404783",
+        "updated_at": "2026-01-05T03:54:17.543651",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1576,7 +1606,7 @@
             "min": 1770000000,
             "max": 1770000000
         },
-        "updated_at": "2026-01-05T01:17:31.404807",
+        "updated_at": "2026-01-05T03:54:17.543678",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1740,7 +1770,7 @@
             "min": 1650000000,
             "max": 1650000000
         },
-        "updated_at": "2026-01-05T01:17:31.404791",
+        "updated_at": "2026-01-05T03:54:17.543660",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1904,7 +1934,7 @@
             "min": 1000000000,
             "max": 1000000000
         },
-        "updated_at": "2026-01-05T01:17:31.404795",
+        "updated_at": "2026-01-05T03:54:17.543665",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2068,7 +2098,7 @@
             "min": 945000000,
             "max": 945000000
         },
-        "updated_at": "2026-01-05T01:17:31.404765",
+        "updated_at": "2026-01-05T03:54:17.543635",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2232,7 +2262,7 @@
             "min": 1520000000,
             "max": 1520000000
         },
-        "updated_at": "2026-01-05T01:17:31.404787",
+        "updated_at": "2026-01-05T03:54:17.543656",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2856,18 +2886,18 @@
             "min": 1495000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-05T01:17:31.404702",
+        "updated_at": "2026-01-05T03:54:17.543560",
         "is_deleted": false,
         "deleted_at": null
     },
     "103동:중/23:59:A1": {
         "property_key": "103동:중/23:59:A1",
         "article_numbers": [
-            "2568343733"
+            "2570093455"
         ],
         "representative": {
             "complex_name": "성내올림픽파크한양수자인",
-            "article_number": "2568343733",
+            "article_number": "2570093455",
             "article_name": "성내올림픽파크한양수자인",
             "dong_name": "103동",
             "trade_type": "A1",
@@ -2890,19 +2920,19 @@
             "verification_info": {
                 "verification_type": "DOC",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-20",
-                "article_confirm_date": "2025-12-20"
+                "exposure_start_date": "2025-12-30",
+                "article_confirm_date": "2025-12-30"
             },
             "broker_info": {
-                "cp_id": "sunbang",
-                "brokerage_name": "미래원공인중개사사무소",
-                "broker_name": "선방",
+                "cp_id": "woori",
+                "brokerage_name": "래미안드림공인중개사사무소",
+                "broker_name": "우리집부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "WS",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "신축급 내부 컨디션 최상 빠른 계약예상되는 에이스 매물",
+                "article_feature_description": "25, 조율가능, 실거주 만족도 높은단지, 역세권",
                 "direct_trade": false,
                 "floor_info": "중/23",
                 "floor_detail_info": {
@@ -2932,17 +2962,35 @@
                 }
             },
             "price_info": {
-                "deal_price": 1495000000,
+                "deal_price": 1490000000,
                 "warranty_price": 0,
                 "rent_price": 0,
-                "management_fee_amount": 140000,
-                "price_change_status": 0
+                "management_fee_amount": 260000,
+                "price_change_status": 1,
+                "price_change_histories": [
+                    {
+                        "modified_date": "2025-12-30T13:12:11",
+                        "deal_price": 1450000000
+                    },
+                    {
+                        "modified_date": "2026-01-02T11:05:51",
+                        "deal_price": 1470000000
+                    },
+                    {
+                        "modified_date": "2026-01-02T11:52:15",
+                        "deal_price": 1480000000
+                    },
+                    {
+                        "modified_date": "2026-01-02T11:59:23",
+                        "deal_price": 1490000000
+                    }
+                ]
             }
         },
         "all_articles": [
             {
                 "complex_name": "성내올림픽파크한양수자인",
-                "article_number": "2568343733",
+                "article_number": "2570093455",
                 "article_name": "성내올림픽파크한양수자인",
                 "dong_name": "103동",
                 "trade_type": "A1",
@@ -2965,19 +3013,19 @@
                 "verification_info": {
                     "verification_type": "DOC",
                     "is_association_article": false,
-                    "exposure_start_date": "2025-12-20",
-                    "article_confirm_date": "2025-12-20"
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
                 },
                 "broker_info": {
-                    "cp_id": "sunbang",
-                    "brokerage_name": "미래원공인중개사사무소",
-                    "broker_name": "선방",
+                    "cp_id": "woori",
+                    "brokerage_name": "래미안드림공인중개사사무소",
+                    "broker_name": "우리집부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "WS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "신축급 내부 컨디션 최상 빠른 계약예상되는 에이스 매물",
+                    "article_feature_description": "25, 조율가능, 실거주 만족도 높은단지, 역세권",
                     "direct_trade": false,
                     "floor_info": "중/23",
                     "floor_detail_info": {
@@ -3007,20 +3055,38 @@
                     }
                 },
                 "price_info": {
-                    "deal_price": 1495000000,
+                    "deal_price": 1490000000,
                     "warranty_price": 0,
                     "rent_price": 0,
-                    "management_fee_amount": 140000,
-                    "price_change_status": 0
+                    "management_fee_amount": 260000,
+                    "price_change_status": 1,
+                    "price_change_histories": [
+                        {
+                            "modified_date": "2025-12-30T13:12:11",
+                            "deal_price": 1450000000
+                        },
+                        {
+                            "modified_date": "2026-01-02T11:05:51",
+                            "deal_price": 1470000000
+                        },
+                        {
+                            "modified_date": "2026-01-02T11:52:15",
+                            "deal_price": 1480000000
+                        },
+                        {
+                            "modified_date": "2026-01-02T11:59:23",
+                            "deal_price": 1490000000
+                        }
+                    ]
                 }
             }
         ],
         "article_count": 1,
         "price_range": {
-            "min": 1495000000,
-            "max": 1495000000
+            "min": 1490000000,
+            "max": 1490000000
         },
-        "updated_at": "2026-01-05T01:17:31.404769",
+        "updated_at": "2026-01-05T03:54:17.543609",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3184,7 +3250,7 @@
             "min": 1520000000,
             "max": 1520000000
         },
-        "updated_at": "2026-01-05T01:17:31.404803",
+        "updated_at": "2026-01-05T03:54:17.543673",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3348,7 +3414,7 @@
             "min": 720000000,
             "max": 720000000
         },
-        "updated_at": "2026-01-05T01:17:31.404760",
+        "updated_at": "2026-01-05T03:54:17.543631",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3512,7 +3578,7 @@
             "min": 1650000000,
             "max": 1650000000
         },
-        "updated_at": "2026-01-05T01:17:31.404737",
+        "updated_at": "2026-01-05T03:54:17.543605",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3676,7 +3742,7 @@
             "min": 710000000,
             "max": 710000000
         },
-        "updated_at": "2026-01-05T01:17:31.404681",
+        "updated_at": "2026-01-05T03:54:17.543536",
         "is_deleted": false,
         "deleted_at": null
     }
