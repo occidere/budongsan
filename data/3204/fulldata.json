@@ -435,81 +435,6 @@
         "all_articles": [
             {
                 "complex_name": "신도림태영타운",
-                "article_number": "2600818792",
-                "article_name": "신도림태영타운",
-                "dong_name": "102동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 126.83,
-                    "contract_space": 170.34,
-                    "exclusive_space": 101.74,
-                    "land_space": 43788,
-                    "supply_space_name": "126",
-                    "exclusive_space_name": "101",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20001222",
-                    "approval_elapsed_year": 26
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-05",
-                    "article_confirm_date": "2026-01-05"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "소망공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "38 방4 화2, 확장형, 거실벽친환경페인트,신도림역세권, 초품아",
-                    "direct_trade": false,
-                    "floor_info": "8/27",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.887916,
-                        "y_coordinate": 37.506404
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1400000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 300000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림태영타운",
                 "article_number": "2600835639",
                 "article_name": "신도림태영타운",
                 "dong_name": "102동",
@@ -579,6 +504,81 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 310000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림태영타운",
+                "article_number": "2600818792",
+                "article_name": "신도림태영타운",
+                "dong_name": "102동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 126.83,
+                    "contract_space": 170.34,
+                    "exclusive_space": 101.74,
+                    "land_space": 43788,
+                    "supply_space_name": "126",
+                    "exclusive_space_name": "101",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20001222",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-05",
+                    "article_confirm_date": "2026-01-05"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "소망공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "38 방4 화2, 확장형, 거실벽친환경페인트,신도림역세권, 초품아",
+                    "direct_trade": false,
+                    "floor_info": "8/27",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "구로동",
+                    "coordinates": {
+                        "x_coordinate": 126.887916,
+                        "y_coordinate": 37.506404
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1400000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 300000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -674,7 +674,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-05T04:55:01.160352",
+        "updated_at": "2026-01-05T05:34:23.882600",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -838,7 +838,7 @@
             "min": 600000000,
             "max": 600000000
         },
-        "updated_at": "2026-01-05T04:55:01.160446",
+        "updated_at": "2026-01-05T05:34:23.882682",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1002,7 +1002,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-05T04:55:01.160503",
+        "updated_at": "2026-01-05T05:34:23.882735",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1243,7 +1243,7 @@
             "min": 670000000,
             "max": 670000000
         },
-        "updated_at": "2026-01-05T04:55:01.160429",
+        "updated_at": "2026-01-05T05:34:23.882677",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1407,7 +1407,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-05T04:55:01.160366",
+        "updated_at": "2026-01-05T05:34:23.882615",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1820,7 +1820,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-05T04:55:01.160412",
+        "updated_at": "2026-01-05T05:34:23.882660",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2061,7 +2061,7 @@
             "min": 680000000,
             "max": 680000000
         },
-        "updated_at": "2026-01-05T04:55:01.160391",
+        "updated_at": "2026-01-05T05:34:23.882640",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2694,7 +2694,7 @@
             "min": 301400000,
             "max": 301400000
         },
-        "updated_at": "2026-01-05T04:55:01.160512",
+        "updated_at": "2026-01-05T05:34:23.882745",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2858,7 +2858,7 @@
             "min": 500800000,
             "max": 500800000
         },
-        "updated_at": "2026-01-05T04:55:02.502248",
+        "updated_at": "2026-01-05T05:34:25.706931",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3415,7 +3415,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T04:55:01.160459",
+        "updated_at": "2026-01-05T05:34:23.882693",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3984,7 +3984,7 @@
             "min": 1490000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-05T04:55:01.160493",
+        "updated_at": "2026-01-05T05:34:23.882726",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4223,81 +4223,6 @@
             },
             {
                 "complex_name": "신도림태영타운",
-                "article_number": "2600786939",
-                "article_name": "신도림태영타운",
-                "dong_name": "111동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 167.67,
-                    "contract_space": 225.37,
-                    "exclusive_space": 134.88,
-                    "land_space": 43788,
-                    "supply_space_name": "167",
-                    "exclusive_space_name": "134",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20001222",
-                    "approval_elapsed_year": 26
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-05",
-                    "article_confirm_date": "2026-01-05"
-                },
-                "broker_info": {
-                    "cp_id": "SERVE",
-                    "brokerage_name": "LBA태영데시앙공인중개사사무소",
-                    "broker_name": "부동산써브",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "씽크대교체.이사1월26일.채광.조망굿.초품아",
-                    "direct_trade": false,
-                    "floor_info": "25/25",
-                    "floor_detail_info": {
-                        "target_floor": "25",
-                        "total_floor": "25",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.888606,
-                        "y_coordinate": 37.505636
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 900000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 465000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림태영타운",
                 "article_number": "2600942324",
                 "article_name": "신도림태영타운",
                 "dong_name": "111동",
@@ -4370,6 +4295,81 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
+            },
+            {
+                "complex_name": "신도림태영타운",
+                "article_number": "2600786939",
+                "article_name": "신도림태영타운",
+                "dong_name": "111동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 167.67,
+                    "contract_space": 225.37,
+                    "exclusive_space": 134.88,
+                    "land_space": 43788,
+                    "supply_space_name": "167",
+                    "exclusive_space_name": "134",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20001222",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-05",
+                    "article_confirm_date": "2026-01-05"
+                },
+                "broker_info": {
+                    "cp_id": "SERVE",
+                    "brokerage_name": "LBA태영데시앙공인중개사사무소",
+                    "broker_name": "부동산써브",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "씽크대교체.이사1월26일.채광.조망굿.초품아",
+                    "direct_trade": false,
+                    "floor_info": "25/25",
+                    "floor_detail_info": {
+                        "target_floor": "25",
+                        "total_floor": "25",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "구로동",
+                    "coordinates": {
+                        "x_coordinate": 126.888606,
+                        "y_coordinate": 37.505636
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 900000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 465000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
             }
         ],
         "article_count": 4,
@@ -4377,7 +4377,7 @@
             "min": 900000000,
             "max": 900000000
         },
-        "updated_at": "2026-01-05T04:55:01.160335",
+        "updated_at": "2026-01-05T05:34:23.882584",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4541,7 +4541,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-05T04:55:01.160498",
+        "updated_at": "2026-01-05T05:34:23.882731",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5096,7 +5096,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-05T04:55:01.160472",
+        "updated_at": "2026-01-05T05:34:23.882706",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5260,7 +5260,7 @@
             "min": 820000000,
             "max": 820000000
         },
-        "updated_at": "2026-01-05T04:55:01.160487",
+        "updated_at": "2026-01-05T05:34:23.882720",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5577,7 +5577,7 @@
             "min": 1850000000,
             "max": 1850000000
         },
-        "updated_at": "2026-01-05T04:55:01.160360",
+        "updated_at": "2026-01-05T05:34:23.882608",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6058,7 +6058,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T04:55:01.160379",
+        "updated_at": "2026-01-05T05:34:23.882629",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6220,7 +6220,7 @@
             "min": 701000000,
             "max": 701000000
         },
-        "updated_at": "2026-01-05T04:55:01.160520",
+        "updated_at": "2026-01-05T05:34:23.882753",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6789,7 +6789,7 @@
             "min": 1300000000,
             "max": 1300000000
         },
-        "updated_at": "2026-01-05T04:55:01.160507",
+        "updated_at": "2026-01-05T05:34:23.882740",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6953,7 +6953,7 @@
             "min": 102000000,
             "max": 102000000
         },
-        "updated_at": "2026-01-05T04:55:01.160482",
+        "updated_at": "2026-01-05T05:34:23.882716",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7281,7 +7281,7 @@
             "min": 102200000,
             "max": 102200000
         },
-        "updated_at": "2026-01-05T04:55:01.160385",
+        "updated_at": "2026-01-05T05:34:23.882634",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7445,7 +7445,7 @@
             "min": 820000000,
             "max": 820000000
         },
-        "updated_at": "2026-01-05T04:55:01.160516",
+        "updated_at": "2026-01-05T05:34:23.882749",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7609,7 +7609,7 @@
             "min": 1300000000,
             "max": 1300000000
         },
-        "updated_at": "2026-01-05T04:55:01.160407",
+        "updated_at": "2026-01-05T05:34:23.882655",
         "is_deleted": false,
         "deleted_at": null
     }
