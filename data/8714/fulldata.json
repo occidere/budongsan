@@ -159,7 +159,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-04T14:13:26.500318",
+        "updated_at": "2026-01-05T01:12:05.380549",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -323,7 +323,7 @@
             "min": 1420000000,
             "max": 1420000000
         },
-        "updated_at": "2026-01-04T14:13:26.500345",
+        "updated_at": "2026-01-05T01:12:05.380580",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -487,7 +487,7 @@
             "min": 1370000000,
             "max": 1370000000
         },
-        "updated_at": "2026-01-04T14:13:26.500356",
+        "updated_at": "2026-01-05T01:12:05.380594",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -726,7 +726,7 @@
             "min": 301600000,
             "max": 301600000
         },
-        "updated_at": "2026-01-04T14:13:26.500351",
+        "updated_at": "2026-01-05T01:12:05.380588",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -979,14 +979,13 @@
             "min": 1420000000,
             "max": 1420000000
         },
-        "updated_at": "2026-01-04T14:13:26.500340",
+        "updated_at": "2026-01-05T01:12:05.380574",
         "is_deleted": false,
         "deleted_at": null
     },
     "706동:2/19:84:B1": {
         "property_key": "706동:2/19:84:B1",
         "article_numbers": [
-            "2565557464",
             "2570338290"
         ],
         "representative": {
@@ -1136,91 +1135,15 @@
                     "rent_price": 0,
                     "management_fee_amount": 240000,
                     "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림5차e-편한세상",
-                "article_number": "2565557464",
-                "article_name": "신도림5차e-편한세상",
-                "dong_name": "706동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 107.67,
-                    "contract_space": 146.48,
-                    "exclusive_space": 84.78,
-                    "land_space": 15912,
-                    "supply_space_name": "107",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20030816",
-                    "approval_elapsed_year": 23
-                },
-                "verification_info": {
-                    "verification_type": "NDOC1",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-05",
-                    "article_confirm_date": "2025-12-05"
-                },
-                "broker_info": {
-                    "cp_id": "asil",
-                    "brokerage_name": "에이스공인중개사사무소",
-                    "broker_name": "아실",
-                    "cp_out_link_type": "ALL"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리했습니다. 조용하고 햇살 좋고 깨끗합니다.",
-                    "direct_trade": false,
-                    "floor_info": "2/19",
-                    "floor_detail_info": {
-                        "target_floor": "2",
-                        "total_floor": "19",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.881329,
-                        "y_coordinate": 37.506693
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 680000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 240000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
+                }
             }
         ],
-        "article_count": 2,
+        "article_count": 1,
         "price_range": {
             "min": 680000000,
             "max": 680000000
         },
-        "updated_at": "2026-01-04T14:13:26.500333",
+        "updated_at": "2026-01-05T01:12:05.380565",
         "is_deleted": false,
         "deleted_at": null
     }
