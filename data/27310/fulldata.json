@@ -324,81 +324,6 @@
             },
             {
                 "complex_name": "디큐브시티(주상복합)",
-                "article_number": "2569662334",
-                "article_name": "디큐브시티(주상복합)",
-                "dong_name": "A동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 181.06,
-                    "contract_space": 284.16,
-                    "exclusive_space": 128.41,
-                    "land_space": 0,
-                    "supply_space_name": "181",
-                    "exclusive_space_name": "128",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20110718",
-                    "approval_elapsed_year": 15
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-29",
-                    "article_confirm_date": "2025-12-29"
-                },
-                "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "프라자공인중개사사무소",
-                    "broker_name": "한경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "54.급매 빠른입주 주인거주 특올수리 뷰좋은집 주변부대시설최상",
-                    "direct_trade": false,
-                    "floor_info": "12/51",
-                    "floor_detail_info": {
-                        "target_floor": "12",
-                        "total_floor": "51",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.888115,
-                        "y_coordinate": 37.508244
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1650000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 650000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "디큐브시티(주상복합)",
                 "article_number": "2569897587",
                 "article_name": "디큐브시티(주상복합)",
                 "dong_name": "A동",
@@ -479,6 +404,81 @@
                             "deal_price": 1700000000
                         }
                     ]
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "디큐브시티(주상복합)",
+                "article_number": "2569662334",
+                "article_name": "디큐브시티(주상복합)",
+                "dong_name": "A동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 181.06,
+                    "contract_space": 284.16,
+                    "exclusive_space": 128.41,
+                    "land_space": 0,
+                    "supply_space_name": "181",
+                    "exclusive_space_name": "128",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20110718",
+                    "approval_elapsed_year": 15
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-29",
+                    "article_confirm_date": "2025-12-29"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "프라자공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "54.급매 빠른입주 주인거주 특올수리 뷰좋은집 주변부대시설최상",
+                    "direct_trade": false,
+                    "floor_info": "12/51",
+                    "floor_detail_info": {
+                        "target_floor": "12",
+                        "total_floor": "51",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.888115,
+                        "y_coordinate": 37.508244
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1650000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 650000,
+                    "price_change_status": 0
                 },
                 "have_favorite": false
             },
@@ -836,7 +836,7 @@
             "min": 1650000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T11:15:09.519126",
+        "updated_at": "2026-01-05T12:32:18.121929",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1008,7 +1008,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T11:15:09.519171",
+        "updated_at": "2026-01-05T12:32:18.121972",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1257,7 +1257,7 @@
             "min": 1750000000,
             "max": 1750000000
         },
-        "updated_at": "2026-01-05T11:15:09.519217",
+        "updated_at": "2026-01-05T12:32:18.122019",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1421,7 +1421,7 @@
             "min": 104000000,
             "max": 104000000
         },
-        "updated_at": "2026-01-05T11:15:09.519102",
+        "updated_at": "2026-01-05T12:32:18.121906",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1593,7 +1593,7 @@
             "min": 1550000000,
             "max": 1550000000
         },
-        "updated_at": "2026-01-05T11:15:09.519140",
+        "updated_at": "2026-01-05T12:32:18.121941",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2066,7 +2066,7 @@
             "min": 1670000000,
             "max": 1670000000
         },
-        "updated_at": "2026-01-05T11:15:09.519135",
+        "updated_at": "2026-01-05T12:32:18.121937",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2238,7 +2238,7 @@
             "min": 1850000000,
             "max": 1850000000
         },
-        "updated_at": "2026-01-05T11:15:10.763834",
+        "updated_at": "2026-01-05T12:32:19.637651",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2402,7 +2402,7 @@
             "min": 2600000000,
             "max": 2600000000
         },
-        "updated_at": "2026-01-05T11:15:10.763830",
+        "updated_at": "2026-01-05T12:32:19.637647",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2566,7 +2566,7 @@
             "min": 1750000000,
             "max": 1750000000
         },
-        "updated_at": "2026-01-05T11:15:09.519160",
+        "updated_at": "2026-01-05T12:32:18.121961",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2730,7 +2730,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T11:15:09.519222",
+        "updated_at": "2026-01-05T12:32:18.122024",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2902,7 +2902,7 @@
             "min": 62500000,
             "max": 62500000
         },
-        "updated_at": "2026-01-05T11:15:10.763825",
+        "updated_at": "2026-01-05T12:32:19.637643",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3064,7 +3064,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T11:15:09.519252",
+        "updated_at": "2026-01-05T12:32:18.122054",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3234,7 +3234,7 @@
             "min": 402800000,
             "max": 402800000
         },
-        "updated_at": "2026-01-05T11:15:09.519243",
+        "updated_at": "2026-01-05T12:32:18.122045",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3398,7 +3398,7 @@
             "min": 1900000000,
             "max": 1900000000
         },
-        "updated_at": "2026-01-05T11:15:10.763800",
+        "updated_at": "2026-01-05T12:32:19.637618",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3570,7 +3570,7 @@
             "min": 850000000,
             "max": 850000000
         },
-        "updated_at": "2026-01-05T11:15:10.763820",
+        "updated_at": "2026-01-05T12:32:19.637637",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3663,6 +3663,81 @@
         "all_articles": [
             {
                 "complex_name": "디큐브시티(주상복합)",
+                "article_number": "2570231610",
+                "article_name": "디큐브시티(주상복합)",
+                "dong_name": "B동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 181.06,
+                    "contract_space": 284.16,
+                    "exclusive_space": 128.41,
+                    "land_space": 0,
+                    "supply_space_name": "181",
+                    "exclusive_space_name": "128",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20110718",
+                    "approval_elapsed_year": 15
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-31",
+                    "article_confirm_date": "2025-12-31"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "21세기부동산공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "즉시입주가능,30층 최고의부대시설,교통입지좋음",
+                    "direct_trade": false,
+                    "floor_info": "10/51",
+                    "floor_detail_info": {
+                        "target_floor": "10",
+                        "total_floor": "51",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.888422,
+                        "y_coordinate": 37.508094
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 100000000,
+                    "rent_price": 4000000,
+                    "management_fee_amount": 500000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "디큐브시티(주상복합)",
                 "article_number": "2570213979",
                 "article_name": "디큐브시티(주상복합)",
                 "dong_name": "B동",
@@ -3736,81 +3811,6 @@
                     "warranty_price": 100000000,
                     "rent_price": 4000000,
                     "management_fee_amount": 600000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "디큐브시티(주상복합)",
-                "article_number": "2570231610",
-                "article_name": "디큐브시티(주상복합)",
-                "dong_name": "B동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 181.06,
-                    "contract_space": 284.16,
-                    "exclusive_space": 128.41,
-                    "land_space": 0,
-                    "supply_space_name": "181",
-                    "exclusive_space_name": "128",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20110718",
-                    "approval_elapsed_year": 15
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-31",
-                    "article_confirm_date": "2025-12-31"
-                },
-                "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "21세기부동산공인중개사사무소",
-                    "broker_name": "한경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "즉시입주가능,30층 최고의부대시설,교통입지좋음",
-                    "direct_trade": false,
-                    "floor_info": "10/51",
-                    "floor_detail_info": {
-                        "target_floor": "10",
-                        "total_floor": "51",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.888422,
-                        "y_coordinate": 37.508094
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 100000000,
-                    "rent_price": 4000000,
-                    "management_fee_amount": 500000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -4279,7 +4279,7 @@
             "min": 104000000,
             "max": 104000000
         },
-        "updated_at": "2026-01-05T11:15:09.519114",
+        "updated_at": "2026-01-05T12:32:18.121918",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4451,7 +4451,7 @@
             "min": 1500000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-05T11:15:09.519097",
+        "updated_at": "2026-01-05T12:32:18.121901",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4714,7 +4714,7 @@
             "min": 1900000000,
             "max": 1900000000
         },
-        "updated_at": "2026-01-05T11:15:09.519181",
+        "updated_at": "2026-01-05T12:32:18.121983",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5115,7 +5115,7 @@
             "min": 1550000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-05T11:15:09.519083",
+        "updated_at": "2026-01-05T12:32:18.121886",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5287,7 +5287,7 @@
             "min": 1800000000,
             "max": 1800000000
         },
-        "updated_at": "2026-01-05T11:15:09.519154",
+        "updated_at": "2026-01-05T12:32:18.121956",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5459,7 +5459,7 @@
             "min": 1650000000,
             "max": 1650000000
         },
-        "updated_at": "2026-01-05T11:15:10.763794",
+        "updated_at": "2026-01-05T12:32:19.637611",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5631,7 +5631,7 @@
             "min": 2010000000,
             "max": 2010000000
         },
-        "updated_at": "2026-01-05T11:15:09.519208",
+        "updated_at": "2026-01-05T12:32:18.122009",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6340,7 +6340,7 @@
             "min": 1710000000,
             "max": 1730000000
         },
-        "updated_at": "2026-01-05T11:15:09.519191",
+        "updated_at": "2026-01-05T12:32:18.121992",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6903,7 +6903,7 @@
             "min": 1080000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-05T11:15:09.519149",
+        "updated_at": "2026-01-05T12:32:18.121951",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7144,7 +7144,7 @@
             "min": 104300000,
             "max": 104300000
         },
-        "updated_at": "2026-01-05T11:15:09.519166",
+        "updated_at": "2026-01-05T12:32:18.121967",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7701,7 +7701,7 @@
             "min": 1730000000,
             "max": 1730000000
         },
-        "updated_at": "2026-01-05T11:15:09.519199",
+        "updated_at": "2026-01-05T12:32:18.122000",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8045,7 +8045,7 @@
             "min": 1230000000,
             "max": 1230000000
         },
-        "updated_at": "2026-01-05T11:15:09.519212",
+        "updated_at": "2026-01-05T12:32:18.122013",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8530,7 +8530,7 @@
             "min": 1550000000,
             "max": 1550000000
         },
-        "updated_at": "2026-01-05T11:15:09.519092",
+        "updated_at": "2026-01-05T12:32:18.121895",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8779,7 +8779,7 @@
             "min": 105200000,
             "max": 105200000
         },
-        "updated_at": "2026-01-05T11:15:10.763808",
+        "updated_at": "2026-01-05T12:32:19.637627",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -9028,7 +9028,7 @@
             "min": 1800000000,
             "max": 1800000000
         },
-        "updated_at": "2026-01-05T11:15:09.519176",
+        "updated_at": "2026-01-05T12:32:18.121978",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -9587,7 +9587,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-05T11:15:09.519230",
+        "updated_at": "2026-01-05T12:32:18.122031",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10296,7 +10296,7 @@
             "min": 2500000000,
             "max": 2500000000
         },
-        "updated_at": "2026-01-05T11:15:09.519073",
+        "updated_at": "2026-01-05T12:32:18.121876",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10468,7 +10468,7 @@
             "min": 4500000000,
             "max": 4500000000
         },
-        "updated_at": "2026-01-05T11:15:09.519204",
+        "updated_at": "2026-01-05T12:32:18.122005",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10640,7 +10640,7 @@
             "min": 4700000000,
             "max": 4700000000
         },
-        "updated_at": "2026-01-05T11:15:10.763784",
+        "updated_at": "2026-01-05T12:32:19.637597",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10812,7 +10812,7 @@
             "min": 1280000000,
             "max": 1280000000
         },
-        "updated_at": "2026-01-05T11:15:09.519234",
+        "updated_at": "2026-01-05T12:32:18.122036",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10976,7 +10976,7 @@
             "min": 4000000000,
             "max": 4000000000
         },
-        "updated_at": "2026-01-05T11:15:09.519238",
+        "updated_at": "2026-01-05T12:32:18.122040",
         "is_deleted": false,
         "deleted_at": null
     }
