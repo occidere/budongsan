@@ -435,81 +435,6 @@
         "all_articles": [
             {
                 "complex_name": "신도림태영타운",
-                "article_number": "2600835639",
-                "article_name": "신도림태영타운",
-                "dong_name": "102동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 126.83,
-                    "contract_space": 170.34,
-                    "exclusive_space": 101.74,
-                    "land_space": 43788,
-                    "supply_space_name": "126",
-                    "exclusive_space_name": "101",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20001222",
-                    "approval_elapsed_year": 26
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-05",
-                    "article_confirm_date": "2026-01-05"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "부동산뉴스공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "방4화2 주인거주 채광굿 신도림역세권대단지 ",
-                    "direct_trade": false,
-                    "floor_info": "8/27",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.887916,
-                        "y_coordinate": 37.506404
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1400000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 310000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림태영타운",
                 "article_number": "2600818792",
                 "article_name": "신도림태영타운",
                 "dong_name": "102동",
@@ -579,6 +504,81 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림태영타운",
+                "article_number": "2600835639",
+                "article_name": "신도림태영타운",
+                "dong_name": "102동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 126.83,
+                    "contract_space": 170.34,
+                    "exclusive_space": 101.74,
+                    "land_space": 43788,
+                    "supply_space_name": "126",
+                    "exclusive_space_name": "101",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20001222",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-05",
+                    "article_confirm_date": "2026-01-05"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "부동산뉴스공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "방4화2 주인거주 채광굿 신도림역세권대단지 ",
+                    "direct_trade": false,
+                    "floor_info": "8/27",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "구로동",
+                    "coordinates": {
+                        "x_coordinate": 126.887916,
+                        "y_coordinate": 37.506404
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1400000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 310000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -674,7 +674,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-05T12:34:10.545593",
+        "updated_at": "2026-01-05T13:39:10.032286",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1002,7 +1002,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-05T12:34:10.545742",
+        "updated_at": "2026-01-05T13:39:10.032430",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1243,7 +1243,7 @@
             "min": 670000000,
             "max": 670000000
         },
-        "updated_at": "2026-01-05T12:34:10.545674",
+        "updated_at": "2026-01-05T13:39:10.032364",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1407,7 +1407,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-05T12:34:10.545606",
+        "updated_at": "2026-01-05T13:39:10.032298",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1820,7 +1820,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-05T12:34:10.545663",
+        "updated_at": "2026-01-05T13:39:10.032354",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2061,7 +2061,7 @@
             "min": 680000000,
             "max": 680000000
         },
-        "updated_at": "2026-01-05T12:34:10.545576",
+        "updated_at": "2026-01-05T13:39:10.032272",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2694,7 +2694,7 @@
             "min": 301400000,
             "max": 301400000
         },
-        "updated_at": "2026-01-05T12:34:11.665468",
+        "updated_at": "2026-01-05T13:39:11.504708",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2858,7 +2858,7 @@
             "min": 500800000,
             "max": 500800000
         },
-        "updated_at": "2026-01-05T12:34:11.665496",
+        "updated_at": "2026-01-05T13:39:11.504734",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3415,7 +3415,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T12:34:10.545691",
+        "updated_at": "2026-01-05T13:39:10.032380",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3579,7 +3579,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T12:34:10.545622",
+        "updated_at": "2026-01-05T13:39:10.032314",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3907,7 +3907,7 @@
             "min": 1750000000,
             "max": 1750000000
         },
-        "updated_at": "2026-01-05T12:34:10.545684",
+        "updated_at": "2026-01-05T13:39:10.032373",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4300,7 +4300,7 @@
             "min": 900000000,
             "max": 900000000
         },
-        "updated_at": "2026-01-05T12:34:10.545585",
+        "updated_at": "2026-01-05T13:39:10.032280",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4464,7 +4464,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-05T12:34:10.545738",
+        "updated_at": "2026-01-05T13:39:10.032425",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5019,7 +5019,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-05T12:34:10.545717",
+        "updated_at": "2026-01-05T13:39:10.032404",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5183,7 +5183,7 @@
             "min": 820000000,
             "max": 820000000
         },
-        "updated_at": "2026-01-05T12:34:10.545733",
+        "updated_at": "2026-01-05T13:39:10.032420",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5500,7 +5500,7 @@
             "min": 1850000000,
             "max": 1850000000
         },
-        "updated_at": "2026-01-05T12:34:10.545601",
+        "updated_at": "2026-01-05T13:39:10.032293",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5905,7 +5905,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T12:34:10.545617",
+        "updated_at": "2026-01-05T13:39:10.032309",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6067,7 +6067,7 @@
             "min": 701000000,
             "max": 701000000
         },
-        "updated_at": "2026-01-05T12:34:11.665490",
+        "updated_at": "2026-01-05T13:39:11.504728",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6636,7 +6636,7 @@
             "min": 1300000000,
             "max": 1300000000
         },
-        "updated_at": "2026-01-05T12:34:10.545747",
+        "updated_at": "2026-01-05T13:39:10.032434",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6800,7 +6800,7 @@
             "min": 102000000,
             "max": 102000000
         },
-        "updated_at": "2026-01-05T12:34:10.545728",
+        "updated_at": "2026-01-05T13:39:10.032415",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7128,7 +7128,7 @@
             "min": 102200000,
             "max": 102200000
         },
-        "updated_at": "2026-01-05T12:34:10.545627",
+        "updated_at": "2026-01-05T13:39:10.032318",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7292,7 +7292,7 @@
             "min": 820000000,
             "max": 820000000
         },
-        "updated_at": "2026-01-05T12:34:11.665482",
+        "updated_at": "2026-01-05T13:39:11.504721",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7532,7 +7532,7 @@
             "min": 1300000000,
             "max": 1300000000
         },
-        "updated_at": "2026-01-05T12:34:10.545658",
+        "updated_at": "2026-01-05T13:39:10.032348",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7696,7 +7696,7 @@
             "min": 201200000,
             "max": 201200000
         },
-        "updated_at": "2026-01-05T12:34:10.545566",
+        "updated_at": "2026-01-05T13:39:10.032262",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7860,7 +7860,7 @@
             "min": 1150000000,
             "max": 1150000000
         },
-        "updated_at": "2026-01-05T12:34:10.545679",
+        "updated_at": "2026-01-05T13:39:10.032369",
         "is_deleted": false,
         "deleted_at": null
     }
