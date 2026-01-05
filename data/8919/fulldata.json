@@ -85,81 +85,6 @@
         "all_articles": [
             {
                 "complex_name": "신도림7차e-편한세상",
-                "article_number": "2600807759",
-                "article_name": "신도림7차e-편한세상",
-                "dong_name": "802동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 145.34,
-                    "contract_space": 212.47,
-                    "exclusive_space": 116.3,
-                    "land_space": 17051,
-                    "supply_space_name": "145",
-                    "exclusive_space_name": "116",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20040616",
-                    "approval_elapsed_year": 22
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-05",
-                    "article_confirm_date": "2026-01-05"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "LBA대림 공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "2월말경 입주협의 로얄층  거실및작은방3개확장 집상태 주인거주 깨끗해요",
-                    "direct_trade": false,
-                    "floor_info": "11/24",
-                    "floor_detail_info": {
-                        "target_floor": "11",
-                        "total_floor": "24",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.882298,
-                        "y_coordinate": 37.508477
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 850000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림7차e-편한세상",
                 "article_number": "2600892983",
                 "article_name": "신도림7차e-편한세상",
                 "dong_name": "802동",
@@ -229,6 +154,81 @@
                     "warranty_price": 850000000,
                     "rent_price": 0,
                     "management_fee_amount": 298500,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림7차e-편한세상",
+                "article_number": "2600807759",
+                "article_name": "신도림7차e-편한세상",
+                "dong_name": "802동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 145.34,
+                    "contract_space": 212.47,
+                    "exclusive_space": 116.3,
+                    "land_space": 17051,
+                    "supply_space_name": "145",
+                    "exclusive_space_name": "116",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20040616",
+                    "approval_elapsed_year": 22
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-05",
+                    "article_confirm_date": "2026-01-05"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "LBA대림 공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "2월말경 입주협의 로얄층  거실및작은방3개확장 집상태 주인거주 깨끗해요",
+                    "direct_trade": false,
+                    "floor_info": "11/24",
+                    "floor_detail_info": {
+                        "target_floor": "11",
+                        "total_floor": "24",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.882298,
+                        "y_coordinate": 37.508477
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 850000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -464,7 +464,7 @@
             "min": 850000000,
             "max": 850000000
         },
-        "updated_at": "2026-01-05T06:29:03.121326",
+        "updated_at": "2026-01-05T07:23:37.529677",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -819,12 +819,12 @@
     "806동:5/24:84:A1": {
         "property_key": "806동:5/24:84:A1",
         "article_numbers": [
-            "2567467212",
-            "2568982124"
+            "2568982124",
+            "2601016581"
         ],
         "representative": {
             "complex_name": "신도림7차e-편한세상",
-            "article_number": "2568982124",
+            "article_number": "2601016581",
             "article_name": "신도림7차e-편한세상",
             "dong_name": "806동",
             "trade_type": "A1",
@@ -847,19 +847,19 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-24",
-                "article_confirm_date": "2025-12-24"
+                "exposure_start_date": "2026-01-05",
+                "article_confirm_date": "2026-01-05"
             },
             "broker_info": {
                 "cp_id": "bizmk",
-                "brokerage_name": "대우사랑 공인중개사사무소",
+                "brokerage_name": "성광공인중개사사무소",
                 "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "앞이트인집 정상입주  전망좋은 남향집입니다",
+                "article_feature_description": "신도림역세권으로 앞전망트여 시원한뷰 입주가능",
                 "direct_trade": false,
                 "floor_info": "5/24",
                 "floor_detail_info": {
@@ -897,6 +897,81 @@
             }
         },
         "all_articles": [
+            {
+                "complex_name": "신도림7차e-편한세상",
+                "article_number": "2601016581",
+                "article_name": "신도림7차e-편한세상",
+                "dong_name": "806동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 107.87,
+                    "contract_space": 156.89,
+                    "exclusive_space": 84.92,
+                    "land_space": 17051,
+                    "supply_space_name": "107",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20040616",
+                    "approval_elapsed_year": 22
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-05",
+                    "article_confirm_date": "2026-01-05"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "성광공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "신도림역세권으로 앞전망트여 시원한뷰 입주가능",
+                    "direct_trade": false,
+                    "floor_info": "5/24",
+                    "floor_detail_info": {
+                        "target_floor": "5",
+                        "total_floor": "24",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.883287,
+                        "y_coordinate": 37.508126
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1600000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 180000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "신도림7차e-편한세상",
                 "article_number": "2568982124",
@@ -971,81 +1046,6 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
-            },
-            {
-                "complex_name": "신도림7차e-편한세상",
-                "article_number": "2567467212",
-                "article_name": "신도림7차e-편한세상",
-                "dong_name": "806동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 107.87,
-                    "contract_space": 156.89,
-                    "exclusive_space": 84.92,
-                    "land_space": 17051,
-                    "supply_space_name": "107",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20040616",
-                    "approval_elapsed_year": 22
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-16",
-                    "article_confirm_date": "2025-12-16"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "성광공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "신도림역세권으로 앞전망트여 시원한뷰 입주가능",
-                    "direct_trade": false,
-                    "floor_info": "5/24",
-                    "floor_detail_info": {
-                        "target_floor": "5",
-                        "total_floor": "24",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.883287,
-                        "y_coordinate": 37.508126
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1600000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 180000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
             }
         ],
         "article_count": 2,
@@ -1053,18 +1053,18 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-05T06:29:03.121350",
+        "updated_at": "2026-01-05T07:23:37.529662",
         "is_deleted": false,
         "deleted_at": null
     },
     "806동:고/24:84:A1": {
         "property_key": "806동:고/24:84:A1",
         "article_numbers": [
-            "2569543887"
+            "2601035577"
         ],
         "representative": {
             "complex_name": "신도림7차e-편한세상",
-            "article_number": "2569543887",
+            "article_number": "2601035577",
             "article_name": "신도림7차e-편한세상",
             "dong_name": "806동",
             "trade_type": "A1",
@@ -1087,8 +1087,8 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-27",
-                "article_confirm_date": "2025-12-27"
+                "exposure_start_date": "2026-01-05",
+                "article_confirm_date": "2026-01-05"
             },
             "broker_info": {
                 "cp_id": "bizmk",
@@ -1139,7 +1139,7 @@
         "all_articles": [
             {
                 "complex_name": "신도림7차e-편한세상",
-                "article_number": "2569543887",
+                "article_number": "2601035577",
                 "article_name": "신도림7차e-편한세상",
                 "dong_name": "806동",
                 "trade_type": "A1",
@@ -1162,8 +1162,8 @@
                 "verification_info": {
                     "verification_type": "OWNER",
                     "is_association_article": false,
-                    "exposure_start_date": "2025-12-27",
-                    "article_confirm_date": "2025-12-27"
+                    "exposure_start_date": "2026-01-05",
+                    "article_confirm_date": "2026-01-05"
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
@@ -1217,7 +1217,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-05T06:29:03.121355",
+        "updated_at": "2026-01-05T07:23:37.529685",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1622,7 +1622,7 @@
             "min": 401300000,
             "max": 401300000
         },
-        "updated_at": "2026-01-05T06:29:03.121343",
+        "updated_at": "2026-01-05T07:23:37.529693",
         "is_deleted": false,
         "deleted_at": null
     }
