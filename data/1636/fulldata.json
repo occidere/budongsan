@@ -167,7 +167,7 @@
             "min": 20750000,
             "max": 20750000
         },
-        "updated_at": "2026-01-05T01:16:04.462808",
+        "updated_at": "2026-01-05T03:53:03.417308",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -331,7 +331,7 @@
             "min": 220000000,
             "max": 220000000
         },
-        "updated_at": "2026-01-05T01:16:04.462854",
+        "updated_at": "2026-01-05T03:53:03.417348",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -679,7 +679,7 @@
             "min": 270000000,
             "max": 270000000
         },
-        "updated_at": "2026-01-05T01:16:04.462822",
+        "updated_at": "2026-01-05T03:53:03.417315",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -843,7 +843,7 @@
             "min": 70900000,
             "max": 70900000
         },
-        "updated_at": "2026-01-05T01:16:04.462870",
+        "updated_at": "2026-01-05T03:53:03.417366",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1260,7 +1260,7 @@
             "min": 260000000,
             "max": 260000000
         },
-        "updated_at": "2026-01-05T01:16:04.462881",
+        "updated_at": "2026-01-05T03:53:03.417376",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1424,7 +1424,7 @@
             "min": 20720000,
             "max": 20720000
         },
-        "updated_at": "2026-01-05T01:16:04.462840",
+        "updated_at": "2026-01-05T03:53:03.417333",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1588,7 +1588,7 @@
             "min": 250000000,
             "max": 250000000
         },
-        "updated_at": "2026-01-05T01:16:04.462862",
+        "updated_at": "2026-01-05T03:53:03.417357",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1752,7 +1752,7 @@
             "min": 280000000,
             "max": 280000000
         },
-        "updated_at": "2026-01-05T01:16:04.462875",
+        "updated_at": "2026-01-05T03:53:03.417370",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1916,7 +1916,7 @@
             "min": 250000000,
             "max": 250000000
         },
-        "updated_at": "2026-01-05T01:16:04.462831",
+        "updated_at": "2026-01-05T03:53:03.417324",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1992,11 +1992,21 @@
                 }
             },
             "price_info": {
-                "deal_price": 680000000,
+                "deal_price": 700000000,
                 "warranty_price": 0,
                 "rent_price": 0,
                 "management_fee_amount": 241432,
-                "price_change_status": 0
+                "price_change_status": 1,
+                "price_change_histories": [
+                    {
+                        "modified_date": "2025-12-30T15:49:01",
+                        "deal_price": 680000000
+                    },
+                    {
+                        "modified_date": "2026-01-05T10:26:05",
+                        "deal_price": 700000000
+                    }
+                ]
             }
         },
         "all_articles": [
@@ -2067,20 +2077,30 @@
                     }
                 },
                 "price_info": {
-                    "deal_price": 680000000,
+                    "deal_price": 700000000,
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 241432,
-                    "price_change_status": 0
+                    "price_change_status": 1,
+                    "price_change_histories": [
+                        {
+                            "modified_date": "2025-12-30T15:49:01",
+                            "deal_price": 680000000
+                        },
+                        {
+                            "modified_date": "2026-01-05T10:26:05",
+                            "deal_price": 700000000
+                        }
+                    ]
                 }
             }
         ],
         "article_count": 1,
         "price_range": {
-            "min": 680000000,
-            "max": 680000000
+            "min": 700000000,
+            "max": 700000000
         },
-        "updated_at": "2026-01-05T01:16:04.462836",
+        "updated_at": "2026-01-05T03:53:03.417328",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2252,7 +2272,7 @@
             "min": 230000000,
             "max": 230000000
         },
-        "updated_at": "2026-01-05T01:16:04.462885",
+        "updated_at": "2026-01-05T03:53:03.417381",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2416,7 +2436,7 @@
             "min": 10850000,
             "max": 10850000
         },
-        "updated_at": "2026-01-05T01:16:04.462844",
+        "updated_at": "2026-01-05T03:53:03.417337",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2581,8 +2601,8 @@
             "max": 700000000
         },
         "updated_at": "2026-01-05T01:16:04.462889",
-        "is_deleted": false,
-        "deleted_at": null
+        "is_deleted": true,
+        "deleted_at": "2026-01-05T03:53:06.663000"
     },
     "910동:12/15:59B:B2": {
         "property_key": "910동:12/15:59B:B2",
@@ -2752,7 +2772,7 @@
             "min": 31100000,
             "max": 31100000
         },
-        "updated_at": "2026-01-05T01:16:04.462827",
+        "updated_at": "2026-01-05T03:53:03.417320",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2916,7 +2936,7 @@
             "min": 700000000,
             "max": 700000000
         },
-        "updated_at": "2026-01-05T01:16:04.462893",
+        "updated_at": "2026-01-05T03:53:03.417387",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3080,7 +3100,7 @@
             "min": 220000000,
             "max": 220000000
         },
-        "updated_at": "2026-01-05T01:16:04.462866",
+        "updated_at": "2026-01-05T03:53:03.417361",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3329,7 +3349,7 @@
             "min": 280000000,
             "max": 280000000
         },
-        "updated_at": "2026-01-05T01:16:04.462850",
+        "updated_at": "2026-01-05T03:53:03.417344",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3686,7 +3706,7 @@
             "min": 280000000,
             "max": 280000000
         },
-        "updated_at": "2026-01-05T01:16:04.462899",
+        "updated_at": "2026-01-05T03:53:03.417393",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4070,7 +4090,7 @@
             "min": 750000000,
             "max": 750000000
         },
-        "updated_at": "2026-01-05T01:16:04.462858",
+        "updated_at": "2026-01-05T03:53:03.417352",
         "is_deleted": false,
         "deleted_at": null
     }
