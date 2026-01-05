@@ -3,11 +3,12 @@
         "property_key": "301동:12/24:164:B2",
         "article_numbers": [
             "2566779289",
-            "2567623118"
+            "2567623118",
+            "2601062355"
         ],
         "representative": {
             "complex_name": "신도림동아3차",
-            "article_number": "2567623118",
+            "article_number": "2601062355",
             "article_name": "신도림동아3차",
             "dong_name": "301동",
             "trade_type": "B2",
@@ -30,27 +31,27 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-17",
-                "article_confirm_date": "2025-12-17"
+                "exposure_start_date": "2026-01-05",
+                "article_confirm_date": "2026-01-05"
             },
             "broker_info": {
-                "cp_id": "ten",
-                "brokerage_name": "디큐브SK까치공인중개사사무소",
-                "broker_name": "텐컴즈",
+                "cp_id": "bizmk",
+                "brokerage_name": "이화공인중개사사무소",
+                "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "수리잘되었습니다.",
+                "article_feature_description": "2월먈 협의,보증금조정가,수리됨",
                 "direct_trade": false,
-                "floor_info": "12/24",
+                "floor_info": "중/24",
                 "floor_detail_info": {
-                    "target_floor": "12",
+                    "target_floor": "중",
                     "total_floor": "24",
                     "ground_total_floor": "0",
                     "underground_total_floor": "0",
-                    "floor_type": "10"
+                    "floor_type": "20"
                 },
                 "is_safe_lessor_of_hug": false
             },
@@ -80,6 +81,81 @@
             }
         },
         "all_articles": [
+            {
+                "complex_name": "신도림동아3차",
+                "article_number": "2601062355",
+                "article_name": "신도림동아3차",
+                "dong_name": "301동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 199.34,
+                    "contract_space": 267.27,
+                    "exclusive_space": 164.82,
+                    "land_space": 23533,
+                    "supply_space_name": "199",
+                    "exclusive_space_name": "164",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20001114",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-05",
+                    "article_confirm_date": "2026-01-05"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "이화공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "2월먈 협의,보증금조정가,수리됨",
+                    "direct_trade": false,
+                    "floor_info": "중/24",
+                    "floor_detail_info": {
+                        "target_floor": "중",
+                        "total_floor": "24",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.8833,
+                        "y_coordinate": 37.50969
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 450000000,
+                    "rent_price": 2100000,
+                    "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "신도림동아3차",
                 "article_number": "2567623118",
@@ -231,12 +307,12 @@
                 "have_favorite": false
             }
         ],
-        "article_count": 2,
+        "article_count": 3,
         "price_range": {
             "min": 452100000,
             "max": 452100000
         },
-        "updated_at": "2026-01-05T08:23:59.425965",
+        "updated_at": "2026-01-05T09:26:10.443447",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -564,7 +640,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-05T08:23:59.425896",
+        "updated_at": "2026-01-05T09:26:10.443371",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -728,7 +804,7 @@
             "min": 1560000000,
             "max": 1560000000
         },
-        "updated_at": "2026-01-05T08:23:59.425929",
+        "updated_at": "2026-01-05T09:26:10.443435",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1223,7 +1299,7 @@
             "min": 1500000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-05T08:23:59.425933",
+        "updated_at": "2026-01-05T09:26:10.443453",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1634,7 +1710,7 @@
                 "deal_price": 1600000000,
                 "warranty_price": 0,
                 "rent_price": 0,
-                "management_fee_amount": 380000,
+                "management_fee_amount": 300000,
                 "price_change_status": 0
             }
         },
@@ -1709,7 +1785,7 @@
                     "deal_price": 1600000000,
                     "warranty_price": 0,
                     "rent_price": 0,
-                    "management_fee_amount": 380000,
+                    "management_fee_amount": 300000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -2020,7 +2096,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-05T08:23:59.425919",
+        "updated_at": "2026-01-05T09:26:10.443419",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2261,7 +2337,7 @@
             "min": 1050000000,
             "max": 1050000000
         },
-        "updated_at": "2026-01-05T08:23:59.425925",
+        "updated_at": "2026-01-05T09:26:10.443429",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2425,7 +2501,7 @@
             "min": 930000000,
             "max": 930000000
         },
-        "updated_at": "2026-01-05T08:23:59.425953",
+        "updated_at": "2026-01-05T09:26:10.443479",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2818,7 +2894,7 @@
             "min": 1600000000,
             "max": 1800000000
         },
-        "updated_at": "2026-01-05T08:23:59.425949",
+        "updated_at": "2026-01-05T09:26:10.443473",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3002,7 +3078,7 @@
             "min": 1900000000,
             "max": 1900000000
         },
-        "updated_at": "2026-01-05T08:23:59.425959",
+        "updated_at": "2026-01-05T09:26:10.443486",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3174,7 +3250,7 @@
             "min": 102000000,
             "max": 102000000
         },
-        "updated_at": "2026-01-05T08:23:59.425938",
+        "updated_at": "2026-01-05T09:26:10.443458",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3338,7 +3414,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-05T08:23:59.425942",
+        "updated_at": "2026-01-05T09:26:10.443463",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3502,7 +3578,7 @@
             "min": 1450000000,
             "max": 1450000000
         },
-        "updated_at": "2026-01-05T08:23:59.425909",
+        "updated_at": "2026-01-05T09:26:10.443386",
         "is_deleted": false,
         "deleted_at": null
     }
