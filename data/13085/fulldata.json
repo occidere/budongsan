@@ -179,19 +179,18 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-05T07:25:44.337327",
+        "updated_at": "2026-01-05T08:25:38.007333",
         "is_deleted": false,
         "deleted_at": null
     },
     "102동:8/29:84C:B1": {
         "property_key": "102동:8/29:84C:B1",
         "article_numbers": [
-            "2567714184",
-            "2569946939"
+            "2567714184"
         ],
         "representative": {
             "complex_name": "신도림SK뷰(주상복합)",
-            "article_number": "2569946939",
+            "article_number": "2567714184",
             "article_name": "신도림SK뷰(주상복합)",
             "dong_name": "102동",
             "trade_type": "B1",
@@ -214,19 +213,19 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-29",
-                "article_confirm_date": "2025-12-29"
+                "exposure_start_date": "2025-12-17",
+                "article_confirm_date": "2025-12-17"
             },
             "broker_info": {
                 "cp_id": "bizmk",
-                "brokerage_name": "이화공인중개사사무소",
+                "brokerage_name": "큐브시티부동산공인중개사사무소",
                 "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
-                "direction": "WS",
+                "direction": "SS",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "1월말입주,신도림초역세,전망트이고 아주깨끗",
+                "article_feature_description": "도림초역세권,밝은햇살 남향집,신혼부부강추,주차편리,도배장판지원,귀한매물",
                 "direct_trade": false,
                 "floor_info": "8/29",
                 "floor_detail_info": {
@@ -264,81 +263,6 @@
             }
         },
         "all_articles": [
-            {
-                "complex_name": "신도림SK뷰(주상복합)",
-                "article_number": "2569946939",
-                "article_name": "신도림SK뷰(주상복합)",
-                "dong_name": "102동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 106.19,
-                    "contract_space": 146.14,
-                    "exclusive_space": 84.99,
-                    "land_space": 9159,
-                    "supply_space_name": "106C",
-                    "exclusive_space_name": "84C",
-                    "name_type": "C"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20060424",
-                    "approval_elapsed_year": 20
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-29",
-                    "article_confirm_date": "2025-12-29"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "이화공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "1월말입주,신도림초역세,전망트이고 아주깨끗",
-                    "direct_trade": false,
-                    "floor_info": "8/29",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "29",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88626,
-                        "y_coordinate": 37.506731
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 710000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 250000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
             {
                 "complex_name": "신도림SK뷰(주상복합)",
                 "article_number": "2567714184",
@@ -411,16 +335,15 @@
                     "rent_price": 0,
                     "management_fee_amount": 250000,
                     "price_change_status": 0
-                },
-                "have_favorite": false
+                }
             }
         ],
-        "article_count": 2,
+        "article_count": 1,
         "price_range": {
             "min": 710000000,
             "max": 710000000
         },
-        "updated_at": "2026-01-05T07:25:44.337313",
+        "updated_at": "2026-01-05T08:25:38.007325",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1138,7 +1061,7 @@
             "min": 401100000,
             "max": 401100000
         },
-        "updated_at": "2026-01-05T07:25:44.337271",
+        "updated_at": "2026-01-05T08:25:38.007283",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1302,7 +1225,7 @@
             "min": 1250000000,
             "max": 1250000000
         },
-        "updated_at": "2026-01-05T07:25:44.337323",
+        "updated_at": "2026-01-05T08:25:38.007329",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1466,7 +1389,7 @@
             "min": 483800000,
             "max": 483800000
         },
-        "updated_at": "2026-01-05T07:25:44.337294",
+        "updated_at": "2026-01-05T08:25:38.007307",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1630,7 +1553,7 @@
             "min": 1300000000,
             "max": 1300000000
         },
-        "updated_at": "2026-01-05T07:25:44.337336",
+        "updated_at": "2026-01-05T08:25:38.007342",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1794,7 +1717,7 @@
             "min": 401200000,
             "max": 401200000
         },
-        "updated_at": "2026-01-05T07:25:44.337283",
+        "updated_at": "2026-01-05T08:25:38.007298",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1958,7 +1881,7 @@
             "min": 690000000,
             "max": 690000000
         },
-        "updated_at": "2026-01-05T07:25:44.337306",
+        "updated_at": "2026-01-05T08:25:38.007317",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2122,7 +2045,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-05T07:25:44.337332",
+        "updated_at": "2026-01-05T08:25:38.007337",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2286,7 +2209,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-05T07:25:44.337318",
+        "updated_at": "2026-01-05T08:25:38.007321",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2450,7 +2373,7 @@
             "min": 700000000,
             "max": 700000000
         },
-        "updated_at": "2026-01-05T07:25:44.337300",
+        "updated_at": "2026-01-05T08:25:38.007313",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2614,7 +2537,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-05T07:25:44.337289",
+        "updated_at": "2026-01-05T08:25:38.007302",
         "is_deleted": false,
         "deleted_at": null
     }
