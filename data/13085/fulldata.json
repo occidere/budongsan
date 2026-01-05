@@ -179,19 +179,21 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-05T01:14:36.385563",
+        "updated_at": "2026-01-05T03:51:36.483512",
         "is_deleted": false,
         "deleted_at": null
     },
     "102동:8/29:84C:B1": {
         "property_key": "102동:8/29:84C:B1",
         "article_numbers": [
-            "2567710685",
-            "2600804095"
+            "2566271056",
+            "2567714184",
+            "2569946939",
+            "2570235448"
         ],
         "representative": {
             "complex_name": "신도림SK뷰(주상복합)",
-            "article_number": "2600804095",
+            "article_number": "2570235448",
             "article_name": "신도림SK뷰(주상복합)",
             "dong_name": "102동",
             "trade_type": "B1",
@@ -212,21 +214,21 @@
                 "approval_elapsed_year": 20
             },
             "verification_info": {
-                "verification_type": "NONE",
-                "is_association_article": true,
-                "exposure_start_date": "2026-01-05",
-                "article_confirm_date": "2026-01-05"
+                "verification_type": "OWNER",
+                "is_association_article": false,
+                "exposure_start_date": "2025-12-31",
+                "article_confirm_date": "2025-12-31"
             },
             "broker_info": {
-                "cp_id": "KAR",
-                "brokerage_name": "신도림영광부동산공인중개사사무소",
-                "broker_name": "한국공인중개사협회",
+                "cp_id": "thebiz",
+                "brokerage_name": "뉴비전부동산공인중개사사무소",
+                "broker_name": "이실장플러스",
                 "cp_out_link_type": "NONE"
             },
             "article_detail": {
                 "direction": "WS",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "채광양호, 깨끗, 4BAY, 남서향, 입주협의, 신도림초역세권",
+                "article_feature_description": "확장, 도배 장판 해드림, 수리되어 깨끗, 신도림초역세권, 채광좋음",
                 "direct_trade": false,
                 "floor_info": "8/29",
                 "floor_detail_info": {
@@ -259,14 +261,14 @@
                 "deal_price": 0,
                 "warranty_price": 710000000,
                 "rent_price": 0,
-                "management_fee_amount": 230000,
+                "management_fee_amount": 272000,
                 "price_change_status": 0
             }
         },
         "all_articles": [
             {
                 "complex_name": "신도림SK뷰(주상복합)",
-                "article_number": "2600804095",
+                "article_number": "2570235448",
                 "article_name": "신도림SK뷰(주상복합)",
                 "dong_name": "102동",
                 "trade_type": "B1",
@@ -287,21 +289,21 @@
                     "approval_elapsed_year": 20
                 },
                 "verification_info": {
-                    "verification_type": "NONE",
-                    "is_association_article": true,
-                    "exposure_start_date": "2026-01-05",
-                    "article_confirm_date": "2026-01-05"
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-31",
+                    "article_confirm_date": "2025-12-31"
                 },
                 "broker_info": {
-                    "cp_id": "KAR",
-                    "brokerage_name": "신도림영광부동산공인중개사사무소",
-                    "broker_name": "한국공인중개사협회",
+                    "cp_id": "thebiz",
+                    "brokerage_name": "뉴비전부동산공인중개사사무소",
+                    "broker_name": "이실장플러스",
                     "cp_out_link_type": "NONE"
                 },
                 "article_detail": {
                     "direction": "WS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "채광양호, 깨끗, 4BAY, 남서향, 입주협의, 신도림초역세권",
+                    "article_feature_description": "확장, 도배 장판 해드림, 수리되어 깨끗, 신도림초역세권, 채광좋음",
                     "direct_trade": false,
                     "floor_info": "8/29",
                     "floor_detail_info": {
@@ -334,14 +336,14 @@
                     "deal_price": 0,
                     "warranty_price": 710000000,
                     "rent_price": 0,
-                    "management_fee_amount": 230000,
+                    "management_fee_amount": 272000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
             },
             {
                 "complex_name": "신도림SK뷰(주상복합)",
-                "article_number": "2567710685",
+                "article_number": "2569946939",
                 "article_name": "신도림SK뷰(주상복합)",
                 "dong_name": "102동",
                 "trade_type": "B1",
@@ -362,21 +364,21 @@
                     "approval_elapsed_year": 20
                 },
                 "verification_info": {
-                    "verification_type": "NONE",
-                    "is_association_article": true,
-                    "exposure_start_date": "2025-12-17",
-                    "article_confirm_date": "2025-12-17"
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-29",
+                    "article_confirm_date": "2025-12-29"
                 },
                 "broker_info": {
-                    "cp_id": "KAR",
-                    "brokerage_name": "큐브시티 부동산공인중개사사무소",
-                    "broker_name": "한국공인중개사협회",
-                    "cp_out_link_type": "NONE"
+                    "cp_id": "bizmk",
+                    "brokerage_name": "이화공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
-                    "direction": "SS",
+                    "direction": "WS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "신도림초역세권,밝은햇살 남향집,신혼부부강추,주차편리,도배장판지원,귀한매물",
+                    "article_feature_description": "1월말입주,신도림초역세,전망트이고 아주깨끗",
                     "direct_trade": false,
                     "floor_info": "8/29",
                     "floor_detail_info": {
@@ -413,14 +415,174 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
+            },
+            {
+                "complex_name": "신도림SK뷰(주상복합)",
+                "article_number": "2567714184",
+                "article_name": "신도림SK뷰(주상복합)",
+                "dong_name": "102동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 106.19,
+                    "contract_space": 146.14,
+                    "exclusive_space": 84.99,
+                    "land_space": 9159,
+                    "supply_space_name": "106C",
+                    "exclusive_space_name": "84C",
+                    "name_type": "C"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20060424",
+                    "approval_elapsed_year": 20
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-17",
+                    "article_confirm_date": "2025-12-17"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "큐브시티부동산공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "SS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "도림초역세권,밝은햇살 남향집,신혼부부강추,주차편리,도배장판지원,귀한매물",
+                    "direct_trade": false,
+                    "floor_info": "8/29",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "29",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88626,
+                        "y_coordinate": 37.506731
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 710000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 250000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림SK뷰(주상복합)",
+                "article_number": "2566271056",
+                "article_name": "신도림SK뷰(주상복합)",
+                "dong_name": "102동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 106.19,
+                    "contract_space": 146.14,
+                    "exclusive_space": 84.99,
+                    "land_space": 9159,
+                    "supply_space_name": "106C",
+                    "exclusive_space_name": "84C",
+                    "name_type": "C"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20060424",
+                    "approval_elapsed_year": 20
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-10",
+                    "article_confirm_date": "2025-12-10"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "리치공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "해잘들어오는 남향집, 전망트임, 신도림초역세권,",
+                    "direct_trade": false,
+                    "floor_info": "8/29",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "29",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88626,
+                        "y_coordinate": 37.506731
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 710000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 250000,
+                    "price_change_status": -1,
+                    "price_change_histories": [
+                        {
+                            "modified_date": "2025-12-10T11:39:09",
+                            "warranty_price": 730000000
+                        },
+                        {
+                            "modified_date": "2025-12-12T11:48:27",
+                            "warranty_price": 710000000
+                        }
+                    ]
+                },
+                "have_favorite": false
             }
         ],
-        "article_count": 2,
+        "article_count": 4,
         "price_range": {
             "min": 710000000,
             "max": 710000000
         },
-        "updated_at": "2026-01-05T01:14:36.385577",
+        "updated_at": "2026-01-05T03:51:36.483480",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -432,13 +594,13 @@
             "2567902382",
             "2569255470",
             "2569566379",
-            "2569793750",
             "2570002896",
-            "2570238324"
+            "2570238324",
+            "2600840825"
         ],
         "representative": {
             "complex_name": "신도림SK뷰(주상복합)",
-            "article_number": "2570238324",
+            "article_number": "2600840825",
             "article_name": "신도림SK뷰(주상복합)",
             "dong_name": "103동",
             "trade_type": "B2",
@@ -461,19 +623,19 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-31",
-                "article_confirm_date": "2025-12-31"
+                "exposure_start_date": "2026-01-05",
+                "article_confirm_date": "2026-01-05"
             },
             "broker_info": {
                 "cp_id": "hkdotcom",
-                "brokerage_name": "SK공인중개사사무소",
+                "brokerage_name": "21세기부동산공인중개사사무소",
                 "broker_name": "한경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
-                "direction": "ES",
-                "direction_standard": "안방 기준",
-                "article_feature_description": "보증금조정가,초역세권아파트,아주깨끗함,채광아주좋아요,빠른입주가능.",
+                "direction": "WS",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "신도림역초역세권,교통입지좋음,생활편의성좋음",
                 "direct_trade": false,
                 "floor_info": "17/29",
                 "floor_detail_info": {
@@ -506,11 +668,86 @@
                 "deal_price": 0,
                 "warranty_price": 400000000,
                 "rent_price": 1100000,
-                "management_fee_amount": 250000,
+                "management_fee_amount": 240000,
                 "price_change_status": 0
             }
         },
         "all_articles": [
+            {
+                "complex_name": "신도림SK뷰(주상복합)",
+                "article_number": "2600840825",
+                "article_name": "신도림SK뷰(주상복합)",
+                "dong_name": "103동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 106.15,
+                    "contract_space": 146.08,
+                    "exclusive_space": 84.96,
+                    "land_space": 9159,
+                    "supply_space_name": "106B",
+                    "exclusive_space_name": "84B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20060424",
+                    "approval_elapsed_year": 20
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-05",
+                    "article_confirm_date": "2026-01-05"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "21세기부동산공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "신도림역초역세권,교통입지좋음,생활편의성좋음",
+                    "direct_trade": false,
+                    "floor_info": "17/29",
+                    "floor_detail_info": {
+                        "target_floor": "17",
+                        "total_floor": "29",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.886903,
+                        "y_coordinate": 37.506854
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 400000000,
+                    "rent_price": 1100000,
+                    "management_fee_amount": 240000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "신도림SK뷰(주상복합)",
                 "article_number": "2570238324",
@@ -657,81 +894,6 @@
                     "warranty_price": 400000000,
                     "rent_price": 1100000,
                     "management_fee_amount": 300000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림SK뷰(주상복합)",
-                "article_number": "2569793750",
-                "article_name": "신도림SK뷰(주상복합)",
-                "dong_name": "103동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 106.15,
-                    "contract_space": 146.08,
-                    "exclusive_space": 84.96,
-                    "land_space": 9159,
-                    "supply_space_name": "106B",
-                    "exclusive_space_name": "84B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20060424",
-                    "approval_elapsed_year": 20
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-29",
-                    "article_confirm_date": "2025-12-29"
-                },
-                "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "21세기부동산공인중개사사무소",
-                    "broker_name": "한경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "신도림역초역세권,교통입지좋음,생활편의성좋음",
-                    "direct_trade": false,
-                    "floor_info": "17/29",
-                    "floor_detail_info": {
-                        "target_floor": "17",
-                        "total_floor": "29",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.886903,
-                        "y_coordinate": 37.506854
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 400000000,
-                    "rent_price": 1100000,
-                    "management_fee_amount": 240000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -1138,7 +1300,7 @@
             "min": 401100000,
             "max": 401100000
         },
-        "updated_at": "2026-01-05T01:14:36.385540",
+        "updated_at": "2026-01-05T03:51:36.483458",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1302,7 +1464,7 @@
             "min": 1250000000,
             "max": 1250000000
         },
-        "updated_at": "2026-01-05T01:14:36.385559",
+        "updated_at": "2026-01-05T03:51:36.483507",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1466,7 +1628,7 @@
             "min": 483800000,
             "max": 483800000
         },
-        "updated_at": "2026-01-05T01:14:36.385545",
+        "updated_at": "2026-01-05T03:51:36.483485",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1630,7 +1792,7 @@
             "min": 1300000000,
             "max": 1300000000
         },
-        "updated_at": "2026-01-05T01:14:36.385572",
+        "updated_at": "2026-01-05T03:51:36.483521",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1794,7 +1956,7 @@
             "min": 401200000,
             "max": 401200000
         },
-        "updated_at": "2026-01-05T01:14:36.385500",
+        "updated_at": "2026-01-05T03:51:36.483471",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1958,7 +2120,7 @@
             "min": 690000000,
             "max": 690000000
         },
-        "updated_at": "2026-01-05T01:14:36.385550",
+        "updated_at": "2026-01-05T03:51:36.483497",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2122,7 +2284,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-05T01:14:36.385567",
+        "updated_at": "2026-01-05T03:51:36.483516",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2286,7 +2448,171 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-05T01:14:36.385555",
+        "updated_at": "2026-01-05T03:51:36.483503",
+        "is_deleted": false,
+        "deleted_at": null
+    },
+    "102동:중/29:84C:B1": {
+        "property_key": "102동:중/29:84C:B1",
+        "article_numbers": [
+            "2600834410"
+        ],
+        "representative": {
+            "complex_name": "신도림SK뷰(주상복합)",
+            "article_number": "2600834410",
+            "article_name": "신도림SK뷰(주상복합)",
+            "dong_name": "102동",
+            "trade_type": "B1",
+            "real_estate_type": "A01",
+            "space_info": {
+                "supply_space": 106.19,
+                "contract_space": 146.14,
+                "exclusive_space": 84.99,
+                "land_space": 9159,
+                "supply_space_name": "106C",
+                "exclusive_space_name": "84C",
+                "name_type": "C"
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "20060424",
+                "approval_elapsed_year": 20
+            },
+            "verification_info": {
+                "verification_type": "OWNER",
+                "is_association_article": false,
+                "exposure_start_date": "2026-01-05",
+                "article_confirm_date": "2026-01-05"
+            },
+            "broker_info": {
+                "cp_id": "hkdotcom",
+                "brokerage_name": "21세기부동산공인중개사사무소",
+                "broker_name": "한경부동산",
+                "cp_out_link_type": "CP_NAME"
+            },
+            "article_detail": {
+                "direction": "WS",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "신도림역초역세권,교통입지좋음,도림천 산책코스,귀한전세",
+                "direct_trade": false,
+                "floor_info": "중/29",
+                "floor_detail_info": {
+                    "target_floor": "중",
+                    "total_floor": "29",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "20"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "구로구",
+                "sector": "신도림동",
+                "coordinates": {
+                    "x_coordinate": 126.88626,
+                    "y_coordinate": 37.506731
+                }
+            },
+            "price_info": {
+                "deal_price": 0,
+                "warranty_price": 700000000,
+                "rent_price": 0,
+                "management_fee_amount": 240000,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "신도림SK뷰(주상복합)",
+                "article_number": "2600834410",
+                "article_name": "신도림SK뷰(주상복합)",
+                "dong_name": "102동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 106.19,
+                    "contract_space": 146.14,
+                    "exclusive_space": 84.99,
+                    "land_space": 9159,
+                    "supply_space_name": "106C",
+                    "exclusive_space_name": "84C",
+                    "name_type": "C"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20060424",
+                    "approval_elapsed_year": 20
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-05",
+                    "article_confirm_date": "2026-01-05"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "21세기부동산공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "신도림역초역세권,교통입지좋음,도림천 산책코스,귀한전세",
+                    "direct_trade": false,
+                    "floor_info": "중/29",
+                    "floor_detail_info": {
+                        "target_floor": "중",
+                        "total_floor": "29",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88626,
+                        "y_coordinate": 37.506731
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 700000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 240000,
+                    "price_change_status": 0
+                }
+            }
+        ],
+        "article_count": 1,
+        "price_range": {
+            "min": 700000000,
+            "max": 700000000
+        },
+        "updated_at": "2026-01-05T03:51:36.483492",
         "is_deleted": false,
         "deleted_at": null
     }
