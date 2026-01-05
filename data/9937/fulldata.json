@@ -2,16 +2,16 @@
     "101동:3/19:80:B2": {
         "property_key": "101동:3/19:80:B2",
         "article_numbers": [
-            "2565706130",
             "2568658941",
             "2569557331",
             "2569910485",
             "2570086033",
-            "2600434134"
+            "2600434134",
+            "2600932608"
         ],
         "representative": {
             "complex_name": "신도림현대",
-            "article_number": "2600434134",
+            "article_number": "2600932608",
             "article_name": "신도림현대",
             "dong_name": "101동",
             "trade_type": "B2",
@@ -32,21 +32,21 @@
                 "approval_elapsed_year": 32
             },
             "verification_info": {
-                "verification_type": "DOC",
+                "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2026-01-02",
-                "article_confirm_date": "2026-01-02"
+                "exposure_start_date": "2026-01-05",
+                "article_confirm_date": "2026-01-05"
             },
             "broker_info": {
-                "cp_id": "SERVE",
-                "brokerage_name": "서울공인중개사사무소",
-                "broker_name": "부동산써브",
+                "cp_id": "bizmk",
+                "brokerage_name": "한빛공인중개사사무소",
+                "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "샷시및 올수리해드림  채광좋음 로얄동  3억100가능",
+                "article_feature_description": "샷시포함 올수리,로얄동 ,2억130 가능 함",
                 "direct_trade": false,
                 "floor_info": "3/19",
                 "floor_detail_info": {
@@ -77,13 +77,88 @@
             },
             "price_info": {
                 "deal_price": 0,
-                "warranty_price": 200000000,
-                "rent_price": 1300000,
-                "management_fee_amount": 180000,
+                "warranty_price": 300000000,
+                "rent_price": 1000000,
+                "management_fee_amount": 230000,
                 "price_change_status": 0
             }
         },
         "all_articles": [
+            {
+                "complex_name": "신도림현대",
+                "article_number": "2600932608",
+                "article_name": "신도림현대",
+                "dong_name": "101동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 95.93,
+                    "contract_space": 111.8,
+                    "exclusive_space": 80.01,
+                    "land_space": 14064,
+                    "supply_space_name": "95",
+                    "exclusive_space_name": "80",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19940121",
+                    "approval_elapsed_year": 32
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-05",
+                    "article_confirm_date": "2026-01-05"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "한빛공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "샷시포함 올수리,로얄동 ,2억130 가능 함",
+                    "direct_trade": false,
+                    "floor_info": "3/19",
+                    "floor_detail_info": {
+                        "target_floor": "3",
+                        "total_floor": "19",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "구로동",
+                    "coordinates": {
+                        "x_coordinate": 126.88592,
+                        "y_coordinate": 37.504475
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 300000000,
+                    "rent_price": 1000000,
+                    "management_fee_amount": 230000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "신도림현대",
                 "article_number": "2600434134",
@@ -458,81 +533,6 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
-            },
-            {
-                "complex_name": "신도림현대",
-                "article_number": "2565706130",
-                "article_name": "신도림현대",
-                "dong_name": "101동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 95.93,
-                    "contract_space": 111.8,
-                    "exclusive_space": 80.01,
-                    "land_space": 14064,
-                    "supply_space_name": "95",
-                    "exclusive_space_name": "80",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19940121",
-                    "approval_elapsed_year": 32
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-06",
-                    "article_confirm_date": "2025-12-06"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "한빛공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "샷시포함 올수리,로얄동 ,2억130 가능 함",
-                    "direct_trade": false,
-                    "floor_info": "3/19",
-                    "floor_detail_info": {
-                        "target_floor": "3",
-                        "total_floor": "19",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.88592,
-                        "y_coordinate": 37.504475
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 300000000,
-                    "rent_price": 1000000,
-                    "management_fee_amount": 230000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
             }
         ],
         "article_count": 6,
@@ -540,7 +540,7 @@
             "min": 201300000,
             "max": 301000000
         },
-        "updated_at": "2026-01-05T01:15:12.093218",
+        "updated_at": "2026-01-05T03:52:15.452704",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -705,8 +705,8 @@
             "max": 1030000000
         },
         "updated_at": "2026-01-05T01:15:12.093202",
-        "is_deleted": false,
-        "deleted_at": null
+        "is_deleted": true,
+        "deleted_at": "2026-01-05T03:52:18.128000"
     },
     "101동:4/19:80:B1": {
         "property_key": "101동:4/19:80:B1",
@@ -945,7 +945,7 @@
             "min": 570000000,
             "max": 580000000
         },
-        "updated_at": "2026-01-05T01:15:12.093196",
+        "updated_at": "2026-01-05T03:52:15.452733",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1186,14 +1186,13 @@
             "min": 520000000,
             "max": 520000000
         },
-        "updated_at": "2026-01-05T01:15:12.093167",
+        "updated_at": "2026-01-05T03:52:15.452716",
         "is_deleted": false,
         "deleted_at": null
     },
     "103동:13/21:80:B1": {
         "property_key": "103동:13/21:80:B1",
         "article_numbers": [
-            "2567484937",
             "2567677135",
             "2567679024",
             "2568854722",
@@ -1725,89 +1724,14 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
-            },
-            {
-                "complex_name": "신도림현대",
-                "article_number": "2567484937",
-                "article_name": "신도림현대",
-                "dong_name": "103동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 95.93,
-                    "contract_space": 111.8,
-                    "exclusive_space": 80.01,
-                    "land_space": 14064,
-                    "supply_space_name": "95",
-                    "exclusive_space_name": "80",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19940121",
-                    "approval_elapsed_year": 32
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-16",
-                    "article_confirm_date": "2025-12-16"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "석사공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "구로역과 신도림역세권 아파트이며 주변에 미래초교 있습니다",
-                    "direct_trade": false,
-                    "floor_info": "13/21",
-                    "floor_detail_info": {
-                        "target_floor": "13",
-                        "total_floor": "21",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.885853,
-                        "y_coordinate": 37.505159
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 530000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
             }
         ],
-        "article_count": 7,
+        "article_count": 6,
         "price_range": {
             "min": 530000000,
             "max": 530000000
         },
-        "updated_at": "2026-01-05T01:15:12.093189",
+        "updated_at": "2026-01-05T03:52:15.452727",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1971,7 +1895,7 @@
             "min": 51900000,
             "max": 51900000
         },
-        "updated_at": "2026-01-05T01:15:12.093229",
+        "updated_at": "2026-01-05T03:52:15.452749",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2030,15 +1954,15 @@
                 "is_safe_lessor_of_hug": false
             },
             "article_media_dto": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260103_226/1767409790730lmfSX_JPEG/KakaoTalk_20260103_112554842.jpg",
+                "image_url": "https://landthumb-phinf.pstatic.net/20260105_177/1767577579301sNm4d_JPEG/KakaoTalk_20260105_103250456.jpg",
                 "image_type": "10",
-                "image_count": 6,
+                "image_count": 2,
                 "is_vr_exposed": false
             },
             "article_media": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260103_226/1767409790730lmfSX_JPEG/KakaoTalk_20260103_112554842.jpg",
+                "image_url": "https://landthumb-phinf.pstatic.net/20260105_177/1767577579301sNm4d_JPEG/KakaoTalk_20260105_103250456.jpg",
                 "image_type": "10",
-                "image_count": 6,
+                "image_count": 2,
                 "is_vr_exposed": false
             },
             "address": {
@@ -2109,15 +2033,15 @@
                     "is_safe_lessor_of_hug": false
                 },
                 "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260103_226/1767409790730lmfSX_JPEG/KakaoTalk_20260103_112554842.jpg",
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260105_177/1767577579301sNm4d_JPEG/KakaoTalk_20260105_103250456.jpg",
                     "image_type": "10",
-                    "image_count": 6,
+                    "image_count": 2,
                     "is_vr_exposed": false
                 },
                 "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260103_226/1767409790730lmfSX_JPEG/KakaoTalk_20260103_112554842.jpg",
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260105_177/1767577579301sNm4d_JPEG/KakaoTalk_20260105_103250456.jpg",
                     "image_type": "10",
-                    "image_count": 6,
+                    "image_count": 2,
                     "is_vr_exposed": false
                 },
                 "address": {
@@ -2143,7 +2067,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-05T01:15:12.093207",
+        "updated_at": "2026-01-05T03:52:15.452739",
         "is_deleted": false,
         "deleted_at": null
     }
