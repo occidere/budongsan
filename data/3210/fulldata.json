@@ -312,7 +312,7 @@
             "min": 452100000,
             "max": 452100000
         },
-        "updated_at": "2026-01-06T04:34:57.940351",
+        "updated_at": "2026-01-06T06:26:07.648351",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -640,7 +640,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-06T04:34:57.940318",
+        "updated_at": "2026-01-06T06:26:07.648328",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -804,7 +804,7 @@
             "min": 1560000000,
             "max": 1560000000
         },
-        "updated_at": "2026-01-06T04:34:57.940342",
+        "updated_at": "2026-01-06T06:26:07.648342",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1299,7 +1299,7 @@
             "min": 1500000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-06T04:34:57.940312",
+        "updated_at": "2026-01-06T06:26:07.648322",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1635,14 +1635,14 @@
         "property_key": "308동:1/27:138:A1",
         "article_numbers": [
             "2567533949",
-            "2568612395",
             "2569613625",
             "2569783018",
-            "2600863374"
+            "2600863374",
+            "2601237083"
         ],
         "representative": {
             "complex_name": "신도림동아3차",
-            "article_number": "2600863374",
+            "article_number": "2601237083",
             "article_name": "신도림동아3차",
             "dong_name": "308동",
             "trade_type": "A1",
@@ -1665,19 +1665,19 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2026-01-05",
-                "article_confirm_date": "2026-01-05"
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
                 "cp_id": "bizmk",
-                "brokerage_name": "시티공인중개사사무소",
+                "brokerage_name": "푸르지오공인중개사사무소",
                 "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "WS",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "50. 올수리 올확장되어 세대내부 매우 깨끗하고 층간소음 걱정없는 집.",
+                "article_feature_description": "1층이라도 앞이 트여있어 하루좋일 밝고 층간소음이 없는 집입니다",
                 "direct_trade": false,
                 "floor_info": "1/27",
                 "floor_detail_info": {
@@ -1715,6 +1715,81 @@
             }
         },
         "all_articles": [
+            {
+                "complex_name": "신도림동아3차",
+                "article_number": "2601237083",
+                "article_name": "신도림동아3차",
+                "dong_name": "308동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 167.91,
+                    "contract_space": 224.95,
+                    "exclusive_space": 138.41,
+                    "land_space": 23533,
+                    "supply_space_name": "167",
+                    "exclusive_space_name": "138",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20001114",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "푸르지오공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "1층이라도 앞이 트여있어 하루좋일 밝고 층간소음이 없는 집입니다",
+                    "direct_trade": false,
+                    "floor_info": "1/27",
+                    "floor_detail_info": {
+                        "target_floor": "1",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.884274,
+                        "y_coordinate": 37.509424
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1600000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "신도림동아3차",
                 "article_number": "2600863374",
@@ -1942,81 +2017,6 @@
             },
             {
                 "complex_name": "신도림동아3차",
-                "article_number": "2568612395",
-                "article_name": "신도림동아3차",
-                "dong_name": "308동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 167.91,
-                    "contract_space": 224.95,
-                    "exclusive_space": 138.41,
-                    "land_space": 23533,
-                    "supply_space_name": "167",
-                    "exclusive_space_name": "138",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20001114",
-                    "approval_elapsed_year": 26
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-22",
-                    "article_confirm_date": "2025-12-22"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "푸르지오공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "1층이라도 앞이 트여있어 하루좋일 밝고 층간소음이 없는 집입니다",
-                    "direct_trade": false,
-                    "floor_info": "1/27",
-                    "floor_detail_info": {
-                        "target_floor": "1",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.884274,
-                        "y_coordinate": 37.509424
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1600000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 300000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림동아3차",
                 "article_number": "2567533949",
                 "article_name": "신도림동아3차",
                 "dong_name": "308동",
@@ -2096,7 +2096,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-06T04:34:57.940331",
+        "updated_at": "2026-01-06T06:26:07.648316",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2337,18 +2337,19 @@
             "min": 1050000000,
             "max": 1050000000
         },
-        "updated_at": "2026-01-06T04:34:57.940337",
+        "updated_at": "2026-01-06T06:26:07.648338",
         "is_deleted": false,
         "deleted_at": null
     },
     "308동:14/27:138:B1": {
         "property_key": "308동:14/27:138:B1",
         "article_numbers": [
-            "2601138336"
+            "2601138336",
+            "2601259334"
         ],
         "representative": {
             "complex_name": "신도림동아3차",
-            "article_number": "2601138336",
+            "article_number": "2601259334",
             "article_name": "신도림동아3차",
             "dong_name": "308동",
             "trade_type": "B1",
@@ -2375,15 +2376,15 @@
                 "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
-                "cp_id": "bizmk",
-                "brokerage_name": "이화공인중개사사무소",
-                "broker_name": "매경부동산",
+                "cp_id": "hkdotcom",
+                "brokerage_name": "디큐브공인중개사사무소",
+                "broker_name": "한경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "WS",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "조정가.2월협의,조용하고 전망좋은동,로얄층,상태깨끗",
+                "article_feature_description": "전세금다운가능,집내부상태깨끗,신도림초중고학군,도림천산책로",
                 "direct_trade": false,
                 "floor_info": "14/27",
                 "floor_detail_info": {
@@ -2416,11 +2417,86 @@
                 "deal_price": 0,
                 "warranty_price": 930000000,
                 "rent_price": 0,
-                "management_fee_amount": 250000,
+                "management_fee_amount": 450000,
                 "price_change_status": 0
             }
         },
         "all_articles": [
+            {
+                "complex_name": "신도림동아3차",
+                "article_number": "2601259334",
+                "article_name": "신도림동아3차",
+                "dong_name": "308동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 167.91,
+                    "contract_space": 224.95,
+                    "exclusive_space": 138.41,
+                    "land_space": 23533,
+                    "supply_space_name": "167",
+                    "exclusive_space_name": "138",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20001114",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "디큐브공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "전세금다운가능,집내부상태깨끗,신도림초중고학군,도림천산책로",
+                    "direct_trade": false,
+                    "floor_info": "14/27",
+                    "floor_detail_info": {
+                        "target_floor": "14",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.884274,
+                        "y_coordinate": 37.509424
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 930000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 450000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "신도림동아3차",
                 "article_number": "2601138336",
@@ -2493,15 +2569,16 @@
                     "rent_price": 0,
                     "management_fee_amount": 250000,
                     "price_change_status": 0
-                }
+                },
+                "have_favorite": false
             }
         ],
-        "article_count": 1,
+        "article_count": 2,
         "price_range": {
             "min": 930000000,
             "max": 930000000
         },
-        "updated_at": "2026-01-06T04:34:57.940297",
+        "updated_at": "2026-01-06T06:26:07.648307",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2590,81 +2667,6 @@
         "all_articles": [
             {
                 "complex_name": "신도림동아3차",
-                "article_number": "2568929627",
-                "article_name": "신도림동아3차",
-                "dong_name": "308동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 167.91,
-                    "contract_space": 224.95,
-                    "exclusive_space": 138.41,
-                    "land_space": 23533,
-                    "supply_space_name": "167",
-                    "exclusive_space_name": "138",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20001114",
-                    "approval_elapsed_year": 26
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-23",
-                    "article_confirm_date": "2025-12-23"
-                },
-                "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "프라자공인중개사사무소",
-                    "broker_name": "한경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "50 로얄동 로얄호 전망채광좋은집 금액조정가",
-                    "direct_trade": false,
-                    "floor_info": "21/27",
-                    "floor_detail_info": {
-                        "target_floor": "21",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.884274,
-                        "y_coordinate": 37.509424
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1800000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 250000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림동아3차",
                 "article_number": "2568785413",
                 "article_name": "신도림동아3차",
                 "dong_name": "308동",
@@ -2731,6 +2733,81 @@
                 },
                 "price_info": {
                     "deal_price": 1600000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 250000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림동아3차",
+                "article_number": "2568929627",
+                "article_name": "신도림동아3차",
+                "dong_name": "308동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 167.91,
+                    "contract_space": 224.95,
+                    "exclusive_space": 138.41,
+                    "land_space": 23533,
+                    "supply_space_name": "167",
+                    "exclusive_space_name": "138",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20001114",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-23",
+                    "article_confirm_date": "2025-12-23"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "프라자공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "50 로얄동 로얄호 전망채광좋은집 금액조정가",
+                    "direct_trade": false,
+                    "floor_info": "21/27",
+                    "floor_detail_info": {
+                        "target_floor": "21",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.884274,
+                        "y_coordinate": 37.509424
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1800000000,
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 250000,
@@ -2894,7 +2971,7 @@
             "min": 1600000000,
             "max": 1800000000
         },
-        "updated_at": "2026-01-06T04:34:57.940367",
+        "updated_at": "2026-01-06T06:26:07.648363",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3078,7 +3155,7 @@
             "min": 1900000000,
             "max": 1900000000
         },
-        "updated_at": "2026-01-06T04:34:57.940374",
+        "updated_at": "2026-01-06T06:26:07.648369",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3250,18 +3327,19 @@
             "min": 102000000,
             "max": 102000000
         },
-        "updated_at": "2026-01-06T04:34:57.940356",
+        "updated_at": "2026-01-06T06:26:07.648356",
         "is_deleted": false,
         "deleted_at": null
     },
     "308동:15/27:138:A1": {
         "property_key": "308동:15/27:138:A1",
         "article_numbers": [
-            "2600957268"
+            "2600957268",
+            "2601260897"
         ],
         "representative": {
             "complex_name": "신도림동아3차",
-            "article_number": "2600957268",
+            "article_number": "2601260897",
             "article_name": "신도림동아3차",
             "dong_name": "308동",
             "trade_type": "A1",
@@ -3282,21 +3360,21 @@
                 "approval_elapsed_year": 26
             },
             "verification_info": {
-                "verification_type": "DOC",
+                "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2026-01-05",
-                "article_confirm_date": "2026-01-05"
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
-                "cp_id": "ten",
-                "brokerage_name": "디큐브SK까치공인중개사사무소",
-                "broker_name": "텐컴즈",
+                "cp_id": "bizmk",
+                "brokerage_name": "이화공인중개사사무소",
+                "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "WS",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "정상입주,전망트이고,깨끗합니다.",
+                "article_feature_description": "3월말협의,조용하고 전망좋은동,로얄층,선호라인,거실,방1확장,일부수리",
                 "direct_trade": false,
                 "floor_info": "15/27",
                 "floor_detail_info": {
@@ -3334,6 +3412,81 @@
             }
         },
         "all_articles": [
+            {
+                "complex_name": "신도림동아3차",
+                "article_number": "2601260897",
+                "article_name": "신도림동아3차",
+                "dong_name": "308동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 167.91,
+                    "contract_space": 224.95,
+                    "exclusive_space": 138.41,
+                    "land_space": 23533,
+                    "supply_space_name": "167",
+                    "exclusive_space_name": "138",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20001114",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "이화공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "3월말협의,조용하고 전망좋은동,로얄층,선호라인,거실,방1확장,일부수리",
+                    "direct_trade": false,
+                    "floor_info": "15/27",
+                    "floor_detail_info": {
+                        "target_floor": "15",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.884274,
+                        "y_coordinate": 37.509424
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1700000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 250000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "신도림동아3차",
                 "article_number": "2600957268",
@@ -3406,15 +3559,16 @@
                     "rent_price": 0,
                     "management_fee_amount": 250000,
                     "price_change_status": 0
-                }
+                },
+                "have_favorite": false
             }
         ],
-        "article_count": 1,
+        "article_count": 2,
         "price_range": {
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-06T04:34:57.940361",
+        "updated_at": "2026-01-06T06:26:07.648292",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3578,7 +3732,7 @@
             "min": 1450000000,
             "max": 1450000000
         },
-        "updated_at": "2026-01-06T04:34:57.940322",
+        "updated_at": "2026-01-06T06:26:07.648332",
         "is_deleted": false,
         "deleted_at": null
     }
