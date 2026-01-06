@@ -179,7 +179,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-06T06:27:42.510980",
+        "updated_at": "2026-01-06T07:23:42.988077",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1061,7 +1061,7 @@
             "min": 401100000,
             "max": 401100000
         },
-        "updated_at": "2026-01-06T06:27:42.510926",
+        "updated_at": "2026-01-06T07:23:42.988022",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1225,7 +1225,7 @@
             "min": 1250000000,
             "max": 1250000000
         },
-        "updated_at": "2026-01-06T06:27:42.510976",
+        "updated_at": "2026-01-06T07:23:42.988073",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1389,7 +1389,7 @@
             "min": 483800000,
             "max": 483800000
         },
-        "updated_at": "2026-01-06T06:27:42.510942",
+        "updated_at": "2026-01-06T07:23:42.988038",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1553,7 +1553,7 @@
             "min": 1300000000,
             "max": 1300000000
         },
-        "updated_at": "2026-01-06T06:27:42.510989",
+        "updated_at": "2026-01-06T07:23:42.988087",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1717,7 +1717,7 @@
             "min": 401200000,
             "max": 401200000
         },
-        "updated_at": "2026-01-06T06:27:42.510948",
+        "updated_at": "2026-01-06T07:23:42.988044",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1882,8 +1882,8 @@
             "max": 690000000
         },
         "updated_at": "2026-01-06T06:27:42.510971",
-        "is_deleted": false,
-        "deleted_at": null
+        "is_deleted": true,
+        "deleted_at": "2026-01-06T07:23:44.349000"
     },
     "104동:중/29:84A:A1": {
         "property_key": "104동:중/29:84A:A1",
@@ -2045,7 +2045,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-06T06:27:42.510985",
+        "updated_at": "2026-01-06T07:23:42.988082",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2286,7 +2286,7 @@
             "min": 1400000000,
             "max": 1400000000
         },
-        "updated_at": "2026-01-06T06:27:42.510960",
+        "updated_at": "2026-01-06T07:23:42.988062",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2450,7 +2450,7 @@
             "min": 700000000,
             "max": 700000000
         },
-        "updated_at": "2026-01-06T06:27:42.510966",
+        "updated_at": "2026-01-06T07:23:42.988068",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2614,7 +2614,171 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-06T06:27:42.510953",
+        "updated_at": "2026-01-06T07:23:42.988055",
+        "is_deleted": false,
+        "deleted_at": null
+    },
+    "104동:22/29:84A:B1": {
+        "property_key": "104동:22/29:84A:B1",
+        "article_numbers": [
+            "2600785130"
+        ],
+        "representative": {
+            "complex_name": "신도림SK뷰(주상복합)",
+            "article_number": "2600785130",
+            "article_name": "신도림SK뷰(주상복합)",
+            "dong_name": "104동",
+            "trade_type": "B1",
+            "real_estate_type": "A01",
+            "space_info": {
+                "supply_space": 106.18,
+                "contract_space": 146.12,
+                "exclusive_space": 84.98,
+                "land_space": 9159,
+                "supply_space_name": "106A",
+                "exclusive_space_name": "84A",
+                "name_type": "A"
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "20060424",
+                "approval_elapsed_year": 20
+            },
+            "verification_info": {
+                "verification_type": "OWNER",
+                "is_association_article": false,
+                "exposure_start_date": "2026-01-05",
+                "article_confirm_date": "2026-01-05"
+            },
+            "broker_info": {
+                "cp_id": "hkdotcom",
+                "brokerage_name": "114공인중개사사무소",
+                "broker_name": "한경부동산",
+                "cp_out_link_type": "CP_NAME"
+            },
+            "article_detail": {
+                "direction": "WS",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "수납공간많은타입확장되어 내부상태 깨끗함3월30입주협의",
+                "direct_trade": false,
+                "floor_info": "22/29",
+                "floor_detail_info": {
+                    "target_floor": "22",
+                    "total_floor": "29",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "10"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "구로구",
+                "sector": "신도림동",
+                "coordinates": {
+                    "x_coordinate": 126.886499,
+                    "y_coordinate": 37.5074
+                }
+            },
+            "price_info": {
+                "deal_price": 0,
+                "warranty_price": 690000000,
+                "rent_price": 0,
+                "management_fee_amount": 220000,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "신도림SK뷰(주상복합)",
+                "article_number": "2600785130",
+                "article_name": "신도림SK뷰(주상복합)",
+                "dong_name": "104동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 106.18,
+                    "contract_space": 146.12,
+                    "exclusive_space": 84.98,
+                    "land_space": 9159,
+                    "supply_space_name": "106A",
+                    "exclusive_space_name": "84A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20060424",
+                    "approval_elapsed_year": 20
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-05",
+                    "article_confirm_date": "2026-01-05"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "114공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "수납공간많은타입확장되어 내부상태 깨끗함3월30입주협의",
+                    "direct_trade": false,
+                    "floor_info": "22/29",
+                    "floor_detail_info": {
+                        "target_floor": "22",
+                        "total_floor": "29",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.886499,
+                        "y_coordinate": 37.5074
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 690000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 220000,
+                    "price_change_status": 0
+                }
+            }
+        ],
+        "article_count": 1,
+        "price_range": {
+            "min": 690000000,
+            "max": 690000000
+        },
+        "updated_at": "2026-01-06T07:23:42.988049",
         "is_deleted": false,
         "deleted_at": null
     }
