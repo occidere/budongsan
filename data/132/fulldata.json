@@ -323,7 +323,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-05T14:21:44.620395",
+        "updated_at": "2026-01-06T01:09:48.462402",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -495,7 +495,7 @@
             "min": 600000000,
             "max": 600000000
         },
-        "updated_at": "2026-01-05T14:21:44.620370",
+        "updated_at": "2026-01-06T01:09:48.462377",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -736,7 +736,7 @@
             "min": 500000000,
             "max": 500000000
         },
-        "updated_at": "2026-01-05T14:21:44.620391",
+        "updated_at": "2026-01-06T01:09:48.462398",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1139,7 +1139,7 @@
             "min": 1000000000,
             "max": 1000000000
         },
-        "updated_at": "2026-01-05T14:21:44.620375",
+        "updated_at": "2026-01-06T01:09:48.462383",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1303,22 +1303,22 @@
             "min": 590000000,
             "max": 590000000
         },
-        "updated_at": "2026-01-05T14:21:44.620380",
+        "updated_at": "2026-01-06T01:09:48.462387",
         "is_deleted": false,
         "deleted_at": null
     },
     "105동:13/18:84:B1": {
         "property_key": "105동:13/18:84:B1",
         "article_numbers": [
-            "2565978687",
             "2565983879",
             "2568902579",
             "2569128283",
-            "2600813379"
+            "2600813379",
+            "2601099959"
         ],
         "representative": {
             "complex_name": "신도림롯데",
-            "article_number": "2600813379",
+            "article_number": "2601099959",
             "article_name": "신도림롯데",
             "dong_name": "105동",
             "trade_type": "B1",
@@ -1341,19 +1341,19 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2026-01-05",
-                "article_confirm_date": "2026-01-05"
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
                 "cp_id": "bizmk",
-                "brokerage_name": "샘터공인중개사사무소",
+                "brokerage_name": "미래공인중개사사무소",
                 "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "샷시 폴딩도어 중문 조명등 특 올 수리.구로역초 역세권.입주협의",
+                "article_feature_description": "귀한전세,샷시포함특올수리,정문앞,탁트인조망,역세권,백화점마트주차,신혼강추",
                 "direct_trade": false,
                 "floor_info": "13/18",
                 "floor_detail_info": {
@@ -1366,15 +1366,15 @@
                 "is_safe_lessor_of_hug": false
             },
             "article_media_dto": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260105_232/1767578785869G6bcU_JPEG/1697458819200.jpg",
+                "image_url": "https://landthumb-phinf.pstatic.net/20260106_176/1767656885133B3i2e_JPEG/KakaoTalk_20251208_163303887_12.jpg",
                 "image_type": "10",
-                "image_count": 11,
+                "image_count": 13,
                 "is_vr_exposed": false
             },
             "article_media": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260105_232/1767578785869G6bcU_JPEG/1697458819200.jpg",
+                "image_url": "https://landthumb-phinf.pstatic.net/20260106_176/1767656885133B3i2e_JPEG/KakaoTalk_20251208_163303887_12.jpg",
                 "image_type": "10",
-                "image_count": 11,
+                "image_count": 13,
                 "is_vr_exposed": false
             },
             "address": {
@@ -1390,11 +1390,90 @@
                 "deal_price": 0,
                 "warranty_price": 670000000,
                 "rent_price": 0,
-                "management_fee_amount": 200000,
+                "management_fee_amount": 183000,
                 "price_change_status": 0
             }
         },
         "all_articles": [
+            {
+                "complex_name": "신도림롯데",
+                "article_number": "2601099959",
+                "article_name": "신도림롯데",
+                "dong_name": "105동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 108.75,
+                    "contract_space": 137.32,
+                    "exclusive_space": 84.93,
+                    "land_space": 29979,
+                    "supply_space_name": "108",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19991127",
+                    "approval_elapsed_year": 27
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "미래공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "귀한전세,샷시포함특올수리,정문앞,탁트인조망,역세권,백화점마트주차,신혼강추",
+                    "direct_trade": false,
+                    "floor_info": "13/18",
+                    "floor_detail_info": {
+                        "target_floor": "13",
+                        "total_floor": "18",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_176/1767656885133B3i2e_JPEG/KakaoTalk_20251208_163303887_12.jpg",
+                    "image_type": "10",
+                    "image_count": 13,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_176/1767656885133B3i2e_JPEG/KakaoTalk_20251208_163303887_12.jpg",
+                    "image_type": "10",
+                    "image_count": 13,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "구로동",
+                    "coordinates": {
+                        "x_coordinate": 126.88377,
+                        "y_coordinate": 37.50295
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 670000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 183000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "신도림롯데",
                 "article_number": "2600813379",
@@ -1625,85 +1704,6 @@
             },
             {
                 "complex_name": "신도림롯데",
-                "article_number": "2565978687",
-                "article_name": "신도림롯데",
-                "dong_name": "105동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 108.75,
-                    "contract_space": 137.32,
-                    "exclusive_space": 84.93,
-                    "land_space": 29979,
-                    "supply_space_name": "108",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19991127",
-                    "approval_elapsed_year": 27
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-08",
-                    "article_confirm_date": "2025-12-08"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "미래공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "귀한전세,샷시포함특올수리,정문앞,탁트인조망,역세권,백화점마트주차,신혼강추",
-                    "direct_trade": false,
-                    "floor_info": "13/18",
-                    "floor_detail_info": {
-                        "target_floor": "13",
-                        "total_floor": "18",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20251213_246/1765606578558C1uyl_JPEG/KakaoTalk_20251208_163303887_12.jpg",
-                    "image_type": "10",
-                    "image_count": 13,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20251213_246/1765606578558C1uyl_JPEG/KakaoTalk_20251208_163303887_12.jpg",
-                    "image_type": "10",
-                    "image_count": 13,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.88377,
-                        "y_coordinate": 37.50295
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 670000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 183000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림롯데",
                 "article_number": "2565983879",
                 "article_name": "신도림롯데",
                 "dong_name": "105동",
@@ -1787,7 +1787,7 @@
             "min": 670000000,
             "max": 670000000
         },
-        "updated_at": "2026-01-05T14:21:44.620316",
+        "updated_at": "2026-01-06T01:09:48.462301",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2028,7 +2028,7 @@
             "min": 1020000000,
             "max": 1020000000
         },
-        "updated_at": "2026-01-05T14:21:44.620324",
+        "updated_at": "2026-01-06T01:09:48.462330",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2190,7 +2190,7 @@
             "min": 1150000000,
             "max": 1150000000
         },
-        "updated_at": "2026-01-05T14:21:44.620408",
+        "updated_at": "2026-01-06T01:09:48.462428",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2356,7 +2356,7 @@
             },
             {
                 "complex_name": "신도림롯데",
-                "article_number": "2570100029",
+                "article_number": "2570082062",
                 "article_name": "신도림롯데",
                 "dong_name": "109동",
                 "trade_type": "A1",
@@ -2384,88 +2384,14 @@
                 },
                 "broker_info": {
                     "cp_id": "SERVE",
-                    "brokerage_name": "롯데공인중개사",
+                    "brokerage_name": "신도림롯데공인중개사사무소",
                     "broker_name": "부동산써브",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "WS",
                     "direction_standard": "거실 기준",
-                    "direct_trade": false,
-                    "floor_info": "7/19",
-                    "floor_detail_info": {
-                        "target_floor": "7",
-                        "total_floor": "19",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "구로동",
-                    "coordinates": {
-                        "x_coordinate": 126.88474,
-                        "y_coordinate": 37.50353
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1120000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 250000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림롯데",
-                "article_number": "2570084720",
-                "article_name": "신도림롯데",
-                "dong_name": "109동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 160.1,
-                    "contract_space": 204.27,
-                    "exclusive_space": 131.3,
-                    "land_space": 29979,
-                    "supply_space_name": "160",
-                    "exclusive_space_name": "131",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19991127",
-                    "approval_elapsed_year": 27
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "에이스공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "구로초역세권  진짜급매물입니다.상태는 기본 .입주협의.햇살 좋고 조용함",
+                    "article_feature_description": "급매 깨끗 로얄동호수  채광우수 구로역신도림역세권",
                     "direct_trade": false,
                     "floor_info": "7/19",
                     "floor_detail_info": {
@@ -2655,7 +2581,7 @@
             },
             {
                 "complex_name": "신도림롯데",
-                "article_number": "2570082062",
+                "article_number": "2570100029",
                 "article_name": "신도림롯데",
                 "dong_name": "109동",
                 "trade_type": "A1",
@@ -2683,14 +2609,88 @@
                 },
                 "broker_info": {
                     "cp_id": "SERVE",
-                    "brokerage_name": "신도림롯데공인중개사사무소",
+                    "brokerage_name": "롯데공인중개사",
                     "broker_name": "부동산써브",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "WS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "급매 깨끗 로얄동호수  채광우수 구로역신도림역세권",
+                    "direct_trade": false,
+                    "floor_info": "7/19",
+                    "floor_detail_info": {
+                        "target_floor": "7",
+                        "total_floor": "19",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "구로동",
+                    "coordinates": {
+                        "x_coordinate": 126.88474,
+                        "y_coordinate": 37.50353
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1120000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 250000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림롯데",
+                "article_number": "2570084720",
+                "article_name": "신도림롯데",
+                "dong_name": "109동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 160.1,
+                    "contract_space": 204.27,
+                    "exclusive_space": 131.3,
+                    "land_space": 29979,
+                    "supply_space_name": "160",
+                    "exclusive_space_name": "131",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19991127",
+                    "approval_elapsed_year": 27
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "에이스공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "구로초역세권  진짜급매물입니다.상태는 기본 .입주협의.햇살 좋고 조용함",
                     "direct_trade": false,
                     "floor_info": "7/19",
                     "floor_detail_info": {
@@ -2734,7 +2734,7 @@
             "min": 1100000000,
             "max": 1120000000
         },
-        "updated_at": "2026-01-05T14:21:44.620365",
+        "updated_at": "2026-01-06T01:09:48.462372",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2898,7 +2898,7 @@
             "min": 1150000000,
             "max": 1150000000
         },
-        "updated_at": "2026-01-05T14:21:44.620357",
+        "updated_at": "2026-01-06T01:09:48.462364",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3681,7 +3681,7 @@
             "min": 1150000000,
             "max": 1150000000
         },
-        "updated_at": "2026-01-05T14:21:44.620347",
+        "updated_at": "2026-01-06T01:09:48.462354",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3845,7 +3845,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-05T14:21:44.620385",
+        "updated_at": "2026-01-06T01:09:48.462392",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4009,7 +4009,7 @@
             "min": 1350000000,
             "max": 1350000000
         },
-        "updated_at": "2026-01-05T14:21:44.620403",
+        "updated_at": "2026-01-06T01:09:48.462423",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4502,7 +4502,7 @@
             "min": 201700000,
             "max": 201700000
         },
-        "updated_at": "2026-01-05T14:21:44.620331",
+        "updated_at": "2026-01-06T01:09:48.462337",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4751,7 +4751,7 @@
             "min": 550000000,
             "max": 550000000
         },
-        "updated_at": "2026-01-05T14:21:44.620337",
+        "updated_at": "2026-01-06T01:09:48.462343",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5077,7 +5077,7 @@
             "min": 900000000,
             "max": 900000000
         },
-        "updated_at": "2026-01-05T14:21:44.620352",
+        "updated_at": "2026-01-06T01:09:48.462359",
         "is_deleted": false,
         "deleted_at": null
     }
