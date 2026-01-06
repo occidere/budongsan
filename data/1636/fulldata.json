@@ -167,7 +167,7 @@
             "min": 20750000,
             "max": 20750000
         },
-        "updated_at": "2026-01-06T03:27:46.137551",
+        "updated_at": "2026-01-06T04:37:54.732698",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -331,7 +331,7 @@
             "min": 220000000,
             "max": 220000000
         },
-        "updated_at": "2026-01-06T03:27:46.137582",
+        "updated_at": "2026-01-06T04:37:54.732730",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -495,7 +495,7 @@
             "min": 700000000,
             "max": 700000000
         },
-        "updated_at": "2026-01-06T03:27:46.137537",
+        "updated_at": "2026-01-06T04:37:54.732683",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -659,7 +659,7 @@
             "min": 270000000,
             "max": 270000000
         },
-        "updated_at": "2026-01-06T03:27:46.137555",
+        "updated_at": "2026-01-06T04:37:54.732703",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -824,8 +824,8 @@
             "max": 70900000
         },
         "updated_at": "2026-01-06T03:27:46.137599",
-        "is_deleted": false,
-        "deleted_at": null
+        "is_deleted": true,
+        "deleted_at": "2026-01-06T04:37:57.745000"
     },
     "903동:3/15:59B:B1": {
         "property_key": "903동:3/15:59B:B1",
@@ -916,6 +916,81 @@
         "all_articles": [
             {
                 "complex_name": "주공9단지",
+                "article_number": "2601116744",
+                "article_name": "주공9단지",
+                "dong_name": "903동",
+                "trade_type": "B1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 82.53,
+                    "contract_space": 82.53,
+                    "exclusive_space": 59.39,
+                    "land_space": 82797,
+                    "supply_space_name": "82B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19900910",
+                    "approval_elapsed_year": 36
+                },
+                "verification_info": {
+                    "verification_type": "DOCV2",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "rets",
+                    "brokerage_name": "신성  공인중개사사무소",
+                    "broker_name": "부동산렛츠",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "수리함,도배해줌단지앞정류장,교통편리,도서관,2월말",
+                    "direct_trade": false,
+                    "floor_info": "3/15",
+                    "floor_detail_info": {
+                        "target_floor": "3",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "경기도",
+                    "division": "광명시",
+                    "sector": "하안동",
+                    "coordinates": {
+                        "x_coordinate": 126.87551,
+                        "y_coordinate": 37.46847
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 260000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 247176,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "주공9단지",
                 "article_number": "2601153369",
                 "article_name": "주공9단지",
                 "dong_name": "903동",
@@ -973,81 +1048,6 @@
                     "image_url": "https://landthumb-phinf.pstatic.net/20260106_150/1767664946768HbtFk_JPEG/105137068_XJ3U5Q1PUAVY3TIFN93A.jpg",
                     "image_type": "10",
                     "image_count": 1,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "경기도",
-                    "division": "광명시",
-                    "sector": "하안동",
-                    "coordinates": {
-                        "x_coordinate": 126.87551,
-                        "y_coordinate": 37.46847
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 260000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 247176,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "주공9단지",
-                "article_number": "2601116744",
-                "article_name": "주공9단지",
-                "dong_name": "903동",
-                "trade_type": "B1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 82.53,
-                    "contract_space": 82.53,
-                    "exclusive_space": 59.39,
-                    "land_space": 82797,
-                    "supply_space_name": "82B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19900910",
-                    "approval_elapsed_year": 36
-                },
-                "verification_info": {
-                    "verification_type": "DOCV2",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-06",
-                    "article_confirm_date": "2026-01-06"
-                },
-                "broker_info": {
-                    "cp_id": "rets",
-                    "brokerage_name": "신성  공인중개사사무소",
-                    "broker_name": "부동산렛츠",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "수리함,도배해줌단지앞정류장,교통편리,도서관,2월말",
-                    "direct_trade": false,
-                    "floor_info": "3/15",
-                    "floor_detail_info": {
-                        "target_floor": "3",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
                     "is_vr_exposed": false
                 },
                 "address": {
@@ -1224,7 +1224,7 @@
             "min": 260000000,
             "max": 260000000
         },
-        "updated_at": "2026-01-06T03:27:46.137505",
+        "updated_at": "2026-01-06T04:37:54.732650",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1388,7 +1388,7 @@
             "min": 20720000,
             "max": 20720000
         },
-        "updated_at": "2026-01-06T03:27:46.137569",
+        "updated_at": "2026-01-06T04:37:54.732717",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1552,7 +1552,7 @@
             "min": 250000000,
             "max": 250000000
         },
-        "updated_at": "2026-01-06T03:27:46.137591",
+        "updated_at": "2026-01-06T04:37:54.732739",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1716,7 +1716,7 @@
             "min": 280000000,
             "max": 280000000
         },
-        "updated_at": "2026-01-06T03:27:46.137603",
+        "updated_at": "2026-01-06T04:37:54.732747",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1880,7 +1880,7 @@
             "min": 250000000,
             "max": 250000000
         },
-        "updated_at": "2026-01-06T03:27:46.137565",
+        "updated_at": "2026-01-06T04:37:54.732712",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2044,7 +2044,7 @@
             "min": 700000000,
             "max": 700000000
         },
-        "updated_at": "2026-01-06T03:27:46.137532",
+        "updated_at": "2026-01-06T04:37:54.732678",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2216,7 +2216,7 @@
             "min": 230000000,
             "max": 230000000
         },
-        "updated_at": "2026-01-06T03:27:46.137608",
+        "updated_at": "2026-01-06T04:37:54.732751",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2380,7 +2380,7 @@
             "min": 10850000,
             "max": 10850000
         },
-        "updated_at": "2026-01-06T03:27:46.137573",
+        "updated_at": "2026-01-06T04:37:54.732722",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2716,7 +2716,7 @@
             "min": 31100000,
             "max": 31100000
         },
-        "updated_at": "2026-01-06T03:27:46.137560",
+        "updated_at": "2026-01-06T04:37:54.732708",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2880,7 +2880,7 @@
             "min": 700000000,
             "max": 700000000
         },
-        "updated_at": "2026-01-06T03:27:46.137613",
+        "updated_at": "2026-01-06T04:37:54.732756",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3044,7 +3044,7 @@
             "min": 220000000,
             "max": 220000000
         },
-        "updated_at": "2026-01-06T03:27:46.137595",
+        "updated_at": "2026-01-06T04:37:54.732743",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3208,7 +3208,7 @@
             "min": 280000000,
             "max": 280000000
         },
-        "updated_at": "2026-01-06T03:27:46.137578",
+        "updated_at": "2026-01-06T04:37:54.732726",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3522,7 +3522,7 @@
                 },
                 "price_info": {
                     "deal_price": 0,
-                    "warranty_price": 280000000,
+                    "warranty_price": 260000000,
                     "rent_price": 0,
                     "management_fee_amount": 247176,
                     "price_change_status": -1,
@@ -3534,6 +3534,10 @@
                         {
                             "modified_date": "2025-12-19T18:36:01",
                             "warranty_price": 280000000
+                        },
+                        {
+                            "modified_date": "2026-01-06T12:42:04",
+                            "warranty_price": 260000000
                         }
                     ]
                 },
@@ -3542,10 +3546,10 @@
         ],
         "article_count": 3,
         "price_range": {
-            "min": 280000000,
+            "min": 260000000,
             "max": 280000000
         },
-        "updated_at": "2026-01-06T03:27:46.137527",
+        "updated_at": "2026-01-06T04:37:54.732673",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3929,7 +3933,7 @@
             "min": 750000000,
             "max": 750000000
         },
-        "updated_at": "2026-01-06T03:27:46.137586",
+        "updated_at": "2026-01-06T04:37:54.732734",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4093,7 +4097,7 @@
             "min": 550000000,
             "max": 550000000
         },
-        "updated_at": "2026-01-06T03:27:46.137541",
+        "updated_at": "2026-01-06T04:37:54.732688",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4152,13 +4156,13 @@
                 "is_safe_lessor_of_hug": false
             },
             "article_media_dto": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260106_97/1767661463082KxIVV_JPEG/202727520_ZJ1DNRS4ML.jpg",
+                "image_url": "https://landthumb-phinf.pstatic.net/20260106_175/1767663671736A5p7Q_JPEG/202727520_ZJ1DNRS4ML.jpg",
                 "image_type": "10",
                 "image_count": 1,
                 "is_vr_exposed": false
             },
             "article_media": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260106_97/1767661463082KxIVV_JPEG/202727520_ZJ1DNRS4ML.jpg",
+                "image_url": "https://landthumb-phinf.pstatic.net/20260106_175/1767663671736A5p7Q_JPEG/202727520_ZJ1DNRS4ML.jpg",
                 "image_type": "10",
                 "image_count": 1,
                 "is_vr_exposed": false
@@ -4231,13 +4235,13 @@
                     "is_safe_lessor_of_hug": false
                 },
                 "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_97/1767661463082KxIVV_JPEG/202727520_ZJ1DNRS4ML.jpg",
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_175/1767663671736A5p7Q_JPEG/202727520_ZJ1DNRS4ML.jpg",
                     "image_type": "10",
                     "image_count": 1,
                     "is_vr_exposed": false
                 },
                 "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_97/1767661463082KxIVV_JPEG/202727520_ZJ1DNRS4ML.jpg",
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_175/1767663671736A5p7Q_JPEG/202727520_ZJ1DNRS4ML.jpg",
                     "image_type": "10",
                     "image_count": 1,
                     "is_vr_exposed": false
@@ -4265,7 +4269,7 @@
             "min": 220000000,
             "max": 220000000
         },
-        "updated_at": "2026-01-06T03:27:46.137519",
+        "updated_at": "2026-01-06T04:37:54.732665",
         "is_deleted": false,
         "deleted_at": null
     }
