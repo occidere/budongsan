@@ -2,13 +2,13 @@
     "1동:1/13:37:A1": {
         "property_key": "1동:1/13:37:A1",
         "article_numbers": [
-            "2566451706",
             "2570024588",
-            "2600567365"
+            "2600567365",
+            "2601217300"
         ],
         "representative": {
             "complex_name": "미성",
-            "article_number": "2600567365",
+            "article_number": "2601217300",
             "article_name": "미성",
             "dong_name": "1동",
             "trade_type": "A1",
@@ -31,19 +31,19 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2026-01-03",
-                "article_confirm_date": "2026-01-03"
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
-                "cp_id": "thebiz",
-                "brokerage_name": "라이프공인중개사사무소",
-                "broker_name": "이실장플러스",
-                "cp_out_link_type": "NONE"
+                "cp_id": "ten",
+                "brokerage_name": "신도림미성공인중개사사무소",
+                "broker_name": "텐컴즈",
+                "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
-                "direction": "ES",
+                "direction": "EE",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "미성15 입주가능 특올수리 재건축투자",
+                "article_feature_description": "샤시 포함 올수리,실거주가능,재건축 상승 투자 추천",
                 "direct_trade": false,
                 "floor_info": "1/13",
                 "floor_detail_info": {
@@ -81,6 +81,81 @@
             }
         },
         "all_articles": [
+            {
+                "complex_name": "미성",
+                "article_number": "2601217300",
+                "article_name": "미성",
+                "dong_name": "1동",
+                "trade_type": "A1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 50.98,
+                    "contract_space": 51.97,
+                    "exclusive_space": 37.91,
+                    "land_space": 28207,
+                    "supply_space_name": "50",
+                    "exclusive_space_name": "37",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19871211",
+                    "approval_elapsed_year": 39
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "ten",
+                    "brokerage_name": "신도림미성공인중개사사무소",
+                    "broker_name": "텐컴즈",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "EE",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "샤시 포함 올수리,실거주가능,재건축 상승 투자 추천",
+                    "direct_trade": false,
+                    "floor_info": "1/13",
+                    "floor_detail_info": {
+                        "target_floor": "1",
+                        "total_floor": "13",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.876206,
+                        "y_coordinate": 37.508167
+                    }
+                },
+                "price_info": {
+                    "deal_price": 630000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 150000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "미성",
                 "article_number": "2600567365",
@@ -230,81 +305,6 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
-            },
-            {
-                "complex_name": "미성",
-                "article_number": "2566451706",
-                "article_name": "미성",
-                "dong_name": "1동",
-                "trade_type": "A1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 50.98,
-                    "contract_space": 51.97,
-                    "exclusive_space": 37.91,
-                    "land_space": 28207,
-                    "supply_space_name": "50",
-                    "exclusive_space_name": "37",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19871211",
-                    "approval_elapsed_year": 39
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-11",
-                    "article_confirm_date": "2025-12-11"
-                },
-                "broker_info": {
-                    "cp_id": "ten",
-                    "brokerage_name": "신도림미성공인중개사사무소",
-                    "broker_name": "텐컴즈",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "EE",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "샤시 포함 올수리,실거주가능,재건축 상승 투자 추천",
-                    "direct_trade": false,
-                    "floor_info": "1/13",
-                    "floor_detail_info": {
-                        "target_floor": "1",
-                        "total_floor": "13",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.876206,
-                        "y_coordinate": 37.508167
-                    }
-                },
-                "price_info": {
-                    "deal_price": 630000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
             }
         ],
         "article_count": 3,
@@ -312,7 +312,7 @@
             "min": 630000000,
             "max": 630000000
         },
-        "updated_at": "2026-01-06T03:25:09.122723",
+        "updated_at": "2026-01-06T04:35:25.559337",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -484,7 +484,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-06T03:25:09.122750",
+        "updated_at": "2026-01-06T04:35:25.559413",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -728,7 +728,7 @@
             "min": 20750000,
             "max": 20750000
         },
-        "updated_at": "2026-01-06T03:25:09.122779",
+        "updated_at": "2026-01-06T04:35:25.559435",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -892,7 +892,7 @@
             "min": 660000000,
             "max": 660000000
         },
-        "updated_at": "2026-01-06T03:25:09.122772",
+        "updated_at": "2026-01-06T04:35:25.559429",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1133,20 +1133,20 @@
             "min": 360000000,
             "max": 360000000
         },
-        "updated_at": "2026-01-06T03:25:09.122701",
+        "updated_at": "2026-01-06T04:35:25.559373",
         "is_deleted": false,
         "deleted_at": null
     },
     "3동:5/13:83:B1": {
         "property_key": "3동:5/13:83:B1",
         "article_numbers": [
-            "2567978875",
             "2568897591",
-            "2568922163"
+            "2568922163",
+            "2601216134"
         ],
         "representative": {
             "complex_name": "미성",
-            "article_number": "2568922163",
+            "article_number": "2601216134",
             "article_name": "미성",
             "dong_name": "3동",
             "trade_type": "B1",
@@ -1167,29 +1167,29 @@
                 "approval_elapsed_year": 39
             },
             "verification_info": {
-                "verification_type": "DOC",
+                "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-23",
-                "article_confirm_date": "2025-12-23"
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
-                "cp_id": "hkdotcom",
-                "brokerage_name": "크라운공인중개사사무소",
-                "broker_name": "한경부동산",
+                "cp_id": "ten",
+                "brokerage_name": "신도림미성공인중개사사무소",
+                "broker_name": "텐컴즈",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "WS",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "샷시포함특올수리된 남향집 신도림초중고도보가능 수시입주가능합니다.",
+                "article_feature_description": "미성34.샷시, 화장실,싱크대및 전체 올수리,빠른 입주 가능",
                 "direct_trade": false,
-                "floor_info": "5/13",
+                "floor_info": "중/13",
                 "floor_detail_info": {
-                    "target_floor": "5",
+                    "target_floor": "중",
                     "total_floor": "13",
                     "ground_total_floor": "0",
                     "underground_total_floor": "0",
-                    "floor_type": "10"
+                    "floor_type": "20"
                 },
                 "is_safe_lessor_of_hug": false
             },
@@ -1214,14 +1214,14 @@
                 "deal_price": 0,
                 "warranty_price": 500000000,
                 "rent_price": 0,
-                "management_fee_amount": 300000,
+                "management_fee_amount": 220000,
                 "price_change_status": 0
             }
         },
         "all_articles": [
             {
                 "complex_name": "미성",
-                "article_number": "2568922163",
+                "article_number": "2601216134",
                 "article_name": "미성",
                 "dong_name": "3동",
                 "trade_type": "B1",
@@ -1242,29 +1242,29 @@
                     "approval_elapsed_year": 39
                 },
                 "verification_info": {
-                    "verification_type": "DOC",
+                    "verification_type": "OWNER",
                     "is_association_article": false,
-                    "exposure_start_date": "2025-12-23",
-                    "article_confirm_date": "2025-12-23"
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
                 },
                 "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "크라운공인중개사사무소",
-                    "broker_name": "한경부동산",
+                    "cp_id": "ten",
+                    "brokerage_name": "신도림미성공인중개사사무소",
+                    "broker_name": "텐컴즈",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "WS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "샷시포함특올수리된 남향집 신도림초중고도보가능 수시입주가능합니다.",
+                    "article_feature_description": "미성34.샷시, 화장실,싱크대및 전체 올수리,빠른 입주 가능",
                     "direct_trade": false,
-                    "floor_info": "5/13",
+                    "floor_info": "중/13",
                     "floor_detail_info": {
-                        "target_floor": "5",
+                        "target_floor": "중",
                         "total_floor": "13",
                         "ground_total_floor": "0",
                         "underground_total_floor": "0",
-                        "floor_type": "10"
+                        "floor_type": "20"
                     },
                     "is_safe_lessor_of_hug": false
                 },
@@ -1289,7 +1289,7 @@
                     "deal_price": 0,
                     "warranty_price": 500000000,
                     "rent_price": 0,
-                    "management_fee_amount": 300000,
+                    "management_fee_amount": 220000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -1371,7 +1371,7 @@
             },
             {
                 "complex_name": "미성",
-                "article_number": "2567978875",
+                "article_number": "2568922163",
                 "article_name": "미성",
                 "dong_name": "3동",
                 "trade_type": "B1",
@@ -1392,29 +1392,29 @@
                     "approval_elapsed_year": 39
                 },
                 "verification_info": {
-                    "verification_type": "OWNER",
+                    "verification_type": "DOC",
                     "is_association_article": false,
-                    "exposure_start_date": "2025-12-18",
-                    "article_confirm_date": "2025-12-18"
+                    "exposure_start_date": "2025-12-23",
+                    "article_confirm_date": "2025-12-23"
                 },
                 "broker_info": {
-                    "cp_id": "ten",
-                    "brokerage_name": "신도림미성공인중개사사무소",
-                    "broker_name": "텐컴즈",
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "크라운공인중개사사무소",
+                    "broker_name": "한경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "WS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "미성34.샷시, 화장실,싱크대및 전체 올수리,빠른 입주 가능",
+                    "article_feature_description": "샷시포함특올수리된 남향집 신도림초중고도보가능 수시입주가능합니다.",
                     "direct_trade": false,
-                    "floor_info": "중/13",
+                    "floor_info": "5/13",
                     "floor_detail_info": {
-                        "target_floor": "중",
+                        "target_floor": "5",
                         "total_floor": "13",
                         "ground_total_floor": "0",
                         "underground_total_floor": "0",
-                        "floor_type": "20"
+                        "floor_type": "10"
                     },
                     "is_safe_lessor_of_hug": false
                 },
@@ -1439,7 +1439,7 @@
                     "deal_price": 0,
                     "warranty_price": 500000000,
                     "rent_price": 0,
-                    "management_fee_amount": 220000,
+                    "management_fee_amount": 300000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -1450,7 +1450,7 @@
             "min": 500000000,
             "max": 500000000
         },
-        "updated_at": "2026-01-06T03:25:09.122785",
+        "updated_at": "2026-01-06T04:35:25.559404",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1614,7 +1614,7 @@
             "min": 380000000,
             "max": 380000000
         },
-        "updated_at": "2026-01-06T03:25:09.122825",
+        "updated_at": "2026-01-06T04:35:25.559462",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1778,7 +1778,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-06T03:25:09.122816",
+        "updated_at": "2026-01-06T04:35:25.559454",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1942,7 +1942,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-06T03:25:09.122790",
+        "updated_at": "2026-01-06T04:35:25.559440",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2183,22 +2183,22 @@
             "min": 1050000000,
             "max": 1050000000
         },
-        "updated_at": "2026-01-06T03:25:09.122731",
+        "updated_at": "2026-01-06T04:35:25.559396",
         "is_deleted": false,
         "deleted_at": null
     },
     "6동:3/13:83:B1": {
         "property_key": "6동:3/13:83:B1",
         "article_numbers": [
-            "2567227672",
             "2567753993",
             "2569536466",
             "2569712114",
-            "2569902163"
+            "2569902163",
+            "2601216375"
         ],
         "representative": {
             "complex_name": "미성",
-            "article_number": "2569902163",
+            "article_number": "2601216375",
             "article_name": "미성",
             "dong_name": "6동",
             "trade_type": "B1",
@@ -2219,21 +2219,21 @@
                 "approval_elapsed_year": 39
             },
             "verification_info": {
-                "verification_type": "NDOC1",
+                "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-29",
-                "article_confirm_date": "2025-12-29"
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
-                "cp_id": "NEONET",
-                "brokerage_name": "신화공인중개사사무소",
-                "broker_name": "부동산뱅크",
+                "cp_id": "ten",
+                "brokerage_name": "신도림미성공인중개사사무소",
+                "broker_name": "텐컴즈",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "WS",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "전세가 매우 저렴, 샷시포함 올수리함",
+                "article_feature_description": "전체 수리된 깨끗한 컨디션,저렴한 보증금",
                 "direct_trade": false,
                 "floor_info": "3/13",
                 "floor_detail_info": {
@@ -2266,11 +2266,86 @@
                 "deal_price": 0,
                 "warranty_price": 500000000,
                 "rent_price": 0,
-                "management_fee_amount": 332086,
+                "management_fee_amount": 250000,
                 "price_change_status": 0
             }
         },
         "all_articles": [
+            {
+                "complex_name": "미성",
+                "article_number": "2601216375",
+                "article_name": "미성",
+                "dong_name": "6동",
+                "trade_type": "B1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 112.46,
+                    "contract_space": 114.12,
+                    "exclusive_space": 83.67,
+                    "land_space": 28207,
+                    "supply_space_name": "112",
+                    "exclusive_space_name": "83",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19871211",
+                    "approval_elapsed_year": 39
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "ten",
+                    "brokerage_name": "신도림미성공인중개사사무소",
+                    "broker_name": "텐컴즈",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "전체 수리된 깨끗한 컨디션,저렴한 보증금",
+                    "direct_trade": false,
+                    "floor_info": "3/13",
+                    "floor_detail_info": {
+                        "target_floor": "3",
+                        "total_floor": "13",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.876187,
+                        "y_coordinate": 37.507194
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 500000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 250000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "미성",
                 "article_number": "2569712114",
@@ -2498,81 +2573,6 @@
             },
             {
                 "complex_name": "미성",
-                "article_number": "2567227672",
-                "article_name": "미성",
-                "dong_name": "6동",
-                "trade_type": "B1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 112.46,
-                    "contract_space": 114.12,
-                    "exclusive_space": 83.67,
-                    "land_space": 28207,
-                    "supply_space_name": "112",
-                    "exclusive_space_name": "83",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19871211",
-                    "approval_elapsed_year": 39
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-15",
-                    "article_confirm_date": "2025-12-15"
-                },
-                "broker_info": {
-                    "cp_id": "ten",
-                    "brokerage_name": "신도림미성공인중개사사무소",
-                    "broker_name": "텐컴즈",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "전체 수리된 깨끗한 컨디션,저렴한 보증금",
-                    "direct_trade": false,
-                    "floor_info": "3/13",
-                    "floor_detail_info": {
-                        "target_floor": "3",
-                        "total_floor": "13",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.876187,
-                        "y_coordinate": 37.507194
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 500000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 250000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "미성",
                 "article_number": "2567753993",
                 "article_name": "미성",
                 "dong_name": "6동",
@@ -2652,7 +2652,7 @@
             "min": 500000000,
             "max": 500000000
         },
-        "updated_at": "2026-01-06T03:25:09.122768",
+        "updated_at": "2026-01-06T04:35:25.559355",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2816,7 +2816,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-06T03:25:09.122821",
+        "updated_at": "2026-01-06T04:35:25.559458",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2980,7 +2980,7 @@
             "min": 1050000000,
             "max": 1050000000
         },
-        "updated_at": "2026-01-06T03:25:09.122745",
+        "updated_at": "2026-01-06T04:35:25.559409",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3144,7 +3144,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-06T03:25:09.122794",
+        "updated_at": "2026-01-06T04:35:25.559444",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3308,7 +3308,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-06T03:25:09.122811",
+        "updated_at": "2026-01-06T04:35:25.559449",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3480,7 +3480,7 @@
             "min": 550000000,
             "max": 550000000
         },
-        "updated_at": "2026-01-06T03:25:09.122716",
+        "updated_at": "2026-01-06T04:35:25.559379",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3644,7 +3644,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-06T03:25:09.122760",
+        "updated_at": "2026-01-06T04:35:25.559424",
         "is_deleted": false,
         "deleted_at": null
     }
