@@ -167,7 +167,7 @@
             "min": 20750000,
             "max": 20750000
         },
-        "updated_at": "2026-01-06T01:10:29.663405",
+        "updated_at": "2026-01-06T03:27:46.137551",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -331,7 +331,7 @@
             "min": 220000000,
             "max": 220000000
         },
-        "updated_at": "2026-01-06T01:10:29.663463",
+        "updated_at": "2026-01-06T03:27:46.137582",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -495,7 +495,7 @@
             "min": 700000000,
             "max": 700000000
         },
-        "updated_at": "2026-01-06T01:10:29.663390",
+        "updated_at": "2026-01-06T03:27:46.137537",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -659,7 +659,7 @@
             "min": 270000000,
             "max": 270000000
         },
-        "updated_at": "2026-01-06T01:10:29.663422",
+        "updated_at": "2026-01-06T03:27:46.137555",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -823,20 +823,21 @@
             "min": 70900000,
             "max": 70900000
         },
-        "updated_at": "2026-01-06T01:10:29.663481",
+        "updated_at": "2026-01-06T03:27:46.137599",
         "is_deleted": false,
         "deleted_at": null
     },
     "903동:3/15:59B:B1": {
         "property_key": "903동:3/15:59B:B1",
         "article_numbers": [
-            "2566445438",
             "2567296762",
-            "2567646976"
+            "2567646976",
+            "2601116744",
+            "2601153369"
         ],
         "representative": {
             "complex_name": "주공9단지",
-            "article_number": "2567646976",
+            "article_number": "2601153369",
             "article_name": "주공9단지",
             "dong_name": "903동",
             "trade_type": "B1",
@@ -857,21 +858,21 @@
                 "approval_elapsed_year": 36
             },
             "verification_info": {
-                "verification_type": "DOC",
+                "verification_type": "DOCV2",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-17",
-                "article_confirm_date": "2025-12-17"
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
                 "cp_id": "rets",
-                "brokerage_name": "대청공인중개사사무소",
+                "brokerage_name": "하안공인중개사사무소",
                 "broker_name": "부동산렛츠",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "내부수리됨 도배 시공해줌 입주일협의",
+                "article_feature_description": "올수리 철산역 도서관 안양천",
                 "direct_trade": false,
                 "floor_info": "3/15",
                 "floor_detail_info": {
@@ -884,11 +885,15 @@
                 "is_safe_lessor_of_hug": false
             },
             "article_media_dto": {
-                "image_count": 0,
+                "image_url": "https://landthumb-phinf.pstatic.net/20260106_150/1767664946768HbtFk_JPEG/105137068_XJ3U5Q1PUAVY3TIFN93A.jpg",
+                "image_type": "10",
+                "image_count": 1,
                 "is_vr_exposed": false
             },
             "article_media": {
-                "image_count": 0,
+                "image_url": "https://landthumb-phinf.pstatic.net/20260106_150/1767664946768HbtFk_JPEG/105137068_XJ3U5Q1PUAVY3TIFN93A.jpg",
+                "image_type": "10",
+                "image_count": 1,
                 "is_vr_exposed": false
             },
             "address": {
@@ -909,6 +914,160 @@
             }
         },
         "all_articles": [
+            {
+                "complex_name": "주공9단지",
+                "article_number": "2601153369",
+                "article_name": "주공9단지",
+                "dong_name": "903동",
+                "trade_type": "B1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 82.53,
+                    "contract_space": 82.53,
+                    "exclusive_space": 59.39,
+                    "land_space": 82797,
+                    "supply_space_name": "82B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19900910",
+                    "approval_elapsed_year": 36
+                },
+                "verification_info": {
+                    "verification_type": "DOCV2",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "rets",
+                    "brokerage_name": "하안공인중개사사무소",
+                    "broker_name": "부동산렛츠",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "올수리 철산역 도서관 안양천",
+                    "direct_trade": false,
+                    "floor_info": "3/15",
+                    "floor_detail_info": {
+                        "target_floor": "3",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_150/1767664946768HbtFk_JPEG/105137068_XJ3U5Q1PUAVY3TIFN93A.jpg",
+                    "image_type": "10",
+                    "image_count": 1,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_150/1767664946768HbtFk_JPEG/105137068_XJ3U5Q1PUAVY3TIFN93A.jpg",
+                    "image_type": "10",
+                    "image_count": 1,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "경기도",
+                    "division": "광명시",
+                    "sector": "하안동",
+                    "coordinates": {
+                        "x_coordinate": 126.87551,
+                        "y_coordinate": 37.46847
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 260000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 247176,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "주공9단지",
+                "article_number": "2601116744",
+                "article_name": "주공9단지",
+                "dong_name": "903동",
+                "trade_type": "B1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 82.53,
+                    "contract_space": 82.53,
+                    "exclusive_space": 59.39,
+                    "land_space": 82797,
+                    "supply_space_name": "82B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19900910",
+                    "approval_elapsed_year": 36
+                },
+                "verification_info": {
+                    "verification_type": "DOCV2",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "rets",
+                    "brokerage_name": "신성  공인중개사사무소",
+                    "broker_name": "부동산렛츠",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "수리함,도배해줌단지앞정류장,교통편리,도서관,2월말",
+                    "direct_trade": false,
+                    "floor_info": "3/15",
+                    "floor_detail_info": {
+                        "target_floor": "3",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "경기도",
+                    "division": "광명시",
+                    "sector": "하안동",
+                    "coordinates": {
+                        "x_coordinate": 126.87551,
+                        "y_coordinate": 37.46847
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 260000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 247176,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "주공9단지",
                 "article_number": "2567646976",
@@ -981,95 +1140,6 @@
                     "rent_price": 0,
                     "management_fee_amount": 247176,
                     "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "주공9단지",
-                "article_number": "2566445438",
-                "article_name": "주공9단지",
-                "dong_name": "903동",
-                "trade_type": "B1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 82.53,
-                    "contract_space": 82.53,
-                    "exclusive_space": 59.39,
-                    "land_space": 82797,
-                    "supply_space_name": "82B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19900910",
-                    "approval_elapsed_year": 36
-                },
-                "verification_info": {
-                    "verification_type": "DOCV2",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-11",
-                    "article_confirm_date": "2025-12-11"
-                },
-                "broker_info": {
-                    "cp_id": "rets",
-                    "brokerage_name": "하안공인중개사사무소",
-                    "broker_name": "부동산렛츠",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리 철산역 도서관 안양천",
-                    "direct_trade": false,
-                    "floor_info": "3/15",
-                    "floor_detail_info": {
-                        "target_floor": "3",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20251215_203/1765791027910kwsAO_JPEG/102855904_73L1IQD1XF.jpg",
-                    "image_type": "10",
-                    "image_count": 1,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20251215_203/1765791027910kwsAO_JPEG/102855904_73L1IQD1XF.jpg",
-                    "image_type": "10",
-                    "image_count": 1,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "경기도",
-                    "division": "광명시",
-                    "sector": "하안동",
-                    "coordinates": {
-                        "x_coordinate": 126.87551,
-                        "y_coordinate": 37.46847
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 260000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 247176,
-                    "price_change_status": -1,
-                    "price_change_histories": [
-                        {
-                            "modified_date": "2025-12-11T11:00:36",
-                            "warranty_price": 280000000
-                        },
-                        {
-                            "modified_date": "2025-12-15T15:47:16",
-                            "warranty_price": 260000000
-                        }
-                    ]
                 },
                 "have_favorite": false
             },
@@ -1149,12 +1219,12 @@
                 "have_favorite": false
             }
         ],
-        "article_count": 3,
+        "article_count": 4,
         "price_range": {
             "min": 260000000,
             "max": 260000000
         },
-        "updated_at": "2026-01-06T01:10:29.663492",
+        "updated_at": "2026-01-06T03:27:46.137505",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1318,7 +1388,7 @@
             "min": 20720000,
             "max": 20720000
         },
-        "updated_at": "2026-01-06T01:10:29.663439",
+        "updated_at": "2026-01-06T03:27:46.137569",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1482,7 +1552,7 @@
             "min": 250000000,
             "max": 250000000
         },
-        "updated_at": "2026-01-06T01:10:29.663472",
+        "updated_at": "2026-01-06T03:27:46.137591",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1646,7 +1716,7 @@
             "min": 280000000,
             "max": 280000000
         },
-        "updated_at": "2026-01-06T01:10:29.663485",
+        "updated_at": "2026-01-06T03:27:46.137603",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1810,7 +1880,7 @@
             "min": 250000000,
             "max": 250000000
         },
-        "updated_at": "2026-01-06T01:10:29.663432",
+        "updated_at": "2026-01-06T03:27:46.137565",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1974,7 +2044,7 @@
             "min": 700000000,
             "max": 700000000
         },
-        "updated_at": "2026-01-06T01:10:29.663385",
+        "updated_at": "2026-01-06T03:27:46.137532",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2146,7 +2216,7 @@
             "min": 230000000,
             "max": 230000000
         },
-        "updated_at": "2026-01-06T01:10:29.663496",
+        "updated_at": "2026-01-06T03:27:46.137608",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2310,7 +2380,7 @@
             "min": 10850000,
             "max": 10850000
         },
-        "updated_at": "2026-01-06T01:10:29.663447",
+        "updated_at": "2026-01-06T03:27:46.137573",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2646,7 +2716,7 @@
             "min": 31100000,
             "max": 31100000
         },
-        "updated_at": "2026-01-06T01:10:29.663428",
+        "updated_at": "2026-01-06T03:27:46.137560",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2810,7 +2880,7 @@
             "min": 700000000,
             "max": 700000000
         },
-        "updated_at": "2026-01-06T01:10:29.663502",
+        "updated_at": "2026-01-06T03:27:46.137613",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2974,19 +3044,18 @@
             "min": 220000000,
             "max": 220000000
         },
-        "updated_at": "2026-01-06T01:10:29.663476",
+        "updated_at": "2026-01-06T03:27:46.137595",
         "is_deleted": false,
         "deleted_at": null
     },
     "910동:3/15:59B:B1": {
         "property_key": "910동:3/15:59B:B1",
         "article_numbers": [
-            "2568728820",
-            "2568739580"
+            "2568728820"
         ],
         "representative": {
             "complex_name": "주공9단지",
-            "article_number": "2568739580",
+            "article_number": "2568728820",
             "article_name": "주공9단지",
             "dong_name": "910동",
             "trade_type": "B1",
@@ -3014,14 +3083,14 @@
             },
             "broker_info": {
                 "cp_id": "rets",
-                "brokerage_name": "하안공인중개사사무소",
+                "brokerage_name": "신성  공인중개사사무소",
                 "broker_name": "부동산렛츠",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "올수리관리잘됨 주인거주 즉시입주가능",
+                "article_feature_description": "4년전올수리,깨끗,하일초,진성고,세이브존,4월초이후",
                 "direct_trade": false,
                 "floor_info": "3/15",
                 "floor_detail_info": {
@@ -3034,15 +3103,11 @@
                 "is_safe_lessor_of_hug": false
             },
             "article_media_dto": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20251223_12/1766467115101Eml5K_JPEG/185335408_SG5KKP22HW.jpg",
-                "image_type": "10",
-                "image_count": 1,
+                "image_count": 0,
                 "is_vr_exposed": false
             },
             "article_media": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20251223_12/1766467115101Eml5K_JPEG/185335408_SG5KKP22HW.jpg",
-                "image_type": "10",
-                "image_count": 1,
+                "image_count": 0,
                 "is_vr_exposed": false
             },
             "address": {
@@ -3135,95 +3200,15 @@
                     "rent_price": 0,
                     "management_fee_amount": 247176,
                     "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "주공9단지",
-                "article_number": "2568739580",
-                "article_name": "주공9단지",
-                "dong_name": "910동",
-                "trade_type": "B1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 82.53,
-                    "contract_space": 82.53,
-                    "exclusive_space": 59.39,
-                    "land_space": 82797,
-                    "supply_space_name": "82B",
-                    "exclusive_space_name": "59B",
-                    "name_type": "B"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19900910",
-                    "approval_elapsed_year": 36
-                },
-                "verification_info": {
-                    "verification_type": "DOCV2",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-23",
-                    "article_confirm_date": "2025-12-23"
-                },
-                "broker_info": {
-                    "cp_id": "rets",
-                    "brokerage_name": "하안공인중개사사무소",
-                    "broker_name": "부동산렛츠",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리관리잘됨 주인거주 즉시입주가능",
-                    "direct_trade": false,
-                    "floor_info": "3/15",
-                    "floor_detail_info": {
-                        "target_floor": "3",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20251223_12/1766467115101Eml5K_JPEG/185335408_SG5KKP22HW.jpg",
-                    "image_type": "10",
-                    "image_count": 1,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20251223_12/1766467115101Eml5K_JPEG/185335408_SG5KKP22HW.jpg",
-                    "image_type": "10",
-                    "image_count": 1,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "경기도",
-                    "division": "광명시",
-                    "sector": "하안동",
-                    "coordinates": {
-                        "x_coordinate": 126.87927,
-                        "y_coordinate": 37.46724
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 280000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 247176,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
+                }
             }
         ],
-        "article_count": 2,
+        "article_count": 1,
         "price_range": {
             "min": 280000000,
             "max": 280000000
         },
-        "updated_at": "2026-01-06T01:10:29.663458",
+        "updated_at": "2026-01-06T03:27:46.137578",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3231,11 +3216,12 @@
         "property_key": "911동:14/15:59B:B1",
         "article_numbers": [
             "2565875423",
-            "2566329394"
+            "2566329394",
+            "2601116512"
         ],
         "representative": {
             "complex_name": "주공9단지",
-            "article_number": "2566329394",
+            "article_number": "2601116512",
             "article_name": "주공9단지",
             "dong_name": "911동",
             "trade_type": "B1",
@@ -3258,19 +3244,19 @@
             "verification_info": {
                 "verification_type": "DOC",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-10",
-                "article_confirm_date": "2025-12-10"
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
                 "cp_id": "rets",
-                "brokerage_name": "대청공인중개사사무소",
+                "brokerage_name": "신성  공인중개사사무소",
                 "broker_name": "부동산렛츠",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "올수리함 1월중순부터 입주일 협의가능함",
+                "article_feature_description": "올수리,교통편리,안양천,세이브존,12월15일이후",
                 "direct_trade": false,
                 "floor_info": "14/15",
                 "floor_detail_info": {
@@ -3304,20 +3290,85 @@
                 "warranty_price": 280000000,
                 "rent_price": 0,
                 "management_fee_amount": 247176,
-                "price_change_status": -1,
-                "price_change_histories": [
-                    {
-                        "modified_date": "2025-12-10T15:09:01",
-                        "warranty_price": 300000000
-                    },
-                    {
-                        "modified_date": "2025-12-26T17:08:11",
-                        "warranty_price": 280000000
-                    }
-                ]
+                "price_change_status": 0
             }
         },
         "all_articles": [
+            {
+                "complex_name": "주공9단지",
+                "article_number": "2601116512",
+                "article_name": "주공9단지",
+                "dong_name": "911동",
+                "trade_type": "B1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 82.53,
+                    "contract_space": 82.53,
+                    "exclusive_space": 59.39,
+                    "land_space": 82797,
+                    "supply_space_name": "82B",
+                    "exclusive_space_name": "59B",
+                    "name_type": "B"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19900910",
+                    "approval_elapsed_year": 36
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "rets",
+                    "brokerage_name": "신성  공인중개사사무소",
+                    "broker_name": "부동산렛츠",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "올수리,교통편리,안양천,세이브존,12월15일이후",
+                    "direct_trade": false,
+                    "floor_info": "14/15",
+                    "floor_detail_info": {
+                        "target_floor": "14",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "경기도",
+                    "division": "광명시",
+                    "sector": "하안동",
+                    "coordinates": {
+                        "x_coordinate": 126.87858,
+                        "y_coordinate": 37.46684
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 280000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 247176,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "주공9단지",
                 "article_number": "2566329394",
@@ -3489,12 +3540,12 @@
                 "have_favorite": false
             }
         ],
-        "article_count": 2,
+        "article_count": 3,
         "price_range": {
             "min": 280000000,
             "max": 280000000
         },
-        "updated_at": "2026-01-06T01:10:29.663508",
+        "updated_at": "2026-01-06T03:27:46.137527",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3878,7 +3929,7 @@
             "min": 750000000,
             "max": 750000000
         },
-        "updated_at": "2026-01-06T01:10:29.663467",
+        "updated_at": "2026-01-06T03:27:46.137586",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4042,7 +4093,7 @@
             "min": 550000000,
             "max": 550000000
         },
-        "updated_at": "2026-01-06T01:10:29.663395",
+        "updated_at": "2026-01-06T03:27:46.137541",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4214,7 +4265,7 @@
             "min": 220000000,
             "max": 220000000
         },
-        "updated_at": "2026-01-06T01:10:29.663371",
+        "updated_at": "2026-01-06T03:27:46.137519",
         "is_deleted": false,
         "deleted_at": null
     }
