@@ -54,13 +54,13 @@
                 "is_safe_lessor_of_hug": false
             },
             "article_media_dto": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260106_285/1767670143245640MH_JPEG/20240510_151106.jpg",
+                "image_url": "https://landthumb-phinf.pstatic.net/20260106_259/1767681547780BgSGh_JPEG/20240510_151106.jpg",
                 "image_type": "10",
                 "image_count": 1,
                 "is_vr_exposed": false
             },
             "article_media": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260106_285/1767670143245640MH_JPEG/20240510_151106.jpg",
+                "image_url": "https://landthumb-phinf.pstatic.net/20260106_259/1767681547780BgSGh_JPEG/20240510_151106.jpg",
                 "image_type": "10",
                 "image_count": 1,
                 "is_vr_exposed": false
@@ -75,11 +75,21 @@
                 }
             },
             "price_info": {
-                "deal_price": 1350000000,
+                "deal_price": 1400000000,
                 "warranty_price": 0,
                 "rent_price": 0,
                 "management_fee_amount": 180000,
-                "price_change_status": 0
+                "price_change_status": 1,
+                "price_change_histories": [
+                    {
+                        "modified_date": "2026-01-06T11:06:24",
+                        "deal_price": 1350000000
+                    },
+                    {
+                        "modified_date": "2026-01-06T15:39:07",
+                        "deal_price": 1400000000
+                    }
+                ]
             }
         },
         "all_articles": [
@@ -133,13 +143,13 @@
                     "is_safe_lessor_of_hug": false
                 },
                 "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_285/1767670143245640MH_JPEG/20240510_151106.jpg",
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_259/1767681547780BgSGh_JPEG/20240510_151106.jpg",
                     "image_type": "10",
                     "image_count": 1,
                     "is_vr_exposed": false
                 },
                 "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_285/1767670143245640MH_JPEG/20240510_151106.jpg",
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_259/1767681547780BgSGh_JPEG/20240510_151106.jpg",
                     "image_type": "10",
                     "image_count": 1,
                     "is_vr_exposed": false
@@ -154,20 +164,30 @@
                     }
                 },
                 "price_info": {
-                    "deal_price": 1350000000,
+                    "deal_price": 1400000000,
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 180000,
-                    "price_change_status": 0
+                    "price_change_status": 1,
+                    "price_change_histories": [
+                        {
+                            "modified_date": "2026-01-06T11:06:24",
+                            "deal_price": 1350000000
+                        },
+                        {
+                            "modified_date": "2026-01-06T15:39:07",
+                            "deal_price": 1400000000
+                        }
+                    ]
                 }
             }
         ],
         "article_count": 1,
         "price_range": {
-            "min": 1350000000,
-            "max": 1350000000
+            "min": 1400000000,
+            "max": 1400000000
         },
-        "updated_at": "2026-01-06T06:28:50.570439",
+        "updated_at": "2026-01-06T07:24:51.383272",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -646,7 +666,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-06T06:28:50.570405",
+        "updated_at": "2026-01-06T07:24:51.383236",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -810,7 +830,7 @@
             "min": 780000000,
             "max": 780000000
         },
-        "updated_at": "2026-01-06T06:28:50.570435",
+        "updated_at": "2026-01-06T07:24:51.383267",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1299,7 +1319,7 @@
             "min": 620000000,
             "max": 620000000
         },
-        "updated_at": "2026-01-06T06:28:50.570492",
+        "updated_at": "2026-01-06T07:24:51.383327",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1390,6 +1410,81 @@
         "all_articles": [
             {
                 "complex_name": "영등포푸르지오",
+                "article_number": "2601115284",
+                "article_name": "영등포푸르지오",
+                "dong_name": "107동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 100.88,
+                    "contract_space": 119.57,
+                    "exclusive_space": 73.13,
+                    "land_space": 97794,
+                    "supply_space_name": "100",
+                    "exclusive_space_name": "73",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20020531",
+                    "approval_elapsed_year": 24
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "영등포푸르지오(02-833-5400)공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "귀한월세. 깔끔.깨끗. 집주인의뢰.",
+                    "direct_trade": false,
+                    "floor_info": "중/22",
+                    "floor_detail_info": {
+                        "target_floor": "중",
+                        "total_floor": "22",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "영등포구",
+                    "sector": "영등포동",
+                    "coordinates": {
+                        "x_coordinate": 126.901833,
+                        "y_coordinate": 37.511463
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 250000000,
+                    "rent_price": 1500000,
+                    "management_fee_amount": 170000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "영등포푸르지오",
                 "article_number": "2601130944",
                 "article_name": "영등포푸르지오",
                 "dong_name": "107동",
@@ -1466,81 +1561,6 @@
                     "price_change_status": 0
                 },
                 "have_favorite": false
-            },
-            {
-                "complex_name": "영등포푸르지오",
-                "article_number": "2601115284",
-                "article_name": "영등포푸르지오",
-                "dong_name": "107동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 100.88,
-                    "contract_space": 119.57,
-                    "exclusive_space": 73.13,
-                    "land_space": 97794,
-                    "supply_space_name": "100",
-                    "exclusive_space_name": "73",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20020531",
-                    "approval_elapsed_year": 24
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-06",
-                    "article_confirm_date": "2026-01-06"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "영등포푸르지오(02-833-5400)공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "귀한월세. 깔끔.깨끗. 집주인의뢰.",
-                    "direct_trade": false,
-                    "floor_info": "중/22",
-                    "floor_detail_info": {
-                        "target_floor": "중",
-                        "total_floor": "22",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "영등포구",
-                    "sector": "영등포동",
-                    "coordinates": {
-                        "x_coordinate": 126.901833,
-                        "y_coordinate": 37.511463
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 250000000,
-                    "rent_price": 1500000,
-                    "management_fee_amount": 170000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
             }
         ],
         "article_count": 2,
@@ -1548,7 +1568,7 @@
             "min": 251500000,
             "max": 251500000
         },
-        "updated_at": "2026-01-06T06:28:50.570455",
+        "updated_at": "2026-01-06T07:24:51.383288",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2040,7 +2060,7 @@
             "min": 630000000,
             "max": 630000000
         },
-        "updated_at": "2026-01-06T06:28:50.570463",
+        "updated_at": "2026-01-06T07:24:51.383297",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2228,7 +2248,7 @@
             "min": 201700000,
             "max": 201700000
         },
-        "updated_at": "2026-01-06T06:28:50.570482",
+        "updated_at": "2026-01-06T07:24:51.383316",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2556,7 +2576,7 @@
             "min": 660000000,
             "max": 660000000
         },
-        "updated_at": "2026-01-06T06:28:50.570459",
+        "updated_at": "2026-01-06T07:24:51.383292",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3384,85 +3404,6 @@
         "all_articles": [
             {
                 "complex_name": "영등포푸르지오",
-                "article_number": "2601220511",
-                "article_name": "영등포푸르지오",
-                "dong_name": "210동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 100.88,
-                    "contract_space": 119.57,
-                    "exclusive_space": 73.13,
-                    "land_space": 97794,
-                    "supply_space_name": "100",
-                    "exclusive_space_name": "73",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20020531",
-                    "approval_elapsed_year": 24
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-06",
-                    "article_confirm_date": "2026-01-06"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "푸르지오1등(02.835.0022)동성공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "30, 전자계약 가능. 올확장. 샷시까지 특올수리. 입주가능",
-                    "direct_trade": false,
-                    "floor_info": "저/23",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "23",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_202/1767677127014dCL5O_JPEG/KakaoTalk_20251128_104842345.jpg",
-                    "image_type": "10",
-                    "image_count": 2,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_202/1767677127014dCL5O_JPEG/KakaoTalk_20251128_104842345.jpg",
-                    "image_type": "10",
-                    "image_count": 2,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "영등포구",
-                    "sector": "영등포동",
-                    "coordinates": {
-                        "x_coordinate": 126.9057,
-                        "y_coordinate": 37.512319
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1500000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 180000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "영등포푸르지오",
                 "article_number": "2601242076",
                 "article_name": "영등포푸르지오",
                 "dong_name": "210동",
@@ -3688,6 +3629,85 @@
             },
             {
                 "complex_name": "영등포푸르지오",
+                "article_number": "2601220511",
+                "article_name": "영등포푸르지오",
+                "dong_name": "210동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 100.88,
+                    "contract_space": 119.57,
+                    "exclusive_space": 73.13,
+                    "land_space": 97794,
+                    "supply_space_name": "100",
+                    "exclusive_space_name": "73",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20020531",
+                    "approval_elapsed_year": 24
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "푸르지오1등(02.835.0022)동성공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "30, 전자계약 가능. 올확장. 샷시까지 특올수리. 입주가능",
+                    "direct_trade": false,
+                    "floor_info": "저/23",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "23",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_202/1767677127014dCL5O_JPEG/KakaoTalk_20251128_104842345.jpg",
+                    "image_type": "10",
+                    "image_count": 2,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_202/1767677127014dCL5O_JPEG/KakaoTalk_20251128_104842345.jpg",
+                    "image_type": "10",
+                    "image_count": 2,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "영등포구",
+                    "sector": "영등포동",
+                    "coordinates": {
+                        "x_coordinate": 126.9057,
+                        "y_coordinate": 37.512319
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1500000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 180000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "영등포푸르지오",
                 "article_number": "2601130431",
                 "article_name": "영등포푸르지오",
                 "dong_name": "210동",
@@ -3846,91 +3866,6 @@
             },
             {
                 "complex_name": "영등포푸르지오",
-                "article_number": "2600264997",
-                "article_name": "영등포푸르지오",
-                "dong_name": "210동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 100.88,
-                    "contract_space": 119.57,
-                    "exclusive_space": 73.13,
-                    "land_space": 97794,
-                    "supply_space_name": "100",
-                    "exclusive_space_name": "73",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20020531",
-                    "approval_elapsed_year": 24
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-02",
-                    "article_confirm_date": "2026-01-02"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "영등포푸르지오(02-833-5400)공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "유튜브에서 구조 동영상 확인. 특 올수리.",
-                    "direct_trade": false,
-                    "floor_info": "저/23",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "23",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "영등포구",
-                    "sector": "영등포동",
-                    "coordinates": {
-                        "x_coordinate": 126.9057,
-                        "y_coordinate": 37.512319
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1500000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 170000,
-                    "price_change_status": 1,
-                    "price_change_histories": [
-                        {
-                            "modified_date": "2026-01-02T09:02:03",
-                            "deal_price": 1400000000
-                        },
-                        {
-                            "modified_date": "2026-01-06T10:20:34",
-                            "deal_price": 1500000000
-                        }
-                    ]
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "영등포푸르지오",
                 "article_number": "2600332895",
                 "article_name": "영등포푸르지오",
                 "dong_name": "210동",
@@ -4008,6 +3943,91 @@
                         },
                         {
                             "modified_date": "2026-01-06T15:00:11",
+                            "deal_price": 1500000000
+                        }
+                    ]
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "영등포푸르지오",
+                "article_number": "2600264997",
+                "article_name": "영등포푸르지오",
+                "dong_name": "210동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 100.88,
+                    "contract_space": 119.57,
+                    "exclusive_space": 73.13,
+                    "land_space": 97794,
+                    "supply_space_name": "100",
+                    "exclusive_space_name": "73",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20020531",
+                    "approval_elapsed_year": 24
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-02",
+                    "article_confirm_date": "2026-01-02"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "영등포푸르지오(02-833-5400)공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "유튜브에서 구조 동영상 확인. 특 올수리.",
+                    "direct_trade": false,
+                    "floor_info": "저/23",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "23",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "영등포구",
+                    "sector": "영등포동",
+                    "coordinates": {
+                        "x_coordinate": 126.9057,
+                        "y_coordinate": 37.512319
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1500000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 170000,
+                    "price_change_status": 1,
+                    "price_change_histories": [
+                        {
+                            "modified_date": "2026-01-02T09:02:03",
+                            "deal_price": 1400000000
+                        },
+                        {
+                            "modified_date": "2026-01-06T10:20:34",
                             "deal_price": 1500000000
                         }
                     ]
@@ -4190,7 +4210,7 @@
             "min": 1500000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-06T06:28:50.570381",
+        "updated_at": "2026-01-06T07:24:51.383212",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4283,85 +4303,6 @@
             }
         },
         "all_articles": [
-            {
-                "complex_name": "영등포푸르지오",
-                "article_number": "2601131356",
-                "article_name": "영등포푸르지오",
-                "dong_name": "210동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 100.88,
-                    "contract_space": 119.57,
-                    "exclusive_space": 73.13,
-                    "land_space": 97794,
-                    "supply_space_name": "100",
-                    "exclusive_space_name": "73",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20020531",
-                    "approval_elapsed_year": 24
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-06",
-                    "article_confirm_date": "2026-01-06"
-                },
-                "broker_info": {
-                    "cp_id": "SERVE",
-                    "brokerage_name": "원조(02-849-4488)푸르지오공인중개사",
-                    "broker_name": "부동산써브",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "동향 저층 올확장 올수리하여 깔끔함 입주협의",
-                    "direct_trade": false,
-                    "floor_info": "저/23",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "23",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_66/1767665425985IukRG_JPEG/2%C1%B6%B0%A8%B5%B5.jpg",
-                    "image_type": "10",
-                    "image_count": 4,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_66/1767665425985IukRG_JPEG/2%C1%B6%B0%A8%B5%B5.jpg",
-                    "image_type": "10",
-                    "image_count": 4,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "영등포구",
-                    "sector": "영등포동",
-                    "coordinates": {
-                        "x_coordinate": 126.9057,
-                        "y_coordinate": 37.512319
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 700000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 140000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
             {
                 "complex_name": "영등포푸르지오",
                 "article_number": "2601222157",
@@ -4583,6 +4524,85 @@
                     "warranty_price": 700000000,
                     "rent_price": 0,
                     "management_fee_amount": 170000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "영등포푸르지오",
+                "article_number": "2601131356",
+                "article_name": "영등포푸르지오",
+                "dong_name": "210동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 100.88,
+                    "contract_space": 119.57,
+                    "exclusive_space": 73.13,
+                    "land_space": 97794,
+                    "supply_space_name": "100",
+                    "exclusive_space_name": "73",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20020531",
+                    "approval_elapsed_year": 24
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "SERVE",
+                    "brokerage_name": "원조(02-849-4488)푸르지오공인중개사",
+                    "broker_name": "부동산써브",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "동향 저층 올확장 올수리하여 깔끔함 입주협의",
+                    "direct_trade": false,
+                    "floor_info": "저/23",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "23",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_66/1767665425985IukRG_JPEG/2%C1%B6%B0%A8%B5%B5.jpg",
+                    "image_type": "10",
+                    "image_count": 4,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_66/1767665425985IukRG_JPEG/2%C1%B6%B0%A8%B5%B5.jpg",
+                    "image_type": "10",
+                    "image_count": 4,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "영등포구",
+                    "sector": "영등포동",
+                    "coordinates": {
+                        "x_coordinate": 126.9057,
+                        "y_coordinate": 37.512319
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 700000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 140000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -5053,7 +5073,7 @@
             "min": 700000000,
             "max": 700000000
         },
-        "updated_at": "2026-01-06T06:28:50.570369",
+        "updated_at": "2026-01-06T07:24:51.383201",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5217,7 +5237,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-06T06:28:50.570510",
+        "updated_at": "2026-01-06T07:24:51.383346",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5381,7 +5401,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-06T06:28:51.856869",
+        "updated_at": "2026-01-06T07:24:52.513402",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5545,7 +5565,7 @@
             "min": 1520000000,
             "max": 1520000000
         },
-        "updated_at": "2026-01-06T06:28:50.570350",
+        "updated_at": "2026-01-06T07:24:51.383181",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5709,7 +5729,7 @@
             "min": 251500000,
             "max": 251500000
         },
-        "updated_at": "2026-01-06T06:28:50.570506",
+        "updated_at": "2026-01-06T07:24:51.383341",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6037,7 +6057,7 @@
             "min": 780000000,
             "max": 780000000
         },
-        "updated_at": "2026-01-06T06:28:50.570468",
+        "updated_at": "2026-01-06T07:24:51.383302",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6201,7 +6221,7 @@
             "min": 680000000,
             "max": 680000000
         },
-        "updated_at": "2026-01-06T06:28:50.570472",
+        "updated_at": "2026-01-06T07:24:51.383306",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6365,7 +6385,7 @@
             "min": 401200000,
             "max": 401200000
         },
-        "updated_at": "2026-01-06T06:28:51.856854",
+        "updated_at": "2026-01-06T07:24:52.513386",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6693,7 +6713,7 @@
             "min": 1580000000,
             "max": 1580000000
         },
-        "updated_at": "2026-01-06T06:28:50.570391",
+        "updated_at": "2026-01-06T07:24:51.383223",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6857,7 +6877,7 @@
             "min": 1550000000,
             "max": 1550000000
         },
-        "updated_at": "2026-01-06T06:28:50.570356",
+        "updated_at": "2026-01-06T07:24:51.383187",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7185,7 +7205,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-06T06:28:50.570486",
+        "updated_at": "2026-01-06T07:24:51.383321",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7349,7 +7369,7 @@
             "min": 202000000,
             "max": 202000000
         },
-        "updated_at": "2026-01-06T06:28:50.570501",
+        "updated_at": "2026-01-06T07:24:51.383336",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7513,7 +7533,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-06T06:28:50.570431",
+        "updated_at": "2026-01-06T07:24:51.383263",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7926,7 +7946,7 @@
             "min": 1520000000,
             "max": 1520000000
         },
-        "updated_at": "2026-01-06T06:28:50.570445",
+        "updated_at": "2026-01-06T07:24:51.383277",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8098,7 +8118,7 @@
             "min": 1500000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-06T06:28:50.570427",
+        "updated_at": "2026-01-06T07:24:51.383258",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8187,7 +8207,7 @@
         "all_articles": [
             {
                 "complex_name": "영등포푸르지오",
-                "article_number": "2601208757",
+                "article_number": "2601137436",
                 "article_name": "영등포푸르지오",
                 "dong_name": "110동",
                 "trade_type": "B2",
@@ -8208,21 +8228,21 @@
                     "approval_elapsed_year": 24
                 },
                 "verification_info": {
-                    "verification_type": "OWNER",
+                    "verification_type": "NDOC1",
                     "is_association_article": false,
                     "exposure_start_date": "2026-01-06",
                     "article_confirm_date": "2026-01-06"
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "푸르지오(02-834-4000)공인중개사사무소",
+                    "brokerage_name": "푸르지오서울(02-831-9300)부동산공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "SS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "이사 날짜 협의 가능함",
+                    "article_feature_description": "방3화2 올확장 올수리 주인거주 입주협의",
                     "direct_trade": false,
                     "floor_info": "저/23",
                     "floor_detail_info": {
@@ -8255,7 +8275,7 @@
                     "deal_price": 0,
                     "warranty_price": 500000000,
                     "rent_price": 1000000,
-                    "management_fee_amount": 220000,
+                    "management_fee_amount": 200000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -8337,7 +8357,7 @@
             },
             {
                 "complex_name": "영등포푸르지오",
-                "article_number": "2601137436",
+                "article_number": "2601208757",
                 "article_name": "영등포푸르지오",
                 "dong_name": "110동",
                 "trade_type": "B2",
@@ -8358,21 +8378,21 @@
                     "approval_elapsed_year": 24
                 },
                 "verification_info": {
-                    "verification_type": "NDOC1",
+                    "verification_type": "OWNER",
                     "is_association_article": false,
                     "exposure_start_date": "2026-01-06",
                     "article_confirm_date": "2026-01-06"
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "푸르지오서울(02-831-9300)부동산공인중개사사무소",
+                    "brokerage_name": "푸르지오(02-834-4000)공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "SS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "방3화2 올확장 올수리 주인거주 입주협의",
+                    "article_feature_description": "이사 날짜 협의 가능함",
                     "direct_trade": false,
                     "floor_info": "저/23",
                     "floor_detail_info": {
@@ -8405,7 +8425,7 @@
                     "deal_price": 0,
                     "warranty_price": 500000000,
                     "rent_price": 1000000,
-                    "management_fee_amount": 200000,
+                    "management_fee_amount": 220000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -8491,7 +8511,7 @@
             "min": 501000000,
             "max": 501000000
         },
-        "updated_at": "2026-01-06T06:28:50.570413",
+        "updated_at": "2026-01-06T07:24:51.383244",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -9149,81 +9169,6 @@
             },
             {
                 "complex_name": "영등포푸르지오",
-                "article_number": "2601219923",
-                "article_name": "영등포푸르지오",
-                "dong_name": "214동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 85.25,
-                    "contract_space": 100.57,
-                    "exclusive_space": 59.91,
-                    "land_space": 97794,
-                    "supply_space_name": "85",
-                    "exclusive_space_name": "59",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20020531",
-                    "approval_elapsed_year": 24
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-06",
-                    "article_confirm_date": "2026-01-06"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "푸르지오1등(02.835.0022)동성공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "SS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "최고 로얄동. 정남향. 올확장. 최근 올수리. 신혼부부 거주로 관리 최상",
-                    "direct_trade": false,
-                    "floor_info": "고/23",
-                    "floor_detail_info": {
-                        "target_floor": "고",
-                        "total_floor": "23",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "영등포구",
-                    "sector": "영등포동",
-                    "coordinates": {
-                        "x_coordinate": 126.904419,
-                        "y_coordinate": 37.511766
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1500000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 180000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "영등포푸르지오",
                 "article_number": "2601160189",
                 "article_name": "영등포푸르지오",
                 "dong_name": "214동",
@@ -9293,6 +9238,81 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 190000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "영등포푸르지오",
+                "article_number": "2601219923",
+                "article_name": "영등포푸르지오",
+                "dong_name": "214동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 85.25,
+                    "contract_space": 100.57,
+                    "exclusive_space": 59.91,
+                    "land_space": 97794,
+                    "supply_space_name": "85",
+                    "exclusive_space_name": "59",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20020531",
+                    "approval_elapsed_year": 24
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "푸르지오1등(02.835.0022)동성공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "SS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "최고 로얄동. 정남향. 올확장. 최근 올수리. 신혼부부 거주로 관리 최상",
+                    "direct_trade": false,
+                    "floor_info": "고/23",
+                    "floor_detail_info": {
+                        "target_floor": "고",
+                        "total_floor": "23",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "영등포구",
+                    "sector": "영등포동",
+                    "coordinates": {
+                        "x_coordinate": 126.904419,
+                        "y_coordinate": 37.511766
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1500000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 180000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -9528,7 +9548,7 @@
             "min": 1500000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-06T06:28:50.570422",
+        "updated_at": "2026-01-06T07:24:51.383253",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -9769,7 +9789,7 @@
             "min": 1500000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-06T06:28:50.570387",
+        "updated_at": "2026-01-06T07:24:51.383218",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -9941,7 +9961,7 @@
             "min": 630000000,
             "max": 630000000
         },
-        "updated_at": "2026-01-06T06:28:50.570497",
+        "updated_at": "2026-01-06T07:24:51.383332",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10113,7 +10133,7 @@
             "min": 1480000000,
             "max": 1480000000
         },
-        "updated_at": "2026-01-06T06:28:50.570337",
+        "updated_at": "2026-01-06T07:24:51.383165",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -10277,7 +10297,7 @@
             "min": 1480000000,
             "max": 1480000000
         },
-        "updated_at": "2026-01-06T06:28:50.570449",
+        "updated_at": "2026-01-06T07:24:51.383282",
         "is_deleted": false,
         "deleted_at": null
     }
