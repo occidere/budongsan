@@ -312,7 +312,7 @@
             "min": 452100000,
             "max": 452100000
         },
-        "updated_at": "2026-01-06T08:22:39.289698",
+        "updated_at": "2026-01-06T08:42:44.501936",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -640,7 +640,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-06T08:22:39.289676",
+        "updated_at": "2026-01-06T08:42:44.501913",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -804,7 +804,7 @@
             "min": 1560000000,
             "max": 1560000000
         },
-        "updated_at": "2026-01-06T08:22:39.289690",
+        "updated_at": "2026-01-06T08:42:44.501928",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1299,7 +1299,7 @@
             "min": 1500000000,
             "max": 1500000000
         },
-        "updated_at": "2026-01-06T08:22:39.289672",
+        "updated_at": "2026-01-06T08:42:44.501908",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2096,7 +2096,7 @@
             "min": 1600000000,
             "max": 1600000000
         },
-        "updated_at": "2026-01-06T08:22:39.289667",
+        "updated_at": "2026-01-06T08:42:44.501902",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2337,7 +2337,7 @@
             "min": 1050000000,
             "max": 1050000000
         },
-        "updated_at": "2026-01-06T08:22:39.289686",
+        "updated_at": "2026-01-06T08:42:44.501923",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2425,81 +2425,6 @@
         "all_articles": [
             {
                 "complex_name": "신도림동아3차",
-                "article_number": "2601138336",
-                "article_name": "신도림동아3차",
-                "dong_name": "308동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 167.91,
-                    "contract_space": 224.95,
-                    "exclusive_space": 138.41,
-                    "land_space": 23533,
-                    "supply_space_name": "167",
-                    "exclusive_space_name": "138",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20001114",
-                    "approval_elapsed_year": 26
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-06",
-                    "article_confirm_date": "2026-01-06"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "이화공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "수리해드림,수리없이 8.9억,협의,조용하고 전망좋은동,로얄층",
-                    "direct_trade": false,
-                    "floor_info": "14/27",
-                    "floor_detail_info": {
-                        "target_floor": "14",
-                        "total_floor": "27",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.884274,
-                        "y_coordinate": 37.509424
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 930000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 250000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림동아3차",
                 "article_number": "2601263917",
                 "article_name": "신도림동아3차",
                 "dong_name": "308동",
@@ -2569,6 +2494,81 @@
                     "warranty_price": 930000000,
                     "rent_price": 0,
                     "management_fee_amount": 337000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림동아3차",
+                "article_number": "2601138336",
+                "article_name": "신도림동아3차",
+                "dong_name": "308동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 167.91,
+                    "contract_space": 224.95,
+                    "exclusive_space": 138.41,
+                    "land_space": 23533,
+                    "supply_space_name": "167",
+                    "exclusive_space_name": "138",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20001114",
+                    "approval_elapsed_year": 26
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "이화공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "수리해드림,수리없이 8.9억,협의,조용하고 전망좋은동,로얄층",
+                    "direct_trade": false,
+                    "floor_info": "14/27",
+                    "floor_detail_info": {
+                        "target_floor": "14",
+                        "total_floor": "27",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.884274,
+                        "y_coordinate": 37.509424
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 930000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 250000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -2654,7 +2654,7 @@
             "min": 930000000,
             "max": 930000000
         },
-        "updated_at": "2026-01-06T08:22:39.289644",
+        "updated_at": "2026-01-06T08:42:44.501878",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3047,7 +3047,7 @@
             "min": 1600000000,
             "max": 1800000000
         },
-        "updated_at": "2026-01-06T08:22:39.289709",
+        "updated_at": "2026-01-06T08:42:44.501949",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3231,7 +3231,7 @@
             "min": 1900000000,
             "max": 1900000000
         },
-        "updated_at": "2026-01-06T08:22:39.289714",
+        "updated_at": "2026-01-06T08:42:44.501955",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3403,7 +3403,7 @@
             "min": 102000000,
             "max": 102000000
         },
-        "updated_at": "2026-01-06T08:22:39.289702",
+        "updated_at": "2026-01-06T08:42:44.501942",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3644,7 +3644,7 @@
             "min": 1700000000,
             "max": 1700000000
         },
-        "updated_at": "2026-01-06T08:22:39.289659",
+        "updated_at": "2026-01-06T08:42:44.501892",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3808,7 +3808,7 @@
             "min": 1450000000,
             "max": 1450000000
         },
-        "updated_at": "2026-01-06T08:22:39.289680",
+        "updated_at": "2026-01-06T08:42:44.501917",
         "is_deleted": false,
         "deleted_at": null
     }
