@@ -4,7 +4,6 @@
         "article_numbers": [
             "2569010144",
             "2569603070",
-            "2569830932",
             "2570155715",
             "2570204453"
         ],
@@ -154,81 +153,6 @@
                     "warranty_price": 650000000,
                     "rent_price": 0,
                     "management_fee_amount": 190000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "프라이어팰리스",
-                "article_number": "2569830932",
-                "article_name": "프라이어팰리스",
-                "dong_name": "101동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 79.65,
-                    "contract_space": 114.5,
-                    "exclusive_space": 59.98,
-                    "land_space": 67217,
-                    "supply_space_name": "79",
-                    "exclusive_space_name": "59",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20070709",
-                    "approval_elapsed_year": 19
-                },
-                "verification_info": {
-                    "verification_type": "TEL",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-29",
-                    "article_confirm_date": "2025-12-29"
-                },
-                "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "팰리스공인중개사사무소",
-                    "broker_name": "부동산뱅크",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "확장수리    전망좋고 햇볕좋은집   융자없고   좋은집입니다.",
-                    "direct_trade": false,
-                    "floor_info": "중/19",
-                    "floor_detail_info": {
-                        "target_floor": "중",
-                        "total_floor": "19",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "강동구",
-                    "sector": "암사동",
-                    "coordinates": {
-                        "x_coordinate": 127.138049,
-                        "y_coordinate": 37.554403
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 650000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 150000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -469,12 +393,12 @@
                 "have_favorite": false
             }
         ],
-        "article_count": 5,
+        "article_count": 4,
         "price_range": {
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-06T01:11:35.139672",
+        "updated_at": "2026-01-06T03:28:50.878614",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -638,7 +562,7 @@
             "min": 1630000000,
             "max": 1630000000
         },
-        "updated_at": "2026-01-06T01:11:36.184695",
+        "updated_at": "2026-01-06T03:28:51.986182",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -955,7 +879,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-06T01:11:36.184641",
+        "updated_at": "2026-01-06T03:28:51.986128",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1119,7 +1043,7 @@
             "min": 680000000,
             "max": 680000000
         },
-        "updated_at": "2026-01-06T01:11:35.139687",
+        "updated_at": "2026-01-06T03:28:50.878627",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1127,12 +1051,12 @@
         "property_key": "103동:20/22:59:A1",
         "article_numbers": [
             "2568566036",
-            "2600832401",
-            "2601061828"
+            "2601061828",
+            "2601170554"
         ],
         "representative": {
             "complex_name": "프라이어팰리스",
-            "article_number": "2601061828",
+            "article_number": "2601170554",
             "article_name": "프라이어팰리스",
             "dong_name": "103동",
             "trade_type": "A1",
@@ -1155,19 +1079,19 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2026-01-05",
-                "article_confirm_date": "2026-01-05"
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
-                "cp_id": "NEONET",
-                "brokerage_name": "강동래미안성실공인중개사사무소",
-                "broker_name": "부동산뱅크",
-                "cp_out_link_type": "CP_NAME"
+                "cp_id": "asil",
+                "brokerage_name": "성심포레온(483-0070)단지내공인중개사사무소",
+                "broker_name": "아실",
+                "cp_out_link_type": "ALL"
             },
             "article_detail": {
                 "direction": "SS",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "올화이트톤인테리어.확장.햇살좋은남향.옥상 단독 독립층.입주협의가능",
+                "article_feature_description": "화이트톤 올인테리어 햇살좋은 남향 독립적 나만의 단독층사용 한강보여요",
                 "direct_trade": false,
                 "floor_info": "20/22",
                 "floor_detail_info": {
@@ -1180,15 +1104,15 @@
                 "is_safe_lessor_of_hug": false
             },
             "article_media_dto": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260105_194/1767612676572abToW_JPEG/1765506898701459.jpg",
+                "image_url": "https://landthumb-phinf.pstatic.net/20260106_117/1767665953628JzHnY_JPEG/2026010611163423241_48376_ws.jpg",
                 "image_type": "10",
-                "image_count": 4,
+                "image_count": 7,
                 "is_vr_exposed": false
             },
             "article_media": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260105_194/1767612676572abToW_JPEG/1765506898701459.jpg",
+                "image_url": "https://landthumb-phinf.pstatic.net/20260106_117/1767665953628JzHnY_JPEG/2026010611163423241_48376_ws.jpg",
                 "image_type": "10",
-                "image_count": 4,
+                "image_count": 7,
                 "is_vr_exposed": false
             },
             "address": {
@@ -1211,7 +1135,7 @@
         "all_articles": [
             {
                 "complex_name": "프라이어팰리스",
-                "article_number": "2600832401",
+                "article_number": "2601170554",
                 "article_name": "프라이어팰리스",
                 "dong_name": "103동",
                 "trade_type": "A1",
@@ -1234,8 +1158,8 @@
                 "verification_info": {
                     "verification_type": "OWNER",
                     "is_association_article": false,
-                    "exposure_start_date": "2026-01-05",
-                    "article_confirm_date": "2026-01-05"
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
                 },
                 "broker_info": {
                     "cp_id": "asil",
@@ -1259,13 +1183,13 @@
                     "is_safe_lessor_of_hug": false
                 },
                 "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260105_117/1767581362270IohwC_JPEG/2026010510274583673_48376_ws.jpg",
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_117/1767665953628JzHnY_JPEG/2026010611163423241_48376_ws.jpg",
                     "image_type": "10",
                     "image_count": 7,
                     "is_vr_exposed": false
                 },
                 "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260105_117/1767581362270IohwC_JPEG/2026010510274583673_48376_ws.jpg",
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260106_117/1767665953628JzHnY_JPEG/2026010611163423241_48376_ws.jpg",
                     "image_type": "10",
                     "image_count": 7,
                     "is_vr_exposed": false
@@ -1452,7 +1376,7 @@
             "min": 1650000000,
             "max": 1650000000
         },
-        "updated_at": "2026-01-06T01:11:35.139500",
+        "updated_at": "2026-01-06T03:28:50.878449",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1769,7 +1693,7 @@
             "min": 1650000000,
             "max": 1650000000
         },
-        "updated_at": "2026-01-06T01:11:36.184670",
+        "updated_at": "2026-01-06T03:28:51.986156",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1953,7 +1877,7 @@
             "min": 680000000,
             "max": 680000000
         },
-        "updated_at": "2026-01-06T01:11:36.184690",
+        "updated_at": "2026-01-06T03:28:51.986177",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2117,7 +2041,7 @@
             "min": 501200000,
             "max": 501200000
         },
-        "updated_at": "2026-01-06T01:11:36.184653",
+        "updated_at": "2026-01-06T03:28:51.986139",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2281,7 +2205,7 @@
             "min": 1800000000,
             "max": 1800000000
         },
-        "updated_at": "2026-01-06T01:11:35.139602",
+        "updated_at": "2026-01-06T03:28:50.878554",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2445,7 +2369,7 @@
             "min": 800000000,
             "max": 800000000
         },
-        "updated_at": "2026-01-06T01:11:35.139556",
+        "updated_at": "2026-01-06T03:28:50.878516",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2609,7 +2533,7 @@
             "min": 600800000,
             "max": 600800000
         },
-        "updated_at": "2026-01-06T01:11:35.139551",
+        "updated_at": "2026-01-06T03:28:50.878511",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2773,7 +2697,7 @@
             "min": 501200000,
             "max": 501200000
         },
-        "updated_at": "2026-01-06T01:11:36.184658",
+        "updated_at": "2026-01-06T03:28:51.986144",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2937,18 +2861,18 @@
             "min": 1930000000,
             "max": 1930000000
         },
-        "updated_at": "2026-01-06T01:11:35.139544",
+        "updated_at": "2026-01-06T03:28:50.878506",
         "is_deleted": false,
         "deleted_at": null
     },
     "110동:중/25:114:B2": {
         "property_key": "110동:중/25:114:B2",
         "article_numbers": [
-            "2600649730"
+            "2601158239"
         ],
         "representative": {
             "complex_name": "프라이어팰리스",
-            "article_number": "2600649730",
+            "article_number": "2601158239",
             "article_name": "프라이어팰리스",
             "dong_name": "110동",
             "trade_type": "B2",
@@ -2971,8 +2895,8 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2026-01-03",
-                "article_confirm_date": "2026-01-03"
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
                 "cp_id": "bizmk",
@@ -3023,7 +2947,7 @@
         "all_articles": [
             {
                 "complex_name": "프라이어팰리스",
-                "article_number": "2600649730",
+                "article_number": "2601158239",
                 "article_name": "프라이어팰리스",
                 "dong_name": "110동",
                 "trade_type": "B2",
@@ -3046,8 +2970,8 @@
                 "verification_info": {
                     "verification_type": "OWNER",
                     "is_association_article": false,
-                    "exposure_start_date": "2026-01-03",
-                    "article_confirm_date": "2026-01-03"
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
@@ -3101,9 +3025,9 @@
             "min": 202600000,
             "max": 202600000
         },
-        "updated_at": "2026-01-03T10:18:53.640524",
-        "is_deleted": true,
-        "deleted_at": "2026-01-03T11:16:42.945000"
+        "updated_at": "2026-01-06T03:28:50.878501",
+        "is_deleted": false,
+        "deleted_at": null
     },
     "111동:8/25:84:A1": {
         "property_key": "111동:8/25:84:A1",
@@ -3113,14 +3037,14 @@
             "2569286957",
             "2569399382",
             "2569831890",
-            "2569833732",
-            "2569918796",
             "2570041592",
-            "2601105765"
+            "2601105765",
+            "2601174738",
+            "2601191555"
         ],
         "representative": {
             "complex_name": "프라이어팰리스",
-            "article_number": "2601105765",
+            "article_number": "2601191555",
             "article_name": "프라이어팰리스",
             "dong_name": "111동",
             "trade_type": "A1",
@@ -3147,15 +3071,15 @@
                 "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
-                "cp_id": "NEONET",
-                "brokerage_name": "프라이어팰리스 한서공인중개사",
-                "broker_name": "부동산뱅크",
+                "cp_id": "bizmk",
+                "brokerage_name": "나라공인",
+                "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "확장, 조망 채광 좋은 동층. 입주일자 협의가.",
+                "article_feature_description": "확장.조망 예뻐요",
                 "direct_trade": false,
                 "floor_info": "저/25",
                 "floor_detail_info": {
@@ -3188,11 +3112,86 @@
                 "deal_price": 1780000000,
                 "warranty_price": 0,
                 "rent_price": 0,
-                "management_fee_amount": 250000,
+                "management_fee_amount": 200000,
                 "price_change_status": 0
             }
         },
         "all_articles": [
+            {
+                "complex_name": "프라이어팰리스",
+                "article_number": "2601191555",
+                "article_name": "프라이어팰리스",
+                "dong_name": "111동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 112.07,
+                    "contract_space": 161.45,
+                    "exclusive_space": 84.98,
+                    "land_space": 67217,
+                    "supply_space_name": "112",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20070709",
+                    "approval_elapsed_year": 19
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "나라공인",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "확장.조망 예뻐요",
+                    "direct_trade": false,
+                    "floor_info": "저/25",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "25",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "강동구",
+                    "sector": "암사동",
+                    "coordinates": {
+                        "x_coordinate": 127.140783,
+                        "y_coordinate": 37.553837
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1780000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "프라이어팰리스",
                 "article_number": "2601105765",
@@ -3270,6 +3269,81 @@
             },
             {
                 "complex_name": "프라이어팰리스",
+                "article_number": "2601174738",
+                "article_name": "프라이어팰리스",
+                "dong_name": "111동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 112.07,
+                    "contract_space": 161.45,
+                    "exclusive_space": 84.98,
+                    "land_space": 67217,
+                    "supply_space_name": "112",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20070709",
+                    "approval_elapsed_year": 19
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "롯데플러스공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "확장, 판상형, 명일초인근, 5호선 명일역세권, 입주협의",
+                    "direct_trade": false,
+                    "floor_info": "저/25",
+                    "floor_detail_info": {
+                        "target_floor": "저",
+                        "total_floor": "25",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "강동구",
+                    "sector": "암사동",
+                    "coordinates": {
+                        "x_coordinate": 127.140783,
+                        "y_coordinate": 37.553837
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1780000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "프라이어팰리스",
                 "article_number": "2570041592",
                 "article_name": "프라이어팰리스",
                 "dong_name": "111동",
@@ -3339,156 +3413,6 @@
                     "warranty_price": 0,
                     "rent_price": 0,
                     "management_fee_amount": 220000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "프라이어팰리스",
-                "article_number": "2569918796",
-                "article_name": "프라이어팰리스",
-                "dong_name": "111동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 112.07,
-                    "contract_space": 161.45,
-                    "exclusive_space": 84.98,
-                    "land_space": 67217,
-                    "supply_space_name": "112",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20070709",
-                    "approval_elapsed_year": 19
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-29",
-                    "article_confirm_date": "2025-12-29"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "롯데플러스공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "확장, 판상형, 명일초인근, 5호선 명일역세권, 입주협의",
-                    "direct_trade": false,
-                    "floor_info": "저/25",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "25",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "강동구",
-                    "sector": "암사동",
-                    "coordinates": {
-                        "x_coordinate": 127.140783,
-                        "y_coordinate": 37.553837
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1780000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "프라이어팰리스",
-                "article_number": "2569833732",
-                "article_name": "프라이어팰리스",
-                "dong_name": "111동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 112.07,
-                    "contract_space": 161.45,
-                    "exclusive_space": 84.98,
-                    "land_space": 67217,
-                    "supply_space_name": "112",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20070709",
-                    "approval_elapsed_year": 19
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-29",
-                    "article_confirm_date": "2025-12-29"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "나라공인",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "확장.조망 예뻐요",
-                    "direct_trade": false,
-                    "floor_info": "저/25",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "25",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "강동구",
-                    "sector": "암사동",
-                    "coordinates": {
-                        "x_coordinate": 127.140783,
-                        "y_coordinate": 37.553837
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1780000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -3888,7 +3812,7 @@
             "min": 1780000000,
             "max": 1780000000
         },
-        "updated_at": "2026-01-06T01:11:35.139538",
+        "updated_at": "2026-01-06T03:28:50.878488",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4129,7 +4053,7 @@
             "min": 1780000000,
             "max": 1780000000
         },
-        "updated_at": "2026-01-06T01:11:36.184676",
+        "updated_at": "2026-01-06T03:28:51.986162",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4293,7 +4217,7 @@
             "min": 1780000000,
             "max": 1780000000
         },
-        "updated_at": "2026-01-06T01:11:36.184629",
+        "updated_at": "2026-01-06T03:28:51.986120",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4534,7 +4458,7 @@
             "min": 600800000,
             "max": 600800000
         },
-        "updated_at": "2026-01-06T01:11:36.184648",
+        "updated_at": "2026-01-06T03:28:51.986134",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -4851,7 +4775,7 @@
             "min": 1750000000,
             "max": 1750000000
         },
-        "updated_at": "2026-01-06T01:11:36.184701",
+        "updated_at": "2026-01-06T03:28:51.986188",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5035,7 +4959,7 @@
             "min": 1800000000,
             "max": 1800000000
         },
-        "updated_at": "2026-01-06T01:11:36.184686",
+        "updated_at": "2026-01-06T03:28:51.986172",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5352,7 +5276,7 @@
             "min": 720000000,
             "max": 720000000
         },
-        "updated_at": "2026-01-06T01:11:35.139596",
+        "updated_at": "2026-01-06T03:28:50.878549",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5517,8 +5441,8 @@
             "max": 1800000000
         },
         "updated_at": "2026-01-06T01:11:36.184633",
-        "is_deleted": false,
-        "deleted_at": null
+        "is_deleted": true,
+        "deleted_at": "2026-01-06T03:28:53.507000"
     },
     "113동:저/25:114:B2": {
         "property_key": "113동:저/25:114:B2",
@@ -5704,7 +5628,7 @@
             "min": 252500000,
             "max": 252500000
         },
-        "updated_at": "2026-01-06T01:11:35.139629",
+        "updated_at": "2026-01-06T03:28:50.878573",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -5868,7 +5792,7 @@
             "min": 1950000000,
             "max": 1950000000
         },
-        "updated_at": "2026-01-06T01:11:36.184706",
+        "updated_at": "2026-01-06T03:28:51.986193",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6032,7 +5956,7 @@
             "min": 2250000000,
             "max": 2250000000
         },
-        "updated_at": "2026-01-06T01:11:35.139705",
+        "updated_at": "2026-01-06T03:28:51.986070",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6196,7 +6120,7 @@
             "min": 2300000000,
             "max": 2300000000
         },
-        "updated_at": "2026-01-06T01:11:36.184609",
+        "updated_at": "2026-01-06T03:28:51.986100",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6525,8 +6449,8 @@
             "max": 1750000000
         },
         "updated_at": "2026-01-06T01:11:35.139578",
-        "is_deleted": false,
-        "deleted_at": null
+        "is_deleted": true,
+        "deleted_at": "2026-01-06T03:28:53.507000"
     },
     "118동:저/30:84A:A1": {
         "property_key": "118동:저/30:84A:A1",
@@ -6688,7 +6612,7 @@
             "min": 1800000000,
             "max": 1800000000
         },
-        "updated_at": "2026-01-06T01:11:36.184619",
+        "updated_at": "2026-01-06T03:28:51.986111",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -6852,7 +6776,7 @@
             "min": 1800000000,
             "max": 1800000000
         },
-        "updated_at": "2026-01-06T01:11:35.139561",
+        "updated_at": "2026-01-06T03:28:50.878520",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7016,7 +6940,7 @@
             "min": 1800000000,
             "max": 1800000000
         },
-        "updated_at": "2026-01-06T01:11:35.139677",
+        "updated_at": "2026-01-06T03:28:50.878618",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -7025,7 +6949,6 @@
         "article_numbers": [
             "2566507063",
             "2566743603",
-            "2566973091",
             "2567349216",
             "2567832087",
             "2568219949",
@@ -7038,7 +6961,8 @@
             "2570275270",
             "2600575256",
             "2600715825",
-            "2601025674"
+            "2601025674",
+            "2601203568"
         ],
         "representative": {
             "complex_name": "프라이어팰리스",
@@ -7117,6 +7041,81 @@
         "all_articles": [
             {
                 "complex_name": "프라이어팰리스",
+                "article_number": "2600715825",
+                "article_name": "프라이어팰리스",
+                "dong_name": "120동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 142.75,
+                    "contract_space": 209.15,
+                    "exclusive_space": 114.27,
+                    "land_space": 67217,
+                    "supply_space_name": "142",
+                    "exclusive_space_name": "114",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20070709",
+                    "approval_elapsed_year": 19
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-03",
+                    "article_confirm_date": "2026-01-03"
+                },
+                "broker_info": {
+                    "cp_id": "NEONET",
+                    "brokerage_name": "팰리스공인중개사사무소",
+                    "broker_name": "부동산뱅크",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "주인직접   확장수리    정원전망   조용한동   입주일협의 가능함",
+                    "direct_trade": false,
+                    "floor_info": "1/22",
+                    "floor_detail_info": {
+                        "target_floor": "1",
+                        "total_floor": "22",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "강동구",
+                    "sector": "암사동",
+                    "coordinates": {
+                        "x_coordinate": 127.14006,
+                        "y_coordinate": 37.55275
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1760000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "프라이어팰리스",
                 "article_number": "2600575256",
                 "article_name": "프라이어팰리스",
                 "dong_name": "120동",
@@ -7192,7 +7191,7 @@
             },
             {
                 "complex_name": "프라이어팰리스",
-                "article_number": "2600715825",
+                "article_number": "2601203568",
                 "article_name": "프라이어팰리스",
                 "dong_name": "120동",
                 "trade_type": "A1",
@@ -7215,27 +7214,27 @@
                 "verification_info": {
                     "verification_type": "OWNER",
                     "is_association_article": false,
-                    "exposure_start_date": "2026-01-03",
-                    "article_confirm_date": "2026-01-03"
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
                 },
                 "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "팰리스공인중개사사무소",
-                    "broker_name": "부동산뱅크",
+                    "cp_id": "bizmk",
+                    "brokerage_name": "암사박사공인중개사사무소",
+                    "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "WS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "주인직접   확장수리    정원전망   조용한동   입주일협의 가능함",
+                    "article_feature_description": "확장,수리,정원조망,주인거주",
                     "direct_trade": false,
-                    "floor_info": "1/22",
+                    "floor_info": "저/22",
                     "floor_detail_info": {
-                        "target_floor": "1",
+                        "target_floor": "저",
                         "total_floor": "22",
                         "ground_total_floor": "0",
                         "underground_total_floor": "0",
-                        "floor_type": "10"
+                        "floor_type": "20"
                     },
                     "is_safe_lessor_of_hug": false
                 },
@@ -7260,7 +7259,7 @@
                     "deal_price": 1760000000,
                     "warranty_price": 0,
                     "rent_price": 0,
-                    "management_fee_amount": 300000,
+                    "management_fee_amount": 240000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -8091,81 +8090,6 @@
             },
             {
                 "complex_name": "프라이어팰리스",
-                "article_number": "2566973091",
-                "article_name": "프라이어팰리스",
-                "dong_name": "120동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 142.75,
-                    "contract_space": 209.15,
-                    "exclusive_space": 114.27,
-                    "land_space": 67217,
-                    "supply_space_name": "142",
-                    "exclusive_space_name": "114",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20070709",
-                    "approval_elapsed_year": 19
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-13",
-                    "article_confirm_date": "2025-12-13"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "암사박사공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "확장,수리,정원조망,주인거주",
-                    "direct_trade": false,
-                    "floor_info": "저/22",
-                    "floor_detail_info": {
-                        "target_floor": "저",
-                        "total_floor": "22",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "강동구",
-                    "sector": "암사동",
-                    "coordinates": {
-                        "x_coordinate": 127.14006,
-                        "y_coordinate": 37.55275
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1760000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 240000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "프라이어팰리스",
                 "article_number": "2566743603",
                 "article_name": "프라이어팰리스",
                 "dong_name": "120동",
@@ -8320,18 +8244,19 @@
             "min": 1760000000,
             "max": 1760000000
         },
-        "updated_at": "2026-01-06T01:11:35.139526",
+        "updated_at": "2026-01-06T03:28:50.878476",
         "is_deleted": false,
         "deleted_at": null
     },
     "120동:고/22:114:A1": {
         "property_key": "120동:고/22:114:A1",
         "article_numbers": [
-            "2567540745"
+            "2567540745",
+            "2601178586"
         ],
         "representative": {
             "complex_name": "프라이어팰리스",
-            "article_number": "2567540745",
+            "article_number": "2601178586",
             "article_name": "프라이어팰리스",
             "dong_name": "120동",
             "trade_type": "A1",
@@ -8354,19 +8279,19 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-16",
-                "article_confirm_date": "2025-12-16"
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
             },
             "broker_info": {
-                "cp_id": "NEONET",
-                "brokerage_name": "팰리스공인중개사사무소",
-                "broker_name": "부동산뱅크",
+                "cp_id": "bizmk",
+                "brokerage_name": "대진공인중개사사무소",
+                "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "WS",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "주인직접  최근확장  특올수리   전망 굿  시.에 6대   입주협의",
+                "article_feature_description": "43 최근 특.특인테리어 풀에어컨  탁트인 전망 주인거주",
                 "direct_trade": false,
                 "floor_info": "고/22",
                 "floor_detail_info": {
@@ -8404,6 +8329,81 @@
             }
         },
         "all_articles": [
+            {
+                "complex_name": "프라이어팰리스",
+                "article_number": "2601178586",
+                "article_name": "프라이어팰리스",
+                "dong_name": "120동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 142.75,
+                    "contract_space": 209.15,
+                    "exclusive_space": 114.27,
+                    "land_space": 67217,
+                    "supply_space_name": "142",
+                    "exclusive_space_name": "114",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20070709",
+                    "approval_elapsed_year": 19
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "대진공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "43 최근 특.특인테리어 풀에어컨  탁트인 전망 주인거주",
+                    "direct_trade": false,
+                    "floor_info": "고/22",
+                    "floor_detail_info": {
+                        "target_floor": "고",
+                        "total_floor": "22",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "강동구",
+                    "sector": "암사동",
+                    "coordinates": {
+                        "x_coordinate": 127.14006,
+                        "y_coordinate": 37.55275
+                    }
+                },
+                "price_info": {
+                    "deal_price": 2200000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
             {
                 "complex_name": "프라이어팰리스",
                 "article_number": "2567540745",
@@ -8476,15 +8476,16 @@
                     "rent_price": 0,
                     "management_fee_amount": 300000,
                     "price_change_status": 0
-                }
+                },
+                "have_favorite": false
             }
         ],
-        "article_count": 1,
+        "article_count": 2,
         "price_range": {
             "min": 2200000000,
             "max": 2200000000
         },
-        "updated_at": "2026-01-06T01:11:36.184579",
+        "updated_at": "2026-01-06T03:28:50.878495",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8676,7 +8677,7 @@
             "min": 1900000000,
             "max": 1900000000
         },
-        "updated_at": "2026-01-06T01:11:36.184681",
+        "updated_at": "2026-01-06T03:28:51.986167",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -8840,7 +8841,7 @@
             "min": 2300000000,
             "max": 2300000000
         },
-        "updated_at": "2026-01-06T01:11:35.139696",
+        "updated_at": "2026-01-06T03:28:50.878636",
         "is_deleted": false,
         "deleted_at": null
     },
