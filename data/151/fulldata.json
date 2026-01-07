@@ -159,7 +159,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-07T09:23:10.504866",
+        "updated_at": "2026-01-07T10:17:55.007308",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -346,1019 +346,6 @@
         "updated_at": "2026-01-07T05:02:49.201172",
         "is_deleted": true,
         "deleted_at": "2026-01-07T06:23:54.783000"
-    },
-    "101동:8/15:84:B1": {
-        "property_key": "101동:8/15:84:B1",
-        "article_numbers": [
-            "2568981909",
-            "2569686262",
-            "2570010955",
-            "2570121770",
-            "2570178025",
-            "2570313253",
-            "2600836772",
-            "2601134572",
-            "2601406080",
-            "2601423528"
-        ],
-        "representative": {
-            "complex_name": "우성1차",
-            "article_number": "2601423528",
-            "article_name": "우성1차",
-            "dong_name": "101동",
-            "trade_type": "B1",
-            "real_estate_type": "A01",
-            "space_info": {
-                "supply_space": 104.17,
-                "contract_space": 112.74,
-                "exclusive_space": 84.96,
-                "land_space": 6125,
-                "supply_space_name": "104",
-                "exclusive_space_name": "84",
-                "name_type": ""
-            },
-            "land_info": {},
-            "building_info": {
-                "building_conjunction_date_type": "CDY01",
-                "building_conjunction_date": "19921204",
-                "approval_elapsed_year": 34
-            },
-            "verification_info": {
-                "verification_type": "OWNER",
-                "is_association_article": false,
-                "exposure_start_date": "2026-01-07",
-                "article_confirm_date": "2026-01-07"
-            },
-            "broker_info": {
-                "cp_id": "hkdotcom",
-                "brokerage_name": "주연공인중개사사무소",
-                "broker_name": "한경부동산",
-                "cp_out_link_type": "CP_NAME"
-            },
-            "article_detail": {
-                "direction": "ES",
-                "direction_standard": "거실 기준",
-                "article_feature_description": "올수리해드립니다. 입주일자협의, 초중고인접. 도림천신도림역이용",
-                "direct_trade": false,
-                "floor_info": "8/15",
-                "floor_detail_info": {
-                    "target_floor": "8",
-                    "total_floor": "15",
-                    "ground_total_floor": "0",
-                    "underground_total_floor": "0",
-                    "floor_type": "10"
-                },
-                "is_safe_lessor_of_hug": false
-            },
-            "article_media_dto": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "article_media": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "address": {
-                "city": "서울시",
-                "division": "구로구",
-                "sector": "신도림동",
-                "coordinates": {
-                    "x_coordinate": 126.88615,
-                    "y_coordinate": 37.511803
-                }
-            },
-            "price_info": {
-                "deal_price": 0,
-                "warranty_price": 600000000,
-                "rent_price": 0,
-                "management_fee_amount": 150000,
-                "price_change_status": 0
-            }
-        },
-        "all_articles": [
-            {
-                "complex_name": "우성1차",
-                "article_number": "2601423528",
-                "article_name": "우성1차",
-                "dong_name": "101동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 104.17,
-                    "contract_space": 112.74,
-                    "exclusive_space": 84.96,
-                    "land_space": 6125,
-                    "supply_space_name": "104",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19921204",
-                    "approval_elapsed_year": 34
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-07",
-                    "article_confirm_date": "2026-01-07"
-                },
-                "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "주연공인중개사사무소",
-                    "broker_name": "한경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리해드립니다. 입주일자협의, 초중고인접. 도림천신도림역이용",
-                    "direct_trade": false,
-                    "floor_info": "8/15",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88615,
-                        "y_coordinate": 37.511803
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 600000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "우성1차",
-                "article_number": "2601406080",
-                "article_name": "우성1차",
-                "dong_name": "101동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 104.17,
-                    "contract_space": 112.74,
-                    "exclusive_space": 84.96,
-                    "land_space": 6125,
-                    "supply_space_name": "104",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19921204",
-                    "approval_elapsed_year": 34
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-07",
-                    "article_confirm_date": "2026-01-07"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "부동산뉴스공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리해드림 신도림역이용편리 신도림초중고인접",
-                    "direct_trade": false,
-                    "floor_info": "8/15",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88615,
-                        "y_coordinate": 37.511803
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 600000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "우성1차",
-                "article_number": "2601134572",
-                "article_name": "우성1차",
-                "dong_name": "101동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 104.17,
-                    "contract_space": 112.74,
-                    "exclusive_space": 84.96,
-                    "land_space": 6125,
-                    "supply_space_name": "104",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19921204",
-                    "approval_elapsed_year": 34
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-06",
-                    "article_confirm_date": "2026-01-06"
-                },
-                "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "디큐브공인중개사사무소",
-                    "broker_name": "한경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리해드림,신도림초중고학군,도림천에서산책하기좋아요",
-                    "direct_trade": false,
-                    "floor_info": "8/15",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88615,
-                        "y_coordinate": 37.511803
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 600000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 300000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "우성1차",
-                "article_number": "2600836772",
-                "article_name": "우성1차",
-                "dong_name": "101동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 104.17,
-                    "contract_space": 112.74,
-                    "exclusive_space": 84.96,
-                    "land_space": 6125,
-                    "supply_space_name": "104",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19921204",
-                    "approval_elapsed_year": 34
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-05",
-                    "article_confirm_date": "2026-01-05"
-                },
-                "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "신도림힐스공인중개사사무소",
-                    "broker_name": "부동산뱅크",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "이사날짜 협의 가능한 넓은 신도림동 수리해줌",
-                    "direct_trade": false,
-                    "floor_info": "8/15",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88615,
-                        "y_coordinate": 37.511803
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 600000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "우성1차",
-                "article_number": "2570313253",
-                "article_name": "우성1차",
-                "dong_name": "101동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 104.17,
-                    "contract_space": 112.74,
-                    "exclusive_space": 84.96,
-                    "land_space": 6125,
-                    "supply_space_name": "104",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19921204",
-                    "approval_elapsed_year": 34
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-31",
-                    "article_confirm_date": "2025-12-31"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "동아공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리해줌 , 입주일 협의 가능 , 초중고 인접,신도림역세권,주인거주",
-                    "direct_trade": false,
-                    "floor_info": "8/15",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88615,
-                        "y_coordinate": 37.511803
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 600000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 180000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "우성1차",
-                "article_number": "2570178025",
-                "article_name": "우성1차",
-                "dong_name": "101동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 104.17,
-                    "contract_space": 112.74,
-                    "exclusive_space": 84.96,
-                    "land_space": 6125,
-                    "supply_space_name": "104",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19921204",
-                    "approval_elapsed_year": 34
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "크라운공인중개사사무소",
-                    "broker_name": "한경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리조건 초중고도보가 신도림더블역세권 신혼부부강추합니다.",
-                    "direct_trade": false,
-                    "floor_info": "8/15",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88615,
-                        "y_coordinate": 37.511803
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 600000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "우성1차",
-                "article_number": "2570010955",
-                "article_name": "우성1차",
-                "dong_name": "101동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 104.17,
-                    "contract_space": 112.74,
-                    "exclusive_space": 84.96,
-                    "land_space": 6125,
-                    "supply_space_name": "104",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19921204",
-                    "approval_elapsed_year": 34
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "시티공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리 해드리는 조건으로 이사일정 협의가능. 신도림초역세권 신혼부부 강추",
-                    "direct_trade": false,
-                    "floor_info": "8/15",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88615,
-                        "y_coordinate": 37.511803
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 600000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "우성1차",
-                "article_number": "2570121770",
-                "article_name": "우성1차",
-                "dong_name": "101동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 104.17,
-                    "contract_space": 112.74,
-                    "exclusive_space": 84.96,
-                    "land_space": 6125,
-                    "supply_space_name": "104",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19921204",
-                    "approval_elapsed_year": 34
-                },
-                "verification_info": {
-                    "verification_type": "NDOC1",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "SERVE",
-                    "brokerage_name": "크라운빌공인중개사",
-                    "broker_name": "부동산써브",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리 올인테리어예정샷시미포함 초중고인접 신혼집강추",
-                    "direct_trade": false,
-                    "floor_info": "8/15",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88615,
-                        "y_coordinate": 37.511803
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 600000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "우성1차",
-                "article_number": "2569686262",
-                "article_name": "우성1차",
-                "dong_name": "101동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 104.17,
-                    "contract_space": 112.74,
-                    "exclusive_space": 84.96,
-                    "land_space": 6125,
-                    "supply_space_name": "104",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19921204",
-                    "approval_elapsed_year": 34
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-29",
-                    "article_confirm_date": "2025-12-29"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "믿음공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "화장실까지 올수리 조건. 1월 중. 월세4억80",
-                    "direct_trade": false,
-                    "floor_info": "8/15",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88615,
-                        "y_coordinate": 37.511803
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 600000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 160000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "우성1차",
-                "article_number": "2568981909",
-                "article_name": "우성1차",
-                "dong_name": "101동",
-                "trade_type": "B1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 104.17,
-                    "contract_space": 112.74,
-                    "exclusive_space": 84.96,
-                    "land_space": 6125,
-                    "supply_space_name": "104",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19921204",
-                    "approval_elapsed_year": 34
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-24",
-                    "article_confirm_date": "2025-12-24"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "대우사랑 공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "특올수리 수리해 드립니다",
-                    "direct_trade": false,
-                    "floor_info": "8/15",
-                    "floor_detail_info": {
-                        "target_floor": "8",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88615,
-                        "y_coordinate": 37.511803
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 600000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            }
-        ],
-        "article_count": 10,
-        "price_range": {
-            "min": 600000000,
-            "max": 600000000
-        },
-        "updated_at": "2026-01-07T09:23:10.504844",
-        "is_deleted": false,
-        "deleted_at": null
-    },
-    "101동:14/15:84:A1": {
-        "property_key": "101동:14/15:84:A1",
-        "article_numbers": [
-            "2567341724"
-        ],
-        "representative": {
-            "complex_name": "우성1차",
-            "article_number": "2567341724",
-            "article_name": "우성1차",
-            "dong_name": "101동",
-            "trade_type": "A1",
-            "real_estate_type": "A01",
-            "space_info": {
-                "supply_space": 104.17,
-                "contract_space": 112.74,
-                "exclusive_space": 84.96,
-                "land_space": 6125,
-                "supply_space_name": "104",
-                "exclusive_space_name": "84",
-                "name_type": ""
-            },
-            "land_info": {},
-            "building_info": {
-                "building_conjunction_date_type": "CDY01",
-                "building_conjunction_date": "19921204",
-                "approval_elapsed_year": 34
-            },
-            "verification_info": {
-                "verification_type": "OWNER",
-                "is_association_article": false,
-                "exposure_start_date": "2025-12-15",
-                "article_confirm_date": "2025-12-15"
-            },
-            "broker_info": {
-                "cp_id": "R114",
-                "brokerage_name": "굿모닝공인",
-                "broker_name": "부동산114",
-                "cp_out_link_type": "CP_NAME"
-            },
-            "article_detail": {
-                "direction": "ES",
-                "direction_standard": "거실 기준",
-                "article_feature_description": "초역세권 리모델링호재",
-                "direct_trade": false,
-                "floor_info": "14/15",
-                "floor_detail_info": {
-                    "target_floor": "14",
-                    "total_floor": "15",
-                    "ground_total_floor": "0",
-                    "underground_total_floor": "0",
-                    "floor_type": "10"
-                },
-                "is_safe_lessor_of_hug": false
-            },
-            "article_media_dto": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "article_media": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "address": {
-                "city": "서울시",
-                "division": "구로구",
-                "sector": "신도림동",
-                "coordinates": {
-                    "x_coordinate": 126.88615,
-                    "y_coordinate": 37.511803
-                }
-            },
-            "price_info": {
-                "deal_price": 1200000000,
-                "warranty_price": 0,
-                "rent_price": 0,
-                "management_fee_amount": 180000,
-                "price_change_status": 0
-            }
-        },
-        "all_articles": [
-            {
-                "complex_name": "우성1차",
-                "article_number": "2567341724",
-                "article_name": "우성1차",
-                "dong_name": "101동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 104.17,
-                    "contract_space": 112.74,
-                    "exclusive_space": 84.96,
-                    "land_space": 6125,
-                    "supply_space_name": "104",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19921204",
-                    "approval_elapsed_year": 34
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-15",
-                    "article_confirm_date": "2025-12-15"
-                },
-                "broker_info": {
-                    "cp_id": "R114",
-                    "brokerage_name": "굿모닝공인",
-                    "broker_name": "부동산114",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "초역세권 리모델링호재",
-                    "direct_trade": false,
-                    "floor_info": "14/15",
-                    "floor_detail_info": {
-                        "target_floor": "14",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88615,
-                        "y_coordinate": 37.511803
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1200000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 180000,
-                    "price_change_status": 0
-                }
-            }
-        ],
-        "article_count": 1,
-        "price_range": {
-            "min": 1200000000,
-            "max": 1200000000
-        },
-        "updated_at": "2026-01-07T09:23:10.504871",
-        "is_deleted": false,
-        "deleted_at": null
     },
     "101동:8/15:84:B2": {
         "property_key": "101동:8/15:84:B2",
@@ -1749,7 +736,1020 @@
             "min": 400800000,
             "max": 400800000
         },
-        "updated_at": "2026-01-07T09:23:10.504860",
+        "updated_at": "2026-01-07T10:17:55.007301",
+        "is_deleted": false,
+        "deleted_at": null
+    },
+    "101동:8/15:84:B1": {
+        "property_key": "101동:8/15:84:B1",
+        "article_numbers": [
+            "2568981909",
+            "2569686262",
+            "2570010955",
+            "2570121770",
+            "2570178025",
+            "2570313253",
+            "2600836772",
+            "2601134572",
+            "2601406080",
+            "2601423528"
+        ],
+        "representative": {
+            "complex_name": "우성1차",
+            "article_number": "2601423528",
+            "article_name": "우성1차",
+            "dong_name": "101동",
+            "trade_type": "B1",
+            "real_estate_type": "A01",
+            "space_info": {
+                "supply_space": 104.17,
+                "contract_space": 112.74,
+                "exclusive_space": 84.96,
+                "land_space": 6125,
+                "supply_space_name": "104",
+                "exclusive_space_name": "84",
+                "name_type": ""
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "19921204",
+                "approval_elapsed_year": 34
+            },
+            "verification_info": {
+                "verification_type": "OWNER",
+                "is_association_article": false,
+                "exposure_start_date": "2026-01-07",
+                "article_confirm_date": "2026-01-07"
+            },
+            "broker_info": {
+                "cp_id": "hkdotcom",
+                "brokerage_name": "주연공인중개사사무소",
+                "broker_name": "한경부동산",
+                "cp_out_link_type": "CP_NAME"
+            },
+            "article_detail": {
+                "direction": "ES",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "올수리해드립니다. 입주일자협의, 초중고인접. 도림천신도림역이용",
+                "direct_trade": false,
+                "floor_info": "8/15",
+                "floor_detail_info": {
+                    "target_floor": "8",
+                    "total_floor": "15",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "10"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "구로구",
+                "sector": "신도림동",
+                "coordinates": {
+                    "x_coordinate": 126.88615,
+                    "y_coordinate": 37.511803
+                }
+            },
+            "price_info": {
+                "deal_price": 0,
+                "warranty_price": 600000000,
+                "rent_price": 0,
+                "management_fee_amount": 150000,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "우성1차",
+                "article_number": "2601406080",
+                "article_name": "우성1차",
+                "dong_name": "101동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 104.17,
+                    "contract_space": 112.74,
+                    "exclusive_space": 84.96,
+                    "land_space": 6125,
+                    "supply_space_name": "104",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19921204",
+                    "approval_elapsed_year": 34
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-07",
+                    "article_confirm_date": "2026-01-07"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "부동산뉴스공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "올수리해드림 신도림역이용편리 신도림초중고인접",
+                    "direct_trade": false,
+                    "floor_info": "8/15",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88615,
+                        "y_coordinate": 37.511803
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 600000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우성1차",
+                "article_number": "2601423528",
+                "article_name": "우성1차",
+                "dong_name": "101동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 104.17,
+                    "contract_space": 112.74,
+                    "exclusive_space": 84.96,
+                    "land_space": 6125,
+                    "supply_space_name": "104",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19921204",
+                    "approval_elapsed_year": 34
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-07",
+                    "article_confirm_date": "2026-01-07"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "주연공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "올수리해드립니다. 입주일자협의, 초중고인접. 도림천신도림역이용",
+                    "direct_trade": false,
+                    "floor_info": "8/15",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88615,
+                        "y_coordinate": 37.511803
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 600000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 150000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우성1차",
+                "article_number": "2601134572",
+                "article_name": "우성1차",
+                "dong_name": "101동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 104.17,
+                    "contract_space": 112.74,
+                    "exclusive_space": 84.96,
+                    "land_space": 6125,
+                    "supply_space_name": "104",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19921204",
+                    "approval_elapsed_year": 34
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "디큐브공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "올수리해드림,신도림초중고학군,도림천에서산책하기좋아요",
+                    "direct_trade": false,
+                    "floor_info": "8/15",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88615,
+                        "y_coordinate": 37.511803
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 600000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우성1차",
+                "article_number": "2600836772",
+                "article_name": "우성1차",
+                "dong_name": "101동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 104.17,
+                    "contract_space": 112.74,
+                    "exclusive_space": 84.96,
+                    "land_space": 6125,
+                    "supply_space_name": "104",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19921204",
+                    "approval_elapsed_year": 34
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-05",
+                    "article_confirm_date": "2026-01-05"
+                },
+                "broker_info": {
+                    "cp_id": "NEONET",
+                    "brokerage_name": "신도림힐스공인중개사사무소",
+                    "broker_name": "부동산뱅크",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "이사날짜 협의 가능한 넓은 신도림동 수리해줌",
+                    "direct_trade": false,
+                    "floor_info": "8/15",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88615,
+                        "y_coordinate": 37.511803
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 600000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우성1차",
+                "article_number": "2570313253",
+                "article_name": "우성1차",
+                "dong_name": "101동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 104.17,
+                    "contract_space": 112.74,
+                    "exclusive_space": 84.96,
+                    "land_space": 6125,
+                    "supply_space_name": "104",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19921204",
+                    "approval_elapsed_year": 34
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-31",
+                    "article_confirm_date": "2025-12-31"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "동아공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "올수리해줌 , 입주일 협의 가능 , 초중고 인접,신도림역세권,주인거주",
+                    "direct_trade": false,
+                    "floor_info": "8/15",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88615,
+                        "y_coordinate": 37.511803
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 600000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 180000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우성1차",
+                "article_number": "2570121770",
+                "article_name": "우성1차",
+                "dong_name": "101동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 104.17,
+                    "contract_space": 112.74,
+                    "exclusive_space": 84.96,
+                    "land_space": 6125,
+                    "supply_space_name": "104",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19921204",
+                    "approval_elapsed_year": 34
+                },
+                "verification_info": {
+                    "verification_type": "NDOC1",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
+                },
+                "broker_info": {
+                    "cp_id": "SERVE",
+                    "brokerage_name": "크라운빌공인중개사",
+                    "broker_name": "부동산써브",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "올수리 올인테리어예정샷시미포함 초중고인접 신혼집강추",
+                    "direct_trade": false,
+                    "floor_info": "8/15",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88615,
+                        "y_coordinate": 37.511803
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 600000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우성1차",
+                "article_number": "2570010955",
+                "article_name": "우성1차",
+                "dong_name": "101동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 104.17,
+                    "contract_space": 112.74,
+                    "exclusive_space": 84.96,
+                    "land_space": 6125,
+                    "supply_space_name": "104",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19921204",
+                    "approval_elapsed_year": 34
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "시티공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "올수리 해드리는 조건으로 이사일정 협의가능. 신도림초역세권 신혼부부 강추",
+                    "direct_trade": false,
+                    "floor_info": "8/15",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88615,
+                        "y_coordinate": 37.511803
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 600000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우성1차",
+                "article_number": "2570178025",
+                "article_name": "우성1차",
+                "dong_name": "101동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 104.17,
+                    "contract_space": 112.74,
+                    "exclusive_space": 84.96,
+                    "land_space": 6125,
+                    "supply_space_name": "104",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19921204",
+                    "approval_elapsed_year": 34
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "크라운공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "올수리조건 초중고도보가 신도림더블역세권 신혼부부강추합니다.",
+                    "direct_trade": false,
+                    "floor_info": "8/15",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88615,
+                        "y_coordinate": 37.511803
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 600000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우성1차",
+                "article_number": "2569686262",
+                "article_name": "우성1차",
+                "dong_name": "101동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 104.17,
+                    "contract_space": 112.74,
+                    "exclusive_space": 84.96,
+                    "land_space": 6125,
+                    "supply_space_name": "104",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19921204",
+                    "approval_elapsed_year": 34
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-29",
+                    "article_confirm_date": "2025-12-29"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "믿음공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "화장실까지 올수리 조건. 1월 중. 월세4억80",
+                    "direct_trade": false,
+                    "floor_info": "8/15",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88615,
+                        "y_coordinate": 37.511803
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 600000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 160000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우성1차",
+                "article_number": "2568981909",
+                "article_name": "우성1차",
+                "dong_name": "101동",
+                "trade_type": "B1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 104.17,
+                    "contract_space": 112.74,
+                    "exclusive_space": 84.96,
+                    "land_space": 6125,
+                    "supply_space_name": "104",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19921204",
+                    "approval_elapsed_year": 34
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-24",
+                    "article_confirm_date": "2025-12-24"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "대우사랑 공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "특올수리 수리해 드립니다",
+                    "direct_trade": false,
+                    "floor_info": "8/15",
+                    "floor_detail_info": {
+                        "target_floor": "8",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88615,
+                        "y_coordinate": 37.511803
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 600000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 150000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            }
+        ],
+        "article_count": 10,
+        "price_range": {
+            "min": 600000000,
+            "max": 600000000
+        },
+        "updated_at": "2026-01-07T10:17:55.007287",
+        "is_deleted": false,
+        "deleted_at": null
+    },
+    "101동:14/15:84:A1": {
+        "property_key": "101동:14/15:84:A1",
+        "article_numbers": [
+            "2567341724"
+        ],
+        "representative": {
+            "complex_name": "우성1차",
+            "article_number": "2567341724",
+            "article_name": "우성1차",
+            "dong_name": "101동",
+            "trade_type": "A1",
+            "real_estate_type": "A01",
+            "space_info": {
+                "supply_space": 104.17,
+                "contract_space": 112.74,
+                "exclusive_space": 84.96,
+                "land_space": 6125,
+                "supply_space_name": "104",
+                "exclusive_space_name": "84",
+                "name_type": ""
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "19921204",
+                "approval_elapsed_year": 34
+            },
+            "verification_info": {
+                "verification_type": "OWNER",
+                "is_association_article": false,
+                "exposure_start_date": "2025-12-15",
+                "article_confirm_date": "2025-12-15"
+            },
+            "broker_info": {
+                "cp_id": "R114",
+                "brokerage_name": "굿모닝공인",
+                "broker_name": "부동산114",
+                "cp_out_link_type": "CP_NAME"
+            },
+            "article_detail": {
+                "direction": "ES",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "초역세권 리모델링호재",
+                "direct_trade": false,
+                "floor_info": "14/15",
+                "floor_detail_info": {
+                    "target_floor": "14",
+                    "total_floor": "15",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "10"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "구로구",
+                "sector": "신도림동",
+                "coordinates": {
+                    "x_coordinate": 126.88615,
+                    "y_coordinate": 37.511803
+                }
+            },
+            "price_info": {
+                "deal_price": 1200000000,
+                "warranty_price": 0,
+                "rent_price": 0,
+                "management_fee_amount": 180000,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "우성1차",
+                "article_number": "2567341724",
+                "article_name": "우성1차",
+                "dong_name": "101동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 104.17,
+                    "contract_space": 112.74,
+                    "exclusive_space": 84.96,
+                    "land_space": 6125,
+                    "supply_space_name": "104",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19921204",
+                    "approval_elapsed_year": 34
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-15",
+                    "article_confirm_date": "2025-12-15"
+                },
+                "broker_info": {
+                    "cp_id": "R114",
+                    "brokerage_name": "굿모닝공인",
+                    "broker_name": "부동산114",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "초역세권 리모델링호재",
+                    "direct_trade": false,
+                    "floor_info": "14/15",
+                    "floor_detail_info": {
+                        "target_floor": "14",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88615,
+                        "y_coordinate": 37.511803
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1200000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 180000,
+                    "price_change_status": 0
+                }
+            }
+        ],
+        "article_count": 1,
+        "price_range": {
+            "min": 1200000000,
+            "max": 1200000000
+        },
+        "updated_at": "2026-01-07T10:17:55.007313",
         "is_deleted": false,
         "deleted_at": null
     },
