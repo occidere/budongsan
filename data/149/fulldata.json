@@ -159,7 +159,7 @@
             "min": 380000000,
             "max": 380000000
         },
-        "updated_at": "2026-01-07T07:21:15.037096",
+        "updated_at": "2026-01-07T08:21:12.845071",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -343,31 +343,195 @@
             "min": 1050000000,
             "max": 1050000000
         },
-        "updated_at": "2026-01-07T07:21:15.037069",
+        "updated_at": "2026-01-07T08:21:12.845043",
         "is_deleted": false,
         "deleted_at": null
     },
-    "1동:1/13:37:A1": {
-        "property_key": "1동:1/13:37:A1",
+    "7동:중/13:83:A1": {
+        "property_key": "7동:중/13:83:A1",
         "article_numbers": [
-            "2570024588",
-            "2600567365",
-            "2601217300"
+            "2569024603"
         ],
         "representative": {
             "complex_name": "미성",
-            "article_number": "2601217300",
+            "article_number": "2569024603",
             "article_name": "미성",
-            "dong_name": "1동",
+            "dong_name": "7동",
             "trade_type": "A1",
             "real_estate_type": "A04",
             "space_info": {
-                "supply_space": 50.98,
-                "contract_space": 51.97,
-                "exclusive_space": 37.91,
+                "supply_space": 112.46,
+                "contract_space": 114.12,
+                "exclusive_space": 83.67,
                 "land_space": 28207,
-                "supply_space_name": "50",
-                "exclusive_space_name": "37",
+                "supply_space_name": "112",
+                "exclusive_space_name": "83",
+                "name_type": ""
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "19871211",
+                "approval_elapsed_year": 39
+            },
+            "verification_info": {
+                "verification_type": "DOC",
+                "is_association_article": false,
+                "exposure_start_date": "2025-12-24",
+                "article_confirm_date": "2025-12-24"
+            },
+            "broker_info": {
+                "cp_id": "R114",
+                "brokerage_name": "금강공인중개사",
+                "broker_name": "부동산114",
+                "cp_out_link_type": "CP_NAME"
+            },
+            "article_detail": {
+                "direction": "SS",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "올수리된 역세권 남향아파트,구로전철역 도보5분,안양천변등 쾌적한 주변환경",
+                "direct_trade": false,
+                "floor_info": "중/13",
+                "floor_detail_info": {
+                    "target_floor": "중",
+                    "total_floor": "13",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "20"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "구로구",
+                "sector": "신도림동",
+                "coordinates": {
+                    "x_coordinate": 126.876149,
+                    "y_coordinate": 37.506689
+                }
+            },
+            "price_info": {
+                "deal_price": 1100000000,
+                "warranty_price": 0,
+                "rent_price": 0,
+                "management_fee_amount": 200000,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "미성",
+                "article_number": "2569024603",
+                "article_name": "미성",
+                "dong_name": "7동",
+                "trade_type": "A1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 112.46,
+                    "contract_space": 114.12,
+                    "exclusive_space": 83.67,
+                    "land_space": 28207,
+                    "supply_space_name": "112",
+                    "exclusive_space_name": "83",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19871211",
+                    "approval_elapsed_year": 39
+                },
+                "verification_info": {
+                    "verification_type": "DOC",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-24",
+                    "article_confirm_date": "2025-12-24"
+                },
+                "broker_info": {
+                    "cp_id": "R114",
+                    "brokerage_name": "금강공인중개사",
+                    "broker_name": "부동산114",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "SS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "올수리된 역세권 남향아파트,구로전철역 도보5분,안양천변등 쾌적한 주변환경",
+                    "direct_trade": false,
+                    "floor_info": "중/13",
+                    "floor_detail_info": {
+                        "target_floor": "중",
+                        "total_floor": "13",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "20"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.876149,
+                        "y_coordinate": 37.506689
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1100000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 200000,
+                    "price_change_status": 0
+                }
+            }
+        ],
+        "article_count": 1,
+        "price_range": {
+            "min": 1100000000,
+            "max": 1100000000
+        },
+        "updated_at": "2026-01-07T08:21:12.845048",
+        "is_deleted": false,
+        "deleted_at": null
+    },
+    "3동:5/13:83:B1": {
+        "property_key": "3동:5/13:83:B1",
+        "article_numbers": [
+            "2601216134",
+            "2601344894",
+            "2601376473"
+        ],
+        "representative": {
+            "complex_name": "미성",
+            "article_number": "2601376473",
+            "article_name": "미성",
+            "dong_name": "3동",
+            "trade_type": "B1",
+            "real_estate_type": "A04",
+            "space_info": {
+                "supply_space": 112.46,
+                "contract_space": 114.12,
+                "exclusive_space": 83.67,
+                "land_space": 28207,
+                "supply_space_name": "112",
+                "exclusive_space_name": "83",
                 "name_type": ""
             },
             "land_info": {},
@@ -379,23 +543,23 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2026-01-06",
-                "article_confirm_date": "2026-01-06"
+                "exposure_start_date": "2026-01-07",
+                "article_confirm_date": "2026-01-07"
             },
             "broker_info": {
-                "cp_id": "ten",
-                "brokerage_name": "신도림미성공인중개사사무소",
-                "broker_name": "텐컴즈",
+                "cp_id": "hkdotcom",
+                "brokerage_name": "크라운공인중개사사무소",
+                "broker_name": "한경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
-                "direction": "EE",
+                "direction": "WS",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "샤시 포함 올수리,실거주가능,재건축 상승 투자 추천",
+                "article_feature_description": "샷시포함특올수리된 남향집 신도림초중고도보가능 수시입주가능합니다.",
                 "direct_trade": false,
-                "floor_info": "1/13",
+                "floor_info": "5/13",
                 "floor_detail_info": {
-                    "target_floor": "1",
+                    "target_floor": "5",
                     "total_floor": "13",
                     "ground_total_floor": "0",
                     "underground_total_floor": "0",
@@ -416,33 +580,183 @@
                 "division": "구로구",
                 "sector": "신도림동",
                 "coordinates": {
-                    "x_coordinate": 126.876206,
-                    "y_coordinate": 37.508167
+                    "x_coordinate": 126.876395,
+                    "y_coordinate": 37.507628
                 }
             },
             "price_info": {
-                "deal_price": 630000000,
-                "warranty_price": 0,
+                "deal_price": 0,
+                "warranty_price": 500000000,
                 "rent_price": 0,
-                "management_fee_amount": 150000,
+                "management_fee_amount": 300000,
                 "price_change_status": 0
             }
         },
         "all_articles": [
             {
                 "complex_name": "미성",
-                "article_number": "2601217300",
+                "article_number": "2601376473",
                 "article_name": "미성",
-                "dong_name": "1동",
-                "trade_type": "A1",
+                "dong_name": "3동",
+                "trade_type": "B1",
                 "real_estate_type": "A04",
                 "space_info": {
-                    "supply_space": 50.98,
-                    "contract_space": 51.97,
-                    "exclusive_space": 37.91,
+                    "supply_space": 112.46,
+                    "contract_space": 114.12,
+                    "exclusive_space": 83.67,
                     "land_space": 28207,
-                    "supply_space_name": "50",
-                    "exclusive_space_name": "37",
+                    "supply_space_name": "112",
+                    "exclusive_space_name": "83",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19871211",
+                    "approval_elapsed_year": 39
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-07",
+                    "article_confirm_date": "2026-01-07"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "크라운공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "샷시포함특올수리된 남향집 신도림초중고도보가능 수시입주가능합니다.",
+                    "direct_trade": false,
+                    "floor_info": "5/13",
+                    "floor_detail_info": {
+                        "target_floor": "5",
+                        "total_floor": "13",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.876395,
+                        "y_coordinate": 37.507628
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 500000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "미성",
+                "article_number": "2601344894",
+                "article_name": "미성",
+                "dong_name": "3동",
+                "trade_type": "B1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 112.46,
+                    "contract_space": 114.12,
+                    "exclusive_space": 83.67,
+                    "land_space": 28207,
+                    "supply_space_name": "112",
+                    "exclusive_space_name": "83",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19871211",
+                    "approval_elapsed_year": 39
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-07",
+                    "article_confirm_date": "2026-01-07"
+                },
+                "broker_info": {
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "디큐브공인중개사사무소",
+                    "broker_name": "한경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "샷시포함특올수리된남향집,빠른입주도가능,신도림초교학군",
+                    "direct_trade": false,
+                    "floor_info": "5/13",
+                    "floor_detail_info": {
+                        "target_floor": "5",
+                        "total_floor": "13",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.876395,
+                        "y_coordinate": 37.507628
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 500000000,
+                    "rent_price": 0,
+                    "management_fee_amount": 300000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "미성",
+                "article_number": "2601216134",
+                "article_name": "미성",
+                "dong_name": "3동",
+                "trade_type": "B1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 112.46,
+                    "contract_space": 114.12,
+                    "exclusive_space": 83.67,
+                    "land_space": 28207,
+                    "supply_space_name": "112",
+                    "exclusive_space_name": "83",
                     "name_type": ""
                 },
                 "land_info": {},
@@ -464,17 +778,17 @@
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
-                    "direction": "EE",
+                    "direction": "WS",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "샤시 포함 올수리,실거주가능,재건축 상승 투자 추천",
+                    "article_feature_description": "미성34.샷시, 화장실,싱크대및 전체 올수리,빠른 입주 가능",
                     "direct_trade": false,
-                    "floor_info": "1/13",
+                    "floor_info": "중/13",
                     "floor_detail_info": {
-                        "target_floor": "1",
+                        "target_floor": "중",
                         "total_floor": "13",
                         "ground_total_floor": "0",
                         "underground_total_floor": "0",
-                        "floor_type": "10"
+                        "floor_type": "20"
                     },
                     "is_safe_lessor_of_hug": false
                 },
@@ -491,165 +805,15 @@
                     "division": "구로구",
                     "sector": "신도림동",
                     "coordinates": {
-                        "x_coordinate": 126.876206,
-                        "y_coordinate": 37.508167
+                        "x_coordinate": 126.876395,
+                        "y_coordinate": 37.507628
                     }
                 },
                 "price_info": {
-                    "deal_price": 630000000,
-                    "warranty_price": 0,
+                    "deal_price": 0,
+                    "warranty_price": 500000000,
                     "rent_price": 0,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "미성",
-                "article_number": "2600567365",
-                "article_name": "미성",
-                "dong_name": "1동",
-                "trade_type": "A1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 50.98,
-                    "contract_space": 51.97,
-                    "exclusive_space": 37.91,
-                    "land_space": 28207,
-                    "supply_space_name": "50",
-                    "exclusive_space_name": "37",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19871211",
-                    "approval_elapsed_year": 39
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-03",
-                    "article_confirm_date": "2026-01-03"
-                },
-                "broker_info": {
-                    "cp_id": "thebiz",
-                    "brokerage_name": "라이프공인중개사사무소",
-                    "broker_name": "이실장플러스",
-                    "cp_out_link_type": "NONE"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "미성15 입주가능 특올수리 재건축투자",
-                    "direct_trade": false,
-                    "floor_info": "1/13",
-                    "floor_detail_info": {
-                        "target_floor": "1",
-                        "total_floor": "13",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.876206,
-                        "y_coordinate": 37.508167
-                    }
-                },
-                "price_info": {
-                    "deal_price": 630000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 150000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "미성",
-                "article_number": "2570024588",
-                "article_name": "미성",
-                "dong_name": "1동",
-                "trade_type": "A1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 50.98,
-                    "contract_space": 51.97,
-                    "exclusive_space": 37.91,
-                    "land_space": 28207,
-                    "supply_space_name": "50",
-                    "exclusive_space_name": "37",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19871211",
-                    "approval_elapsed_year": 39
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-30",
-                    "article_confirm_date": "2025-12-30"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "라이프공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "미성15 입주가능 특올수리 재건축투자",
-                    "direct_trade": false,
-                    "floor_info": "1/13",
-                    "floor_detail_info": {
-                        "target_floor": "1",
-                        "total_floor": "13",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.876206,
-                        "y_coordinate": 37.508167
-                    }
-                },
-                "price_info": {
-                    "deal_price": 630000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 150000,
+                    "management_fee_amount": 220000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -657,174 +821,10 @@
         ],
         "article_count": 3,
         "price_range": {
-            "min": 630000000,
-            "max": 630000000
+            "min": 500000000,
+            "max": 500000000
         },
-        "updated_at": "2026-01-07T07:21:15.037007",
-        "is_deleted": false,
-        "deleted_at": null
-    },
-    "5동:7/13:83:A1": {
-        "property_key": "5동:7/13:83:A1",
-        "article_numbers": [
-            "2569102489"
-        ],
-        "representative": {
-            "complex_name": "미성",
-            "article_number": "2569102489",
-            "article_name": "미성",
-            "dong_name": "5동",
-            "trade_type": "A1",
-            "real_estate_type": "A04",
-            "space_info": {
-                "supply_space": 112.46,
-                "contract_space": 114.12,
-                "exclusive_space": 83.67,
-                "land_space": 28207,
-                "supply_space_name": "112",
-                "exclusive_space_name": "83",
-                "name_type": ""
-            },
-            "land_info": {},
-            "building_info": {
-                "building_conjunction_date_type": "CDY01",
-                "building_conjunction_date": "19871211",
-                "approval_elapsed_year": 39
-            },
-            "verification_info": {
-                "verification_type": "NONE",
-                "is_association_article": true,
-                "exposure_start_date": "2025-12-24",
-                "article_confirm_date": "2025-12-24"
-            },
-            "broker_info": {
-                "cp_id": "KAR",
-                "brokerage_name": "금강공인중개사사무소",
-                "broker_name": "한국공인중개사협회",
-                "cp_out_link_type": "NONE"
-            },
-            "article_detail": {
-                "direction": "SS",
-                "direction_standard": "거실 기준",
-                "article_feature_description": "도심속 역세권 재개발 진행중인 남향 아파트,구로전철역 도보5분,",
-                "direct_trade": false,
-                "floor_info": "7/13",
-                "floor_detail_info": {
-                    "target_floor": "7",
-                    "total_floor": "13",
-                    "ground_total_floor": "0",
-                    "underground_total_floor": "0",
-                    "floor_type": "10"
-                },
-                "is_safe_lessor_of_hug": false
-            },
-            "article_media_dto": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "article_media": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "address": {
-                "city": "서울시",
-                "division": "구로구",
-                "sector": "신도림동",
-                "coordinates": {
-                    "x_coordinate": 126.877021,
-                    "y_coordinate": 37.507337
-                }
-            },
-            "price_info": {
-                "deal_price": 1100000000,
-                "warranty_price": 0,
-                "rent_price": 0,
-                "management_fee_amount": 180000,
-                "price_change_status": 0
-            }
-        },
-        "all_articles": [
-            {
-                "complex_name": "미성",
-                "article_number": "2569102489",
-                "article_name": "미성",
-                "dong_name": "5동",
-                "trade_type": "A1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 112.46,
-                    "contract_space": 114.12,
-                    "exclusive_space": 83.67,
-                    "land_space": 28207,
-                    "supply_space_name": "112",
-                    "exclusive_space_name": "83",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19871211",
-                    "approval_elapsed_year": 39
-                },
-                "verification_info": {
-                    "verification_type": "NONE",
-                    "is_association_article": true,
-                    "exposure_start_date": "2025-12-24",
-                    "article_confirm_date": "2025-12-24"
-                },
-                "broker_info": {
-                    "cp_id": "KAR",
-                    "brokerage_name": "금강공인중개사사무소",
-                    "broker_name": "한국공인중개사협회",
-                    "cp_out_link_type": "NONE"
-                },
-                "article_detail": {
-                    "direction": "SS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "도심속 역세권 재개발 진행중인 남향 아파트,구로전철역 도보5분,",
-                    "direct_trade": false,
-                    "floor_info": "7/13",
-                    "floor_detail_info": {
-                        "target_floor": "7",
-                        "total_floor": "13",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.877021,
-                        "y_coordinate": 37.507337
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1100000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 180000,
-                    "price_change_status": 0
-                }
-            }
-        ],
-        "article_count": 1,
-        "price_range": {
-            "min": 1100000000,
-            "max": 1100000000
-        },
-        "updated_at": "2026-01-07T07:21:15.037087",
+        "updated_at": "2026-01-07T08:21:12.844975",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -988,7 +988,7 @@
             "min": 660000000,
             "max": 660000000
         },
-        "updated_at": "2026-01-07T07:21:15.037064",
+        "updated_at": "2026-01-07T08:21:12.845038",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1305,496 +1305,7 @@
             "min": 360000000,
             "max": 360000000
         },
-        "updated_at": "2026-01-07T07:21:15.037030",
-        "is_deleted": false,
-        "deleted_at": null
-    },
-    "1동:5/13:37:A1": {
-        "property_key": "1동:5/13:37:A1",
-        "article_numbers": [
-            "2601343798"
-        ],
-        "representative": {
-            "complex_name": "미성",
-            "article_number": "2601343798",
-            "article_name": "미성",
-            "dong_name": "1동",
-            "trade_type": "A1",
-            "real_estate_type": "A04",
-            "space_info": {
-                "supply_space": 50.98,
-                "contract_space": 51.97,
-                "exclusive_space": 37.91,
-                "land_space": 28207,
-                "supply_space_name": "50",
-                "exclusive_space_name": "37",
-                "name_type": ""
-            },
-            "land_info": {},
-            "building_info": {
-                "building_conjunction_date_type": "CDY01",
-                "building_conjunction_date": "19871211",
-                "approval_elapsed_year": 39
-            },
-            "verification_info": {
-                "verification_type": "NDOC1",
-                "is_association_article": false,
-                "exposure_start_date": "2026-01-07",
-                "article_confirm_date": "2026-01-07"
-            },
-            "broker_info": {
-                "cp_id": "NEONET",
-                "brokerage_name": "신화공인중개사사무소",
-                "broker_name": "부동산뱅크",
-                "cp_out_link_type": "CP_NAME"
-            },
-            "article_detail": {
-                "direction": "WS",
-                "direction_standard": "거실 기준",
-                "article_feature_description": "빠른 입주가능, 샷시포함 특올수리, 재건축 정밀안전진단 통과",
-                "direct_trade": false,
-                "floor_info": "5/13",
-                "floor_detail_info": {
-                    "target_floor": "5",
-                    "total_floor": "13",
-                    "ground_total_floor": "0",
-                    "underground_total_floor": "0",
-                    "floor_type": "10"
-                },
-                "is_safe_lessor_of_hug": false
-            },
-            "article_media_dto": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260107_174/17677506988317lRaH_JPEG/1766130149304519.jpg",
-                "image_type": "10",
-                "image_count": 8,
-                "is_vr_exposed": false
-            },
-            "article_media": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260107_174/17677506988317lRaH_JPEG/1766130149304519.jpg",
-                "image_type": "10",
-                "image_count": 8,
-                "is_vr_exposed": false
-            },
-            "address": {
-                "city": "서울시",
-                "division": "구로구",
-                "sector": "신도림동",
-                "coordinates": {
-                    "x_coordinate": 126.876206,
-                    "y_coordinate": 37.508167
-                }
-            },
-            "price_info": {
-                "deal_price": 650000000,
-                "warranty_price": 0,
-                "rent_price": 0,
-                "management_fee_amount": 15465,
-                "price_change_status": 0
-            }
-        },
-        "all_articles": [
-            {
-                "complex_name": "미성",
-                "article_number": "2601343798",
-                "article_name": "미성",
-                "dong_name": "1동",
-                "trade_type": "A1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 50.98,
-                    "contract_space": 51.97,
-                    "exclusive_space": 37.91,
-                    "land_space": 28207,
-                    "supply_space_name": "50",
-                    "exclusive_space_name": "37",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19871211",
-                    "approval_elapsed_year": 39
-                },
-                "verification_info": {
-                    "verification_type": "NDOC1",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-07",
-                    "article_confirm_date": "2026-01-07"
-                },
-                "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "신화공인중개사사무소",
-                    "broker_name": "부동산뱅크",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "빠른 입주가능, 샷시포함 특올수리, 재건축 정밀안전진단 통과",
-                    "direct_trade": false,
-                    "floor_info": "5/13",
-                    "floor_detail_info": {
-                        "target_floor": "5",
-                        "total_floor": "13",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260107_174/17677506988317lRaH_JPEG/1766130149304519.jpg",
-                    "image_type": "10",
-                    "image_count": 8,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260107_174/17677506988317lRaH_JPEG/1766130149304519.jpg",
-                    "image_type": "10",
-                    "image_count": 8,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.876206,
-                        "y_coordinate": 37.508167
-                    }
-                },
-                "price_info": {
-                    "deal_price": 650000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 15465,
-                    "price_change_status": 0
-                }
-            }
-        ],
-        "article_count": 1,
-        "price_range": {
-            "min": 650000000,
-            "max": 650000000
-        },
-        "updated_at": "2026-01-07T07:21:15.036973",
-        "is_deleted": false,
-        "deleted_at": null
-    },
-    "3동:5/13:83:B1": {
-        "property_key": "3동:5/13:83:B1",
-        "article_numbers": [
-            "2601216134",
-            "2601344894",
-            "2601376473"
-        ],
-        "representative": {
-            "complex_name": "미성",
-            "article_number": "2601376473",
-            "article_name": "미성",
-            "dong_name": "3동",
-            "trade_type": "B1",
-            "real_estate_type": "A04",
-            "space_info": {
-                "supply_space": 112.46,
-                "contract_space": 114.12,
-                "exclusive_space": 83.67,
-                "land_space": 28207,
-                "supply_space_name": "112",
-                "exclusive_space_name": "83",
-                "name_type": ""
-            },
-            "land_info": {},
-            "building_info": {
-                "building_conjunction_date_type": "CDY01",
-                "building_conjunction_date": "19871211",
-                "approval_elapsed_year": 39
-            },
-            "verification_info": {
-                "verification_type": "OWNER",
-                "is_association_article": false,
-                "exposure_start_date": "2026-01-07",
-                "article_confirm_date": "2026-01-07"
-            },
-            "broker_info": {
-                "cp_id": "hkdotcom",
-                "brokerage_name": "크라운공인중개사사무소",
-                "broker_name": "한경부동산",
-                "cp_out_link_type": "CP_NAME"
-            },
-            "article_detail": {
-                "direction": "WS",
-                "direction_standard": "거실 기준",
-                "article_feature_description": "샷시포함특올수리된 남향집 신도림초중고도보가능 수시입주가능합니다.",
-                "direct_trade": false,
-                "floor_info": "5/13",
-                "floor_detail_info": {
-                    "target_floor": "5",
-                    "total_floor": "13",
-                    "ground_total_floor": "0",
-                    "underground_total_floor": "0",
-                    "floor_type": "10"
-                },
-                "is_safe_lessor_of_hug": false
-            },
-            "article_media_dto": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "article_media": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "address": {
-                "city": "서울시",
-                "division": "구로구",
-                "sector": "신도림동",
-                "coordinates": {
-                    "x_coordinate": 126.876395,
-                    "y_coordinate": 37.507628
-                }
-            },
-            "price_info": {
-                "deal_price": 0,
-                "warranty_price": 500000000,
-                "rent_price": 0,
-                "management_fee_amount": 300000,
-                "price_change_status": 0
-            }
-        },
-        "all_articles": [
-            {
-                "complex_name": "미성",
-                "article_number": "2601344894",
-                "article_name": "미성",
-                "dong_name": "3동",
-                "trade_type": "B1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 112.46,
-                    "contract_space": 114.12,
-                    "exclusive_space": 83.67,
-                    "land_space": 28207,
-                    "supply_space_name": "112",
-                    "exclusive_space_name": "83",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19871211",
-                    "approval_elapsed_year": 39
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-07",
-                    "article_confirm_date": "2026-01-07"
-                },
-                "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "디큐브공인중개사사무소",
-                    "broker_name": "한경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "샷시포함특올수리된남향집,빠른입주도가능,신도림초교학군",
-                    "direct_trade": false,
-                    "floor_info": "5/13",
-                    "floor_detail_info": {
-                        "target_floor": "5",
-                        "total_floor": "13",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.876395,
-                        "y_coordinate": 37.507628
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 500000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 300000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "미성",
-                "article_number": "2601376473",
-                "article_name": "미성",
-                "dong_name": "3동",
-                "trade_type": "B1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 112.46,
-                    "contract_space": 114.12,
-                    "exclusive_space": 83.67,
-                    "land_space": 28207,
-                    "supply_space_name": "112",
-                    "exclusive_space_name": "83",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19871211",
-                    "approval_elapsed_year": 39
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-07",
-                    "article_confirm_date": "2026-01-07"
-                },
-                "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "크라운공인중개사사무소",
-                    "broker_name": "한경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "샷시포함특올수리된 남향집 신도림초중고도보가능 수시입주가능합니다.",
-                    "direct_trade": false,
-                    "floor_info": "5/13",
-                    "floor_detail_info": {
-                        "target_floor": "5",
-                        "total_floor": "13",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.876395,
-                        "y_coordinate": 37.507628
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 500000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 300000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "미성",
-                "article_number": "2601216134",
-                "article_name": "미성",
-                "dong_name": "3동",
-                "trade_type": "B1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 112.46,
-                    "contract_space": 114.12,
-                    "exclusive_space": 83.67,
-                    "land_space": 28207,
-                    "supply_space_name": "112",
-                    "exclusive_space_name": "83",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19871211",
-                    "approval_elapsed_year": 39
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-06",
-                    "article_confirm_date": "2026-01-06"
-                },
-                "broker_info": {
-                    "cp_id": "ten",
-                    "brokerage_name": "신도림미성공인중개사사무소",
-                    "broker_name": "텐컴즈",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "미성34.샷시, 화장실,싱크대및 전체 올수리,빠른 입주 가능",
-                    "direct_trade": false,
-                    "floor_info": "중/13",
-                    "floor_detail_info": {
-                        "target_floor": "중",
-                        "total_floor": "13",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.876395,
-                        "y_coordinate": 37.507628
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 500000000,
-                    "rent_price": 0,
-                    "management_fee_amount": 220000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            }
-        ],
-        "article_count": 3,
-        "price_range": {
-            "min": 500000000,
-            "max": 500000000
-        },
-        "updated_at": "2026-01-07T07:21:15.037001",
+        "updated_at": "2026-01-07T08:21:12.845004",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2035,418 +1546,7 @@
             "min": 1050000000,
             "max": 1050000000
         },
-        "updated_at": "2026-01-07T07:21:15.037041",
-        "is_deleted": false,
-        "deleted_at": null
-    },
-    "7동:중/13:83:A1": {
-        "property_key": "7동:중/13:83:A1",
-        "article_numbers": [
-            "2569024603"
-        ],
-        "representative": {
-            "complex_name": "미성",
-            "article_number": "2569024603",
-            "article_name": "미성",
-            "dong_name": "7동",
-            "trade_type": "A1",
-            "real_estate_type": "A04",
-            "space_info": {
-                "supply_space": 112.46,
-                "contract_space": 114.12,
-                "exclusive_space": 83.67,
-                "land_space": 28207,
-                "supply_space_name": "112",
-                "exclusive_space_name": "83",
-                "name_type": ""
-            },
-            "land_info": {},
-            "building_info": {
-                "building_conjunction_date_type": "CDY01",
-                "building_conjunction_date": "19871211",
-                "approval_elapsed_year": 39
-            },
-            "verification_info": {
-                "verification_type": "DOC",
-                "is_association_article": false,
-                "exposure_start_date": "2025-12-24",
-                "article_confirm_date": "2025-12-24"
-            },
-            "broker_info": {
-                "cp_id": "R114",
-                "brokerage_name": "금강공인중개사",
-                "broker_name": "부동산114",
-                "cp_out_link_type": "CP_NAME"
-            },
-            "article_detail": {
-                "direction": "SS",
-                "direction_standard": "거실 기준",
-                "article_feature_description": "올수리된 역세권 남향아파트,구로전철역 도보5분,안양천변등 쾌적한 주변환경",
-                "direct_trade": false,
-                "floor_info": "중/13",
-                "floor_detail_info": {
-                    "target_floor": "중",
-                    "total_floor": "13",
-                    "ground_total_floor": "0",
-                    "underground_total_floor": "0",
-                    "floor_type": "20"
-                },
-                "is_safe_lessor_of_hug": false
-            },
-            "article_media_dto": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "article_media": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "address": {
-                "city": "서울시",
-                "division": "구로구",
-                "sector": "신도림동",
-                "coordinates": {
-                    "x_coordinate": 126.876149,
-                    "y_coordinate": 37.506689
-                }
-            },
-            "price_info": {
-                "deal_price": 1100000000,
-                "warranty_price": 0,
-                "rent_price": 0,
-                "management_fee_amount": 200000,
-                "price_change_status": 0
-            }
-        },
-        "all_articles": [
-            {
-                "complex_name": "미성",
-                "article_number": "2569024603",
-                "article_name": "미성",
-                "dong_name": "7동",
-                "trade_type": "A1",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 112.46,
-                    "contract_space": 114.12,
-                    "exclusive_space": 83.67,
-                    "land_space": 28207,
-                    "supply_space_name": "112",
-                    "exclusive_space_name": "83",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19871211",
-                    "approval_elapsed_year": 39
-                },
-                "verification_info": {
-                    "verification_type": "DOC",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-24",
-                    "article_confirm_date": "2025-12-24"
-                },
-                "broker_info": {
-                    "cp_id": "R114",
-                    "brokerage_name": "금강공인중개사",
-                    "broker_name": "부동산114",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "SS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리된 역세권 남향아파트,구로전철역 도보5분,안양천변등 쾌적한 주변환경",
-                    "direct_trade": false,
-                    "floor_info": "중/13",
-                    "floor_detail_info": {
-                        "target_floor": "중",
-                        "total_floor": "13",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "20"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.876149,
-                        "y_coordinate": 37.506689
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1100000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                }
-            }
-        ],
-        "article_count": 1,
-        "price_range": {
-            "min": 1100000000,
-            "max": 1100000000
-        },
-        "updated_at": "2026-01-07T07:21:15.037073",
-        "is_deleted": false,
-        "deleted_at": null
-    },
-    "2동:1/13:37:B2": {
-        "property_key": "2동:1/13:37:B2",
-        "article_numbers": [
-            "2567391799",
-            "2601412093"
-        ],
-        "representative": {
-            "complex_name": "미성",
-            "article_number": "2601412093",
-            "article_name": "미성",
-            "dong_name": "2동",
-            "trade_type": "B2",
-            "real_estate_type": "A04",
-            "space_info": {
-                "supply_space": 50.98,
-                "contract_space": 51.97,
-                "exclusive_space": 37.91,
-                "land_space": 28207,
-                "supply_space_name": "50",
-                "exclusive_space_name": "37",
-                "name_type": ""
-            },
-            "land_info": {},
-            "building_info": {
-                "building_conjunction_date_type": "CDY01",
-                "building_conjunction_date": "19871211",
-                "approval_elapsed_year": 39
-            },
-            "verification_info": {
-                "verification_type": "OWNER",
-                "is_association_article": false,
-                "exposure_start_date": "2026-01-07",
-                "article_confirm_date": "2026-01-07"
-            },
-            "broker_info": {
-                "cp_id": "bizmk",
-                "brokerage_name": "부자부동산공인중개사사무소",
-                "broker_name": "매경부동산",
-                "cp_out_link_type": "CP_NAME"
-            },
-            "article_detail": {
-                "direction": "SS",
-                "direction_standard": "거실 기준",
-                "direct_trade": false,
-                "floor_info": "1/13",
-                "floor_detail_info": {
-                    "target_floor": "1",
-                    "total_floor": "13",
-                    "ground_total_floor": "0",
-                    "underground_total_floor": "0",
-                    "floor_type": "10"
-                },
-                "is_safe_lessor_of_hug": false
-            },
-            "article_media_dto": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260107_84/1767757805674EaTgJ_JPEG/20250812_110518.jpg",
-                "image_type": "10",
-                "image_count": 14,
-                "is_vr_exposed": false
-            },
-            "article_media": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260107_84/1767757805674EaTgJ_JPEG/20250812_110518.jpg",
-                "image_type": "10",
-                "image_count": 14,
-                "is_vr_exposed": false
-            },
-            "address": {
-                "city": "서울시",
-                "division": "구로구",
-                "sector": "신도림동",
-                "coordinates": {
-                    "x_coordinate": 126.876968,
-                    "y_coordinate": 37.507877
-                }
-            },
-            "price_info": {
-                "deal_price": 0,
-                "warranty_price": 20000000,
-                "rent_price": 750000,
-                "management_fee_amount": 120000,
-                "price_change_status": 0
-            }
-        },
-        "all_articles": [
-            {
-                "complex_name": "미성",
-                "article_number": "2601412093",
-                "article_name": "미성",
-                "dong_name": "2동",
-                "trade_type": "B2",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 50.98,
-                    "contract_space": 51.97,
-                    "exclusive_space": 37.91,
-                    "land_space": 28207,
-                    "supply_space_name": "50",
-                    "exclusive_space_name": "37",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19871211",
-                    "approval_elapsed_year": 39
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-07",
-                    "article_confirm_date": "2026-01-07"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "부자부동산공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "SS",
-                    "direction_standard": "거실 기준",
-                    "direct_trade": false,
-                    "floor_info": "1/13",
-                    "floor_detail_info": {
-                        "target_floor": "1",
-                        "total_floor": "13",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260107_84/1767757805674EaTgJ_JPEG/20250812_110518.jpg",
-                    "image_type": "10",
-                    "image_count": 14,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260107_84/1767757805674EaTgJ_JPEG/20250812_110518.jpg",
-                    "image_type": "10",
-                    "image_count": 14,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.876968,
-                        "y_coordinate": 37.507877
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 20000000,
-                    "rent_price": 750000,
-                    "management_fee_amount": 120000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "미성",
-                "article_number": "2567391799",
-                "article_name": "미성",
-                "dong_name": "2동",
-                "trade_type": "B2",
-                "real_estate_type": "A04",
-                "space_info": {
-                    "supply_space": 50.98,
-                    "contract_space": 51.97,
-                    "exclusive_space": 37.91,
-                    "land_space": 28207,
-                    "supply_space_name": "50",
-                    "exclusive_space_name": "37",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19871211",
-                    "approval_elapsed_year": 39
-                },
-                "verification_info": {
-                    "verification_type": "NDOC1",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-16",
-                    "article_confirm_date": "2025-12-16"
-                },
-                "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "신화공인중개사사무소",
-                    "broker_name": "부동산뱅크",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "빠른 입주 가능, 샷시포함 수리됨, 냉장고,세탁기, 에어컨 구비",
-                    "direct_trade": false,
-                    "floor_info": "1/13",
-                    "floor_detail_info": {
-                        "target_floor": "1",
-                        "total_floor": "13",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.876968,
-                        "y_coordinate": 37.507877
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 20000000,
-                    "rent_price": 750000,
-                    "management_fee_amount": 150465,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            }
-        ],
-        "article_count": 2,
-        "price_range": {
-            "min": 20750000,
-            "max": 20750000
-        },
-        "updated_at": "2026-01-07T07:21:15.036991",
+        "updated_at": "2026-01-07T08:21:12.845015",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2610,7 +1710,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-07T07:21:15.037091",
+        "updated_at": "2026-01-07T08:21:12.845066",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -2774,7 +1874,7 @@
             "min": 1050000000,
             "max": 1050000000
         },
-        "updated_at": "2026-01-07T07:21:15.037046",
+        "updated_at": "2026-01-07T08:21:12.845020",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3243,7 +2343,907 @@
             "min": 500000000,
             "max": 500000000
         },
-        "updated_at": "2026-01-07T07:21:15.037016",
+        "updated_at": "2026-01-07T08:21:12.844990",
+        "is_deleted": false,
+        "deleted_at": null
+    },
+    "5동:7/13:83:A1": {
+        "property_key": "5동:7/13:83:A1",
+        "article_numbers": [
+            "2569102489"
+        ],
+        "representative": {
+            "complex_name": "미성",
+            "article_number": "2569102489",
+            "article_name": "미성",
+            "dong_name": "5동",
+            "trade_type": "A1",
+            "real_estate_type": "A04",
+            "space_info": {
+                "supply_space": 112.46,
+                "contract_space": 114.12,
+                "exclusive_space": 83.67,
+                "land_space": 28207,
+                "supply_space_name": "112",
+                "exclusive_space_name": "83",
+                "name_type": ""
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "19871211",
+                "approval_elapsed_year": 39
+            },
+            "verification_info": {
+                "verification_type": "NONE",
+                "is_association_article": true,
+                "exposure_start_date": "2025-12-24",
+                "article_confirm_date": "2025-12-24"
+            },
+            "broker_info": {
+                "cp_id": "KAR",
+                "brokerage_name": "금강공인중개사사무소",
+                "broker_name": "한국공인중개사협회",
+                "cp_out_link_type": "NONE"
+            },
+            "article_detail": {
+                "direction": "SS",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "도심속 역세권 재개발 진행중인 남향 아파트,구로전철역 도보5분,",
+                "direct_trade": false,
+                "floor_info": "7/13",
+                "floor_detail_info": {
+                    "target_floor": "7",
+                    "total_floor": "13",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "10"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "구로구",
+                "sector": "신도림동",
+                "coordinates": {
+                    "x_coordinate": 126.877021,
+                    "y_coordinate": 37.507337
+                }
+            },
+            "price_info": {
+                "deal_price": 1100000000,
+                "warranty_price": 0,
+                "rent_price": 0,
+                "management_fee_amount": 180000,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "미성",
+                "article_number": "2569102489",
+                "article_name": "미성",
+                "dong_name": "5동",
+                "trade_type": "A1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 112.46,
+                    "contract_space": 114.12,
+                    "exclusive_space": 83.67,
+                    "land_space": 28207,
+                    "supply_space_name": "112",
+                    "exclusive_space_name": "83",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19871211",
+                    "approval_elapsed_year": 39
+                },
+                "verification_info": {
+                    "verification_type": "NONE",
+                    "is_association_article": true,
+                    "exposure_start_date": "2025-12-24",
+                    "article_confirm_date": "2025-12-24"
+                },
+                "broker_info": {
+                    "cp_id": "KAR",
+                    "brokerage_name": "금강공인중개사사무소",
+                    "broker_name": "한국공인중개사협회",
+                    "cp_out_link_type": "NONE"
+                },
+                "article_detail": {
+                    "direction": "SS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "도심속 역세권 재개발 진행중인 남향 아파트,구로전철역 도보5분,",
+                    "direct_trade": false,
+                    "floor_info": "7/13",
+                    "floor_detail_info": {
+                        "target_floor": "7",
+                        "total_floor": "13",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.877021,
+                        "y_coordinate": 37.507337
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1100000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 180000,
+                    "price_change_status": 0
+                }
+            }
+        ],
+        "article_count": 1,
+        "price_range": {
+            "min": 1100000000,
+            "max": 1100000000
+        },
+        "updated_at": "2026-01-07T08:21:12.845062",
+        "is_deleted": false,
+        "deleted_at": null
+    },
+    "2동:1/13:37:B2": {
+        "property_key": "2동:1/13:37:B2",
+        "article_numbers": [
+            "2567391799",
+            "2601412093"
+        ],
+        "representative": {
+            "complex_name": "미성",
+            "article_number": "2601412093",
+            "article_name": "미성",
+            "dong_name": "2동",
+            "trade_type": "B2",
+            "real_estate_type": "A04",
+            "space_info": {
+                "supply_space": 50.98,
+                "contract_space": 51.97,
+                "exclusive_space": 37.91,
+                "land_space": 28207,
+                "supply_space_name": "50",
+                "exclusive_space_name": "37",
+                "name_type": ""
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "19871211",
+                "approval_elapsed_year": 39
+            },
+            "verification_info": {
+                "verification_type": "OWNER",
+                "is_association_article": false,
+                "exposure_start_date": "2026-01-07",
+                "article_confirm_date": "2026-01-07"
+            },
+            "broker_info": {
+                "cp_id": "bizmk",
+                "brokerage_name": "부자부동산공인중개사사무소",
+                "broker_name": "매경부동산",
+                "cp_out_link_type": "CP_NAME"
+            },
+            "article_detail": {
+                "direction": "SS",
+                "direction_standard": "거실 기준",
+                "direct_trade": false,
+                "floor_info": "1/13",
+                "floor_detail_info": {
+                    "target_floor": "1",
+                    "total_floor": "13",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "10"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_url": "https://landthumb-phinf.pstatic.net/20260107_84/1767757805674EaTgJ_JPEG/20250812_110518.jpg",
+                "image_type": "10",
+                "image_count": 14,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_url": "https://landthumb-phinf.pstatic.net/20260107_84/1767757805674EaTgJ_JPEG/20250812_110518.jpg",
+                "image_type": "10",
+                "image_count": 14,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "구로구",
+                "sector": "신도림동",
+                "coordinates": {
+                    "x_coordinate": 126.876968,
+                    "y_coordinate": 37.507877
+                }
+            },
+            "price_info": {
+                "deal_price": 0,
+                "warranty_price": 20000000,
+                "rent_price": 750000,
+                "management_fee_amount": 120000,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "미성",
+                "article_number": "2601412093",
+                "article_name": "미성",
+                "dong_name": "2동",
+                "trade_type": "B2",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 50.98,
+                    "contract_space": 51.97,
+                    "exclusive_space": 37.91,
+                    "land_space": 28207,
+                    "supply_space_name": "50",
+                    "exclusive_space_name": "37",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19871211",
+                    "approval_elapsed_year": 39
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-07",
+                    "article_confirm_date": "2026-01-07"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "부자부동산공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "SS",
+                    "direction_standard": "거실 기준",
+                    "direct_trade": false,
+                    "floor_info": "1/13",
+                    "floor_detail_info": {
+                        "target_floor": "1",
+                        "total_floor": "13",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260107_84/1767757805674EaTgJ_JPEG/20250812_110518.jpg",
+                    "image_type": "10",
+                    "image_count": 14,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260107_84/1767757805674EaTgJ_JPEG/20250812_110518.jpg",
+                    "image_type": "10",
+                    "image_count": 14,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.876968,
+                        "y_coordinate": 37.507877
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 20000000,
+                    "rent_price": 750000,
+                    "management_fee_amount": 120000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "미성",
+                "article_number": "2567391799",
+                "article_name": "미성",
+                "dong_name": "2동",
+                "trade_type": "B2",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 50.98,
+                    "contract_space": 51.97,
+                    "exclusive_space": 37.91,
+                    "land_space": 28207,
+                    "supply_space_name": "50",
+                    "exclusive_space_name": "37",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19871211",
+                    "approval_elapsed_year": 39
+                },
+                "verification_info": {
+                    "verification_type": "NDOC1",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-16",
+                    "article_confirm_date": "2025-12-16"
+                },
+                "broker_info": {
+                    "cp_id": "NEONET",
+                    "brokerage_name": "신화공인중개사사무소",
+                    "broker_name": "부동산뱅크",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "빠른 입주 가능, 샷시포함 수리됨, 냉장고,세탁기, 에어컨 구비",
+                    "direct_trade": false,
+                    "floor_info": "1/13",
+                    "floor_detail_info": {
+                        "target_floor": "1",
+                        "total_floor": "13",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.876968,
+                        "y_coordinate": 37.507877
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 20000000,
+                    "rent_price": 750000,
+                    "management_fee_amount": 150465,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            }
+        ],
+        "article_count": 2,
+        "price_range": {
+            "min": 20750000,
+            "max": 20750000
+        },
+        "updated_at": "2026-01-07T08:21:12.844965",
+        "is_deleted": false,
+        "deleted_at": null
+    },
+    "1동:1/13:37:A1": {
+        "property_key": "1동:1/13:37:A1",
+        "article_numbers": [
+            "2570024588",
+            "2600567365",
+            "2601217300"
+        ],
+        "representative": {
+            "complex_name": "미성",
+            "article_number": "2601217300",
+            "article_name": "미성",
+            "dong_name": "1동",
+            "trade_type": "A1",
+            "real_estate_type": "A04",
+            "space_info": {
+                "supply_space": 50.98,
+                "contract_space": 51.97,
+                "exclusive_space": 37.91,
+                "land_space": 28207,
+                "supply_space_name": "50",
+                "exclusive_space_name": "37",
+                "name_type": ""
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "19871211",
+                "approval_elapsed_year": 39
+            },
+            "verification_info": {
+                "verification_type": "OWNER",
+                "is_association_article": false,
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
+            },
+            "broker_info": {
+                "cp_id": "ten",
+                "brokerage_name": "신도림미성공인중개사사무소",
+                "broker_name": "텐컴즈",
+                "cp_out_link_type": "CP_NAME"
+            },
+            "article_detail": {
+                "direction": "EE",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "샤시 포함 올수리,실거주가능,재건축 상승 투자 추천",
+                "direct_trade": false,
+                "floor_info": "1/13",
+                "floor_detail_info": {
+                    "target_floor": "1",
+                    "total_floor": "13",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "10"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "구로구",
+                "sector": "신도림동",
+                "coordinates": {
+                    "x_coordinate": 126.876206,
+                    "y_coordinate": 37.508167
+                }
+            },
+            "price_info": {
+                "deal_price": 630000000,
+                "warranty_price": 0,
+                "rent_price": 0,
+                "management_fee_amount": 150000,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "미성",
+                "article_number": "2601217300",
+                "article_name": "미성",
+                "dong_name": "1동",
+                "trade_type": "A1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 50.98,
+                    "contract_space": 51.97,
+                    "exclusive_space": 37.91,
+                    "land_space": 28207,
+                    "supply_space_name": "50",
+                    "exclusive_space_name": "37",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19871211",
+                    "approval_elapsed_year": 39
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "ten",
+                    "brokerage_name": "신도림미성공인중개사사무소",
+                    "broker_name": "텐컴즈",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "EE",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "샤시 포함 올수리,실거주가능,재건축 상승 투자 추천",
+                    "direct_trade": false,
+                    "floor_info": "1/13",
+                    "floor_detail_info": {
+                        "target_floor": "1",
+                        "total_floor": "13",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.876206,
+                        "y_coordinate": 37.508167
+                    }
+                },
+                "price_info": {
+                    "deal_price": 630000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 150000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "미성",
+                "article_number": "2600567365",
+                "article_name": "미성",
+                "dong_name": "1동",
+                "trade_type": "A1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 50.98,
+                    "contract_space": 51.97,
+                    "exclusive_space": 37.91,
+                    "land_space": 28207,
+                    "supply_space_name": "50",
+                    "exclusive_space_name": "37",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19871211",
+                    "approval_elapsed_year": 39
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-03",
+                    "article_confirm_date": "2026-01-03"
+                },
+                "broker_info": {
+                    "cp_id": "thebiz",
+                    "brokerage_name": "라이프공인중개사사무소",
+                    "broker_name": "이실장플러스",
+                    "cp_out_link_type": "NONE"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "미성15 입주가능 특올수리 재건축투자",
+                    "direct_trade": false,
+                    "floor_info": "1/13",
+                    "floor_detail_info": {
+                        "target_floor": "1",
+                        "total_floor": "13",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.876206,
+                        "y_coordinate": 37.508167
+                    }
+                },
+                "price_info": {
+                    "deal_price": 630000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 150000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "미성",
+                "article_number": "2570024588",
+                "article_name": "미성",
+                "dong_name": "1동",
+                "trade_type": "A1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 50.98,
+                    "contract_space": 51.97,
+                    "exclusive_space": 37.91,
+                    "land_space": 28207,
+                    "supply_space_name": "50",
+                    "exclusive_space_name": "37",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19871211",
+                    "approval_elapsed_year": 39
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-30",
+                    "article_confirm_date": "2025-12-30"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "라이프공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "미성15 입주가능 특올수리 재건축투자",
+                    "direct_trade": false,
+                    "floor_info": "1/13",
+                    "floor_detail_info": {
+                        "target_floor": "1",
+                        "total_floor": "13",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.876206,
+                        "y_coordinate": 37.508167
+                    }
+                },
+                "price_info": {
+                    "deal_price": 630000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 150000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            }
+        ],
+        "article_count": 3,
+        "price_range": {
+            "min": 630000000,
+            "max": 630000000
+        },
+        "updated_at": "2026-01-07T08:21:12.844982",
+        "is_deleted": false,
+        "deleted_at": null
+    },
+    "1동:5/13:37:A1": {
+        "property_key": "1동:5/13:37:A1",
+        "article_numbers": [
+            "2601343798"
+        ],
+        "representative": {
+            "complex_name": "미성",
+            "article_number": "2601343798",
+            "article_name": "미성",
+            "dong_name": "1동",
+            "trade_type": "A1",
+            "real_estate_type": "A04",
+            "space_info": {
+                "supply_space": 50.98,
+                "contract_space": 51.97,
+                "exclusive_space": 37.91,
+                "land_space": 28207,
+                "supply_space_name": "50",
+                "exclusive_space_name": "37",
+                "name_type": ""
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "19871211",
+                "approval_elapsed_year": 39
+            },
+            "verification_info": {
+                "verification_type": "NDOC1",
+                "is_association_article": false,
+                "exposure_start_date": "2026-01-07",
+                "article_confirm_date": "2026-01-07"
+            },
+            "broker_info": {
+                "cp_id": "NEONET",
+                "brokerage_name": "신화공인중개사사무소",
+                "broker_name": "부동산뱅크",
+                "cp_out_link_type": "CP_NAME"
+            },
+            "article_detail": {
+                "direction": "WS",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "빠른 입주가능, 샷시포함 특올수리, 재건축 정밀안전진단 통과",
+                "direct_trade": false,
+                "floor_info": "5/13",
+                "floor_detail_info": {
+                    "target_floor": "5",
+                    "total_floor": "13",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "10"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_url": "https://landthumb-phinf.pstatic.net/20260107_174/17677506988317lRaH_JPEG/1766130149304519.jpg",
+                "image_type": "10",
+                "image_count": 8,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_url": "https://landthumb-phinf.pstatic.net/20260107_174/17677506988317lRaH_JPEG/1766130149304519.jpg",
+                "image_type": "10",
+                "image_count": 8,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "구로구",
+                "sector": "신도림동",
+                "coordinates": {
+                    "x_coordinate": 126.876206,
+                    "y_coordinate": 37.508167
+                }
+            },
+            "price_info": {
+                "deal_price": 650000000,
+                "warranty_price": 0,
+                "rent_price": 0,
+                "management_fee_amount": 15465,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "미성",
+                "article_number": "2601343798",
+                "article_name": "미성",
+                "dong_name": "1동",
+                "trade_type": "A1",
+                "real_estate_type": "A04",
+                "space_info": {
+                    "supply_space": 50.98,
+                    "contract_space": 51.97,
+                    "exclusive_space": 37.91,
+                    "land_space": 28207,
+                    "supply_space_name": "50",
+                    "exclusive_space_name": "37",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19871211",
+                    "approval_elapsed_year": 39
+                },
+                "verification_info": {
+                    "verification_type": "NDOC1",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-07",
+                    "article_confirm_date": "2026-01-07"
+                },
+                "broker_info": {
+                    "cp_id": "NEONET",
+                    "brokerage_name": "신화공인중개사사무소",
+                    "broker_name": "부동산뱅크",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "빠른 입주가능, 샷시포함 특올수리, 재건축 정밀안전진단 통과",
+                    "direct_trade": false,
+                    "floor_info": "5/13",
+                    "floor_detail_info": {
+                        "target_floor": "5",
+                        "total_floor": "13",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260107_174/17677506988317lRaH_JPEG/1766130149304519.jpg",
+                    "image_type": "10",
+                    "image_count": 8,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260107_174/17677506988317lRaH_JPEG/1766130149304519.jpg",
+                    "image_type": "10",
+                    "image_count": 8,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.876206,
+                        "y_coordinate": 37.508167
+                    }
+                },
+                "price_info": {
+                    "deal_price": 650000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 15465,
+                    "price_change_status": 0
+                }
+            }
+        ],
+        "article_count": 1,
+        "price_range": {
+            "min": 650000000,
+            "max": 650000000
+        },
+        "updated_at": "2026-01-07T08:21:12.844948",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3407,7 +3407,7 @@
             "min": 650000000,
             "max": 650000000
         },
-        "updated_at": "2026-01-07T07:21:15.037083",
+        "updated_at": "2026-01-07T08:21:12.845057",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3579,7 +3579,7 @@
             "min": 550000000,
             "max": 550000000
         },
-        "updated_at": "2026-01-07T07:21:15.037035",
+        "updated_at": "2026-01-07T08:21:12.845009",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3743,7 +3743,7 @@
             "min": 1100000000,
             "max": 1100000000
         },
-        "updated_at": "2026-01-07T07:21:15.037056",
+        "updated_at": "2026-01-07T08:21:12.845030",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -3907,7 +3907,7 @@
             "min": 1000000000,
             "max": 1000000000
         },
-        "updated_at": "2026-01-07T07:21:15.037079",
+        "updated_at": "2026-01-07T08:21:12.845052",
         "is_deleted": false,
         "deleted_at": null
     }
