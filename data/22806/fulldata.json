@@ -159,7 +159,179 @@
             "min": 500800000,
             "max": 500800000
         },
-        "updated_at": "2026-01-07T09:20:56.634685",
+        "updated_at": "2026-01-07T10:15:48.666870",
+        "is_deleted": false,
+        "deleted_at": null
+    },
+    "1동:3/20:82:A1": {
+        "property_key": "1동:3/20:82:A1",
+        "article_numbers": [
+            "2600247876"
+        ],
+        "representative": {
+            "complex_name": "신도림푸르지오3차(주상복합)",
+            "article_number": "2600247876",
+            "article_name": "신도림푸르지오3차(주상복합)",
+            "dong_name": "1동",
+            "trade_type": "A1",
+            "real_estate_type": "A01",
+            "space_info": {
+                "supply_space": 101.29,
+                "contract_space": 148.17,
+                "exclusive_space": 82.8,
+                "land_space": 3733,
+                "supply_space_name": "101",
+                "exclusive_space_name": "82",
+                "name_type": ""
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "20070920",
+                "approval_elapsed_year": 19
+            },
+            "verification_info": {
+                "verification_type": "NONE",
+                "is_association_article": true,
+                "exposure_start_date": "2026-01-01",
+                "article_confirm_date": "2026-01-01"
+            },
+            "broker_info": {
+                "cp_id": "KAR",
+                "brokerage_name": "큐브시티 부동산공인중개사사무소",
+                "broker_name": "한국공인중개사협회",
+                "cp_out_link_type": "NONE"
+            },
+            "article_detail": {
+                "direction": "WS",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "신도림초역세권,유아 선호 정원공간 있음,교통편리,주차편리,접근성편리,급매",
+                "direct_trade": false,
+                "floor_info": "3/20",
+                "floor_detail_info": {
+                    "target_floor": "3",
+                    "total_floor": "20",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "10"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_url": "https://landthumb-phinf.pstatic.net/20260101_53/1767252137215kT4BH_JPEG/imagetemp155523050.jpg",
+                "image_type": "10",
+                "image_count": 8,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_url": "https://landthumb-phinf.pstatic.net/20260101_53/1767252137215kT4BH_JPEG/imagetemp155523050.jpg",
+                "image_type": "10",
+                "image_count": 8,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "구로구",
+                "sector": "신도림동",
+                "coordinates": {
+                    "x_coordinate": 126.88395,
+                    "y_coordinate": 37.506898
+                }
+            },
+            "price_info": {
+                "deal_price": 1200000000,
+                "warranty_price": 0,
+                "rent_price": 0,
+                "management_fee_amount": 240000,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "신도림푸르지오3차(주상복합)",
+                "article_number": "2600247876",
+                "article_name": "신도림푸르지오3차(주상복합)",
+                "dong_name": "1동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 101.29,
+                    "contract_space": 148.17,
+                    "exclusive_space": 82.8,
+                    "land_space": 3733,
+                    "supply_space_name": "101",
+                    "exclusive_space_name": "82",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20070920",
+                    "approval_elapsed_year": 19
+                },
+                "verification_info": {
+                    "verification_type": "NONE",
+                    "is_association_article": true,
+                    "exposure_start_date": "2026-01-01",
+                    "article_confirm_date": "2026-01-01"
+                },
+                "broker_info": {
+                    "cp_id": "KAR",
+                    "brokerage_name": "큐브시티 부동산공인중개사사무소",
+                    "broker_name": "한국공인중개사협회",
+                    "cp_out_link_type": "NONE"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "신도림초역세권,유아 선호 정원공간 있음,교통편리,주차편리,접근성편리,급매",
+                    "direct_trade": false,
+                    "floor_info": "3/20",
+                    "floor_detail_info": {
+                        "target_floor": "3",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260101_53/1767252137215kT4BH_JPEG/imagetemp155523050.jpg",
+                    "image_type": "10",
+                    "image_count": 8,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_url": "https://landthumb-phinf.pstatic.net/20260101_53/1767252137215kT4BH_JPEG/imagetemp155523050.jpg",
+                    "image_type": "10",
+                    "image_count": 8,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88395,
+                        "y_coordinate": 37.506898
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1200000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 240000,
+                    "price_change_status": 0
+                }
+            }
+        ],
+        "article_count": 1,
+        "price_range": {
+            "min": 1200000000,
+            "max": 1200000000
+        },
+        "updated_at": "2026-01-07T10:15:48.666918",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -551,179 +723,7 @@
             "min": 102400000,
             "max": 102400000
         },
-        "updated_at": "2026-01-07T09:20:56.634704",
-        "is_deleted": false,
-        "deleted_at": null
-    },
-    "1동:3/20:82:A1": {
-        "property_key": "1동:3/20:82:A1",
-        "article_numbers": [
-            "2600247876"
-        ],
-        "representative": {
-            "complex_name": "신도림푸르지오3차(주상복합)",
-            "article_number": "2600247876",
-            "article_name": "신도림푸르지오3차(주상복합)",
-            "dong_name": "1동",
-            "trade_type": "A1",
-            "real_estate_type": "A01",
-            "space_info": {
-                "supply_space": 101.29,
-                "contract_space": 148.17,
-                "exclusive_space": 82.8,
-                "land_space": 3733,
-                "supply_space_name": "101",
-                "exclusive_space_name": "82",
-                "name_type": ""
-            },
-            "land_info": {},
-            "building_info": {
-                "building_conjunction_date_type": "CDY01",
-                "building_conjunction_date": "20070920",
-                "approval_elapsed_year": 19
-            },
-            "verification_info": {
-                "verification_type": "NONE",
-                "is_association_article": true,
-                "exposure_start_date": "2026-01-01",
-                "article_confirm_date": "2026-01-01"
-            },
-            "broker_info": {
-                "cp_id": "KAR",
-                "brokerage_name": "큐브시티 부동산공인중개사사무소",
-                "broker_name": "한국공인중개사협회",
-                "cp_out_link_type": "NONE"
-            },
-            "article_detail": {
-                "direction": "WS",
-                "direction_standard": "거실 기준",
-                "article_feature_description": "신도림초역세권,유아 선호 정원공간 있음,교통편리,주차편리,접근성편리,급매",
-                "direct_trade": false,
-                "floor_info": "3/20",
-                "floor_detail_info": {
-                    "target_floor": "3",
-                    "total_floor": "20",
-                    "ground_total_floor": "0",
-                    "underground_total_floor": "0",
-                    "floor_type": "10"
-                },
-                "is_safe_lessor_of_hug": false
-            },
-            "article_media_dto": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260101_53/1767252137215kT4BH_JPEG/imagetemp155523050.jpg",
-                "image_type": "10",
-                "image_count": 8,
-                "is_vr_exposed": false
-            },
-            "article_media": {
-                "image_url": "https://landthumb-phinf.pstatic.net/20260101_53/1767252137215kT4BH_JPEG/imagetemp155523050.jpg",
-                "image_type": "10",
-                "image_count": 8,
-                "is_vr_exposed": false
-            },
-            "address": {
-                "city": "서울시",
-                "division": "구로구",
-                "sector": "신도림동",
-                "coordinates": {
-                    "x_coordinate": 126.88395,
-                    "y_coordinate": 37.506898
-                }
-            },
-            "price_info": {
-                "deal_price": 1200000000,
-                "warranty_price": 0,
-                "rent_price": 0,
-                "management_fee_amount": 240000,
-                "price_change_status": 0
-            }
-        },
-        "all_articles": [
-            {
-                "complex_name": "신도림푸르지오3차(주상복합)",
-                "article_number": "2600247876",
-                "article_name": "신도림푸르지오3차(주상복합)",
-                "dong_name": "1동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 101.29,
-                    "contract_space": 148.17,
-                    "exclusive_space": 82.8,
-                    "land_space": 3733,
-                    "supply_space_name": "101",
-                    "exclusive_space_name": "82",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20070920",
-                    "approval_elapsed_year": 19
-                },
-                "verification_info": {
-                    "verification_type": "NONE",
-                    "is_association_article": true,
-                    "exposure_start_date": "2026-01-01",
-                    "article_confirm_date": "2026-01-01"
-                },
-                "broker_info": {
-                    "cp_id": "KAR",
-                    "brokerage_name": "큐브시티 부동산공인중개사사무소",
-                    "broker_name": "한국공인중개사협회",
-                    "cp_out_link_type": "NONE"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "신도림초역세권,유아 선호 정원공간 있음,교통편리,주차편리,접근성편리,급매",
-                    "direct_trade": false,
-                    "floor_info": "3/20",
-                    "floor_detail_info": {
-                        "target_floor": "3",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260101_53/1767252137215kT4BH_JPEG/imagetemp155523050.jpg",
-                    "image_type": "10",
-                    "image_count": 8,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_url": "https://landthumb-phinf.pstatic.net/20260101_53/1767252137215kT4BH_JPEG/imagetemp155523050.jpg",
-                    "image_type": "10",
-                    "image_count": 8,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88395,
-                        "y_coordinate": 37.506898
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1200000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 240000,
-                    "price_change_status": 0
-                }
-            }
-        ],
-        "article_count": 1,
-        "price_range": {
-            "min": 1200000000,
-            "max": 1200000000
-        },
-        "updated_at": "2026-01-07T09:20:56.634733",
+        "updated_at": "2026-01-07T10:15:48.666890",
         "is_deleted": false,
         "deleted_at": null
     }
