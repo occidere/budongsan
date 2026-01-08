@@ -1,15 +1,15 @@
 {
-    "806동:5/24:84:A1": {
-        "property_key": "806동:5/24:84:A1",
+    "806동:3/24:84:B1": {
+        "property_key": "806동:3/24:84:B1",
         "article_numbers": [
-            "2568982124"
+            "2568222649"
         ],
         "representative": {
             "complex_name": "신도림7차e-편한세상",
-            "article_number": "2568982124",
+            "article_number": "2568222649",
             "article_name": "신도림7차e-편한세상",
             "dong_name": "806동",
-            "trade_type": "A1",
+            "trade_type": "B1",
             "real_estate_type": "A01",
             "space_info": {
                 "supply_space": 107.87,
@@ -29,23 +29,23 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-24",
-                "article_confirm_date": "2025-12-24"
+                "exposure_start_date": "2025-12-19",
+                "article_confirm_date": "2025-12-19"
             },
             "broker_info": {
                 "cp_id": "bizmk",
-                "brokerage_name": "대우사랑 공인중개사사무소",
+                "brokerage_name": "중앙공인중개사사무소",
                 "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "앞이트인집 정상입주  전망좋은 남향집입니다",
+                "article_feature_description": "앞이 트여 해잘드는 집.확장되어 넓게 사용.선호하는 구조.3월말협의",
                 "direct_trade": false,
-                "floor_info": "5/24",
+                "floor_info": "3/24",
                 "floor_detail_info": {
-                    "target_floor": "5",
+                    "target_floor": "3",
                     "total_floor": "24",
                     "ground_total_floor": "0",
                     "underground_total_floor": "0",
@@ -71,20 +71,30 @@
                 }
             },
             "price_info": {
-                "deal_price": 1600000000,
-                "warranty_price": 0,
+                "deal_price": 0,
+                "warranty_price": 720000000,
                 "rent_price": 0,
-                "management_fee_amount": 180000,
-                "price_change_status": 0
+                "management_fee_amount": 200000,
+                "price_change_status": 1,
+                "price_change_histories": [
+                    {
+                        "modified_date": "2025-12-19T16:06:05",
+                        "warranty_price": 710000000
+                    },
+                    {
+                        "modified_date": "2025-12-19T16:09:01",
+                        "warranty_price": 720000000
+                    }
+                ]
             }
         },
         "all_articles": [
             {
                 "complex_name": "신도림7차e-편한세상",
-                "article_number": "2568982124",
+                "article_number": "2568222649",
                 "article_name": "신도림7차e-편한세상",
                 "dong_name": "806동",
-                "trade_type": "A1",
+                "trade_type": "B1",
                 "real_estate_type": "A01",
                 "space_info": {
                     "supply_space": 107.87,
@@ -104,23 +114,23 @@
                 "verification_info": {
                     "verification_type": "OWNER",
                     "is_association_article": false,
-                    "exposure_start_date": "2025-12-24",
-                    "article_confirm_date": "2025-12-24"
+                    "exposure_start_date": "2025-12-19",
+                    "article_confirm_date": "2025-12-19"
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "대우사랑 공인중개사사무소",
+                    "brokerage_name": "중앙공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "ES",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "앞이트인집 정상입주  전망좋은 남향집입니다",
+                    "article_feature_description": "앞이 트여 해잘드는 집.확장되어 넓게 사용.선호하는 구조.3월말협의",
                     "direct_trade": false,
-                    "floor_info": "5/24",
+                    "floor_info": "3/24",
                     "floor_detail_info": {
-                        "target_floor": "5",
+                        "target_floor": "3",
                         "total_floor": "24",
                         "ground_total_floor": "0",
                         "underground_total_floor": "0",
@@ -146,22 +156,32 @@
                     }
                 },
                 "price_info": {
-                    "deal_price": 1600000000,
-                    "warranty_price": 0,
+                    "deal_price": 0,
+                    "warranty_price": 720000000,
                     "rent_price": 0,
-                    "management_fee_amount": 180000,
-                    "price_change_status": 0
+                    "management_fee_amount": 200000,
+                    "price_change_status": 1,
+                    "price_change_histories": [
+                        {
+                            "modified_date": "2025-12-19T16:06:05",
+                            "warranty_price": 710000000
+                        },
+                        {
+                            "modified_date": "2025-12-19T16:09:01",
+                            "warranty_price": 720000000
+                        }
+                    ]
                 }
             }
         ],
         "article_count": 1,
         "price_range": {
-            "min": 1600000000,
-            "max": 1600000000
+            "min": 720000000,
+            "max": 720000000
         },
-        "updated_at": "2026-01-06T07:21:45.024486",
+        "updated_at": "2025-12-24T01:04:48.632141",
         "is_deleted": true,
-        "deleted_at": "2026-01-06T08:22:04.475000"
+        "deleted_at": "2025-12-24T03:19:41.962000"
     },
     "802동:11/24:116:B1": {
         "property_key": "802동:11/24:116:B1",
@@ -404,17 +424,17 @@
         "is_deleted": true,
         "deleted_at": "2026-01-07T03:57:11.302000"
     },
-    "806동:3/24:84:B1": {
-        "property_key": "806동:3/24:84:B1",
+    "806동:5/24:84:A1": {
+        "property_key": "806동:5/24:84:A1",
         "article_numbers": [
-            "2568222649"
+            "2568982124"
         ],
         "representative": {
             "complex_name": "신도림7차e-편한세상",
-            "article_number": "2568222649",
+            "article_number": "2568982124",
             "article_name": "신도림7차e-편한세상",
             "dong_name": "806동",
-            "trade_type": "B1",
+            "trade_type": "A1",
             "real_estate_type": "A01",
             "space_info": {
                 "supply_space": 107.87,
@@ -434,23 +454,23 @@
             "verification_info": {
                 "verification_type": "OWNER",
                 "is_association_article": false,
-                "exposure_start_date": "2025-12-19",
-                "article_confirm_date": "2025-12-19"
+                "exposure_start_date": "2025-12-24",
+                "article_confirm_date": "2025-12-24"
             },
             "broker_info": {
                 "cp_id": "bizmk",
-                "brokerage_name": "중앙공인중개사사무소",
+                "brokerage_name": "대우사랑 공인중개사사무소",
                 "broker_name": "매경부동산",
                 "cp_out_link_type": "CP_NAME"
             },
             "article_detail": {
                 "direction": "ES",
                 "direction_standard": "거실 기준",
-                "article_feature_description": "앞이 트여 해잘드는 집.확장되어 넓게 사용.선호하는 구조.3월말협의",
+                "article_feature_description": "앞이트인집 정상입주  전망좋은 남향집입니다",
                 "direct_trade": false,
-                "floor_info": "3/24",
+                "floor_info": "5/24",
                 "floor_detail_info": {
-                    "target_floor": "3",
+                    "target_floor": "5",
                     "total_floor": "24",
                     "ground_total_floor": "0",
                     "underground_total_floor": "0",
@@ -476,30 +496,20 @@
                 }
             },
             "price_info": {
-                "deal_price": 0,
-                "warranty_price": 720000000,
+                "deal_price": 1600000000,
+                "warranty_price": 0,
                 "rent_price": 0,
-                "management_fee_amount": 200000,
-                "price_change_status": 1,
-                "price_change_histories": [
-                    {
-                        "modified_date": "2025-12-19T16:06:05",
-                        "warranty_price": 710000000
-                    },
-                    {
-                        "modified_date": "2025-12-19T16:09:01",
-                        "warranty_price": 720000000
-                    }
-                ]
+                "management_fee_amount": 180000,
+                "price_change_status": 0
             }
         },
         "all_articles": [
             {
                 "complex_name": "신도림7차e-편한세상",
-                "article_number": "2568222649",
+                "article_number": "2568982124",
                 "article_name": "신도림7차e-편한세상",
                 "dong_name": "806동",
-                "trade_type": "B1",
+                "trade_type": "A1",
                 "real_estate_type": "A01",
                 "space_info": {
                     "supply_space": 107.87,
@@ -519,23 +529,23 @@
                 "verification_info": {
                     "verification_type": "OWNER",
                     "is_association_article": false,
-                    "exposure_start_date": "2025-12-19",
-                    "article_confirm_date": "2025-12-19"
+                    "exposure_start_date": "2025-12-24",
+                    "article_confirm_date": "2025-12-24"
                 },
                 "broker_info": {
                     "cp_id": "bizmk",
-                    "brokerage_name": "중앙공인중개사사무소",
+                    "brokerage_name": "대우사랑 공인중개사사무소",
                     "broker_name": "매경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "ES",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "앞이 트여 해잘드는 집.확장되어 넓게 사용.선호하는 구조.3월말협의",
+                    "article_feature_description": "앞이트인집 정상입주  전망좋은 남향집입니다",
                     "direct_trade": false,
-                    "floor_info": "3/24",
+                    "floor_info": "5/24",
                     "floor_detail_info": {
-                        "target_floor": "3",
+                        "target_floor": "5",
                         "total_floor": "24",
                         "ground_total_floor": "0",
                         "underground_total_floor": "0",
@@ -561,32 +571,22 @@
                     }
                 },
                 "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 720000000,
+                    "deal_price": 1600000000,
+                    "warranty_price": 0,
                     "rent_price": 0,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 1,
-                    "price_change_histories": [
-                        {
-                            "modified_date": "2025-12-19T16:06:05",
-                            "warranty_price": 710000000
-                        },
-                        {
-                            "modified_date": "2025-12-19T16:09:01",
-                            "warranty_price": 720000000
-                        }
-                    ]
+                    "management_fee_amount": 180000,
+                    "price_change_status": 0
                 }
             }
         ],
         "article_count": 1,
         "price_range": {
-            "min": 720000000,
-            "max": 720000000
+            "min": 1600000000,
+            "max": 1600000000
         },
-        "updated_at": "2025-12-24T01:04:48.632141",
+        "updated_at": "2026-01-06T07:21:45.024486",
         "is_deleted": true,
-        "deleted_at": "2025-12-24T03:19:41.962000"
+        "deleted_at": "2026-01-06T08:22:04.475000"
     },
     "805동:8/24:116:A1": {
         "property_key": "805동:8/24:116:A1",
@@ -748,7 +748,7 @@
             "min": 1900000000,
             "max": 1900000000
         },
-        "updated_at": "2026-01-08T09:21:50.503633",
+        "updated_at": "2026-01-08T10:17:26.006630",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -989,7 +989,7 @@
             "min": 401300000,
             "max": 401300000
         },
-        "updated_at": "2026-01-08T09:21:50.503651",
+        "updated_at": "2026-01-08T10:17:26.006648",
         "is_deleted": false,
         "deleted_at": null
     },
