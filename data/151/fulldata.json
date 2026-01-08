@@ -388,7 +388,7 @@
             "min": 400800000,
             "max": 400800000
         },
-        "updated_at": "2026-01-07T14:37:48.840774",
+        "updated_at": "2026-01-08T01:02:14.341405",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -555,6 +555,170 @@
         "updated_at": "2026-01-05T01:13:51.291864",
         "is_deleted": true,
         "deleted_at": "2026-01-05T03:50:52.337000"
+    },
+    "101동:14/15:84:A1": {
+        "property_key": "101동:14/15:84:A1",
+        "article_numbers": [
+            "2567341724"
+        ],
+        "representative": {
+            "complex_name": "우성1차",
+            "article_number": "2567341724",
+            "article_name": "우성1차",
+            "dong_name": "101동",
+            "trade_type": "A1",
+            "real_estate_type": "A01",
+            "space_info": {
+                "supply_space": 104.17,
+                "contract_space": 112.74,
+                "exclusive_space": 84.96,
+                "land_space": 6125,
+                "supply_space_name": "104",
+                "exclusive_space_name": "84",
+                "name_type": ""
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "19921204",
+                "approval_elapsed_year": 34
+            },
+            "verification_info": {
+                "verification_type": "OWNER",
+                "is_association_article": false,
+                "exposure_start_date": "2025-12-15",
+                "article_confirm_date": "2025-12-15"
+            },
+            "broker_info": {
+                "cp_id": "R114",
+                "brokerage_name": "굿모닝공인",
+                "broker_name": "부동산114",
+                "cp_out_link_type": "CP_NAME"
+            },
+            "article_detail": {
+                "direction": "ES",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "초역세권 리모델링호재",
+                "direct_trade": false,
+                "floor_info": "14/15",
+                "floor_detail_info": {
+                    "target_floor": "14",
+                    "total_floor": "15",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "10"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "구로구",
+                "sector": "신도림동",
+                "coordinates": {
+                    "x_coordinate": 126.88615,
+                    "y_coordinate": 37.511803
+                }
+            },
+            "price_info": {
+                "deal_price": 1200000000,
+                "warranty_price": 0,
+                "rent_price": 0,
+                "management_fee_amount": 180000,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "우성1차",
+                "article_number": "2567341724",
+                "article_name": "우성1차",
+                "dong_name": "101동",
+                "trade_type": "A1",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 104.17,
+                    "contract_space": 112.74,
+                    "exclusive_space": 84.96,
+                    "land_space": 6125,
+                    "supply_space_name": "104",
+                    "exclusive_space_name": "84",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19921204",
+                    "approval_elapsed_year": 34
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-15",
+                    "article_confirm_date": "2025-12-15"
+                },
+                "broker_info": {
+                    "cp_id": "R114",
+                    "brokerage_name": "굿모닝공인",
+                    "broker_name": "부동산114",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "초역세권 리모델링호재",
+                    "direct_trade": false,
+                    "floor_info": "14/15",
+                    "floor_detail_info": {
+                        "target_floor": "14",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88615,
+                        "y_coordinate": 37.511803
+                    }
+                },
+                "price_info": {
+                    "deal_price": 1200000000,
+                    "warranty_price": 0,
+                    "rent_price": 0,
+                    "management_fee_amount": 180000,
+                    "price_change_status": 0
+                }
+            }
+        ],
+        "article_count": 1,
+        "price_range": {
+            "min": 1200000000,
+            "max": 1200000000
+        },
+        "updated_at": "2026-01-08T01:02:14.341416",
+        "is_deleted": false,
+        "deleted_at": null
     },
     "101동:5/15:84:A1": {
         "property_key": "101동:5/15:84:A1",
@@ -739,170 +903,6 @@
         "updated_at": "2026-01-07T05:02:49.201172",
         "is_deleted": true,
         "deleted_at": "2026-01-07T06:23:54.783000"
-    },
-    "101동:14/15:84:A1": {
-        "property_key": "101동:14/15:84:A1",
-        "article_numbers": [
-            "2567341724"
-        ],
-        "representative": {
-            "complex_name": "우성1차",
-            "article_number": "2567341724",
-            "article_name": "우성1차",
-            "dong_name": "101동",
-            "trade_type": "A1",
-            "real_estate_type": "A01",
-            "space_info": {
-                "supply_space": 104.17,
-                "contract_space": 112.74,
-                "exclusive_space": 84.96,
-                "land_space": 6125,
-                "supply_space_name": "104",
-                "exclusive_space_name": "84",
-                "name_type": ""
-            },
-            "land_info": {},
-            "building_info": {
-                "building_conjunction_date_type": "CDY01",
-                "building_conjunction_date": "19921204",
-                "approval_elapsed_year": 34
-            },
-            "verification_info": {
-                "verification_type": "OWNER",
-                "is_association_article": false,
-                "exposure_start_date": "2025-12-15",
-                "article_confirm_date": "2025-12-15"
-            },
-            "broker_info": {
-                "cp_id": "R114",
-                "brokerage_name": "굿모닝공인",
-                "broker_name": "부동산114",
-                "cp_out_link_type": "CP_NAME"
-            },
-            "article_detail": {
-                "direction": "ES",
-                "direction_standard": "거실 기준",
-                "article_feature_description": "초역세권 리모델링호재",
-                "direct_trade": false,
-                "floor_info": "14/15",
-                "floor_detail_info": {
-                    "target_floor": "14",
-                    "total_floor": "15",
-                    "ground_total_floor": "0",
-                    "underground_total_floor": "0",
-                    "floor_type": "10"
-                },
-                "is_safe_lessor_of_hug": false
-            },
-            "article_media_dto": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "article_media": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "address": {
-                "city": "서울시",
-                "division": "구로구",
-                "sector": "신도림동",
-                "coordinates": {
-                    "x_coordinate": 126.88615,
-                    "y_coordinate": 37.511803
-                }
-            },
-            "price_info": {
-                "deal_price": 1200000000,
-                "warranty_price": 0,
-                "rent_price": 0,
-                "management_fee_amount": 180000,
-                "price_change_status": 0
-            }
-        },
-        "all_articles": [
-            {
-                "complex_name": "우성1차",
-                "article_number": "2567341724",
-                "article_name": "우성1차",
-                "dong_name": "101동",
-                "trade_type": "A1",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 104.17,
-                    "contract_space": 112.74,
-                    "exclusive_space": 84.96,
-                    "land_space": 6125,
-                    "supply_space_name": "104",
-                    "exclusive_space_name": "84",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19921204",
-                    "approval_elapsed_year": 34
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-15",
-                    "article_confirm_date": "2025-12-15"
-                },
-                "broker_info": {
-                    "cp_id": "R114",
-                    "brokerage_name": "굿모닝공인",
-                    "broker_name": "부동산114",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "초역세권 리모델링호재",
-                    "direct_trade": false,
-                    "floor_info": "14/15",
-                    "floor_detail_info": {
-                        "target_floor": "14",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88615,
-                        "y_coordinate": 37.511803
-                    }
-                },
-                "price_info": {
-                    "deal_price": 1200000000,
-                    "warranty_price": 0,
-                    "rent_price": 0,
-                    "management_fee_amount": 180000,
-                    "price_change_status": 0
-                }
-            }
-        ],
-        "article_count": 1,
-        "price_range": {
-            "min": 1200000000,
-            "max": 1200000000
-        },
-        "updated_at": "2026-01-07T14:37:48.840786",
-        "is_deleted": false,
-        "deleted_at": null
     },
     "101동:8/15:84:B1": {
         "property_key": "101동:8/15:84:B1",
@@ -1370,7 +1370,7 @@
             },
             {
                 "complex_name": "우성1차",
-                "article_number": "2570121770",
+                "article_number": "2570178025",
                 "article_name": "우성1차",
                 "dong_name": "101동",
                 "trade_type": "B1",
@@ -1391,21 +1391,21 @@
                     "approval_elapsed_year": 34
                 },
                 "verification_info": {
-                    "verification_type": "NDOC1",
+                    "verification_type": "OWNER",
                     "is_association_article": false,
                     "exposure_start_date": "2025-12-30",
                     "article_confirm_date": "2025-12-30"
                 },
                 "broker_info": {
-                    "cp_id": "SERVE",
-                    "brokerage_name": "크라운빌공인중개사",
-                    "broker_name": "부동산써브",
+                    "cp_id": "hkdotcom",
+                    "brokerage_name": "크라운공인중개사사무소",
+                    "broker_name": "한경부동산",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "ES",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리 올인테리어예정샷시미포함 초중고인접 신혼집강추",
+                    "article_feature_description": "올수리조건 초중고도보가 신도림더블역세권 신혼부부강추합니다.",
                     "direct_trade": false,
                     "floor_info": "8/15",
                     "floor_detail_info": {
@@ -1445,7 +1445,7 @@
             },
             {
                 "complex_name": "우성1차",
-                "article_number": "2570178025",
+                "article_number": "2570121770",
                 "article_name": "우성1차",
                 "dong_name": "101동",
                 "trade_type": "B1",
@@ -1466,21 +1466,21 @@
                     "approval_elapsed_year": 34
                 },
                 "verification_info": {
-                    "verification_type": "OWNER",
+                    "verification_type": "NDOC1",
                     "is_association_article": false,
                     "exposure_start_date": "2025-12-30",
                     "article_confirm_date": "2025-12-30"
                 },
                 "broker_info": {
-                    "cp_id": "hkdotcom",
-                    "brokerage_name": "크라운공인중개사사무소",
-                    "broker_name": "한경부동산",
+                    "cp_id": "SERVE",
+                    "brokerage_name": "크라운빌공인중개사",
+                    "broker_name": "부동산써브",
                     "cp_out_link_type": "CP_NAME"
                 },
                 "article_detail": {
                     "direction": "ES",
                     "direction_standard": "거실 기준",
-                    "article_feature_description": "올수리조건 초중고도보가 신도림더블역세권 신혼부부강추합니다.",
+                    "article_feature_description": "올수리 올인테리어예정샷시미포함 초중고인접 신혼집강추",
                     "direct_trade": false,
                     "floor_info": "8/15",
                     "floor_detail_info": {
@@ -1749,7 +1749,7 @@
             "min": 600000000,
             "max": 600000000
         },
-        "updated_at": "2026-01-07T14:37:48.840754",
+        "updated_at": "2026-01-08T01:02:14.341387",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -1913,7 +1913,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-07T14:37:48.840780",
+        "updated_at": "2026-01-08T01:02:14.341411",
         "is_deleted": false,
         "deleted_at": null
     }
