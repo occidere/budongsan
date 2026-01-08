@@ -312,7 +312,7 @@
             "min": 600000000,
             "max": 600000000
         },
-        "updated_at": "2026-01-08T03:00:46.968113",
+        "updated_at": "2026-01-08T04:03:55.211999",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -401,81 +401,6 @@
         "all_articles": [
             {
                 "complex_name": "우성2차",
-                "article_number": "2601556901",
-                "article_name": "우성2차",
-                "dong_name": "201동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 101.49,
-                    "contract_space": 109.97,
-                    "exclusive_space": 84.82,
-                    "land_space": 8586,
-                    "supply_space_name": "101A",
-                    "exclusive_space_name": "84A",
-                    "name_type": "A"
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "19960321",
-                    "approval_elapsed_year": 30
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-08",
-                    "article_confirm_date": "2026-01-08"
-                },
-                "broker_info": {
-                    "cp_id": "bizmk",
-                    "brokerage_name": "대림공인중개사사무소",
-                    "broker_name": "매경부동산",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "ES",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "수리해드림 깨끗 초중고인접 전망굿 주변공원인접 더블역세권",
-                    "direct_trade": false,
-                    "floor_info": "15/15",
-                    "floor_detail_info": {
-                        "target_floor": "15",
-                        "total_floor": "15",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.885693,
-                        "y_coordinate": 37.512132
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 50000000,
-                    "rent_price": 2000000,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "우성2차",
                 "article_number": "2601613443",
                 "article_name": "우성2차",
                 "dong_name": "201동",
@@ -545,6 +470,81 @@
                     "warranty_price": 50000000,
                     "rent_price": 2000000,
                     "management_fee_amount": 180000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "우성2차",
+                "article_number": "2601556901",
+                "article_name": "우성2차",
+                "dong_name": "201동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 101.49,
+                    "contract_space": 109.97,
+                    "exclusive_space": 84.82,
+                    "land_space": 8586,
+                    "supply_space_name": "101A",
+                    "exclusive_space_name": "84A",
+                    "name_type": "A"
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "19960321",
+                    "approval_elapsed_year": 30
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-08",
+                    "article_confirm_date": "2026-01-08"
+                },
+                "broker_info": {
+                    "cp_id": "bizmk",
+                    "brokerage_name": "대림공인중개사사무소",
+                    "broker_name": "매경부동산",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "ES",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "수리해드림 깨끗 초중고인접 전망굿 주변공원인접 더블역세권",
+                    "direct_trade": false,
+                    "floor_info": "15/15",
+                    "floor_detail_info": {
+                        "target_floor": "15",
+                        "total_floor": "15",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.885693,
+                        "y_coordinate": 37.512132
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 50000000,
+                    "rent_price": 2000000,
+                    "management_fee_amount": 200000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -705,7 +705,7 @@
             "min": 52000000,
             "max": 52000000
         },
-        "updated_at": "2026-01-08T03:00:46.968094",
+        "updated_at": "2026-01-08T04:03:55.211983",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -889,7 +889,7 @@
             "min": 1250000000,
             "max": 1250000000
         },
-        "updated_at": "2026-01-08T03:00:46.968122",
+        "updated_at": "2026-01-08T04:03:55.212007",
         "is_deleted": false,
         "deleted_at": null
     }
