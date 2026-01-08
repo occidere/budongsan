@@ -118,13 +118,13 @@
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1600px;
             margin: 0 auto;
         }
 
         .cards {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
             gap: 20px;
         }
 
@@ -391,6 +391,377 @@
         .sort-select:focus {
             border-color: #1a73e8;
             box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.1);
+        }
+
+        .date-range-filter {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            position: relative;
+        }
+
+        .time-range-picker {
+            position: relative;
+        }
+
+        .time-range-display {
+            padding: 10px 14px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 14px;
+            color: var(--text-primary);
+            background-color: var(--bg-secondary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: border-color 0.2s, background-color 0.3s ease;
+            user-select: none;
+        }
+
+        .time-range-display:hover {
+            border-color: #1a73e8;
+            background-color: var(--bg-hover);
+        }
+
+        .time-range-display .icon {
+            margin-left: 8px;
+            opacity: 0.6;
+        }
+
+        .time-range-dropdown {
+            position: absolute;
+            top: calc(100% + 4px);
+            left: 0;
+            right: 0;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            box-shadow: var(--card-shadow);
+            z-index: 1000;
+            display: none;
+            max-height: 450px;
+            overflow-y: auto;
+        }
+
+        .time-range-dropdown.open {
+            display: block;
+        }
+
+        .time-range-section {
+            padding: 12px;
+        }
+
+        .time-range-section-title {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-tertiary);
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .time-range-option {
+            padding: 8px 12px;
+            cursor: pointer;
+            border-radius: 6px;
+            font-size: 14px;
+            color: var(--text-primary);
+            transition: background-color 0.2s;
+        }
+
+        .time-range-option:hover {
+            background-color: var(--bg-hover);
+        }
+
+        .time-range-option.active {
+            background-color: var(--bg-selected);
+            color: var(--text-accent);
+            font-weight: 500;
+        }
+
+        .time-range-divider {
+            height: 1px;
+            background-color: var(--border-color);
+            margin: 8px 0;
+        }
+
+        .absolute-time-section {
+            padding: 12px;
+        }
+
+        .absolute-time-inputs {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .absolute-time-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .absolute-time-label {
+            font-size: 12px;
+            color: var(--text-secondary);
+            min-width: 45px;
+            font-weight: 500;
+        }
+
+        .date-input-wrapper {
+            flex: 1;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .absolute-date-input {
+            width: 100%;
+            padding: 8px 36px 8px 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 13px;
+            color: var(--text-primary);
+            background-color: var(--bg-secondary);
+            outline: none;
+            transition: border-color 0.2s;
+            font-family: monospace;
+            position: relative;
+            z-index: 2;
+        }
+
+        .absolute-date-input:hover {
+            border-color: #1a73e8;
+        }
+
+        .absolute-date-input:focus {
+            border-color: #1a73e8;
+            box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.1);
+        }
+
+        .calendar-icon {
+            position: absolute;
+            right: 8px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            opacity: 0.6;
+            transition: opacity 0.2s;
+            pointer-events: none;
+            z-index: 4;
+        }
+
+        .date-input-wrapper:hover .calendar-icon {
+            opacity: 0.8;
+        }
+
+        .absolute-date-picker {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 36px;
+            height: 100%;
+            opacity: 0;
+            cursor: pointer;
+            pointer-events: auto;
+            z-index: 3;
+        }
+
+        .absolute-date-picker::-webkit-calendar-picker-indicator {
+            position: absolute;
+            right: 0;
+            width: 36px;
+            height: 100%;
+            cursor: pointer;
+            opacity: 1;
+        }
+
+        .apply-time-btn {
+            margin-top: 8px;
+            width: 100%;
+            padding: 8px;
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .apply-time-btn:hover {
+            background-color: #1557b0;
+        }
+
+        .apply-time-btn:disabled {
+            background-color: var(--border-color);
+            cursor: not-allowed;
+        }
+
+        .date-input-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .date-input {
+            flex: 1;
+            padding: 10px 14px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 14px;
+            color: var(--text-primary);
+            background-color: var(--bg-secondary);
+            cursor: pointer;
+            outline: none;
+            transition: border-color 0.2s, background-color 0.3s ease;
+        }
+
+        .date-input:hover {
+            border-color: #1a73e8;
+        }
+
+        .date-input:focus {
+            border-color: #1a73e8;
+            box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.1);
+        }
+
+        .date-separator {
+            color: var(--text-tertiary);
+            font-size: 14px;
+        }
+
+        .date-info {
+            font-size: 12px;
+            color: var(--text-tertiary);
+            font-style: italic;
+        }
+
+        .pagination-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 24px 0;
+            padding: 16px 20px;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            gap: 16px;
+            position: relative;
+        }
+
+        .pagination-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-left: auto;
+        }
+
+        .result-count {
+            font-size: 14px;
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+
+        .page-size-selector {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .page-size-selector label {
+            font-size: 13px;
+            color: var(--text-secondary);
+        }
+
+        .page-size-selector select {
+            padding: 6px 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 13px;
+            color: var(--text-primary);
+            background-color: var(--bg-secondary);
+            cursor: pointer;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .page-size-selector select:hover {
+            border-color: #1a73e8;
+        }
+
+        .page-size-selector select:focus {
+            border-color: #1a73e8;
+            box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.1);
+        }
+
+        .pagination-controls {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .pagination-btn {
+            min-width: 36px;
+            height: 36px;
+            padding: 0 10px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .pagination-btn:hover:not(:disabled) {
+            background: var(--bg-hover);
+            border-color: #1a73e8;
+            color: #1a73e8;
+        }
+
+        .pagination-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        .pagination-btn.active {
+            background: #1a73e8;
+            color: white;
+            border-color: #1a73e8;
+            font-weight: 600;
+        }
+
+        .pagination-ellipsis {
+            padding: 0 4px;
+            color: var(--text-tertiary);
+        }
+
+        @media (max-width: 768px) {
+            .pagination-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .pagination-controls {
+                position: static;
+                transform: none;
+            }
+
+            .pagination-info {
+                margin-left: 0;
+                justify-content: center;
+            }
         }
 
         .loading {
@@ -672,6 +1043,8 @@
             border-radius: 12px;
             margin-bottom: 24px;
             box-shadow: var(--card-shadow);
+            position: relative;
+            z-index: 1;
         }
 
         .map-section {
@@ -933,6 +1306,60 @@
                 </div>
             </div>
             <div class="filter-section" style="flex: 1; min-width: 200px;">
+                <div class="filter-title">날짜 범위</div>
+                <div class="date-range-filter">
+                    <div class="time-range-picker" id="timeRangePicker">
+                        <div class="time-range-display" id="timeRangeDisplay">
+                            <span id="timeRangeText">최근 30일</span>
+                            <span class="icon">▼</span>
+                        </div>
+                        <div class="time-range-dropdown" id="timeRangeDropdown">
+                            <div class="time-range-section">
+                                <div class="time-range-section-title">빠른 선택</div>
+                                <div class="time-range-option" data-range="today">오늘</div>
+                                <div class="time-range-option" data-range="7d">최근 7일</div>
+                                <div class="time-range-option active" data-range="30d">최근 30일</div>
+                                <div class="time-range-option" data-range="180d">최근 6개월</div>
+                                <div class="time-range-option" data-range="365d">최근 1년</div>
+                            </div>
+                            <div class="time-range-divider"></div>
+                            <div class="absolute-time-section">
+                                <div class="time-range-section-title">직접 입력</div>
+                                <div class="absolute-time-inputs">
+                                    <div class="absolute-time-row">
+                                        <span class="absolute-time-label">시작일</span>
+                                        <div class="date-input-wrapper">
+                                            <input type="text" id="absoluteStartDateText" class="absolute-date-input" placeholder="YYYY-MM-DD">
+                                            <svg class="calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                                            </svg>
+                                            <input type="date" id="absoluteStartDate" class="absolute-date-picker">
+                                        </div>
+                                    </div>
+                                    <div class="absolute-time-row">
+                                        <span class="absolute-time-label">종료일</span>
+                                        <div class="date-input-wrapper">
+                                            <input type="text" id="absoluteEndDateText" class="absolute-date-input" placeholder="YYYY-MM-DD">
+                                            <svg class="calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                                <line x1="16" y1="2" x2="16" y2="6"></line>
+                                                <line x1="8" y1="2" x2="8" y2="6"></line>
+                                                <line x1="3" y1="10" x2="21" y2="10"></line>
+                                            </svg>
+                                            <input type="date" id="absoluteEndDate" class="absolute-date-picker">
+                                        </div>
+                                    </div>
+                                    <button class="apply-time-btn" id="applyAbsoluteTime">적용</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="filter-section" style="flex: 1; min-width: 200px;">
                 <div class="filter-title">정렬 순서</div>
                 <select id="sortOrder" class="sort-select">
                     <option value="latest">최신 날짜순</option>
@@ -948,7 +1375,23 @@
             <div id="map"></div>
         </div>
 
+
         <div class="cards" id="cards"></div>
+
+        <div class="pagination-container" id="paginationBottom" style="display: none;">
+            <div class="pagination-controls" id="paginationControlsBottom"></div>
+            <div class="pagination-info">
+                <div class="result-count" id="resultCountBottom">결과: 0 - 0 of 0</div>
+                <div class="page-size-selector">
+                    <label for="pageSizeBottom">한 페이지당:</label>
+                    <select id="pageSizeBottom">
+                        <option value="20" selected>20개</option>
+                        <option value="40">40개</option>
+                        <option value="100">100개</option>
+                    </select>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Tab Content: FAQ -->
@@ -1123,8 +1566,13 @@
     let selectedTradeTypes = new Set(['A1', 'B1', 'B2']);
     let selectedStatuses = new Set(['active']);
     let selectedSortOrder = 'latest';
+    let startDate = null;
+    let endDate = null;
     let map = null;
     let markers = [];
+    let currentPage = 1;
+    let pageSize = 20;
+    let totalFilteredData = [];
 
     // 다크모드 초기화
     function initDarkMode() {
@@ -1180,6 +1628,8 @@
                 if (filters.tradeTypes) selectedTradeTypes = new Set(filters.tradeTypes);
                 if (filters.statuses) selectedStatuses = new Set(filters.statuses);
                 if (filters.sortOrder) selectedSortOrder = filters.sortOrder;
+                if (filters.startDate) startDate = filters.startDate;
+                if (filters.endDate) endDate = filters.endDate;
                 console.log('Loaded filters from storage:', filters);
             }
         } catch (e) {
@@ -1194,7 +1644,9 @@
                 complexes: Array.from(selectedComplexes),
                 tradeTypes: Array.from(selectedTradeTypes),
                 statuses: Array.from(selectedStatuses),
-                sortOrder: selectedSortOrder
+                sortOrder: selectedSortOrder,
+                startDate: startDate,
+                endDate: endDate
             };
             localStorage.setItem('realEstateFilters', JSON.stringify(filters));
         } catch (e) {
@@ -1215,6 +1667,70 @@
 
         // 정렬 순서 드롭다운 동기화
         document.getElementById('sortOrder').value = selectedSortOrder;
+
+        // 날짜 범위 텍스트 동기화
+        updateTimeRangeText();
+    }
+
+    function updateTimeRangeText() {
+        const timeRangeText = document.getElementById('timeRangeText');
+        if (!timeRangeText || !startDate || !endDate) return;
+
+        // KST 기준으로 날짜 파싱 (시간대 문제 방지)
+        const parseKSTDate = (dateStr) => {
+            const [year, month, day] = dateStr.split('-').map(Number);
+            return new Date(year, month - 1, day, 0, 0, 0, 0);
+        };
+
+        const start = parseKSTDate(startDate);
+        const end = parseKSTDate(endDate);
+        const today = new Date();
+        today.setHours(0, 0, 0, 0);
+
+        // 날짜 차이 계산 (일수)
+        const diffDays = Math.round((end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
+
+        // 빠른 선택 라벨 정의
+        let label = null;
+
+        // 오늘: 시작일과 종료일이 같고, 그 날짜가 오늘인 경우
+        if (diffDays === 0 && end.getTime() === today.getTime()) {
+            label = '오늘';
+        }
+        // 최근 7일: 종료일이 오늘이고, 날짜 차이가 7일인 경우 (setDate(today - 7)로 생성되므로 8일 포함, 차이 7일)
+        else if (diffDays === 7 && end.getTime() === today.getTime()) {
+            label = '최근 7일';
+        }
+        // 최근 30일: 종료일이 오늘이고, 날짜 차이가 30일인 경우
+        else if (diffDays === 30 && end.getTime() === today.getTime()) {
+            label = '최근 30일';
+        }
+        // 최근 6개월: 종료일이 오늘이고, 날짜 차이가 180일인 경우 (181일 포함)
+        else if (diffDays === 180 && end.getTime() === today.getTime()) {
+            label = '최근 6개월';
+        }
+        // 최근 1년: 종료일이 오늘이고, 날짜 차이가 365일인 경우 (366일 포함)
+        else if (diffDays === 365 && end.getTime() === today.getTime()) {
+            label = '최근 1년';
+        }
+
+        if (label) {
+            timeRangeText.textContent = label;
+            document.querySelectorAll('.time-range-option').forEach(opt => opt.classList.remove('active'));
+            // 라벨에 맞는 옵션 활성화
+            const rangeMap = {
+                '오늘': '[data-range="today"]',
+                '최근 7일': '[data-range="7d"]',
+                '최근 30일': '[data-range="30d"]',
+                '최근 6개월': '[data-range="180d"]',
+                '최근 1년': '[data-range="365d"]',
+            };
+            document.querySelector(rangeMap[label])?.classList.add('active');
+        } else {
+            // 상세 날짜
+            timeRangeText.textContent = `${startDate} ~ ${endDate}`;
+            document.querySelectorAll('.time-range-option').forEach(opt => opt.classList.remove('active'));
+        }
     }
 
     function formatPrice(price) {
@@ -1365,8 +1881,8 @@
                 if (selectedComplexes.has(id)) {
                     selectedComplexes.delete(id);
                 } else {
-                    if (selectedComplexes.size >= 5) {
-                        alert('최대 5개 단지까지만 선택할 수 있습니다.');
+                    if (selectedComplexes.size >= 10) {
+                        alert('최대 10개 단지까지만 선택할 수 있습니다.');
                         return;
                     }
                     selectedComplexes.add(id);
@@ -1431,8 +1947,8 @@
                     if (selectedComplexes.has(id)) {
                         selectedComplexes.delete(id);
                     } else {
-                        if (selectedComplexes.size >= 5) {
-                            alert('최대 5개 단지까지만 선택할 수 있습니다.');
+                        if (selectedComplexes.size >= 10) {
+                            alert('최대 10개 단지까지만 선택할 수 있습니다.');
                             return;
                         }
                         selectedComplexes.add(id);
@@ -1556,6 +2072,187 @@
         });
     }
 
+    function initDateRangeFilter() {
+        const timeRangeDisplay = document.getElementById('timeRangeDisplay');
+        const timeRangeDropdown = document.getElementById('timeRangeDropdown');
+        const absoluteStartDateText = document.getElementById('absoluteStartDateText');
+        const absoluteEndDateText = document.getElementById('absoluteEndDateText');
+        const absoluteStartDate = document.getElementById('absoluteStartDate');
+        const absoluteEndDate = document.getElementById('absoluteEndDate');
+        const applyAbsoluteTime = document.getElementById('applyAbsoluteTime');
+
+        // KST 기준 날짜를 YYYY-MM-DD 문자열로 변환
+        const formatDateToKST = (date) => {
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        };
+
+        // 기본값 설정: 오늘로부터 과거 30일
+        if (!startDate && !endDate) {
+            const today = new Date();
+            const thirtyDaysAgo = new Date();
+            thirtyDaysAgo.setDate(today.getDate() - 30);
+            startDate = formatDateToKST(thirtyDaysAgo);
+            endDate = formatDateToKST(today);
+        }
+
+        // 날짜 형식 검증 (YYYY-MM-DD)
+        function isValidDateFormat(dateStr) {
+            const regex = /^\d{4}-\d{2}-\d{2}$/;
+            if (!regex.test(dateStr)) return false;
+            const date = new Date(dateStr);
+            return date instanceof Date && !isNaN(date);
+        }
+
+        // 텍스트 입력과 date picker 동기화
+        function syncDateInputs(textInput, dateInput) {
+            // 텍스트 입력 -> date picker
+            textInput.addEventListener('input', (e) => {
+                const value = e.target.value;
+                if (isValidDateFormat(value)) {
+                    dateInput.value = value;
+                    // 유효한 날짜면 테두리 색상 정상으로
+                    textInput.style.borderColor = '';
+                } else if (value.length === 10) {
+                    // 10자리 입력됐는데 유효하지 않으면 빨간색으로
+                    textInput.style.borderColor = '#e53935';
+                }
+            });
+
+            // date picker -> 텍스트 입력
+            dateInput.addEventListener('change', (e) => {
+                textInput.value = e.target.value;
+                textInput.style.borderColor = '';
+            });
+
+            // Enter 키로 적용
+            textInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    applyAbsoluteTime.click();
+                }
+            });
+        }
+
+        syncDateInputs(absoluteStartDateText, absoluteStartDate);
+        syncDateInputs(absoluteEndDateText, absoluteEndDate);
+
+        // 드롭다운 토글
+        timeRangeDisplay.addEventListener('click', (e) => {
+            e.stopPropagation();
+            timeRangeDropdown.classList.toggle('open');
+            // 현재 날짜를 절대 날짜 입력에 설정
+            if (startDate && endDate) {
+                absoluteStartDateText.value = startDate;
+                absoluteStartDate.value = startDate;
+                absoluteEndDateText.value = endDate;
+                absoluteEndDate.value = endDate;
+            }
+        });
+
+        // 외부 클릭시 드롭다운 닫기
+        document.addEventListener('click', (e) => {
+            if (!timeRangeDropdown.contains(e.target) && e.target !== timeRangeDisplay) {
+                timeRangeDropdown.classList.remove('open');
+            }
+        });
+
+        // Quick range 옵션 클릭
+        document.querySelectorAll('.time-range-option').forEach(option => {
+            option.addEventListener('click', (e) => {
+                const range = e.target.dataset.range;
+                if (!range) return;
+
+                // 모든 옵션에서 active 제거
+                document.querySelectorAll('.time-range-option').forEach(opt => {
+                    opt.classList.remove('active');
+                });
+                e.target.classList.add('active');
+
+                const today = new Date();
+                if (range === 'today') {
+                    startDate = formatDateToKST(today);
+                    endDate = formatDateToKST(today);
+                } else {
+                    const days = parseInt(range);
+                    const pastDate = new Date();
+                    pastDate.setDate(today.getDate() - days);
+                    startDate = formatDateToKST(pastDate);
+                    endDate = formatDateToKST(today);
+                }
+
+                // 텍스트 업데이트
+                updateTimeRangeText();
+
+                // 드롭다운 닫기
+                timeRangeDropdown.classList.remove('open');
+
+                saveFiltersToStorage();
+                renderCards();
+                updateMap();
+            });
+        });
+
+        // 절대 날짜 적용 버튼
+        applyAbsoluteTime.addEventListener('click', () => {
+            // 텍스트 입력값 우선 사용
+            const startValue = absoluteStartDateText.value || absoluteStartDate.value;
+            const endValue = absoluteEndDateText.value || absoluteEndDate.value;
+
+            if (!startValue || !endValue) {
+                alert('시작일과 종료일을 모두 입력해주세요.');
+                return;
+            }
+
+            if (!isValidDateFormat(startValue) || !isValidDateFormat(endValue)) {
+                alert('올바른 날짜 형식(YYYY-MM-DD)으로 입력해주세요.\n예시: 2026-01-08');
+                if (!isValidDateFormat(startValue)) {
+                    absoluteStartDateText.style.borderColor = '#e53935';
+                }
+                if (!isValidDateFormat(endValue)) {
+                    absoluteEndDateText.style.borderColor = '#e53935';
+                }
+                return;
+            }
+
+            const start = new Date(startValue);
+            const end = new Date(endValue);
+
+            if (start > end) {
+                alert('시작일은 종료일보다 이전이어야 합니다.');
+                absoluteStartDateText.style.borderColor = '#e53935';
+                absoluteEndDateText.style.borderColor = '#e53935';
+                return;
+            }
+
+            const diffTime = Math.abs(end - start);
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+            if (diffDays > 365) {
+                alert('날짜 범위는 최대 1년(365일)까지만 선택할 수 있습니다.');
+                return;
+            }
+
+            // 성공 시 테두리 색상 초기화
+            absoluteStartDateText.style.borderColor = '';
+            absoluteEndDateText.style.borderColor = '';
+
+            startDate = startValue;
+            endDate = endValue;
+
+            // 텍스트 업데이트 (빠른 선택 라벨 매칭 또는 절대 날짜 표시)
+            updateTimeRangeText();
+
+            // 드롭다운 닫기
+            timeRangeDropdown.classList.remove('open');
+
+            saveFiltersToStorage();
+            renderCards();
+            updateMap();
+        });
+    }
+
     function getPriceValue(priceInfo, tradeType) {
         if (tradeType === 'A1') {
             return priceInfo.deal_price || 0;
@@ -1565,6 +2262,152 @@
             return (priceInfo.warranty_price || 0) + (priceInfo.rent_price || 0) * 100;
         }
         return 0;
+    }
+
+    function renderPagination() {
+        const totalItems = totalFilteredData.length;
+        const totalPages = Math.ceil(totalItems / pageSize);
+
+        if (totalItems === 0) {
+            document.getElementById('paginationBottom').style.display = 'none';
+            return;
+        }
+
+        document.getElementById('paginationBottom').style.display = 'flex';
+
+        const startItem = (currentPage - 1) * pageSize + 1;
+        const endItem = Math.min(currentPage * pageSize, totalItems);
+
+        // 결과 카운트 업데이트
+        const resultText = `결과: ${startItem} - ${endItem} of ${totalItems}`;
+        document.getElementById('resultCountBottom').textContent = resultText;
+
+        // 페이지 버튼 생성
+        const paginationHTML = generatePaginationButtons(currentPage, totalPages);
+        document.getElementById('paginationControlsBottom').innerHTML = paginationHTML;
+
+        // 이벤트 리스너 추가
+        addPaginationEventListeners();
+    }
+
+    function generatePaginationButtons(current, total) {
+        if (total === 0) return '';
+
+        let buttons = [];
+
+        // 처음으로 버튼
+        buttons.push(`<button class="pagination-btn" data-page="first" ${current === 1 ? 'disabled' : ''}>&lt;&lt;</button>`);
+
+        // 이전 버튼
+        buttons.push(`<button class="pagination-btn" data-page="prev" ${current === 1 ? 'disabled' : ''}>&lt;</button>`);
+
+        // 페이지 번호 버튼
+        const pageButtons = getPageNumbers(current, total);
+        pageButtons.forEach(page => {
+            if (page === '...') {
+                buttons.push(`<span class="pagination-ellipsis">...</span>`);
+            } else {
+                buttons.push(`<button class="pagination-btn ${page === current ? 'active' : ''}" data-page="${page}">${page}</button>`);
+            }
+        });
+
+        // 다음 버튼
+        buttons.push(`<button class="pagination-btn" data-page="next" ${current === total ? 'disabled' : ''}>&gt;</button>`);
+
+        // 마지막으로 버튼
+        buttons.push(`<button class="pagination-btn" data-page="last" ${current === total ? 'disabled' : ''}>&gt;&gt;</button>`);
+
+        return buttons.join('');
+    }
+
+    function getPageNumbers(current, total) {
+        const pages = [];
+
+        if (total <= 7) {
+            // 7페이지 이하면 모두 표시
+            for (let i = 1; i <= total; i++) {
+                pages.push(i);
+            }
+        } else {
+            // 항상 첫 페이지 표시
+            pages.push(1);
+
+            if (current > 3) {
+                pages.push('...');
+            }
+
+            // 현재 페이지 주변 표시
+            const start = Math.max(2, current - 1);
+            const end = Math.min(total - 1, current + 1);
+
+            for (let i = start; i <= end; i++) {
+                pages.push(i);
+            }
+
+            if (current < total - 2) {
+                pages.push('...');
+            }
+
+            // 항상 마지막 페이지 표시
+            pages.push(total);
+        }
+
+        return pages;
+    }
+
+    function addPaginationEventListeners() {
+        document.querySelectorAll('.pagination-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const page = btn.dataset.page;
+                const totalPages = Math.ceil(totalFilteredData.length / pageSize);
+
+                if (page === 'first') {
+                    currentPage = 1;
+                } else if (page === 'prev') {
+                    currentPage = Math.max(1, currentPage - 1);
+                } else if (page === 'next') {
+                    currentPage = Math.min(totalPages, currentPage + 1);
+                } else if (page === 'last') {
+                    currentPage = totalPages;
+                } else {
+                    currentPage = parseInt(page);
+                }
+
+                renderCardsWithPagination();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        });
+    }
+
+    function initPaginationControls() {
+        // 페이지 사이즈 셀렉터 이벤트
+        document.getElementById('pageSizeBottom').addEventListener('change', (e) => {
+            pageSize = parseInt(e.target.value);
+            currentPage = 1; // 페이지 사이즈 변경시 첫 페이지로
+            renderCardsWithPagination();
+        });
+    }
+
+    function renderCardsWithPagination() {
+        const cardsContainer = document.getElementById('cards');
+
+        if (totalFilteredData.length === 0) {
+            cardsContainer.innerHTML = '<div class="no-data">선택된 단지가 없거나 매물이 없습니다.</div>';
+            renderPagination();
+            return;
+        }
+
+        // 현재 페이지에 해당하는 데이터만 렌더링
+        const startIndex = (currentPage - 1) * pageSize;
+        const endIndex = startIndex + pageSize;
+        const pageData = totalFilteredData.slice(startIndex, endIndex);
+
+        const html = pageData
+            .map(({ key, value }) => renderCard(key, value))
+            .join('');
+
+        cardsContainer.innerHTML = html;
+        renderPagination();
     }
 
     function initMap() {
@@ -1600,6 +2443,25 @@
                         const deletedDate = new Date(value.deleted_at);
                         if (deletedDate < ninetyDaysAgo) {
                             return; // 90일 이전 삭제 매물은 제외
+                        }
+                    }
+
+                    // 날짜 범위 필터 적용
+                    if (startDate || endDate) {
+                        const articleDate = isDeleted
+                            ? new Date(value.deleted_at)
+                            : new Date(rep?.verification_info?.exposure_start_date);
+
+                        if (startDate) {
+                            const filterStartDate = new Date(startDate);
+                            filterStartDate.setHours(0, 0, 0, 0);
+                            if (articleDate < filterStartDate) return;
+                        }
+
+                        if (endDate) {
+                            const filterEndDate = new Date(endDate);
+                            filterEndDate.setHours(23, 59, 59, 999);
+                            if (articleDate > filterEndDate) return;
                         }
                     }
 
@@ -1679,16 +2541,29 @@
                         }
                     }
 
+                    // 날짜 범위 필터 적용
+                    if (startDate || endDate) {
+                        const articleDate = isDeleted
+                            ? new Date(value.deleted_at)
+                            : new Date(value.representative?.verification_info?.exposure_start_date);
+
+                        if (startDate) {
+                            const filterStartDate = new Date(startDate);
+                            filterStartDate.setHours(0, 0, 0, 0);
+                            if (articleDate < filterStartDate) return;
+                        }
+
+                        if (endDate) {
+                            const filterEndDate = new Date(endDate);
+                            filterEndDate.setHours(23, 59, 59, 999);
+                            if (articleDate > filterEndDate) return;
+                        }
+                    }
+
                     filteredData.push({ key, value, complexId });
                 });
             }
         });
-
-        if (filteredData.length === 0) {
-            cardsContainer.innerHTML = '<div class="no-data">선택된 단지가 없거나 매물이 없습니다.</div>';
-            return;
-        }
-
 
         // 정렬 적용
         filteredData.sort((a, b) => {
@@ -1724,12 +2599,11 @@
             return 0;
         });
 
+        // 전역 변수에 필터링된 데이터 저장
+        totalFilteredData = filteredData;
 
-        const html = filteredData
-            .map(({ key, value }) => renderCard(key, value))
-            .join('');
-
-        cardsContainer.innerHTML = html;
+        // 페이지네이션 적용하여 렌더링
+        renderCardsWithPagination();
     }
 
     async function loadData() {
@@ -1763,6 +2637,8 @@
             initTradeTypeFilter();
             initStatusFilter();
             initSortFilter();
+            initDateRangeFilter();
+            initPaginationControls();
             initMap();
             renderCards();
             updateMap();
