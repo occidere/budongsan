@@ -1,4 +1,168 @@
 {
+    "1동:6/20:82:B2": {
+        "property_key": "1동:6/20:82:B2",
+        "article_numbers": [
+            "2601255158"
+        ],
+        "representative": {
+            "complex_name": "신도림푸르지오3차(주상복합)",
+            "article_number": "2601255158",
+            "article_name": "신도림푸르지오3차(주상복합)",
+            "dong_name": "1동",
+            "trade_type": "B2",
+            "real_estate_type": "A01",
+            "space_info": {
+                "supply_space": 101.29,
+                "contract_space": 148.17,
+                "exclusive_space": 82.8,
+                "land_space": 3733,
+                "supply_space_name": "101",
+                "exclusive_space_name": "82",
+                "name_type": ""
+            },
+            "land_info": {},
+            "building_info": {
+                "building_conjunction_date_type": "CDY01",
+                "building_conjunction_date": "20070920",
+                "approval_elapsed_year": 19
+            },
+            "verification_info": {
+                "verification_type": "NDOC1",
+                "is_association_article": false,
+                "exposure_start_date": "2026-01-06",
+                "article_confirm_date": "2026-01-06"
+            },
+            "broker_info": {
+                "cp_id": "fine",
+                "brokerage_name": "리치공인중개사사무소",
+                "broker_name": "부동산포스",
+                "cp_out_link_type": "CP_NAME"
+            },
+            "article_detail": {
+                "direction": "WS",
+                "direction_standard": "거실 기준",
+                "article_feature_description": "내부상태깨끗 입주협의 거실 방확장 남향으로 해잘들어오는집",
+                "direct_trade": false,
+                "floor_info": "6/20",
+                "floor_detail_info": {
+                    "target_floor": "6",
+                    "total_floor": "20",
+                    "ground_total_floor": "0",
+                    "underground_total_floor": "0",
+                    "floor_type": "10"
+                },
+                "is_safe_lessor_of_hug": false
+            },
+            "article_media_dto": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "article_media": {
+                "image_count": 0,
+                "is_vr_exposed": false
+            },
+            "address": {
+                "city": "서울시",
+                "division": "구로구",
+                "sector": "신도림동",
+                "coordinates": {
+                    "x_coordinate": 126.88395,
+                    "y_coordinate": 37.506898
+                }
+            },
+            "price_info": {
+                "deal_price": 0,
+                "warranty_price": 500000000,
+                "rent_price": 800000,
+                "management_fee_amount": 250000,
+                "price_change_status": 0
+            }
+        },
+        "all_articles": [
+            {
+                "complex_name": "신도림푸르지오3차(주상복합)",
+                "article_number": "2601255158",
+                "article_name": "신도림푸르지오3차(주상복합)",
+                "dong_name": "1동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 101.29,
+                    "contract_space": 148.17,
+                    "exclusive_space": 82.8,
+                    "land_space": 3733,
+                    "supply_space_name": "101",
+                    "exclusive_space_name": "82",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20070920",
+                    "approval_elapsed_year": 19
+                },
+                "verification_info": {
+                    "verification_type": "NDOC1",
+                    "is_association_article": false,
+                    "exposure_start_date": "2026-01-06",
+                    "article_confirm_date": "2026-01-06"
+                },
+                "broker_info": {
+                    "cp_id": "fine",
+                    "brokerage_name": "리치공인중개사사무소",
+                    "broker_name": "부동산포스",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "내부상태깨끗 입주협의 거실 방확장 남향으로 해잘들어오는집",
+                    "direct_trade": false,
+                    "floor_info": "6/20",
+                    "floor_detail_info": {
+                        "target_floor": "6",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88395,
+                        "y_coordinate": 37.506898
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 500000000,
+                    "rent_price": 800000,
+                    "management_fee_amount": 250000,
+                    "price_change_status": 0
+                }
+            }
+        ],
+        "article_count": 1,
+        "price_range": {
+            "min": 500800000,
+            "max": 500800000
+        },
+        "updated_at": "2026-01-08T06:21:20.000738",
+        "is_deleted": false,
+        "deleted_at": null
+    },
     "1동:3/20:82:A1": {
         "property_key": "1동:3/20:82:A1",
         "article_numbers": [
@@ -167,171 +331,7 @@
             "min": 1200000000,
             "max": 1200000000
         },
-        "updated_at": "2026-01-08T05:18:09.840706",
-        "is_deleted": false,
-        "deleted_at": null
-    },
-    "1동:6/20:82:B2": {
-        "property_key": "1동:6/20:82:B2",
-        "article_numbers": [
-            "2601255158"
-        ],
-        "representative": {
-            "complex_name": "신도림푸르지오3차(주상복합)",
-            "article_number": "2601255158",
-            "article_name": "신도림푸르지오3차(주상복합)",
-            "dong_name": "1동",
-            "trade_type": "B2",
-            "real_estate_type": "A01",
-            "space_info": {
-                "supply_space": 101.29,
-                "contract_space": 148.17,
-                "exclusive_space": 82.8,
-                "land_space": 3733,
-                "supply_space_name": "101",
-                "exclusive_space_name": "82",
-                "name_type": ""
-            },
-            "land_info": {},
-            "building_info": {
-                "building_conjunction_date_type": "CDY01",
-                "building_conjunction_date": "20070920",
-                "approval_elapsed_year": 19
-            },
-            "verification_info": {
-                "verification_type": "NDOC1",
-                "is_association_article": false,
-                "exposure_start_date": "2026-01-06",
-                "article_confirm_date": "2026-01-06"
-            },
-            "broker_info": {
-                "cp_id": "fine",
-                "brokerage_name": "리치공인중개사사무소",
-                "broker_name": "부동산포스",
-                "cp_out_link_type": "CP_NAME"
-            },
-            "article_detail": {
-                "direction": "WS",
-                "direction_standard": "거실 기준",
-                "article_feature_description": "내부상태깨끗 입주협의 거실 방확장 남향으로 해잘들어오는집",
-                "direct_trade": false,
-                "floor_info": "6/20",
-                "floor_detail_info": {
-                    "target_floor": "6",
-                    "total_floor": "20",
-                    "ground_total_floor": "0",
-                    "underground_total_floor": "0",
-                    "floor_type": "10"
-                },
-                "is_safe_lessor_of_hug": false
-            },
-            "article_media_dto": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "article_media": {
-                "image_count": 0,
-                "is_vr_exposed": false
-            },
-            "address": {
-                "city": "서울시",
-                "division": "구로구",
-                "sector": "신도림동",
-                "coordinates": {
-                    "x_coordinate": 126.88395,
-                    "y_coordinate": 37.506898
-                }
-            },
-            "price_info": {
-                "deal_price": 0,
-                "warranty_price": 500000000,
-                "rent_price": 800000,
-                "management_fee_amount": 250000,
-                "price_change_status": 0
-            }
-        },
-        "all_articles": [
-            {
-                "complex_name": "신도림푸르지오3차(주상복합)",
-                "article_number": "2601255158",
-                "article_name": "신도림푸르지오3차(주상복합)",
-                "dong_name": "1동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 101.29,
-                    "contract_space": 148.17,
-                    "exclusive_space": 82.8,
-                    "land_space": 3733,
-                    "supply_space_name": "101",
-                    "exclusive_space_name": "82",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20070920",
-                    "approval_elapsed_year": 19
-                },
-                "verification_info": {
-                    "verification_type": "NDOC1",
-                    "is_association_article": false,
-                    "exposure_start_date": "2026-01-06",
-                    "article_confirm_date": "2026-01-06"
-                },
-                "broker_info": {
-                    "cp_id": "fine",
-                    "brokerage_name": "리치공인중개사사무소",
-                    "broker_name": "부동산포스",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "내부상태깨끗 입주협의 거실 방확장 남향으로 해잘들어오는집",
-                    "direct_trade": false,
-                    "floor_info": "6/20",
-                    "floor_detail_info": {
-                        "target_floor": "6",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88395,
-                        "y_coordinate": 37.506898
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 500000000,
-                    "rent_price": 800000,
-                    "management_fee_amount": 250000,
-                    "price_change_status": 0
-                }
-            }
-        ],
-        "article_count": 1,
-        "price_range": {
-            "min": 500800000,
-            "max": 500800000
-        },
-        "updated_at": "2026-01-08T05:18:09.840656",
+        "updated_at": "2026-01-08T06:21:20.000786",
         "is_deleted": false,
         "deleted_at": null
     },
@@ -495,81 +495,6 @@
             },
             {
                 "complex_name": "신도림푸르지오3차(주상복합)",
-                "article_number": "2570140689",
-                "article_name": "신도림푸르지오3차(주상복합)",
-                "dong_name": "1동",
-                "trade_type": "B2",
-                "real_estate_type": "A01",
-                "space_info": {
-                    "supply_space": 101.29,
-                    "contract_space": 148.17,
-                    "exclusive_space": 82.8,
-                    "land_space": 3733,
-                    "supply_space_name": "101",
-                    "exclusive_space_name": "82",
-                    "name_type": ""
-                },
-                "land_info": {},
-                "building_info": {
-                    "building_conjunction_date_type": "CDY01",
-                    "building_conjunction_date": "20070920",
-                    "approval_elapsed_year": 19
-                },
-                "verification_info": {
-                    "verification_type": "OWNER",
-                    "is_association_article": false,
-                    "exposure_start_date": "2025-12-31",
-                    "article_confirm_date": "2025-12-31"
-                },
-                "broker_info": {
-                    "cp_id": "NEONET",
-                    "brokerage_name": "신도림힐스공인중개사사무소",
-                    "broker_name": "부동산뱅크",
-                    "cp_out_link_type": "CP_NAME"
-                },
-                "article_detail": {
-                    "direction": "WS",
-                    "direction_standard": "거실 기준",
-                    "article_feature_description": "대로변 위치 평수 넓게 빠진 매물입니다",
-                    "direct_trade": false,
-                    "floor_info": "10/20",
-                    "floor_detail_info": {
-                        "target_floor": "10",
-                        "total_floor": "20",
-                        "ground_total_floor": "0",
-                        "underground_total_floor": "0",
-                        "floor_type": "10"
-                    },
-                    "is_safe_lessor_of_hug": false
-                },
-                "article_media_dto": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "article_media": {
-                    "image_count": 0,
-                    "is_vr_exposed": false
-                },
-                "address": {
-                    "city": "서울시",
-                    "division": "구로구",
-                    "sector": "신도림동",
-                    "coordinates": {
-                        "x_coordinate": 126.88395,
-                        "y_coordinate": 37.506898
-                    }
-                },
-                "price_info": {
-                    "deal_price": 0,
-                    "warranty_price": 100000000,
-                    "rent_price": 2400000,
-                    "management_fee_amount": 200000,
-                    "price_change_status": 0
-                },
-                "have_favorite": false
-            },
-            {
-                "complex_name": "신도림푸르지오3차(주상복합)",
                 "article_number": "2570220741",
                 "article_name": "신도림푸르지오3차(주상복합)",
                 "dong_name": "1동",
@@ -639,6 +564,81 @@
                     "warranty_price": 100000000,
                     "rent_price": 2400000,
                     "management_fee_amount": 180000,
+                    "price_change_status": 0
+                },
+                "have_favorite": false
+            },
+            {
+                "complex_name": "신도림푸르지오3차(주상복합)",
+                "article_number": "2570140689",
+                "article_name": "신도림푸르지오3차(주상복합)",
+                "dong_name": "1동",
+                "trade_type": "B2",
+                "real_estate_type": "A01",
+                "space_info": {
+                    "supply_space": 101.29,
+                    "contract_space": 148.17,
+                    "exclusive_space": 82.8,
+                    "land_space": 3733,
+                    "supply_space_name": "101",
+                    "exclusive_space_name": "82",
+                    "name_type": ""
+                },
+                "land_info": {},
+                "building_info": {
+                    "building_conjunction_date_type": "CDY01",
+                    "building_conjunction_date": "20070920",
+                    "approval_elapsed_year": 19
+                },
+                "verification_info": {
+                    "verification_type": "OWNER",
+                    "is_association_article": false,
+                    "exposure_start_date": "2025-12-31",
+                    "article_confirm_date": "2025-12-31"
+                },
+                "broker_info": {
+                    "cp_id": "NEONET",
+                    "brokerage_name": "신도림힐스공인중개사사무소",
+                    "broker_name": "부동산뱅크",
+                    "cp_out_link_type": "CP_NAME"
+                },
+                "article_detail": {
+                    "direction": "WS",
+                    "direction_standard": "거실 기준",
+                    "article_feature_description": "대로변 위치 평수 넓게 빠진 매물입니다",
+                    "direct_trade": false,
+                    "floor_info": "10/20",
+                    "floor_detail_info": {
+                        "target_floor": "10",
+                        "total_floor": "20",
+                        "ground_total_floor": "0",
+                        "underground_total_floor": "0",
+                        "floor_type": "10"
+                    },
+                    "is_safe_lessor_of_hug": false
+                },
+                "article_media_dto": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "article_media": {
+                    "image_count": 0,
+                    "is_vr_exposed": false
+                },
+                "address": {
+                    "city": "서울시",
+                    "division": "구로구",
+                    "sector": "신도림동",
+                    "coordinates": {
+                        "x_coordinate": 126.88395,
+                        "y_coordinate": 37.506898
+                    }
+                },
+                "price_info": {
+                    "deal_price": 0,
+                    "warranty_price": 100000000,
+                    "rent_price": 2400000,
+                    "management_fee_amount": 200000,
                     "price_change_status": 0
                 },
                 "have_favorite": false
@@ -723,7 +723,7 @@
             "min": 102400000,
             "max": 102400000
         },
-        "updated_at": "2026-01-08T05:18:09.840675",
+        "updated_at": "2026-01-08T06:21:20.000757",
         "is_deleted": false,
         "deleted_at": null
     }
