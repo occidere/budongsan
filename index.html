@@ -2411,6 +2411,10 @@
     }
 
     function initMap() {
+        if (typeof L === 'undefined') {
+            console.warn('Leaflet library not loaded, skipping map initialization');
+            return;
+        }
         map = L.map('map').setView([37.509, 126.886], 16);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; OpenStreetMap contributors'
@@ -2418,6 +2422,10 @@
     }
 
     function updateMap() {
+        if (!map) {
+            console.warn('Map not initialized, skipping map update');
+            return;
+        }
         markers.forEach(marker => map.removeLayer(marker));
         markers = [];
 
@@ -2614,18 +2622,26 @@
             const cardsContainer = document.getElementById('cards');
             cardsContainer.innerHTML = '<div class="loading">매물 데이터 로딩 중...</div>';
 
-            const loadPromises = COMPLEXES.map(async (complex) => {
-                try {
-                    const response = await fetch(`./data/${complex.id}/fulldata.json`);
-                    const data = await response.json();
-                    allData[complex.id] = data;
-                } catch (error) {
-                    console.warn(`${complex.name} 데이터 로드 실패:`, error);
-                    allData[complex.id] = {};
+            // Load data from fulldata_all.json
+            // Note: fulldata_all.json is tracked by Git LFS, but when checked out locally
+            // (including in GitHub Pages deployment), it contains the actual file content
+            const response = await fetch('./data/fulldata_all.json');
+            if (!response.ok) {
+                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+            }
+            const data = await response.json();
+            
+            // Validate that data contains expected complex IDs and provide graceful degradation
+            // Create a clean copy with missing complexes initialized
+            allData = {};
+            COMPLEXES.forEach(complex => {
+                if (data[complex.id]) {
+                    allData[complex.id] = data[complex.id];
+                } else {
+                    console.warn(`Data for complex ${complex.name} (${complex.id}) not found in fulldata_all.json`);
+                    allData[complex.id] = {}; // Initialize empty object for missing complex
                 }
             });
-
-            await Promise.all(loadPromises);
 
             // UI를 복원된 상태와 동기화
             syncUIWithFilters();
