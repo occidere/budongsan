@@ -35,7 +35,7 @@ jobs:
           mkdir -p _site/data
           cp index.html _site/
           cp data/fulldata_all.json _site/data/
-          cp logo-*.png _site/
+          cp *.png _site/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
