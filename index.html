@@ -7,10 +7,10 @@
     <title>우리동네 부동산 히스토리 - 우리동네 부동산 매물 변경 이력 추적기</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.png">
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -145,9 +145,36 @@
             font-size: 18px;
             font-weight: 700;
             color: #1a73e8;
-            margin-bottom: 12px;
-            padding-bottom: 8px;
-            border-bottom: 2px solid #e8f0fe;
+            margin-bottom: 0;
+            border-bottom: none;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            padding-bottom: 6px;
+        }
+
+        .card-header-row {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .card-header-location {
+            font-size: 12px;
+            color: #888;
+            margin-top: 2px;
+            margin-bottom: 2px;
+            font-weight: 400;
+        }
+
+        .card-header-divider {
+            width: 100%;
+            height: 2px;
+            background: #e8f0fe;
+            margin: 2px 0 0 0;
+            border: none;
         }
 
         .card-info {
@@ -306,6 +333,17 @@
         .trade-type.rent {
             background: #f3e5f5;
             color: #7b1fa2;
+        }
+
+        .trade-type.direct {
+            background: #ffe0b2;
+            color: #f57c00;
+            margin-left: 8px;
+            font-weight: 600;
+            border-radius: 4px;
+            padding: 2px 8px;
+            font-size: 12px;
+            display: inline-block;
         }
 
         .article-count {
@@ -1509,39 +1547,39 @@
 
 <script>
     const COMPLEXES = [
-        { id: '3354', name: '신도림대림1,2차(e편한세상)', start_date: '2025-12-20', is_active: true },
-        { id: '3355', name: '신도림대림3차(e편한세상)', start_date: '2026-01-01', is_active: true },
-        { id: '3356', name: '신도림4차e-편한세상', start_date: '2025-12-20', is_active: true },
-        { id: '8714', name: '신도림5차e-편한세상', start_date: '2026-01-01', is_active: true },
-        { id: '8715', name: '신도림6차e-편한세상', start_date: '2026-01-01', is_active: true },
-        { id: '8919', name: '신도림7차e-편한세상', start_date: '2025-12-20', is_active: true },
-        { id: '1074', name: '신도림동아1차', start_date: '2025-12-20', is_active: true },
-        { id: '3209', name: '신도림동아2차', start_date: '2025-12-20', is_active: true },
-        { id: '3210', name: '신도림동아3차', start_date: '2025-12-20', is_active: true },
-        { id: '27310', name: '디큐브시티(주상복합)', start_date: '2026-01-01', is_active: true },
-        { id: '149', name: '미성', start_date: '2026-01-01', is_active: true },
-        { id: '3211', name: '현대', start_date: '2026-01-01', is_active: true },
-        { id: '151', name: '우성1차', start_date: '2026-01-01', is_active: true },
-        { id: '153', name: '우성2차', start_date: '2026-01-01', is_active: true },
-        { id: '152', name: '신도림우성3차', start_date: '2026-01-01', is_active: true },
-        { id: '150', name: '신도림우성5차', start_date: '2026-01-01', is_active: true },
-        { id: '13085', name: '신도림SK뷰(주상복합)', start_date: '2026-01-01', is_active: true },
-        { id: '17667', name: '신도림팰러티움(주상복합)', start_date: '2026-01-01', is_active: true },
-        { id: '3204', name: '신도림태영타운', start_date: '2025-12-20', is_active: true },
-        { id: '9937', name: '신도림현대', start_date: '2026-01-01', is_active: true },
-        { id: '132', name: '신도림롯데', start_date: '2026-01-01', is_active: true },
-        { id: '912', name: '구로두산', start_date: '2025-12-20', is_active: true },
-        { id: '3457', name: '영등포푸르지오', start_date: '2025-12-20', is_active: true },
-        { id: '1636', name: '주공9단지', start_date: '2026-01-01', is_active: true },
-        { id: '3342', name: '우방리버파크', start_date: '2026-01-01', is_active: true },
-        { id: '100692', name: '래미안옥수리버젠', start_date: '2026-01-01', is_active: true },
-        { id: '111117', name: '위례지웰푸르지오', start_date: '2026-01-01', is_active: true },
-        { id: '119933', name: 'e편한세상강동에코포레', start_date: '2026-01-01', is_active: true },
-        { id: '19578', name: '프라이어팰리스', start_date: '2026-01-01', is_active: true },
-        { id: '109217', name: '성내올림픽파크한양수자인', start_date: '2026-01-01', is_active: true },
-        { id: '849', name: '두산', start_date: '2026-01-07', is_active: true },
-        { id: '22806', name: '신도림푸르지오3차(주상복합)', start_date: '2026-01-07', is_active: true },
-        { id: '3603', name: '라일락서해그랑블', start_date: '2026-01-07', is_active: true },
+        { id: '3354', start_date: '2025-12-20', is_active: true }, // 신도림대림1,2차(e편한세상)
+        { id: '3355', start_date: '2026-01-01', is_active: true }, // 신도림대림3차(e편한세상)
+        { id: '3356', start_date: '2025-12-20', is_active: true }, // 신도림4차e-편한세상
+        { id: '8714', start_date: '2026-01-01', is_active: true }, // 신도림5차e-편한세상
+        { id: '8715', start_date: '2026-01-01', is_active: true }, // 신도림6차e-편한세상
+        { id: '8919', start_date: '2025-12-20', is_active: true }, // 신도림7차e-편한세상
+        { id: '1074', start_date: '2025-12-20', is_active: true }, // 신도림동아1차
+        { id: '3209', start_date: '2025-12-20', is_active: true }, // 신도림동아2차
+        { id: '3210', start_date: '2025-12-20', is_active: true }, // 신도림동아3차
+        { id: '27310', start_date: '2026-01-01', is_active: true }, // 디큐브시티(주상복합)
+        { id: '149', start_date: '2026-01-01', is_active: true }, // 미성
+        { id: '3211', start_date: '2026-01-01', is_active: true }, // 현대
+        { id: '151', start_date: '2026-01-01', is_active: true }, // 우성1차
+        { id: '153', start_date: '2026-01-01', is_active: true }, // 우성2차
+        { id: '152', start_date: '2026-01-01', is_active: true }, // 신도림우성3차
+        { id: '150', start_date: '2026-01-01', is_active: true }, // 신도림우성5차
+        { id: '13085', start_date: '2026-01-01', is_active: true }, // 신도림SK뷰(주상복합)
+        { id: '17667', start_date: '2026-01-01', is_active: true }, // 신도림팰러티움(주상복합)
+        { id: '3204', start_date: '2025-12-20', is_active: true }, // 신도림태영타운
+        { id: '9937', start_date: '2026-01-01', is_active: true }, // 신도림현대
+        { id: '132', start_date: '2026-01-01', is_active: true }, // 신도림롯데
+        { id: '912', start_date: '2025-12-20', is_active: true }, // 구로두산
+        { id: '3457', start_date: '2025-12-20', is_active: true }, // 영등포푸르지오
+        { id: '1636', start_date: '2026-01-01', is_active: true }, // 주공9단지
+        { id: '3342', start_date: '2026-01-01', is_active: true }, // 우방리버파크
+        { id: '100692', start_date: '2026-01-01', is_active: true }, // 래미안옥수리버젠
+        { id: '111117', start_date: '2026-01-01', is_active: true }, // 위례지웰푸르지오
+        { id: '119933', start_date: '2026-01-01', is_active: true }, // e편한세상강동에코포레
+        { id: '19578', start_date: '2026-01-01', is_active: true }, // 프라이어팰리스
+        { id: '109217', start_date: '2026-01-01', is_active: true }, // 성내올림픽파크한양수자인
+        { id: '849', start_date: '2026-01-07', is_active: true }, // 두산
+        { id: '22806', start_date: '2026-01-07', is_active: true }, // 신도림푸르지오3차(주상복합)
+        { id: '3603', start_date: '2026-01-07', is_active: true }, // 라일락서해그랑블
     ].filter(complex => complex.is_active);
 
     const DIRECTION_MAP = {
@@ -1788,33 +1826,76 @@
         const imageUrl = rep.article_media?.image_url;
         const articleUrl = `https://fin.land.naver.com/articles/${rep.article_number}`;
         const isDeleted = data.is_deleted === true;
-
+        // 시/구/동 정보 추출
+        const city = rep.address?.city || '';
+        const division = rep.address?.division || '';
+        const sector = rep.address?.sector || '';
+        // 직거래 여부
+        const isDirectTrade = rep.article_detail?.direct_trade === true;
         return `
-                <div class="card ${isDeleted ? 'deleted' : ''}">
-                    <div class="card-header">
-                        <a href="${articleUrl}" target="_blank">${rep.complex_name}</a>
+        <div class="card ${isDeleted ? 'deleted' : ''}">
+            <div class="card-header">
+                <div class="card-header-row">
+                    <a href="${articleUrl}" target="_blank">${rep.complex_name}</a>
+                    <div class="badge-group">
                         <span class="trade-type ${tradeInfo.class}">${tradeInfo.label}</span>
-                        ${isDeleted ? '<span class="deleted-badge">삭제됨</span>' : ''}
-                    </div>
-                    <div class="card-info location">
-                        <span>${rep.dong_name} <span class="separator">|</span> ${rep.article_detail.floor_info}층 <span class="separator">|</span> <span class="direction">${direction}</span></span>
-                        <span>공급 ${rep.space_info.supply_space_name} (전용 ${rep.space_info.exclusive_space_name})</span>
-                    </div>
-                    ${imageUrl ? `<a href="${imageUrl}" target="_blank"><img src="${imageUrl}" class="card-image" alt="매물 사진" onerror="this.style.display='none'"></a>` : ''}
-                    <div class="card-info description">
-                        ${rep.article_detail.article_feature_description || '-'}
-                    </div>
-                    <div class="card-info broker">
-                        <span>${rep.broker_info.brokerage_name}</span>
-                        ${data.article_count > 1 ? `<span class="article-count">동일매물 ${data.article_count}건</span>` : ''}
-                    </div>
-                    <div class="card-updated">${isDeleted ? '삭제일' : '등록일'} ${isDeleted ? formatDateOnly(data.deleted_at) : formatDateOnly(rep.verification_info.exposure_start_date)}</div>
-                    <div class="card-price">
-                        <span class="price-label">${priceDisplay.label}</span>
-                        <div class="price-value">${priceDisplay.value}</div>
+                        ${isDirectTrade ? '<span class="trade-type direct">직거래</span>' : ''}
                     </div>
                 </div>
-            `;
+                <div class="card-header-location">${city} ${division} ${sector}</div>
+                <hr class="card-header-divider" />
+            </div>
+            <div class="card-info location">
+                <span>${rep.dong_name} <span class="separator">|</span> ${rep.article_detail.floor_info}층 <span class="separator">|</span> <span class="direction">${direction}</span></span>
+                <span>공급 ${rep.space_info.supply_space_name} (전용 ${rep.space_info.exclusive_space_name})</span>
+            </div>
+            ${imageUrl ? `<a href="${imageUrl}" target="_blank"><img src="${imageUrl}" class="card-image" alt="매물 사진" onerror="this.style.display='none'"></a>` : ''}
+            <div class="card-info description">
+                ${rep.article_detail.article_feature_description || '-'}
+            </div>
+            <div class="card-info broker">
+                <span>${rep.broker_info.brokerage_name}</span>
+                ${data.article_count > 1 ? `<span class="article-count">동일매물 ${data.article_count}건</span>` : ''}
+            </div>
+            <div class="card-updated">${isDeleted ? '삭제일' : '등록일'} ${isDeleted ? formatDateOnly(data.deleted_at) : formatDateOnly(rep.verification_info.exposure_start_date)}</div>
+            <div class="card-price">
+                <span class="price-label">${priceDisplay.label}</span>
+                <div class="price-value">${priceDisplay.value}</div>
+            </div>
+        </div>
+    `;
+    }
+
+    // 단지명 동적 생성 로직 수정
+    // COMPLEXES에 displayName 동적 추가 (sector + 단지명)
+    function addDisplayNameToComplexes(data) {
+        COMPLEXES.forEach(complex => {
+            const complexData = data[complex.id];
+            let sector = '';
+            let complexName = '';
+            if (complexData) {
+                for (const key in complexData) {
+                    if (complexData[key].representative) {
+                        // sector
+                        if (complexData[key].representative.address && complexData[key].representative.address.sector) {
+                            sector = complexData[key].representative.address.sector;
+                        }
+                        // 단지명
+                        if (complexData[key].representative.complex_name) {
+                            complexName = complexData[key].representative.complex_name;
+                        }
+                        break;
+                    }
+                }
+            }
+            if (sector && complexName) {
+                complex.displayName = `${sector} ${complexName}`;
+            } else if (complexName) {
+                complex.displayName = complexName;
+            } else {
+                complex.displayName = complex.id;
+            }
+        });
     }
 
     function renderSelectedTags() {
@@ -1828,7 +1909,7 @@
         const html = Array.from(selectedComplexes).map(id => {
             const complex = COMPLEXES.find(c => c.id === id);
             if (!complex) return '';
-            return `<span class="selected-tag">${complex.name}<span class="remove-tag" data-id="${id}">×</span></span>`;
+            return `<span class="selected-tag">${complex.displayName}<span class="remove-tag" data-id="${id}">×</span></span>`;
         }).join('');
         tagsContainer.innerHTML = html;
 
@@ -1857,7 +1938,7 @@
         }
 
         const filteredComplexes = COMPLEXES.filter(complex =>
-            complex.name.toLowerCase().includes(searchTerm.toLowerCase())
+            complex.displayName.toLowerCase().includes(searchTerm.toLowerCase())
         );
 
         if (filteredComplexes.length === 0) {
@@ -1869,7 +1950,7 @@
         const html = filteredComplexes.map(complex => `
                 <div class="search-dropdown-item ${selectedComplexes.has(complex.id) ? 'selected' : ''}" data-id="${complex.id}">
                     <input type="checkbox" ${selectedComplexes.has(complex.id) ? 'checked' : ''}>
-                    ${complex.name}
+                    ${complex.displayName}
                 </div>
             `).join('');
         dropdown.innerHTML = html;
@@ -1935,7 +2016,7 @@
                 return `
                     <li class="${selectedComplexes.has(c.id) ? 'selected' : ''}" data-id="${c.id}">
                         <input type="checkbox" ${selectedComplexes.has(c.id) ? 'checked' : ''}>
-                        <span>${c.name}</span>
+                        <span>${c.displayName}</span>
                         <span class="complex-date">(등록일 ${formattedDate})</span>
                     </li>
                 `;
@@ -2630,7 +2711,7 @@
                 throw new Error(`HTTP ${response.status}: ${response.statusText}`);
             }
             const data = await response.json();
-            
+
             // Validate that data contains expected complex IDs and provide graceful degradation
             // Create a clean copy with missing complexes initialized
             allData = {};
@@ -2642,6 +2723,9 @@
                     allData[complex.id] = {}; // Initialize empty object for missing complex
                 }
             });
+
+            // COMPLEXES에 displayName 동적 추가 (sector + 단지명)
+            addDisplayNameToComplexes(data);
 
             // UI를 복원된 상태와 동기화
             syncUIWithFilters();
