@@ -1873,34 +1873,49 @@
 
     // 단지명 동적 생성 로직 수정
     // COMPLEXES에 displayName 동적 추가 (sector + 단지명)
+    // fulldata_all.json에 없는 단지는 COMPLEXES에서 제거
     function addDisplayNameToComplexes(data) {
-        COMPLEXES.forEach(complex => {
+        // 뒤에서부터 순회하면서 제거 (인덱스 안전성)
+        for (let i = COMPLEXES.length - 1; i >= 0; i--) {
+            const complex = COMPLEXES[i];
             const complexData = data[complex.id];
+
+            // 데이터가 없으면 COMPLEXES에서 제거
+            if (!complexData) {
+                console.warn(`Complex ${complex.id} not found in fulldata_all.json. Removing from COMPLEXES.`);
+                COMPLEXES.splice(i, 1);
+                continue;
+            }
+
             let sector = '';
             let complexName = '';
-            if (complexData) {
-                for (const key in complexData) {
-                    if (complexData[key].representative) {
-                        // sector
-                        if (complexData[key].representative.address && complexData[key].representative.address.sector) {
-                            sector = complexData[key].representative.address.sector;
-                        }
-                        // 단지명
-                        if (complexData[key].representative.complex_name) {
-                            complexName = complexData[key].representative.complex_name;
-                        }
-                        break;
+            for (const key in complexData) {
+                if (complexData[key].representative) {
+                    // sector
+                    if (complexData[key].representative.address && complexData[key].representative.address.sector) {
+                        sector = complexData[key].representative.address.sector;
                     }
+                    // 단지명
+                    if (complexData[key].representative.complex_name) {
+                        complexName = complexData[key].representative.complex_name;
+                    }
+                    break;
                 }
             }
+
+            // 단지명이 없으면 COMPLEXES에서 제거
+            if (!complexName) {
+                console.warn(`Complex ${complex.id} has no name. Removing from COMPLEXES.`);
+                COMPLEXES.splice(i, 1);
+                continue;
+            }
+
             if (sector && complexName) {
                 complex.displayName = `${sector} ${complexName}`;
-            } else if (complexName) {
-                complex.displayName = complexName;
             } else {
-                complex.displayName = complex.id;
+                complex.displayName = complexName;
             }
-        });
+        }
     }
 
     function renderSelectedTags() {
@@ -2724,7 +2739,6 @@
                 if (data[complex.id]) {
                     allData[complex.id] = data[complex.id];
                 } else {
-                    console.warn(`Data for complex ${complex.name} (${complex.id}) not found in fulldata_all.json`);
                     allData[complex.id] = {}; // Initialize empty object for missing complex
                 }
             });
