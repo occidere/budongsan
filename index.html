@@ -1339,7 +1339,7 @@
                     <div class="checkbox-item">
                         <input type="checkbox" id="status-deleted" value="deleted">
                         <label for="status-deleted">삭제된 매물</label>
-                        <span class="deleted-info-icon" data-tooltip="삭제 매물은 최근 3개월치 데이터만 확인 가능합니다">?</span>
+                        <span class="deleted-info-icon" data-tooltip="삭제 매물은 네이버 부동산 사이트에서 내려간 날짜를 기준으로 집계합니다">?</span>
                     </div>
                 </div>
             </div>
@@ -1436,7 +1436,7 @@
     <div class="tab-content" id="tab-faq">
         <div class="faq-section">
             <div class="faq-item">
-                <div class="faq-question">이 서비스는 무엇인가요?</div>
+                <div class="faq-question">우리동네 부동산 히스토리는 무엇인가요?</div>
                 <div class="faq-answer">
                     네이버 부동산 매물의 등록, 삭제, 가격 변동 등을 실시간으로 모니터링할 수 있습니다.<br>
                     개인적인 매물 확인 및 학습 목적으로 제작되었으며, <strong>상업적 용도로 사용되지 않습니다.</strong>
@@ -1446,7 +1446,7 @@
             <div class="faq-item">
                 <div class="faq-question">데이터는 얼마나 자주 업데이트되나요?</div>
                 <div class="faq-answer">
-                    보통 1~2시간 주기로 갱신되며, 각 매물의 최신 정보와 변경 이력을 추적합니다.
+                    보통 수 시간 주기로 갱신되며, 각 매물의 최신 정보와 변경 이력을 추적합니다.
                 </div>
             </div>
 
@@ -1470,8 +1470,7 @@
                 <div class="faq-question">삭제된 매물은 어떻게 표시되나요?</div>
                 <div class="faq-answer">
                     매물 상태 필터에서 "삭제된 매물"을 체크하면 확인할 수 있습니다. <br>
-                    삭제된 매물은 반투명하게 표시되며, 언제 삭제되었는지 정보가 표시됩니다.<br>
-                    최대 최근 3개월치 삭제 매물 확인이 가능합니다.
+                    삭제된 매물은 반투명하게 표시되며, 네이버 부동산 페이지에서 내려간 날짜 기준으로 언제 삭제되었는지 정보가 표시됩니다.<br>
                 </div>
             </div>
 
@@ -2728,23 +2727,6 @@
     }
 
     loadData();
-
-    // 삭제 매물 안내 문구 수정 (3개월 제한 안내 제거)
-    document.addEventListener('DOMContentLoaded', function() {
-        const deletedInfoIcons = document.querySelectorAll('.deleted-info-icon');
-        deletedInfoIcons.forEach(icon => {
-            if (icon.dataset.tooltip && icon.dataset.tooltip.includes('3개월')) {
-                icon.dataset.tooltip = '삭제된 매물은 제한 없이 모두 확인 가능합니다';
-            }
-        });
-        // FAQ 내 안내 문구도 수정
-        const faqItems = document.querySelectorAll('.faq-answer');
-        faqItems.forEach(item => {
-            if (item.innerText.includes('최대 최근 3개월치 삭제 매물 확인이 가능합니다.')) {
-                item.innerHTML = item.innerHTML.replace('최대 최근 3개월치 삭제 매물 확인이 가능합니다.', '삭제된 매물은 제한 없이 모두 확인 가능합니다.');
-            }
-        });
-    });
 </script>
 </body>
 
