@@ -2094,31 +2094,17 @@
     function updateTradeTypeCounts() {
         // 거래 유형별 건수 계산
         const counts = { 'A1': 0, 'B1': 0, 'B2': 0 };
-
-        // 90일 전 날짜 계산
-        const ninetyDaysAgo = new Date();
-        ninetyDaysAgo.setDate(ninetyDaysAgo.getDate() - 90);
-
         selectedComplexes.forEach(complexId => {
             if (allData[complexId]) {
                 Object.values(allData[complexId]).forEach(value => {
                     const tradeType = value.representative?.trade_type;
                     if (tradeType && counts.hasOwnProperty(tradeType)) {
-                        // 삭제된 매물은 90일 이내만 카운트
-                        const isDeleted = value.is_deleted === true;
-                        if (isDeleted) {
-                            const deletedDate = new Date(value.deleted_at);
-                            if (deletedDate >= ninetyDaysAgo) {
-                                counts[tradeType]++;
-                            }
-                        } else {
-                            counts[tradeType]++;
-                        }
+                        // 삭제된 매물도 날짜 제한 없이 모두 카운트
+                        counts[tradeType]++;
                     }
                 });
             }
         });
-
         // 레이블 업데이트
         document.querySelector('label[for="trade-sale"]').textContent = `매매 (${counts['A1']})`;
         document.querySelector('label[for="trade-jeonse"]').textContent = `전세 (${counts['B1']})`;
@@ -2532,10 +2518,6 @@
 
         const complexLocations = {};
 
-        // 90일 전 날짜 계산
-        const ninetyDaysAgo = new Date();
-        ninetyDaysAgo.setDate(ninetyDaysAgo.getDate() - 90);
-
         selectedComplexes.forEach(complexId => {
             if (allData[complexId]) {
                 Object.entries(allData[complexId]).forEach(([key, value]) => {
@@ -2547,26 +2529,17 @@
                     const status = isDeleted ? 'deleted' : 'active';
                     if (!selectedStatuses.has(status)) return;
 
-                    // 삭제된 매물인 경우 최근 90일 이내만 표시
-                    if (isDeleted) {
-                        const deletedDate = new Date(value.deleted_at);
-                        if (deletedDate < ninetyDaysAgo) {
-                            return; // 90일 이전 삭제 매물은 제외
-                        }
-                    }
-
+                    // 삭제 매물 날짜 제한 제거 (모든 삭제 매물 표시)
                     // 날짜 범위 필터 적용
                     if (startDate || endDate) {
                         const articleDate = isDeleted
                             ? new Date(value.deleted_at)
                             : new Date(rep?.verification_info?.exposure_start_date);
-
                         if (startDate) {
                             const filterStartDate = new Date(startDate);
                             filterStartDate.setHours(0, 0, 0, 0);
                             if (articleDate < filterStartDate) return;
                         }
-
                         if (endDate) {
                             const filterEndDate = new Date(endDate);
                             filterEndDate.setHours(23, 59, 59, 999);
@@ -2626,49 +2599,32 @@
 
     function renderCards() {
         const cardsContainer = document.getElementById('cards');
-
-        // 90일 전 날짜 계산
-        const ninetyDaysAgo = new Date();
-        ninetyDaysAgo.setDate(ninetyDaysAgo.getDate() - 90);
-
         let filteredData = [];
         selectedComplexes.forEach(complexId => {
             if (allData[complexId]) {
                 Object.entries(allData[complexId]).forEach(([key, value]) => {
                     const tradeType = value.representative?.trade_type;
                     if (!selectedTradeTypes.has(tradeType)) return;
-
                     const isDeleted = value.is_deleted === true;
                     const status = isDeleted ? 'deleted' : 'active';
                     if (!selectedStatuses.has(status)) return;
-
-                    // 삭제된 매물인 경우 최근 90일 이내만 표시
-                    if (isDeleted) {
-                        const deletedDate = new Date(value.deleted_at);
-                        if (deletedDate < ninetyDaysAgo) {
-                            return; // 90일 이전 삭제 매물은 제외
-                        }
-                    }
-
+                    // 삭제 매물 날짜 제한 제거 (모든 삭제 매물 표시)
                     // 날짜 범위 필터 적용
                     if (startDate || endDate) {
                         const articleDate = isDeleted
                             ? new Date(value.deleted_at)
                             : new Date(value.representative?.verification_info?.exposure_start_date);
-
                         if (startDate) {
                             const filterStartDate = new Date(startDate);
                             filterStartDate.setHours(0, 0, 0, 0);
                             if (articleDate < filterStartDate) return;
                         }
-
                         if (endDate) {
                             const filterEndDate = new Date(endDate);
                             filterEndDate.setHours(23, 59, 59, 999);
                             if (articleDate > filterEndDate) return;
                         }
                     }
-
                     filteredData.push({ key, value, complexId });
                 });
             }
@@ -2772,6 +2728,23 @@
     }
 
     loadData();
+
+    // 삭제 매물 안내 문구 수정 (3개월 제한 안내 제거)
+    document.addEventListener('DOMContentLoaded', function() {
+        const deletedInfoIcons = document.querySelectorAll('.deleted-info-icon');
+        deletedInfoIcons.forEach(icon => {
+            if (icon.dataset.tooltip && icon.dataset.tooltip.includes('3개월')) {
+                icon.dataset.tooltip = '삭제된 매물은 제한 없이 모두 확인 가능합니다';
+            }
+        });
+        // FAQ 내 안내 문구도 수정
+        const faqItems = document.querySelectorAll('.faq-answer');
+        faqItems.forEach(item => {
+            if (item.innerText.includes('최대 최근 3개월치 삭제 매물 확인이 가능합니다.')) {
+                item.innerHTML = item.innerHTML.replace('최대 최근 3개월치 삭제 매물 확인이 가능합니다.', '삭제된 매물은 제한 없이 모두 확인 가능합니다.');
+            }
+        });
+    });
 </script>
 </body>
 
