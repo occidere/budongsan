@@ -350,6 +350,7 @@
             font-size: 12px;
             color: var(--text-tertiary);
             margin-left: 8px;
+            cursor: pointer;
         }
 
         .separator {
@@ -365,6 +366,40 @@
             border-radius: 4px;
             font-size: 12px;
             font-weight: 500;
+        }
+
+        .duplicate-popup {
+            position: absolute;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-dark);
+            box-shadow: var(--card-shadow);
+            border-radius: 8px;
+            padding: 8px 0;
+            min-width: 200px;
+            z-index: 1000;
+        }
+
+        .duplicate-popup.hidden {
+            display: none;
+        }
+
+        .duplicate-popup a {
+            display: block;
+            padding: 8px 12px;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .duplicate-popup a:hover {
+            background: var(--bg-hover);
+            color: var(--text-accent);
+        }
+
+        .duplicate-popup-empty {
+            padding: 8px 12px;
+            color: var(--text-secondary);
+            font-size: 13px;
         }
 
         .filter-section {
@@ -1615,6 +1650,7 @@
     let currentPage = 1;
     let pageSize = 20;
     let totalFilteredData = [];
+    let duplicatePopupInitialized = false;
 
     // 다크모드 초기화
     function initDarkMode() {
@@ -1859,7 +1895,7 @@
             </div>
             <div class="card-info broker">
                 <span>${rep.broker_info.brokerage_name}</span>
-                ${data.article_count > 1 ? `<span class="article-count">동일매물 ${data.article_count}건</span>` : ''}
+                ${data.article_count > 1 ? `<span class="article-count" data-key="${key}">동일매물 ${data.article_count}건</span>` : ''}
             </div>
             <div class="card-updated">${isDeleted ? '삭제일' : '등록일'} ${isDeleted ? formatDateOnly(data.deleted_at) : formatDateOnly(rep.verification_info.exposure_start_date)}</div>
             <div class="card-price">
@@ -2493,7 +2529,49 @@
             .join('');
 
         cardsContainer.innerHTML = html;
+        attachDuplicatePopupEvents(pageData);
         renderPagination();
+    }
+
+    function attachDuplicatePopupEvents(pageData) {
+        const popup = document.getElementById('duplicatePopup') || createDuplicatePopup();
+
+        document.querySelectorAll('.article-count').forEach((el) => {
+            el.onclick = (event) => {
+                event.stopPropagation();
+                const key = el.dataset.key;
+                const found = pageData.find(item => item.key === key);
+                if (!found) return;
+                const repNumber = found.value.representative?.article_number;
+                const articles = (found.value.all_articles || []).filter(a => a.article_number !== repNumber);
+                popup.innerHTML = articles.map(a => {
+                    const url = `https://fin.land.naver.com/articles/${a.article_number}`;
+                    return `<a href="${url}" target="_blank">${a.broker_info?.brokerage_name || '-'}</a>`;
+                }).join('') || '<div class="duplicate-popup-empty">대표 매물만 있습니다</div>';
+
+                const rect = el.getBoundingClientRect();
+                popup.style.top = `${rect.bottom + window.scrollY + 4}px`;
+                popup.style.left = `${rect.left + window.scrollX}px`;
+                popup.classList.remove('hidden');
+            };
+        });
+
+        if (!duplicatePopupInitialized) {
+            document.addEventListener('click', (e) => {
+                if (!popup.contains(e.target) && !e.target.classList.contains('article-count')) {
+                    popup.classList.add('hidden');
+                }
+            });
+            duplicatePopupInitialized = true;
+        }
+    }
+
+    function createDuplicatePopup() {
+        const popup = document.createElement('div');
+        popup.id = 'duplicatePopup';
+        popup.className = 'duplicate-popup hidden';
+        document.body.appendChild(popup);
+        return popup;
     }
 
     function initMap() {
