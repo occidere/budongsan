@@ -1866,6 +1866,10 @@
         const imageUrl = rep.article_media?.image_url;
         const articleUrl = `https://fin.land.naver.com/articles/${rep.article_number}`;
         const isDeleted = data.is_deleted === true;
+        const duplicateCount = Math.max(
+            (data.all_articles ? data.all_articles.length : data.article_count || 1) - 1,
+            0
+        );
         // 시/구/동 정보 추출
         const city = rep.address?.city || '';
         const division = rep.address?.division || '';
@@ -1895,7 +1899,7 @@
             </div>
             <div class="card-info broker">
                 <span>${rep.broker_info.brokerage_name}</span>
-                ${data.article_count > 1 ? `<span class="article-count" data-key="${key}">동일매물 ${data.article_count}건</span>` : ''}
+                ${duplicateCount > 0 ? `<span class="article-count" data-key="${key}">동일매물 ${duplicateCount}건</span>` : ''}
             </div>
             <div class="card-updated">${isDeleted ? '삭제일' : '등록일'} ${isDeleted ? formatDateOnly(data.deleted_at) : formatDateOnly(rep.verification_info.exposure_start_date)}</div>
             <div class="card-price">
