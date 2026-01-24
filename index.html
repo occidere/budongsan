@@ -12,7 +12,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="shortcut icon" href="favicon.png">
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
         :root {
@@ -125,7 +125,7 @@
         .cards {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-            gap: 20px;
+            gap: 10px;
         }
 
         .card {
@@ -406,7 +406,7 @@
             background: var(--bg-secondary);
             border-radius: 12px;
             padding: 20px;
-            margin-bottom: 24px;
+            margin-bottom: 12px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
@@ -1124,7 +1124,7 @@
             background: var(--bg-secondary);
             border-radius: 12px;
             padding: 20px;
-            margin-bottom: 24px;
+            margin-bottom: 12px;
             box-shadow: var(--card-shadow);
             transition: background-color 0.3s ease;
         }
@@ -1310,6 +1310,191 @@
             font-size: 13px;
             color: #c62828;
         }
+
+        /* 평형 및 가격 필터 스타일 */
+        .range-filter-container {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 10px;
+            box-shadow: var(--card-shadow);
+            transition: background-color 0.3s ease;
+        }
+
+        .range-filter-section {
+            margin-bottom: 8px;
+        }
+
+        .range-filter-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .range-slider-container {
+            padding: 8px 20px;
+            background: var(--bg-hover);
+            border-radius: 8px;
+            margin-bottom: 6px;
+        }
+
+        .range-slider {
+            position: relative;
+            height: 6px;
+            background: var(--border-color);
+            border-radius: 3px;
+            margin: 15px 0 10px 0;
+        }
+
+        .range-slider-track {
+            position: absolute;
+            height: 100%;
+            background: #1a73e8;
+            border-radius: 3px;
+        }
+
+        .range-slider-thumb {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: #1a73e8;
+            border: 3px solid white;
+            border-radius: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            z-index: 2;
+        }
+
+        .range-slider-thumb:hover {
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+
+        .range-slider-thumb:active {
+            transform: translate(-50%, -50%) scale(1.2);
+        }
+
+        .range-slider-label {
+            position: absolute;
+            top: -25px;
+            transform: translateX(-50%);
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-primary);
+            white-space: nowrap;
+        }
+
+        .range-values {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            color: var(--text-tertiary);
+            margin-top: 8px;
+        }
+
+        .range-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        .range-button {
+            padding: 4px 10px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .range-button:hover {
+            background: var(--bg-hover);
+            border-color: #1a73e8;
+        }
+
+        .range-button.active {
+            background: #1a73e8;
+            color: white;
+            border-color: #1a73e8;
+        }
+
+        .range-reset-btn {
+            padding: 4px 10px;
+            background: var(--bg-hover);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .range-reset-btn:hover {
+            background: var(--border-color);
+            color: var(--text-primary);
+        }
+
+        /* 필터 토글 스타일 */
+        .filter-toggle-section {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .filter-toggle-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 20px;
+            cursor: pointer;
+            user-select: none;
+            transition: background 0.2s;
+        }
+
+        .filter-toggle-header:hover {
+            background: var(--bg-hover);
+        }
+
+        .filter-toggle-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filter-toggle-icon {
+            font-size: 14px;
+            transition: transform 0.3s;
+            color: var(--text-secondary);
+        }
+
+        .filter-toggle-section.collapsed .filter-toggle-icon {
+            transform: rotate(-90deg);
+        }
+
+        .filter-toggle-content {
+            max-height: 2000px;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+            opacity: 1;
+        }
+
+        .filter-toggle-section.collapsed .filter-toggle-content {
+            max-height: 0;
+            opacity: 0;
+        }
+
+        .filter-toggle-inner {
+            padding: 0 20px 20px 20px;
+        }
     </style>
 </head>
 
@@ -1346,100 +1531,204 @@
             <div class="selected-tags" id="selectedTags"></div>
         </div>
 
-        <div style="display: flex; gap: 20px; flex-wrap: wrap;">
-            <div class="filter-section" style="flex: 1; min-width: 200px;">
-                <div class="filter-title">거래 유형</div>
-                <div class="checkbox-group" id="tradeTypeFilter">
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="trade-sale" value="A1" checked>
-                        <label for="trade-sale">매매</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="trade-jeonse" value="B1" checked>
-                        <label for="trade-jeonse">전세</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="trade-rent" value="B2" checked>
-                        <label for="trade-rent">월세</label>
-                    </div>
+        <!-- 필터 토글 섹션 -->
+        <div class="filter-toggle-section" id="filterToggleSection">
+            <div class="filter-toggle-header" id="filterToggleHeader">
+                <div class="filter-toggle-title">
+                    <span>필터 옵션</span>
                 </div>
+                <div class="filter-toggle-icon">▼</div>
             </div>
-            <div class="filter-section" style="flex: 1; min-width: 200px;">
-                <div class="filter-title">매물 상태</div>
-                <div class="checkbox-group" id="articleStatusFilter">
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="status-active" value="active" checked>
-                        <label for="status-active">활성 매물</label>
-                    </div>
-                    <div class="checkbox-item">
-                        <input type="checkbox" id="status-deleted" value="deleted">
-                        <label for="status-deleted">삭제된 매물</label>
-                        <span class="deleted-info-icon" data-tooltip="삭제 매물은 네이버 부동산 사이트에서 내려간 날짜를 기준으로 집계합니다">?</span>
-                    </div>
-                </div>
-            </div>
-            <div class="filter-section" style="flex: 1; min-width: 200px;">
-                <div class="filter-title">날짜 범위</div>
-                <div class="date-range-filter">
-                    <div class="time-range-picker" id="timeRangePicker">
-                        <div class="time-range-display" id="timeRangeDisplay">
-                            <span id="timeRangeText">최근 30일</span>
-                            <span class="icon">▼</span>
-                        </div>
-                        <div class="time-range-dropdown" id="timeRangeDropdown">
-                            <div class="time-range-section">
-                                <div class="time-range-section-title">빠른 선택</div>
-                                <div class="time-range-option" data-range="today">오늘</div>
-                                <div class="time-range-option" data-range="7d">최근 7일</div>
-                                <div class="time-range-option active" data-range="30d">최근 30일</div>
-                                <div class="time-range-option" data-range="180d">최근 6개월</div>
-                                <div class="time-range-option" data-range="365d">최근 1년</div>
-                            </div>
-                            <div class="time-range-divider"></div>
-                            <div class="absolute-time-section">
-                                <div class="time-range-section-title">직접 입력</div>
-                                <div class="absolute-time-inputs">
-                                    <div class="absolute-time-row">
-                                        <span class="absolute-time-label">시작일</span>
-                                        <div class="date-input-wrapper">
-                                            <input type="text" id="absoluteStartDateText" class="absolute-date-input" placeholder="YYYY-MM-DD">
-                                            <svg class="calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                                <line x1="16" y1="2" x2="16" y2="6"></line>
-                                                <line x1="8" y1="2" x2="8" y2="6"></line>
-                                                <line x1="3" y1="10" x2="21" y2="10"></line>
-                                            </svg>
-                                            <input type="date" id="absoluteStartDate" class="absolute-date-picker">
-                                        </div>
-                                    </div>
-                                    <div class="absolute-time-row">
-                                        <span class="absolute-time-label">종료일</span>
-                                        <div class="date-input-wrapper">
-                                            <input type="text" id="absoluteEndDateText" class="absolute-date-input" placeholder="YYYY-MM-DD">
-                                            <svg class="calendar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                                                <line x1="16" y1="2" x2="16" y2="6"></line>
-                                                <line x1="8" y1="2" x2="8" y2="6"></line>
-                                                <line x1="3" y1="10" x2="21" y2="10"></line>
-                                            </svg>
-                                            <input type="date" id="absoluteEndDate" class="absolute-date-picker">
-                                        </div>
-                                    </div>
-                                    <button class="apply-time-btn" id="applyAbsoluteTime">적용</button>
+            <div class="filter-toggle-content">
+                <div class="filter-toggle-inner">
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                        <div class="filter-section" style="flex: 1; min-width: 200px;">
+                            <div class="filter-title">거래 유형</div>
+                            <div class="checkbox-group" id="tradeTypeFilter">
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="trade-sale" value="A1" checked>
+                                    <label for="trade-sale">매매</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="trade-jeonse" value="B1" checked>
+                                    <label for="trade-jeonse">전세</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="trade-rent" value="B2" checked>
+                                    <label for="trade-rent">월세</label>
                                 </div>
                             </div>
                         </div>
+                        <div class="filter-section" style="flex: 1; min-width: 200px;">
+                            <div class="filter-title">매물 상태</div>
+                            <div class="checkbox-group" id="articleStatusFilter">
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="status-active" value="active" checked>
+                                    <label for="status-active">활성 매물</label>
+                                </div>
+                                <div class="checkbox-item">
+                                    <input type="checkbox" id="status-deleted" value="deleted">
+                                    <label for="status-deleted">삭제된 매물</label>
+                                    <span class="deleted-info-icon"
+                                          data-tooltip="삭제 매물은 네이버 부동산 사이트에서 내려간 날짜를 기준으로 집계합니다">?</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-section" style="flex: 1; min-width: 200px;">
+                            <div class="filter-title">날짜 범위</div>
+                            <div class="date-range-filter">
+                                <div class="time-range-picker" id="timeRangePicker">
+                                    <div class="time-range-display" id="timeRangeDisplay">
+                                        <span id="timeRangeText">최근 30일</span>
+                                        <span class="icon">▼</span>
+                                    </div>
+                                    <div class="time-range-dropdown" id="timeRangeDropdown">
+                                        <div class="time-range-section">
+                                            <div class="time-range-section-title">빠른 선택</div>
+                                            <div class="time-range-option" data-range="today">오늘</div>
+                                            <div class="time-range-option" data-range="7d">최근 7일</div>
+                                            <div class="time-range-option active" data-range="30d">최근 30일</div>
+                                            <div class="time-range-option" data-range="180d">최근 6개월</div>
+                                            <div class="time-range-option" data-range="365d">최근 1년</div>
+                                        </div>
+                                        <div class="time-range-divider"></div>
+                                        <div class="absolute-time-section">
+                                            <div class="time-range-section-title">직접 입력</div>
+                                            <div class="absolute-time-inputs">
+                                                <div class="absolute-time-row">
+                                                    <span class="absolute-time-label">시작일</span>
+                                                    <div class="date-input-wrapper">
+                                                        <input type="text" id="absoluteStartDateText"
+                                                               class="absolute-date-input" placeholder="YYYY-MM-DD">
+                                                        <svg class="calendar-icon" viewBox="0 0 24 24" fill="none"
+                                                             stroke="currentColor" stroke-width="2">
+                                                            <rect x="3" y="4" width="18" height="18" rx="2"
+                                                                  ry="2"></rect>
+                                                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                                                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                                                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                                                        </svg>
+                                                        <input type="date" id="absoluteStartDate"
+                                                               class="absolute-date-picker">
+                                                    </div>
+                                                </div>
+                                                <div class="absolute-time-row">
+                                                    <span class="absolute-time-label">종료일</span>
+                                                    <div class="date-input-wrapper">
+                                                        <input type="text" id="absoluteEndDateText"
+                                                               class="absolute-date-input" placeholder="YYYY-MM-DD">
+                                                        <svg class="calendar-icon" viewBox="0 0 24 24" fill="none"
+                                                             stroke="currentColor" stroke-width="2">
+                                                            <rect x="3" y="4" width="18" height="18" rx="2"
+                                                                  ry="2"></rect>
+                                                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                                                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                                                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                                                        </svg>
+                                                        <input type="date" id="absoluteEndDate"
+                                                               class="absolute-date-picker">
+                                                    </div>
+                                                </div>
+                                                <button class="apply-time-btn" id="applyAbsoluteTime">적용</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="filter-section" style="flex: 1; min-width: 200px;">
+                            <div class="filter-title">정렬 순서</div>
+                            <select id="sortOrder" class="sort-select">
+                                <option value="latest">최신 날짜순</option>
+                                <option value="oldest">오래된 날짜순</option>
+                                <option value="price-high">높은 가격순</option>
+                                <option value="price-low">낮은 가격순</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- 평형 선택 및 가격 범위 필터 -->
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px;">
+                        <div class="range-filter-container" style="flex: 1; min-width: 300px;">
+                            <div class="filter-title" style="margin-bottom: 8px;">평형 선택</div>
+                            <div class="range-slider-container">
+                                <div class="range-slider" id="pyeongSlider">
+                                    <div class="range-slider-track" id="pyeongTrack"></div>
+                                    <div class="range-slider-thumb" id="pyeongThumbMin" data-thumb="min">
+                                        <div class="range-slider-label" id="pyeongLabelMin">0평</div>
+                                    </div>
+                                    <div class="range-slider-thumb" id="pyeongThumbMax" data-thumb="max">
+                                        <div class="range-slider-label" id="pyeongLabelMax">∞</div>
+                                    </div>
+                                </div>
+                                <div class="range-values">
+                                    <span>0평</span>
+                                    <span>10평</span>
+                                    <span>20평</span>
+                                    <span>30평</span>
+                                    <span>40평</span>
+                                    <span>50평</span>
+                                    <span>60평</span>
+                                    <span>70평</span>
+                                    <span>80평</span>
+                                </div>
+                            </div>
+                            <div class="range-buttons">
+                                <button class="range-reset-btn" id="pyeongReset">전체</button>
+                                <button class="range-button" data-pyeong="10">10평대</button>
+                                <button class="range-button" data-pyeong="20">20평대</button>
+                                <button class="range-button" data-pyeong="30">30평대</button>
+                                <button class="range-button" data-pyeong="40">40평대</button>
+                                <button class="range-button" data-pyeong="50">50평대</button>
+                                <button class="range-button" data-pyeong="60">60평대</button>
+                                <button class="range-button" data-pyeong="70">70평대</button>
+                                <button class="range-button" data-pyeong="80">80평~</button>
+                            </div>
+                        </div>
+
+                        <div class="range-filter-container" style="flex: 1; min-width: 300px;">
+                            <div class="filter-title" style="margin-bottom: 8px;">가격 범위</div>
+                            <div class="range-slider-container">
+                                <div class="range-slider" id="priceSlider">
+                                    <div class="range-slider-track" id="priceTrack"></div>
+                                    <div class="range-slider-thumb" id="priceThumbMin" data-thumb="min">
+                                        <div class="range-slider-label" id="priceLabelMin">0억</div>
+                                    </div>
+                                    <div class="range-slider-thumb" id="priceThumbMax" data-thumb="max">
+                                        <div class="range-slider-label" id="priceLabelMax">∞</div>
+                                    </div>
+                                </div>
+                                <div class="range-values">
+                                    <span>0억</span>
+                                    <span>5억</span>
+                                    <span>10억</span>
+                                    <span>15억</span>
+                                    <span>20억</span>
+                                    <span>25억</span>
+                                    <span>30억</span>
+                                    <span>35억</span>
+                                    <span>40억</span>
+                                    <span>45억</span>
+                                    <span>50억</span>
+                                </div>
+                            </div>
+                            <div class="range-buttons">
+                                <button class="range-reset-btn" id="priceReset">전체</button>
+                                <button class="range-button" data-price="2">~2억</button>
+                                <button class="range-button" data-price="3">~3억</button>
+                                <button class="range-button" data-price="4">~4억</button>
+                                <button class="range-button" data-price="5">~5억</button>
+                                <button class="range-button" data-price="6">~6억</button>
+                                <button class="range-button" data-price="10">~10억</button>
+                                <button class="range-button" data-price="12">~12억</button>
+                                <button class="range-button" data-price="15">15억~</button>
+                                <button class="range-button" data-price="20">20억~</button>
+                                <button class="range-button" data-price="30">30억~</button>
+                                <button class="range-button" data-price="40">40억~</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="filter-section" style="flex: 1; min-width: 200px;">
-                <div class="filter-title">정렬 순서</div>
-                <select id="sortOrder" class="sort-select">
-                    <option value="latest">최신 날짜순</option>
-                    <option value="oldest">오래된 날짜순</option>
-                    <option value="price-high">높은 가격순</option>
-                    <option value="price-low">낮은 가격순</option>
-                </select>
             </div>
         </div>
 
@@ -1581,44 +1870,44 @@
 
 <script>
     const COMPLEXES = [
-        { id: '3354', start_date: '2025-12-20', is_active: true }, // 신도림대림1,2차(e편한세상)
-        { id: '3355', start_date: '2026-01-01', is_active: true }, // 신도림대림3차(e편한세상)
-        { id: '3356', start_date: '2025-12-20', is_active: true }, // 신도림4차e-편한세상
-        { id: '8714', start_date: '2026-01-01', is_active: true }, // 신도림5차e-편한세상
-        { id: '8715', start_date: '2026-01-01', is_active: true }, // 신도림6차e-편한세상
-        { id: '8919', start_date: '2025-12-20', is_active: true }, // 신도림7차e-편한세상
-        { id: '1074', start_date: '2025-12-20', is_active: true }, // 신도림동아1차
-        { id: '3209', start_date: '2025-12-20', is_active: true }, // 신도림동아2차
-        { id: '3210', start_date: '2025-12-20', is_active: true }, // 신도림동아3차
-        { id: '27310', start_date: '2026-01-01', is_active: true }, // 디큐브시티(주상복합)
-        { id: '149', start_date: '2026-01-01', is_active: true }, // 미성
-        { id: '3211', start_date: '2026-01-01', is_active: true }, // 현대
-        { id: '151', start_date: '2026-01-01', is_active: true }, // 우성1차
-        { id: '153', start_date: '2026-01-01', is_active: true }, // 우성2차
-        { id: '152', start_date: '2026-01-01', is_active: true }, // 신도림우성3차
-        { id: '150', start_date: '2026-01-01', is_active: true }, // 신도림우성5차
-        { id: '13085', start_date: '2026-01-01', is_active: true }, // 신도림SK뷰(주상복합)
-        { id: '17667', start_date: '2026-01-01', is_active: true }, // 신도림팰러티움(주상복합)
-        { id: '3204', start_date: '2025-12-20', is_active: true }, // 신도림태영타운
-        { id: '9937', start_date: '2026-01-01', is_active: true }, // 신도림현대
-        { id: '132', start_date: '2026-01-01', is_active: true }, // 신도림롯데
-        { id: '912', start_date: '2025-12-20', is_active: true }, // 구로두산
-        { id: '3457', start_date: '2025-12-20', is_active: true }, // 영등포푸르지오
-        { id: '1636', start_date: '2026-01-01', is_active: true }, // 주공9단지
-        { id: '3342', start_date: '2026-01-01', is_active: true }, // 우방리버파크
-        { id: '100692', start_date: '2026-01-01', is_active: true }, // 래미안옥수리버젠
-        { id: '111117', start_date: '2026-01-01', is_active: true }, // 위례지웰푸르지오
-        { id: '119933', start_date: '2026-01-01', is_active: true }, // e편한세상강동에코포레
-        { id: '19578', start_date: '2026-01-01', is_active: true }, // 프라이어팰리스
-        { id: '109217', start_date: '2026-01-01', is_active: true }, // 성내올림픽파크한양수자인
-        { id: '849', start_date: '2026-01-07', is_active: true }, // 두산
-        { id: '22806', start_date: '2026-01-07', is_active: true }, // 신도림푸르지오3차(주상복합)
-        { id: '3603', start_date: '2026-01-07', is_active: true }, // 라일락서해그랑블
-        { id: '154299', start_date: '2026-01-12', is_active: true }, // 철산자이더헤리티지
-        { id: '144109', start_date: '2026-01-12', is_active: true }, // 송도더샵파크애비뉴
-        { id: '3452', start_date: '2026-01-12', is_active: true }, // 문래자이
-        { id: '2645', start_date: '2026-01-13', is_active: true }, // 상록우성
-        { id: '27508', start_date: '2026-01-13', is_active: true }, // 판교푸르지오그랑블
+        {id: '3354', start_date: '2025-12-20', is_active: true}, // 신도림대림1,2차(e편한세상)
+        {id: '3355', start_date: '2026-01-01', is_active: true}, // 신도림대림3차(e편한세상)
+        {id: '3356', start_date: '2025-12-20', is_active: true}, // 신도림4차e-편한세상
+        {id: '8714', start_date: '2026-01-01', is_active: true}, // 신도림5차e-편한세상
+        {id: '8715', start_date: '2026-01-01', is_active: true}, // 신도림6차e-편한세상
+        {id: '8919', start_date: '2025-12-20', is_active: true}, // 신도림7차e-편한세상
+        {id: '1074', start_date: '2025-12-20', is_active: true}, // 신도림동아1차
+        {id: '3209', start_date: '2025-12-20', is_active: true}, // 신도림동아2차
+        {id: '3210', start_date: '2025-12-20', is_active: true}, // 신도림동아3차
+        {id: '27310', start_date: '2026-01-01', is_active: true}, // 디큐브시티(주상복합)
+        {id: '149', start_date: '2026-01-01', is_active: true}, // 미성
+        {id: '3211', start_date: '2026-01-01', is_active: true}, // 현대
+        {id: '151', start_date: '2026-01-01', is_active: true}, // 우성1차
+        {id: '153', start_date: '2026-01-01', is_active: true}, // 우성2차
+        {id: '152', start_date: '2026-01-01', is_active: true}, // 신도림우성3차
+        {id: '150', start_date: '2026-01-01', is_active: true}, // 신도림우성5차
+        {id: '13085', start_date: '2026-01-01', is_active: true}, // 신도림SK뷰(주상복합)
+        {id: '17667', start_date: '2026-01-01', is_active: true}, // 신도림팰러티움(주상복합)
+        {id: '3204', start_date: '2025-12-20', is_active: true}, // 신도림태영타운
+        {id: '9937', start_date: '2026-01-01', is_active: true}, // 신도림현대
+        {id: '132', start_date: '2026-01-01', is_active: true}, // 신도림롯데
+        {id: '912', start_date: '2025-12-20', is_active: true}, // 구로두산
+        {id: '3457', start_date: '2025-12-20', is_active: true}, // 영등포푸르지오
+        {id: '1636', start_date: '2026-01-01', is_active: true}, // 주공9단지
+        {id: '3342', start_date: '2026-01-01', is_active: true}, // 우방리버파크
+        {id: '100692', start_date: '2026-01-01', is_active: true}, // 래미안옥수리버젠
+        {id: '111117', start_date: '2026-01-01', is_active: true}, // 위례지웰푸르지오
+        {id: '119933', start_date: '2026-01-01', is_active: true}, // e편한세상강동에코포레
+        {id: '19578', start_date: '2026-01-01', is_active: true}, // 프라이어팰리스
+        {id: '109217', start_date: '2026-01-01', is_active: true}, // 성내올림픽파크한양수자인
+        {id: '849', start_date: '2026-01-07', is_active: true}, // 두산
+        {id: '22806', start_date: '2026-01-07', is_active: true}, // 신도림푸르지오3차(주상복합)
+        {id: '3603', start_date: '2026-01-07', is_active: true}, // 라일락서해그랑블
+        {id: '154299', start_date: '2026-01-12', is_active: true}, // 철산자이더헤리티지
+        {id: '144109', start_date: '2026-01-12', is_active: true}, // 송도더샵파크애비뉴
+        {id: '3452', start_date: '2026-01-12', is_active: true}, // 문래자이
+        {id: '2645', start_date: '2026-01-13', is_active: true}, // 상록우성
+        {id: '27508', start_date: '2026-01-13', is_active: true}, // 판교푸르지오그랑블
     ].filter(complex => complex.is_active);
 
     const DIRECTION_MAP = {
@@ -1633,9 +1922,9 @@
     };
 
     const TRADE_TYPE_MAP = {
-        'A1': { label: '매매', class: 'sale' },
-        'B1': { label: '전세', class: 'jeonse' },
-        'B2': { label: '월세', class: 'rent' }
+        'A1': {label: '매매', class: 'sale'},
+        'B1': {label: '전세', class: 'jeonse'},
+        'B2': {label: '월세', class: 'rent'}
     };
 
     let allData = {};
@@ -1651,6 +1940,10 @@
     let pageSize = 20;
     let totalFilteredData = [];
     let duplicatePopupInitialized = false;
+    let pyeongMin = 0;
+    let pyeongMax = 80;
+    let priceMin = 0;
+    let priceMax = 50;
 
     // 다크모드 초기화
     function initDarkMode() {
@@ -1708,6 +2001,10 @@
                 if (filters.sortOrder) selectedSortOrder = filters.sortOrder;
                 if (filters.startDate) startDate = filters.startDate;
                 if (filters.endDate) endDate = filters.endDate;
+                if (filters.pyeongMin !== undefined) pyeongMin = filters.pyeongMin;
+                if (filters.pyeongMax !== undefined) pyeongMax = filters.pyeongMax;
+                if (filters.priceMin !== undefined) priceMin = filters.priceMin;
+                if (filters.priceMax !== undefined) priceMax = filters.priceMax;
                 console.log('Loaded filters from storage:', filters);
             }
         } catch (e) {
@@ -1724,7 +2021,11 @@
                 statuses: Array.from(selectedStatuses),
                 sortOrder: selectedSortOrder,
                 startDate: startDate,
-                endDate: endDate
+                endDate: endDate,
+                pyeongMin: pyeongMin,
+                pyeongMax: pyeongMax,
+                priceMin: priceMin,
+                priceMax: priceMax
             };
             localStorage.setItem('realEstateFilters', JSON.stringify(filters));
         } catch (e) {
@@ -1847,20 +2148,20 @@
 
     function getPriceDisplay(priceInfo, tradeType) {
         if (tradeType === 'A1') {
-            return { label: '매매가', value: formatPrice(priceInfo.deal_price) };
+            return {label: '매매가', value: formatPrice(priceInfo.deal_price)};
         } else if (tradeType === 'B1') {
-            return { label: '전세가', value: formatPrice(priceInfo.warranty_price) };
+            return {label: '전세가', value: formatPrice(priceInfo.warranty_price)};
         } else if (tradeType === 'B2') {
             const deposit = formatPrice(priceInfo.warranty_price);
             const rent = formatPrice(priceInfo.rent_price);
-            return { label: '월세', value: `${deposit} / ${rent}` };
+            return {label: '월세', value: `${deposit} / ${rent}`};
         }
-        return { label: '가격', value: '-' };
+        return {label: '가격', value: '-'};
     }
 
     function renderCard(key, data) {
         const rep = data.representative;
-        const tradeInfo = TRADE_TYPE_MAP[rep.trade_type] || { label: rep.trade_type, class: '' };
+        const tradeInfo = TRADE_TYPE_MAP[rep.trade_type] || {label: rep.trade_type, class: ''};
         const direction = DIRECTION_MAP[rep.article_detail.direction] || rep.article_detail.direction;
         const priceDisplay = getPriceDisplay(rep.price_info, rep.trade_type);
         const imageUrl = rep.article_media?.image_url;
@@ -2132,7 +2433,7 @@
 
     function updateTradeTypeCounts() {
         // 거래 유형별 건수 계산
-        const counts = { 'A1': 0, 'B1': 0, 'B2': 0 };
+        const counts = {'A1': 0, 'B1': 0, 'B2': 0};
         selectedComplexes.forEach(complexId => {
             if (allData[complexId]) {
                 Object.values(allData[complexId]).forEach(value => {
@@ -2379,6 +2680,245 @@
         });
     }
 
+    // 평형 필터 초기화
+    function initPyeongFilter() {
+        const pyeongSlider = document.getElementById('pyeongSlider');
+        const pyeongThumbMin = document.getElementById('pyeongThumbMin');
+        const pyeongThumbMax = document.getElementById('pyeongThumbMax');
+        const pyeongTrack = document.getElementById('pyeongTrack');
+        const pyeongLabelMin = document.getElementById('pyeongLabelMin');
+        const pyeongLabelMax = document.getElementById('pyeongLabelMax');
+        const pyeongReset = document.getElementById('pyeongReset');
+        const pyeongButtons = document.querySelectorAll('.range-button[data-pyeong]');
+
+        let isDragging = false;
+        let currentThumb = null;
+
+        // 슬라이더 업데이트
+        function updatePyeongSlider() {
+            const minPercent = (pyeongMin / 80) * 100;
+            const maxPercent = (pyeongMax / 80) * 100;
+
+            pyeongThumbMin.style.left = `${minPercent}%`;
+            pyeongThumbMax.style.left = `${maxPercent}%`;
+            pyeongTrack.style.left = `${minPercent}%`;
+            pyeongTrack.style.width = `${maxPercent - minPercent}%`;
+            pyeongLabelMin.textContent = `${pyeongMin}평`;
+            pyeongLabelMax.textContent = pyeongMax >= 80 ? '∞' : `${pyeongMax}평`;
+        }
+
+        // 드래그 시작
+        function startDrag(e, thumb) {
+            isDragging = true;
+            currentThumb = thumb;
+            e.preventDefault();
+        }
+
+        // 드래그 중
+        function onDrag(e) {
+            if (!isDragging) return;
+
+            const rect = pyeongSlider.getBoundingClientRect();
+            const x = (e.type.includes('touch') ? e.touches[0].clientX : e.clientX) - rect.left;
+            const percent = Math.max(0, Math.min(1, x / rect.width));
+            const value = Math.round(percent * 80);
+
+            if (currentThumb === 'min') {
+                pyeongMin = Math.min(value, pyeongMax - 1);
+            } else {
+                pyeongMax = Math.max(value, pyeongMin + 1);
+            }
+
+            updatePyeongSlider();
+        }
+
+        // 드래그 종료
+        function endDrag() {
+            if (isDragging) {
+                isDragging = false;
+                currentThumb = null;
+                saveFiltersToStorage();
+                currentPage = 1; // 필터 변경 시 첫 페이지로
+                renderCards();
+                updateMap();
+            }
+        }
+
+        // 이벤트 리스너
+        pyeongThumbMin.addEventListener('mousedown', (e) => startDrag(e, 'min'));
+        pyeongThumbMax.addEventListener('mousedown', (e) => startDrag(e, 'max'));
+        pyeongThumbMin.addEventListener('touchstart', (e) => startDrag(e, 'min'));
+        pyeongThumbMax.addEventListener('touchstart', (e) => startDrag(e, 'max'));
+
+        document.addEventListener('mousemove', onDrag);
+        document.addEventListener('touchmove', onDrag);
+        document.addEventListener('mouseup', endDrag);
+        document.addEventListener('touchend', endDrag);
+
+        // 초기화 버튼
+        pyeongReset.addEventListener('click', () => {
+            pyeongMin = 0;
+            pyeongMax = 80;
+            updatePyeongSlider();
+            pyeongButtons.forEach(btn => btn.classList.remove('active'));
+            saveFiltersToStorage();
+            currentPage = 1;
+            renderCards();
+            updateMap();
+        });
+
+        // 평형대 버튼
+        pyeongButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const pyeong = parseInt(btn.dataset.pyeong);
+                console.log('=== 평형 버튼 클릭 ===');
+                console.log('클릭한 버튼:', btn.textContent, '/ data-pyeong:', pyeong);
+
+                pyeongButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                if (pyeong >= 80) {
+                    // 80평~ : 80평 이상
+                    pyeongMin = pyeong;
+                    pyeongMax = 80;
+                } else {
+                    // 10평대~70평대 : X0~X9평
+                    pyeongMin = pyeong;
+                    pyeongMax = pyeong + 9;
+                }
+
+                console.log('설정된 평형 범위:', pyeongMin, '~', pyeongMax);
+
+                updatePyeongSlider();
+                saveFiltersToStorage();
+                currentPage = 1;
+                renderCards();
+                updateMap();
+            });
+        });
+
+        // 초기값으로 슬라이더 업데이트 (localStorage에서 복원된 값 반영)
+        updatePyeongSlider();
+    }
+
+    // 가격 필터 초기화
+    function initPriceFilter() {
+        const priceSlider = document.getElementById('priceSlider');
+        const priceThumbMin = document.getElementById('priceThumbMin');
+        const priceThumbMax = document.getElementById('priceThumbMax');
+        const priceTrack = document.getElementById('priceTrack');
+        const priceLabelMin = document.getElementById('priceLabelMin');
+        const priceLabelMax = document.getElementById('priceLabelMax');
+        const priceReset = document.getElementById('priceReset');
+        const priceButtons = document.querySelectorAll('.range-button[data-price]');
+
+        let isDragging = false;
+        let currentThumb = null;
+
+        // 슬라이더 업데이트
+        function updatePriceSlider() {
+            const minPercent = (priceMin / 50) * 100;
+            const maxPercent = (priceMax / 50) * 100;
+
+            priceThumbMin.style.left = `${minPercent}%`;
+            priceThumbMax.style.left = `${maxPercent}%`;
+            priceTrack.style.left = `${minPercent}%`;
+            priceTrack.style.width = `${maxPercent - minPercent}%`;
+            priceLabelMin.textContent = `${priceMin}억`;
+            priceLabelMax.textContent = priceMax >= 50 ? '∞' : `${priceMax}억`;
+        }
+
+        // 드래그 시작
+        function startDrag(e, thumb) {
+            isDragging = true;
+            currentThumb = thumb;
+            e.preventDefault();
+        }
+
+        // 드래그 중
+        function onDrag(e) {
+            if (!isDragging) return;
+
+            const rect = priceSlider.getBoundingClientRect();
+            const x = (e.type.includes('touch') ? e.touches[0].clientX : e.clientX) - rect.left;
+            const percent = Math.max(0, Math.min(1, x / rect.width));
+            const value = Math.round(percent * 50);
+
+            if (currentThumb === 'min') {
+                priceMin = Math.min(value, priceMax - 1);
+            } else {
+                priceMax = Math.max(value, priceMin + 1);
+            }
+
+            updatePriceSlider();
+        }
+
+        // 드래그 종료
+        function endDrag() {
+            if (isDragging) {
+                isDragging = false;
+                currentThumb = null;
+                saveFiltersToStorage();
+                currentPage = 1; // 필터 변경 시 첫 페이지로
+                renderCards();
+                updateMap();
+            }
+        }
+
+        // 이벤트 리스너
+        priceThumbMin.addEventListener('mousedown', (e) => startDrag(e, 'min'));
+        priceThumbMax.addEventListener('mousedown', (e) => startDrag(e, 'max'));
+        priceThumbMin.addEventListener('touchstart', (e) => startDrag(e, 'min'));
+        priceThumbMax.addEventListener('touchstart', (e) => startDrag(e, 'max'));
+
+        document.addEventListener('mousemove', onDrag);
+        document.addEventListener('touchmove', onDrag);
+        document.addEventListener('mouseup', endDrag);
+        document.addEventListener('touchend', endDrag);
+
+        // 초기화 버튼
+        priceReset.addEventListener('click', () => {
+            priceMin = 0;
+            priceMax = 50;
+            updatePriceSlider();
+            priceButtons.forEach(btn => btn.classList.remove('active'));
+            saveFiltersToStorage();
+            currentPage = 1;
+            renderCards();
+            updateMap();
+        });
+
+        // 가격 버튼
+        priceButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const price = parseInt(btn.dataset.price);
+                priceButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                const label = btn.textContent.trim();
+                if (label.startsWith('~')) {
+                    priceMin = 0;
+                    priceMax = price;
+                } else if (label.endsWith('~')) {
+                    priceMin = price;
+                    priceMax = 50;
+                } else {
+                    priceMin = price - 1;
+                    priceMax = price + 1;
+                }
+
+                updatePriceSlider();
+                saveFiltersToStorage();
+                currentPage = 1;
+                renderCards();
+                updateMap();
+            });
+        });
+
+        // 초기값으로 슬라이더 업데이트 (localStorage에서 복원된 값 반영)
+        updatePriceSlider();
+    }
+
     function getPriceValue(priceInfo, tradeType) {
         if (tradeType === 'A1') {
             return priceInfo.deal_price || 0;
@@ -2500,7 +3040,7 @@
                 }
 
                 renderCardsWithPagination();
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+                window.scrollTo({top: 0, behavior: 'smooth'});
             });
         });
     }
@@ -2529,7 +3069,7 @@
         const pageData = totalFilteredData.slice(startIndex, endIndex);
 
         const html = pageData
-            .map(({ key, value }) => renderCard(key, value))
+            .map(({key, value}) => renderCard(key, value))
             .join('');
 
         cardsContainer.innerHTML = html;
@@ -2610,6 +3150,26 @@
                     const status = isDeleted ? 'deleted' : 'active';
                     if (!selectedStatuses.has(status)) return;
 
+                    // 평형 필터 적용
+                    const supplyArea = rep?.space_info?.supply_space;
+                    if (supplyArea) {
+                        const pyeong = supplyArea / 3.3058; // m² → 평 변환
+                        // 전체 범위(0-80)가 아닐 때만 필터 적용
+                        if (!(pyeongMin === 0 && pyeongMax === 80)) {
+                            if (pyeong < pyeongMin || pyeong > pyeongMax) return;
+                        }
+                    }
+
+                    // 가격 필터 적용
+                    const priceInfo = rep?.price_info;
+                    if (priceInfo && tradeType) {
+                        const priceValue = getPriceValue(priceInfo, tradeType) / 100000000; // 원 → 억 단위로 변환
+                        // 전체 범위(0-50)가 아닐 때만 필터 적용
+                        if (!(priceMin === 0 && priceMax === 50)) {
+                            if (priceValue < priceMin || priceValue > priceMax) return;
+                        }
+                    }
+
                     // 삭제 매물 날짜 제한 제거 (모든 삭제 매물 표시)
                     // 날짜 범위 필터 적용
                     if (startDate || endDate) {
@@ -2649,7 +3209,7 @@
             const popupContent = createPopupContent(loc);
             const marker = L.marker([loc.lat, loc.lng])
                 .addTo(map)
-                .bindPopup(popupContent, { maxWidth: 300 });
+                .bindPopup(popupContent, {maxWidth: 300});
             markers.push(marker);
         });
 
@@ -2664,7 +3224,7 @@
         const prices = loc.articles.map(a => {
             const rep = a.representative;
             const priceDisplay = getPriceDisplay(rep.price_info, rep.trade_type);
-            const tradeInfo = TRADE_TYPE_MAP[rep.trade_type] || { label: rep.trade_type };
+            const tradeInfo = TRADE_TYPE_MAP[rep.trade_type] || {label: rep.trade_type};
             return `<div class="popup-info">${tradeInfo.label}: ${priceDisplay.value}</div>`;
         }).slice(0, 5).join('');
 
@@ -2681,6 +3241,11 @@
     function renderCards() {
         const cardsContainer = document.getElementById('cards');
         let filteredData = [];
+
+        console.log('=== renderCards 시작 ===');
+        console.log('평형 범위:', pyeongMin, '~', pyeongMax);
+        console.log('가격 범위:', priceMin, '~', priceMax);
+
         selectedComplexes.forEach(complexId => {
             if (allData[complexId]) {
                 Object.entries(allData[complexId]).forEach(([key, value]) => {
@@ -2689,6 +3254,36 @@
                     const isDeleted = value.is_deleted === true;
                     const status = isDeleted ? 'deleted' : 'active';
                     if (!selectedStatuses.has(status)) return;
+
+                    // 평형 필터 적용 (공급면적 기준)
+                    const supplyArea = value.representative?.space_info?.supply_space;
+                    if (supplyArea) {
+                        const pyeong = supplyArea / 3.3058; // m² → 평 변환 (정확한 공식)
+                        // 전체 범위(0-80)가 아닐 때만 필터 적용
+                        if (!(pyeongMin === 0 && pyeongMax === 80)) {
+                            if (pyeong < pyeongMin || pyeong > pyeongMax) {
+                                console.log(`평형 필터로 제외: ${pyeong.toFixed(1)}평 (범위: ${pyeongMin}~${pyeongMax}평)`);
+                                return;
+                            }
+                            console.log(`평형 필터 통과: ${pyeong.toFixed(1)}평`);
+                        }
+                    } else if (!(pyeongMin === 0 && pyeongMax === 80)) {
+                        console.log('평형 필터로 제외: 공급면적 정보 없음');
+                    }
+
+                    // 가격 필터 적용
+                    const priceInfo = value.representative?.price_info;
+                    if (priceInfo && tradeType) {
+                        const priceValue = getPriceValue(priceInfo, tradeType) / 100000000; // 원 → 억 단위로 변환
+                        // 전체 범위(0-50)가 아닐 때만 필터 적용
+                        if (!(priceMin === 0 && priceMax === 50)) {
+                            if (priceValue < priceMin || priceValue > priceMax) {
+                                console.log('가격 필터로 제외:', priceValue.toFixed(1), '억');
+                                return;
+                            }
+                        }
+                    }
+
                     // 삭제 매물 날짜 제한 제거 (모든 삭제 매물 표시)
                     // 날짜 범위 필터 적용
                     if (startDate || endDate) {
@@ -2706,7 +3301,7 @@
                             if (articleDate > filterEndDate) return;
                         }
                     }
-                    filteredData.push({ key, value, complexId });
+                    filteredData.push({key, value, complexId});
                 });
             }
         });
@@ -2748,6 +3343,9 @@
         // 전역 변수에 필터링된 데이터 저장
         totalFilteredData = filteredData;
 
+        console.log('필터링 결과:', filteredData.length, '개 매물');
+        console.log('=== renderCards 종료 ===');
+
         // 페이지네이션 적용하여 렌더링
         renderCardsWithPagination();
     }
@@ -2756,6 +3354,10 @@
         try {
             // localStorage에서 필터 상태 복원
             loadFiltersFromStorage();
+
+            console.log('=== 페이지 로드 시 복원된 필터 ===');
+            console.log('평형 범위:', pyeongMin, '~', pyeongMax);
+            console.log('가격 범위:', priceMin, '~', priceMax);
 
             const cardsContainer = document.getElementById('cards');
             cardsContainer.innerHTML = '<div class="loading">매물 데이터 로딩 중...</div>';
@@ -2794,6 +3396,8 @@
             initStatusFilter();
             initSortFilter();
             initDateRangeFilter();
+            initPyeongFilter();
+            initPriceFilter();
             initPaginationControls();
             initMap();
             renderCards();
@@ -2809,6 +3413,51 @@
     }
 
     loadData();
+
+    // 전역 디버깅 함수 (콘솔에서 사용 가능)
+    window.debugFilters = function () {
+        console.log('=== 현재 필터 상태 ===');
+        console.log('평형 범위:', pyeongMin, '~', pyeongMax);
+        console.log('가격 범위:', priceMin, '~', priceMax);
+        console.log('거래 유형:', Array.from(selectedTradeTypes));
+        console.log('매물 상태:', Array.from(selectedStatuses));
+        console.log('선택된 단지:', Array.from(selectedComplexes));
+    };
+
+    window.clearFilters = function () {
+        localStorage.removeItem('realEstateFilters');
+        console.log('필터 초기화 완료. 페이지를 새로고침하세요.');
+    };
+
+    window.resetPyeongFilter = function () {
+        pyeongMin = 0;
+        pyeongMax = 80;
+        saveFiltersToStorage();
+        console.log('평형 필터 초기화:', pyeongMin, '~', pyeongMax);
+        renderCards();
+        updateMap();
+    };
+
+    // 필터 토글 기능
+    function initFilterToggle() {
+        const filterToggleSection = document.getElementById('filterToggleSection');
+        const filterToggleHeader = document.getElementById('filterToggleHeader');
+
+        // localStorage에서 토글 상태 복원
+        const filterToggleState = localStorage.getItem('filterToggleCollapsed');
+        if (filterToggleState === 'true') {
+            filterToggleSection.classList.add('collapsed');
+        }
+
+        filterToggleHeader.addEventListener('click', () => {
+            filterToggleSection.classList.toggle('collapsed');
+            const isCollapsed = filterToggleSection.classList.contains('collapsed');
+            localStorage.setItem('filterToggleCollapsed', isCollapsed);
+        });
+    }
+
+    // 페이지 로드 시 토글 초기화
+    initFilterToggle();
 </script>
 </body>
 
