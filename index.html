@@ -1443,7 +1443,7 @@
             border-radius: 12px;
             margin-bottom: 12px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
+            overflow: visible;
             transition: all 0.3s ease;
         }
 
@@ -1482,7 +1482,7 @@
 
         .filter-toggle-content {
             max-height: 2000px;
-            overflow: hidden;
+            overflow: visible;
             transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
             opacity: 1;
         }
@@ -1490,6 +1490,7 @@
         .filter-toggle-section.collapsed .filter-toggle-content {
             max-height: 0;
             opacity: 0;
+            overflow: hidden;
         }
 
         .filter-toggle-inner {
