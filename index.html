@@ -3156,7 +3156,7 @@
                         const pyeong = supplyArea / 3.3058; // m² → 평 변환
                         // 전체 범위(0-80)가 아닐 때만 필터 적용
                         if (!(pyeongMin === 0 && pyeongMax === 80)) {
-                            if (pyeong < pyeongMin || pyeong > pyeongMax) return;
+                            if (pyeong < pyeongMin || pyeong >= pyeongMax) return;
                         }
                     }
 
@@ -3166,7 +3166,7 @@
                         const priceValue = getPriceValue(priceInfo, tradeType) / 100000000; // 원 → 억 단위로 변환
                         // 전체 범위(0-50)가 아닐 때만 필터 적용
                         if (!(priceMin === 0 && priceMax === 50)) {
-                            if (priceValue < priceMin || priceValue > priceMax) return;
+                            if (priceValue < priceMin || priceValue >= priceMax) return;
                         }
                     }
 
@@ -3261,7 +3261,7 @@
                         const pyeong = supplyArea / 3.3058; // m² → 평 변환 (정확한 공식)
                         // 전체 범위(0-80)가 아닐 때만 필터 적용
                         if (!(pyeongMin === 0 && pyeongMax === 80)) {
-                            if (pyeong < pyeongMin || pyeong > pyeongMax) {
+                            if (pyeong < pyeongMin || pyeong >= pyeongMax) {
                                 console.log(`평형 필터로 제외: ${pyeong.toFixed(1)}평 (범위: ${pyeongMin}~${pyeongMax}평)`);
                                 return;
                             }
@@ -3277,7 +3277,7 @@
                         const priceValue = getPriceValue(priceInfo, tradeType) / 100000000; // 원 → 억 단위로 변환
                         // 전체 범위(0-50)가 아닐 때만 필터 적용
                         if (!(priceMin === 0 && priceMax === 50)) {
-                            if (priceValue < priceMin || priceValue > priceMax) {
+                            if (priceValue < priceMin || priceValue >= priceMax) {
                                 console.log('가격 필터로 제외:', priceValue.toFixed(1), '억');
                                 return;
                             }
