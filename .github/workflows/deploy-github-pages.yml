@@ -7,6 +7,8 @@ on:
     paths:
       - 'index.html'
       - 'data/fulldata_all.json'
+      - 'data_ltp/**'
+      - 'data_geo/**'
   workflow_dispatch:
 
 permissions:
@@ -36,6 +38,8 @@ jobs:
           cp index.html _site/
           cp data/fulldata_all.json _site/data/
           cp *.png _site/
+          cp -r data_ltp _site/
+          cp -r data_geo _site/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
