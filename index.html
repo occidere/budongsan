@@ -14,6 +14,11 @@
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- D3.js and TopoJSON for Land Permission Map -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+
     <style>
         :root {
             --bg-primary: #f5f5f5;
@@ -66,6 +71,7 @@
             line-height: 1.6;
             color: var(--text-primary);
             transition: background-color 0.3s ease, color 0.3s ease;
+            overflow-y: scroll;
         }
 
         h1 {
@@ -1234,6 +1240,7 @@
             background: #1a73e8;
         }
 
+
         .tab-content {
             display: none;
         }
@@ -1496,6 +1503,680 @@
         .filter-toggle-inner {
             padding: 0 20px 20px 20px;
         }
+
+        /* Land Transaction Permission Styles */
+        .land-permission-container {
+            /* max-width 제거하여 부모 너비(container)를 따르도록 함 */
+            margin: 0 auto;
+            padding: 0 0 120px 0;
+        }
+
+        .pin-section {
+            margin-bottom: 12px;
+            padding: 16px;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .pinned-cards-container {
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 10px;
+            overflow-x: auto;
+            padding-bottom: 8px;
+        }
+
+        .pinned-cards-container::-webkit-scrollbar {
+            height: 6px;
+        }
+
+        .pinned-cards-container::-webkit-scrollbar-track {
+            background: var(--bg-secondary);
+            border-radius: 3px;
+        }
+
+        .pinned-cards-container::-webkit-scrollbar-thumb {
+            background: var(--text-tertiary);
+            border-radius: 3px;
+        }
+
+        .pinned-cards-container::-webkit-scrollbar-thumb:hover {
+            background: var(--text-secondary);
+        }
+
+        .pinned-cards-container:empty::before {
+            content: '별 아이콘을 클릭하여 관심 지역이나 단지를 고정할 수 있습니다. (최대 5개)';
+            display: block;
+            padding: 12px;
+            background-color: var(--card-bg);
+            border: 2px dashed var(--border-color);
+            border-radius: 8px;
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 14px;
+            width: 100%;
+        }
+
+        .ltp-pin-icon {
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-left: 8px;
+            flex-shrink: 0;
+        }
+
+        .ltp-pin-icon svg {
+            width: 18px;
+            height: 18px;
+            fill: none;
+            stroke: var(--text-tertiary);
+            stroke-width: 2;
+        }
+
+        .ltp-pin-icon.pinned svg {
+            fill: #ffd54f;
+            stroke: #ffa000;
+        }
+
+        .ltp-pin-icon:hover svg {
+            stroke: #ffa000;
+            transform: scale(1.1);
+        }
+
+        .ltp-card.pinned {
+            flex: 1 1 0;
+            min-width: 200px;
+        }
+
+        .land-permission-main {
+            display: flex;
+            gap: 12px;
+            height: calc(100vh - 320px);
+            min-height: 500px;
+            max-height: 800px;
+        }
+
+        .map-area {
+            flex: 0 0 70%;
+            height: 100%;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .map-container {
+            flex: 1;
+            position: relative;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: var(--bg-primary);
+            min-height: 0;
+        }
+
+        /* SVG Map Styles */
+        #seoulMap {
+            background-color: var(--bg-primary);
+        }
+
+        #seoulMap .district {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        #seoulMap .district path {
+            stroke: var(--bg-primary);
+            stroke-width: 2;
+            fill: #ffcccc;
+            transition: fill 0.2s ease, stroke-width 0.2s ease;
+        }
+
+        #seoulMap .district:hover path {
+            stroke-width: 3;
+            filter: brightness(0.9);
+        }
+
+        #seoulMap .district.selected path {
+            stroke: #1a73e8;
+            stroke-width: 3;
+        }
+
+        #seoulMap .district-label {
+            font-size: 11px;
+            font-weight: 600;
+            fill: var(--text-primary);
+            text-anchor: middle;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        #seoulMap .district-count {
+            font-size: 13px;
+            font-weight: 700;
+            fill: #c62828;
+            text-anchor: middle;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        body.dark-mode #seoulMap .district-count {
+            fill: #ff6b6b;
+        }
+
+        /* LTP Map Styles */
+        #ltpMapContainer {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background-color: var(--bg-primary);
+        }
+
+        #ltpMapContainer svg {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        #ltpMapContainer .district {
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        #ltpMapContainer .district path {
+            transition: fill 0.2s ease, stroke-width 0.2s ease, stroke 0.2s ease;
+        }
+
+        #ltpMapContainer .district.selected path {
+            stroke: #1a73e8;
+            stroke-width: 3;
+        }
+
+        #ltpMapContainer .district-label {
+            font-size: 11px;
+            font-weight: 600;
+            fill: #000;
+            text-anchor: middle;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        #ltpMapContainer .district-count {
+            font-size: 13px;
+            font-weight: 700;
+            fill: #000;
+            text-anchor: middle;
+            pointer-events: none;
+            user-select: none;
+        }
+
+        /* 다크모드에서도 지도 텍스트는 검정색 유지 (흰색 배경 때문에) */
+        body.dark-mode #ltpMapContainer .district-label {
+            fill: #000;
+        }
+
+        body.dark-mode #ltpMapContainer .district-count {
+            fill: #000;
+        }
+
+        /* 다크모드에서 구 선택 드롭다운 스타일 */
+        body.dark-mode #districtSelect {
+            background-color: var(--bg-secondary);
+            color: var(--text-primary);
+            border-color: var(--border-color);
+        }
+
+        body.dark-mode #districtSelect option {
+            background-color: var(--bg-secondary);
+            color: var(--text-primary);
+        }
+
+        /* 모바일 및 태블릿 화면에서는 지도 위 글자(district-label)와 배경(label-group) 숨김 */
+        @media (max-width: 1024px) {
+            #ltpMapContainer .label-group {
+                display: none;
+            }
+        }
+
+        /* 데스크톱 화면에서는 글자 표시 */
+        @media (min-width: 1025px) {
+            #ltpMapContainer .label-group {
+                display: block;
+            }
+        }
+
+        .sidebar-area {
+            flex: 0 0 calc(30% - 12px);
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .date-filter-section {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            flex-shrink: 0;
+        }
+
+        .date-input-group {
+            margin-bottom: 0;
+        }
+
+        .date-input {
+            font-family: inherit;
+        }
+
+        .date-input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .date-filter-apply-btn {
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        .date-filter-apply-btn:hover {
+            background-color: #1557b0;
+            transform: translateY(-1px);
+        }
+
+        .date-filter-apply-btn:active {
+            transform: translateY(0);
+        }
+
+        .transaction-list-section {
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            min-height: 0;
+        }
+
+        .transaction-list-container {
+            flex: 1;
+            overflow-y: auto;
+            margin-top: 12px;
+            min-height: 0;
+        }
+
+        .transaction-list-container::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .transaction-list-container::-webkit-scrollbar-track {
+            background: var(--bg-hover);
+            border-radius: 4px;
+        }
+
+        .transaction-list-container::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+            border-radius: 4px;
+        }
+
+        .transaction-list-container::-webkit-scrollbar-thumb:hover {
+            background: var(--text-tertiary);
+        }
+
+        .empty-state svg {
+            display: block;
+            margin: 0 auto 12px;
+        }
+
+        /* Land Permission Transaction Cards */
+        .ltp-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 10px;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+            cursor: pointer;
+        }
+
+        .ltp-card:hover {
+            background: var(--bg-hover);
+            transform: translateX(2px);
+        }
+
+        .ltp-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+
+        .ltp-card-address {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-primary);
+            line-height: 1.4;
+        }
+
+        .ltp-card-body {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .ltp-card-info {
+            font-size: 12px;
+            color: var(--text-secondary);
+            display: flex;
+            gap: 6px;
+        }
+
+        .ltp-info-label {
+            color: var(--text-tertiary);
+            min-width: 60px;
+            flex-shrink: 0;
+        }
+
+        .ltp-info-value {
+            color: var(--text-secondary);
+            word-break: break-all;
+        }
+
+        .ltp-badge-group {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .ltp-badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            white-space: nowrap;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .ltp-badge:hover {
+            filter: brightness(0.9);
+            transform: translateY(-1px);
+        }
+
+        .ltp-badge-permit {
+            background-color: #e8f5e9;
+            color: #2e7d32;
+        }
+
+        .ltp-badge-withdraw {
+            background-color: #ffe0b2;
+            color: #f57c00;
+        }
+
+        .ltp-badge-reject {
+            background-color: #ffebee;
+            color: #c62828;
+        }
+
+        .ltp-badge-no-data {
+            background-color: #f5f5f5;
+            color: #757575;
+            cursor: default;
+        }
+
+        .ltp-badge-no-data:hover {
+            filter: none;
+            transform: none;
+        }
+
+        body.dark-mode .ltp-badge-permit {
+            background-color: #1b5e20;
+            color: #a5d6a7;
+        }
+
+        body.dark-mode .ltp-badge-withdraw {
+            background-color: #e65100;
+            color: #ffcc80;
+        }
+
+        body.dark-mode .ltp-badge-reject {
+            background-color: #b71c1c;
+            color: #ef9a9a;
+        }
+
+        body.dark-mode .ltp-badge-no-data {
+            background-color: #424242;
+            color: #9e9e9e;
+        }
+
+        body.dark-mode .ltp-pin-icon svg {
+            stroke: var(--text-secondary);
+        }
+
+        body.dark-mode .ltp-pin-icon.pinned svg {
+            fill: #ffc107;
+            stroke: #ff8f00;
+        }
+
+        body.dark-mode .ltp-pin-icon:hover svg {
+            stroke: #ff8f00;
+        }
+
+        .ltp-modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+        }
+
+        .ltp-modal {
+            background-color: var(--bg-primary);
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            width: 90%;
+            max-width: 400px;
+            max-height: 80vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ltp-modal-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border-light);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .ltp-modal-header h3 {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .ltp-modal-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+
+        .ltp-modal-close:hover {
+            background-color: var(--bg-secondary);
+        }
+
+        .ltp-modal-body {
+            padding: 16px 20px;
+            overflow-y: auto;
+        }
+
+        .ltp-modal-item {
+            padding: 12px;
+            margin-bottom: 8px;
+            background-color: var(--bg-secondary);
+            border-radius: 6px;
+            border-left: 3px solid var(--primary-color);
+        }
+
+        .ltp-modal-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .ltp-modal-item-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }
+
+        .ltp-modal-item-content {
+            font-size: 12px;
+            color: var(--text-secondary);
+        }
+
+        .ltp-card-info {
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .ltp-card-info-label {
+            color: var(--text-tertiary);
+            min-width: 50px;
+        }
+
+        .ltp-card-date {
+            font-size: 11px;
+            color: var(--text-tertiary);
+            margin-top: 6px;
+        }
+
+        .ltp-loading {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .ltp-error {
+            text-align: center;
+            padding: 20px;
+            color: #e53935;
+            font-size: 14px;
+        }
+
+        .ltp-count {
+            font-size: 12px;
+            color: var(--text-tertiary);
+            margin-bottom: 8px;
+        }
+
+        /* Responsive Design for Land Permission Tab */
+        @media (max-width: 1200px) {
+            .land-permission-container {
+                padding: 0 20px 80px 20px;
+            }
+
+            .land-permission-main {
+                flex-direction: column;
+                height: auto !important;
+                min-height: auto !important;
+                max-height: none !important;
+            }
+
+            .map-area {
+                flex: none;
+                width: 100%;
+                height: 500px;
+                min-height: 500px;
+                max-height: 500px;
+                margin-bottom: 20px;
+            }
+
+            .sidebar-area {
+                flex: none;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                height: auto;
+                overflow: visible;
+            }
+
+            .date-filter-section {
+                flex-shrink: 0;
+            }
+
+            .transaction-list-section {
+                flex: none;
+                height: auto !important;
+                max-height: none !important;
+                min-height: auto !important;
+                overflow: visible !important;
+                margin-bottom: 40px;
+            }
+
+            .transaction-list-container {
+                overflow-y: visible !important;
+                height: auto !important;
+                max-height: none !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .land-permission-container {
+                padding: 12px 12px 80px 12px;
+            }
+
+            .pin-section,
+            .date-filter-section,
+            .transaction-list-section {
+                padding: 16px;
+            }
+
+            .land-permission-main {
+                gap: 12px;
+            }
+
+            .map-area {
+                height: 400px;
+                min-height: 400px;
+                max-height: 400px;
+            }
+
+            .sidebar-area {
+                gap: 12px;
+            }
+
+            .transaction-list-section {
+                margin-bottom: 40px;
+            }
+        }
     </style>
 </head>
 
@@ -1512,6 +2193,7 @@
     <!-- Tab Navigation -->
     <div class="tab-navigation">
         <button class="tab-button active" data-tab="listings">매물 목록</button>
+        <button class="tab-button" data-tab="land-permission">토지거래허가내역 (beta)</button>
         <button class="tab-button" data-tab="faq">FAQ</button>
     </div>
 
@@ -1757,6 +2439,131 @@
         </div>
     </div>
 
+    <!-- Tab Content: Land Transaction Permission -->
+    <div class="tab-content" id="tab-land-permission">
+        <div class="land-permission-container">
+            <!-- Pin Section -->
+            <div class="pin-section">
+                <h3 style="color: var(--text-primary); margin-bottom: 12px; font-size: 16px;">📌 관심 지역/단지 <span id="pinnedCount" style="color: var(--text-secondary); font-size: 14px; font-weight: 400;">(0/5)</span></h3>
+                <div id="pinnedCardsContainer" class="pinned-cards-container">
+                    <div class="pin-placeholder" style="padding: 12px; background-color: var(--card-bg); border: 2px dashed var(--border-color); border-radius: 8px; text-align: center; color: var(--text-secondary); font-size: 14px;">
+                        별 아이콘을 클릭하여 관심 지역이나 단지를 고정할 수 있습니다. (최대 5개)
+                    </div>
+                </div>
+            </div>
+
+            <!-- District Filter & Date Filter: District on left -->
+            <div style="display: flex; gap: 12px; margin-bottom: 12px;">
+                <div class="district-filter-section" style="flex: 1; margin-bottom: 0; background: var(--bg-secondary); border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+                    <h3 style="color: var(--text-primary); margin-bottom: 12px; font-size: 16px;">구 선택</h3>
+                    <select id="districtSelect" style="width: 100%; padding: 12px 16px; font-size: 14px; border: 1px solid var(--border-color); border-radius: 8px; background-color: var(--card-bg); color: var(--text-primary); cursor: pointer; transition: all 0.2s ease;">
+                        <!-- 옵션은 JavaScript에서 동적으로 생성 -->
+                    </select>
+                </div>
+
+                <div class="date-filter-section" style="flex: 1; margin-bottom: 0;">
+                    <h3 style="color: var(--text-primary); margin-bottom: 12px; font-size: 16px;">조회 기간</h3>
+                    <div class="date-range-filter">
+                        <div class="time-range-picker" id="ltpTimeRangePicker">
+                            <div class="time-range-display" id="ltpTimeRangeDisplay">
+                                <span id="ltpTimeRangeText">오늘</span>
+                                <span class="icon">▼</span>
+                            </div>
+                            <div class="time-range-dropdown" id="ltpTimeRangeDropdown">
+                                <div class="time-range-section">
+                                    <div class="time-range-section-title">빠른 선택</div>
+                                    <div class="time-range-option active" data-range="today">오늘</div>
+                                    <div class="time-range-option" data-range="yesterday">어제</div>
+                                    <div class="time-range-option" data-range="7d">최근 7일</div>
+                                    <div class="time-range-option" data-range="14d">최근 14일</div>
+                                    <div class="time-range-option" data-range="30d">최근 30일</div>
+                                </div>
+                                <div class="time-range-divider"></div>
+                                <div class="absolute-time-section">
+                                    <div class="time-range-section-title">직접 입력</div>
+                                    <div class="absolute-time-inputs">
+                                        <div class="absolute-time-row">
+                                            <span class="absolute-time-label">시작일</span>
+                                            <div class="date-input-wrapper">
+                                                <input type="text" id="ltpAbsoluteStartDateText"
+                                                       class="absolute-date-input" placeholder="YYYY-MM-DD">
+                                                <svg class="calendar-icon" viewBox="0 0 24 24" fill="none"
+                                                     stroke="currentColor" stroke-width="2">
+                                                    <rect x="3" y="4" width="18" height="18" rx="2"
+                                                          ry="2"></rect>
+                                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                                </svg>
+                                                <input type="date" id="ltpAbsoluteStartDate"
+                                                       class="absolute-date-picker">
+                                            </div>
+                                        </div>
+                                        <div class="absolute-time-row">
+                                            <span class="absolute-time-label">종료일</span>
+                                            <div class="date-input-wrapper">
+                                                <input type="text" id="ltpAbsoluteEndDateText"
+                                                       class="absolute-date-input" placeholder="YYYY-MM-DD">
+                                                <svg class="calendar-icon" viewBox="0 0 24 24" fill="none"
+                                                     stroke="currentColor" stroke-width="2">
+                                                    <rect x="3" y="4" width="18" height="18" rx="2"
+                                                          ry="2"></rect>
+                                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                                </svg>
+                                                <input type="date" id="ltpAbsoluteEndDate"
+                                                       class="absolute-date-picker">
+                                            </div>
+                                        </div>
+                                        <button class="apply-time-btn" id="ltpApplyAbsoluteTime">적용</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content: Map + Sidebar -->
+            <div class="land-permission-main">
+                <!-- Map Area (70%) -->
+                <div class="map-area">
+                    <div class="map-header" style="margin-bottom: 12px; padding: 12px; background: var(--bg-secondary); border-radius: 8px; display: flex; justify-content: space-between; align-items: center; flex-shrink: 0;">
+                        <h3 style="color: var(--text-primary); margin: 0; font-size: 16px;">🗺️ 서울시 구별 토지거래허가 현황</h3>
+                        <div style="font-size: 14px; color: var(--text-secondary);">
+                            <span>전체: </span>
+                            <span id="ltpTotalCount" style="color: var(--primary-color); font-weight: 700;">0</span>
+                            <span>건</span>
+                        </div>
+                    </div>
+                    <div class="map-container" id="ltpMapContainer">
+                        <!-- D3.js로 동적 렌더링되는 서울시 지도 -->
+                    </div>
+                </div>
+
+                <!-- Sidebar Area (30%) -->
+                <div class="sidebar-area">
+                    <!-- Transaction List -->
+                    <div class="transaction-list-section">
+                        <h3 style="color: var(--text-primary); margin-bottom: 12px; font-size: 16px;">허가 내역</h3>
+                        <div class="transaction-list-container">
+                            <div class="empty-state" style="padding: 40px 20px; text-align: center; color: var(--text-secondary); font-size: 14px;">
+                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="margin-bottom: 12px; opacity: 0.3;">
+                                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke-width="2"/>
+                                    <line x1="9" y1="9" x2="15" y2="9" stroke-width="2" stroke-linecap="round"/>
+                                    <line x1="9" y1="12" x2="15" y2="12" stroke-width="2" stroke-linecap="round"/>
+                                    <line x1="9" y1="15" x2="13" y2="15" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <p>구를 선택하세요</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Tab Content: FAQ -->
     <div class="tab-content" id="tab-faq">
         <div class="faq-section">
@@ -1940,11 +2747,60 @@
     let currentPage = 1;
     let pageSize = 20;
     let totalFilteredData = [];
+
     let duplicatePopupInitialized = false;
     let pyeongMin = 0;
     let pyeongMax = 80;
     let priceMin = 0;
     let priceMax = 50;
+
+    // 토지거래허가 관련 변수
+    let ltpData = {}; // 로드된 토지거래허가 데이터 (날짜별로 저장)
+    let ltpStartDate = null;
+    let ltpEndDate = null;
+    let selectedSggCode = null; // 선택된 서울시 구 코드
+    let currentLtpData = []; // 현재 날짜 범위의 토허제 데이터
+    let pinnedLtpCards = new Map(); // 핀된 카드들 (key: cardId, value: cardData)
+    const MAX_PINNED_CARDS = 5; // 최대 핀 개수
+    const LTP_PINNED_STORAGE_KEY = 'ltpPinnedCards'; // localStorage 키
+    let seoulGeoData = null; // 서울시 GeoJSON 데이터
+
+    // 페이지 로드 시 localStorage에서 핀 데이터 불러오기
+    setTimeout(() => {
+        loadPinnedLtpCardsFromStorage();
+    }, 100);
+    let ltpSvg = null; // D3 SVG 객체
+    let ltpProjection = null; // D3 Projection 객체
+    let ltpPath = null; // D3 Path Generator
+
+    // 서울시 구 코드 매핑
+    const SEOUL_SGG_MAP = {
+        '11110': '종로구',
+        '11140': '중구',
+        '11170': '용산구',
+        '11200': '성동구',
+        '11215': '광진구',
+        '11230': '동대문구',
+        '11260': '중랑구',
+        '11290': '성북구',
+        '11305': '강북구',
+        '11320': '도봉구',
+        '11350': '노원구',
+        '11380': '은평구',
+        '11410': '서대문구',
+        '11440': '마포구',
+        '11470': '양천구',
+        '11500': '강서구',
+        '11530': '구로구',
+        '11545': '금천구',
+        '11560': '영등포구',
+        '11590': '동작구',
+        '11620': '관악구',
+        '11650': '서초구',
+        '11680': '강남구',
+        '11710': '송파구',
+        '11740': '강동구'
+    };
 
     // 다크모드 초기화
     function initDarkMode() {
@@ -1985,6 +2841,24 @@
                 // If switching to listings tab and map not initialized, initialize it
                 if (targetTab === 'listings' && !map) {
                     setTimeout(() => initMap(), 100);
+                }
+
+                // If switching to land-permission tab and map not initialized, initialize it
+                if (targetTab === 'land-permission') {
+                    console.log('토지거래허가 탭으로 전환됨. 지도 초기화 상태:', !!ltpSvg);
+                    setTimeout(async () => {
+                        if (!ltpSvg) {
+                            console.log('지도 초기화 시작...');
+                            await initLtpMap();
+                        }
+                        if (!currentLtpData || currentLtpData.length === 0) {
+                            console.log('데이터 로드 시작...');
+                            await loadLtpData();
+                        } else {
+                            console.log('기존 데이터로 지도 업데이트');
+                            updateLtpMap();
+                        }
+                    }, 100);
                 }
             });
         });
@@ -2678,6 +3552,1283 @@
             saveFiltersToStorage();
             renderCards();
             updateMap();
+        });
+    }
+
+    // 토지거래허가 탭 날짜 필터 초기화
+    function initLtpDateRangeFilter() {
+        const ltpTimeRangeDisplay = document.getElementById('ltpTimeRangeDisplay');
+        const ltpTimeRangeDropdown = document.getElementById('ltpTimeRangeDropdown');
+        const ltpAbsoluteStartDateText = document.getElementById('ltpAbsoluteStartDateText');
+        const ltpAbsoluteEndDateText = document.getElementById('ltpAbsoluteEndDateText');
+        const ltpAbsoluteStartDate = document.getElementById('ltpAbsoluteStartDate');
+        const ltpAbsoluteEndDate = document.getElementById('ltpAbsoluteEndDate');
+        const ltpApplyAbsoluteTime = document.getElementById('ltpApplyAbsoluteTime');
+        const ltpTimeRangeText = document.getElementById('ltpTimeRangeText');
+
+
+        // KST 기준 날짜를 YYYY-MM-DD 문자열로 변환
+        const formatDateToKST = (date) => {
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        };
+
+        // 기본값 설정: 오늘
+        const today = new Date();
+        ltpStartDate = formatDateToKST(today);
+        ltpEndDate = formatDateToKST(today);
+
+        // 날짜 형식 검증 (YYYY-MM-DD)
+        function isValidDateFormat(dateStr) {
+            const regex = /^\d{4}-\d{2}-\d{2}$/;
+            if (!regex.test(dateStr)) return false;
+            const date = new Date(dateStr);
+            return date instanceof Date && !isNaN(date);
+        }
+
+        // 날짜 범위 텍스트 업데이트
+        function updateLtpTimeRangeText() {
+            if (!ltpTimeRangeText || !ltpStartDate || !ltpEndDate) return;
+
+            // KST 기준으로 날짜 파싱
+            const parseKSTDate = (dateStr) => {
+                const [year, month, day] = dateStr.split('-').map(Number);
+                return new Date(year, month - 1, day, 0, 0, 0, 0);
+            };
+
+            const start = parseKSTDate(ltpStartDate);
+            const end = parseKSTDate(ltpEndDate);
+            const todayDate = new Date();
+            todayDate.setHours(0, 0, 0, 0);
+
+            // 날짜 차이 계산 (일수)
+            const diffDays = Math.round((end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
+
+            // 빠른 선택 라벨 정의
+            let label = null;
+
+            const yesterday = new Date(todayDate);
+            yesterday.setDate(yesterday.getDate() - 1);
+
+            if (diffDays === 0 && end.getTime() === todayDate.getTime()) {
+                label = '오늘';
+            } else if (diffDays === 0 && end.getTime() === yesterday.getTime()) {
+                label = '어제';
+            } else if (diffDays === 7 && end.getTime() === todayDate.getTime()) {
+                label = '최근 7일';
+            } else if (diffDays === 14 && end.getTime() === todayDate.getTime()) {
+                label = '최근 14일';
+            } else if (diffDays === 30 && end.getTime() === todayDate.getTime()) {
+                label = '최근 30일';
+            }
+
+            if (label) {
+                ltpTimeRangeText.textContent = label;
+                ltpTimeRangeDropdown.querySelectorAll('.time-range-option').forEach(opt => opt.classList.remove('active'));
+                const rangeMap = {
+                    '오늘': '[data-range="today"]',
+                    '어제': '[data-range="yesterday"]',
+                    '최근 7일': '[data-range="7d"]',
+                    '최근 14일': '[data-range="14d"]',
+                    '최근 30일': '[data-range="30d"]',
+                };
+                ltpTimeRangeDropdown.querySelector(rangeMap[label])?.classList.add('active');
+            } else {
+                ltpTimeRangeText.textContent = `${ltpStartDate} ~ ${ltpEndDate}`;
+                ltpTimeRangeDropdown.querySelectorAll('.time-range-option').forEach(opt => opt.classList.remove('active'));
+            }
+        }
+
+        // 텍스트 입력과 date picker 동기화
+        function syncDateInputs(textInput, dateInput) {
+            textInput.addEventListener('input', (e) => {
+                const value = e.target.value;
+                if (isValidDateFormat(value)) {
+                    dateInput.value = value;
+                    textInput.style.borderColor = '';
+                } else if (value.length === 10) {
+                    textInput.style.borderColor = '#e53935';
+                }
+            });
+
+            dateInput.addEventListener('change', (e) => {
+                textInput.value = e.target.value;
+                textInput.style.borderColor = '';
+            });
+
+            textInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    ltpApplyAbsoluteTime.click();
+                }
+            });
+        }
+
+        syncDateInputs(ltpAbsoluteStartDateText, ltpAbsoluteStartDate);
+        syncDateInputs(ltpAbsoluteEndDateText, ltpAbsoluteEndDate);
+
+        // 드롭다운 토글
+        ltpTimeRangeDisplay.addEventListener('click', (e) => {
+            e.stopPropagation();
+            ltpTimeRangeDropdown.classList.toggle('open');
+            if (ltpStartDate && ltpEndDate) {
+                ltpAbsoluteStartDateText.value = ltpStartDate;
+                ltpAbsoluteStartDate.value = ltpStartDate;
+                ltpAbsoluteEndDateText.value = ltpEndDate;
+                ltpAbsoluteEndDate.value = ltpEndDate;
+            }
+        });
+
+        // 외부 클릭시 드롭다운 닫기
+        document.addEventListener('click', (e) => {
+            if (!ltpTimeRangeDropdown.contains(e.target) && e.target !== ltpTimeRangeDisplay) {
+                ltpTimeRangeDropdown.classList.remove('open');
+            }
+        });
+
+        // Quick range 옵션 클릭
+        ltpTimeRangeDropdown.querySelectorAll('.time-range-option').forEach(option => {
+            option.addEventListener('click', (e) => {
+                const range = e.target.dataset.range;
+                if (!range) return;
+
+                ltpTimeRangeDropdown.querySelectorAll('.time-range-option').forEach(opt => {
+                    opt.classList.remove('active');
+                });
+                e.target.classList.add('active');
+
+                const todayDate = new Date();
+                if (range === 'today') {
+                    ltpStartDate = formatDateToKST(todayDate);
+                    ltpEndDate = formatDateToKST(todayDate);
+                } else if (range === 'yesterday') {
+                    const yesterday = new Date();
+                    yesterday.setDate(todayDate.getDate() - 1);
+                    ltpStartDate = formatDateToKST(yesterday);
+                    ltpEndDate = formatDateToKST(yesterday);
+                } else {
+                    const days = parseInt(range);
+                    const pastDate = new Date();
+                    pastDate.setDate(todayDate.getDate() - days);
+                    ltpStartDate = formatDateToKST(pastDate);
+                    ltpEndDate = formatDateToKST(todayDate);
+                }
+
+                updateLtpTimeRangeText();
+                ltpTimeRangeDropdown.classList.remove('open');
+
+                // 토지거래허가 데이터 로딩 및 렌더링
+                loadLtpData();
+            });
+        });
+
+        // 절대 날짜 적용 버튼
+        ltpApplyAbsoluteTime.addEventListener('click', () => {
+            const startValue = ltpAbsoluteStartDateText.value || ltpAbsoluteStartDate.value;
+            const endValue = ltpAbsoluteEndDateText.value || ltpAbsoluteEndDate.value;
+
+            if (!startValue || !endValue) {
+                alert('시작일과 종료일을 모두 입력해주세요.');
+                return;
+            }
+
+            if (!isValidDateFormat(startValue) || !isValidDateFormat(endValue)) {
+                alert('올바른 날짜 형식(YYYY-MM-DD)으로 입력해주세요.\n예시: 2026-01-08');
+                if (!isValidDateFormat(startValue)) {
+                    ltpAbsoluteStartDateText.style.borderColor = '#e53935';
+                }
+                if (!isValidDateFormat(endValue)) {
+                    ltpAbsoluteEndDateText.style.borderColor = '#e53935';
+                }
+                return;
+            }
+
+            const start = new Date(startValue);
+            const end = new Date(endValue);
+
+            if (start > end) {
+                alert('시작일은 종료일보다 이전이어야 합니다.');
+                ltpAbsoluteStartDateText.style.borderColor = '#e53935';
+                ltpAbsoluteEndDateText.style.borderColor = '#e53935';
+                return;
+            }
+
+            const diffTime = Math.abs(end - start);
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+            if (diffDays > 365) {
+                alert('날짜 범위는 최대 1년(365일)까지만 선택할 수 있습니다.');
+                return;
+            }
+
+            ltpAbsoluteStartDateText.style.borderColor = '';
+            ltpAbsoluteEndDateText.style.borderColor = '';
+
+            ltpStartDate = startValue;
+            ltpEndDate = endValue;
+
+            updateLtpTimeRangeText();
+            ltpTimeRangeDropdown.classList.remove('open');
+
+            // 토지거래허가 데이터 로딩 및 지도 업데이트
+            loadLtpData();
+        });
+
+        // 초기 텍스트 업데이트
+        updateLtpTimeRangeText();
+
+        // 초기 데이터 로딩은 탭 전환 시에 수행 (지도 초기화 후)
+    }
+
+    // 토지거래허가 데이터 로딩
+    async function loadLtpData() {
+        if (!ltpStartDate || !ltpEndDate) {
+            console.log('날짜 범위가 설정되지 않았습니다.');
+            return;
+        }
+
+        // 로딩 표시
+        const totalCountEl = document.getElementById('ltpTotalCount');
+        if (totalCountEl) {
+            totalCountEl.textContent = '로딩 중...';
+            totalCountEl.style.color = 'var(--text-secondary)';
+        }
+
+        currentLtpData = [];
+        const start = new Date(ltpStartDate);
+        const end = new Date(ltpEndDate);
+
+        // 날짜 범위 내의 모든 데이터 로드
+        const currentDate = new Date(start);
+        while (currentDate <= end) {
+            const year = currentDate.getFullYear();
+            const month = String(currentDate.getMonth() + 1).padStart(2, '0');
+            const day = String(currentDate.getDate()).padStart(2, '0');
+            const dateStr = `${year}${month}${day}`;
+            const yearMonth = `${year}${month}`;
+            const filePath = `data_ltp/${yearMonth}/${dateStr}_ltp_seoul.json`;
+
+            // 이미 로드된 데이터가 있으면 재사용
+            if (ltpData[dateStr]) {
+                currentLtpData = currentLtpData.concat(ltpData[dateStr]);
+                currentDate.setDate(currentDate.getDate() + 1);
+                continue;
+            }
+
+            try {
+                const response = await fetch(filePath);
+                if (response.ok) {
+                    const data = await response.json();
+                    // 데이터를 평탄화 (구별로 저장된 데이터를 하나의 배열로)
+                    const flatData = [];
+                    for (const sggCode in data) {
+                        if (Array.isArray(data[sggCode])) {
+                            data[sggCode].forEach(item => {
+                                item.sgg_code = sggCode; // 구 코드 추가
+                                flatData.push(item);
+                            });
+                        }
+                    }
+                    ltpData[dateStr] = flatData;
+                    currentLtpData = currentLtpData.concat(flatData);
+                    console.log(`${dateStr} 데이터 로드 완료: ${flatData.length}건`);
+                    if (flatData.length > 0) {
+                        console.log('샘플 데이터의 sgg_code:', flatData[0].sgg_code, 'type:', typeof flatData[0].sgg_code);
+                    }
+                } else {
+                    console.log(`${dateStr} 데이터 없음`);
+                    ltpData[dateStr] = []; // 빈 배열로 캐시
+                }
+            } catch (error) {
+                console.error(`${dateStr} 데이터 로드 실패:`, error);
+                ltpData[dateStr] = []; // 빈 배열로 캐시
+            }
+
+            currentDate.setDate(currentDate.getDate() + 1);
+        }
+
+        console.log(`총 ${currentLtpData.length}건의 토지거래허가 데이터 로드 완료`);
+
+
+        // 로딩 완료 후 색상 복원
+        if (totalCountEl) {
+            totalCountEl.style.color = 'var(--primary-color)';
+        }
+
+        updateLtpMap();
+
+        // 드롭다운 옵션 업데이트 (구별 건수 포함)
+        updateDistrictDropdown();
+
+        // 핀된 카드의 데이터를 최신 데이터로 업데이트
+        updatePinnedLtpCardsData();
+
+        // 선택된 구가 있으면 리스트도 업데이트
+        if (selectedSggCode) {
+            const selectedDistrict = document.querySelector(`.district[data-district="${selectedSggCode}"]`);
+            if (selectedDistrict) {
+                const districtName = selectedDistrict.getAttribute('data-name');
+                renderLtpList(selectedSggCode, districtName);
+            }
+        } else {
+            // 선택된 구가 없으면 강남구를 기본으로 선택
+            selectedSggCode = '11680'; // 강남구
+            const districtSelect = document.getElementById('districtSelect');
+            if (districtSelect) {
+                districtSelect.value = '11680';
+                // change 이벤트 발생시켜서 지도 선택 상태도 업데이트
+                districtSelect.dispatchEvent(new Event('change'));
+            }
+        }
+    }
+
+    // 토지거래허가 지도 초기화 (D3.js)
+    async function initLtpMap() {
+        const container = document.getElementById('ltpMapContainer');
+        if (!container) {
+            console.error('지도 컨테이너를 찾을 수 없습니다.');
+            return;
+        }
+
+        // D3.js와 topojson 라이브러리 확인
+        if (typeof d3 === 'undefined') {
+            console.error('D3.js 라이브러리가 로드되지 않았습니다.');
+            container.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: var(--text-secondary);">D3.js 라이브러리를 로드할 수 없습니다.</div>';
+            return;
+        }
+
+        if (typeof topojson === 'undefined') {
+            console.error('topojson 라이브러리가 로드되지 않았습니다.');
+            container.innerHTML = '<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: var(--text-secondary);">topojson 라이브러리를 로드할 수 없습니다.</div>';
+            return;
+        }
+
+        // 컨테이너 크기 확인
+        const width = container.clientWidth;
+        const height = container.clientHeight;
+
+        console.log('지도 컨테이너 크기:', width, 'x', height);
+
+        if (width === 0 || height === 0) {
+            console.error('지도 컨테이너의 크기가 0입니다. 컨테이너가 화면에 표시되지 않았을 수 있습니다.');
+            // 짧은 지연 후 다시 시도
+            setTimeout(() => initLtpMap(), 200);
+            return;
+        }
+
+        try {
+            // TopoJSON 데이터 로드 시도
+            console.log('TopoJSON 데이터 로딩 시도...');
+            const topoResponse = await fetch('data_geo/seoul_geo_topo.json');
+
+            if (topoResponse.ok) {
+                const topoData = await topoResponse.json();
+                console.log('TopoJSON 데이터 로드 완료:', topoData);
+
+                // TopoJSON을 GeoJSON으로 변환
+                // TopoJSON 객체의 구조 확인
+                const objectKey = Object.keys(topoData.objects)[0];
+                seoulGeoData = topojson.feature(topoData, topoData.objects[objectKey]);
+                console.log('GeoJSON 변환 완료:', seoulGeoData);
+            } else {
+                // TopoJSON 로드 실패 시 GeoJSON 시도
+                console.log('GeoJSON 데이터 로딩 시도...');
+                const geoResponse = await fetch('data_geo/seoul_geo.geojson');
+
+                if (!geoResponse.ok) {
+                    throw new Error('GeoJSON 파일도 로드할 수 없습니다.');
+                }
+
+                seoulGeoData = await geoResponse.json();
+                console.log('GeoJSON 데이터 로드 완료:', seoulGeoData);
+            }
+
+            // 컨테이너 크기 확인
+            const width = container.clientWidth;
+            const height = container.clientHeight;
+            console.log(`컨테이너 크기: ${width}x${height}`);
+
+            if (!width || !height) {
+                console.error('컨테이너 크기가 0입니다. width:', width, 'height:', height);
+                return;
+            }
+
+            // 기존 SVG 제거 (중복 방지)
+            d3.select('#ltpMapContainer').selectAll('svg').remove();
+
+            // SVG 생성
+            ltpSvg = d3.select('#ltpMapContainer')
+                .append('svg')
+                .attr('width', '100%')
+                .attr('height', '100%')
+                .attr('viewBox', `0 0 ${width} ${height}`)
+                .attr('preserveAspectRatio', 'xMidYMid meet')
+                .style('display', 'block');
+
+            // Projection 설정 - test-map-fixed.html과 동일한 방식 사용
+            // 컨테이너 크기에 맞춰 scale 계산
+            const baseScale = 100000;
+            const scaleFactor = Math.min(width / 800, height / 600); // 800x600 기준
+            const calculatedScale = baseScale * scaleFactor;
+
+            ltpProjection = d3.geoMercator()
+                .center([126.9780, 37.5665]) // 서울 중심 좌표
+                .scale(calculatedScale)
+                .translate([width / 2, height / 2]);
+
+            // Path Generator 생성
+            ltpPath = d3.geoPath().projection(ltpProjection);
+
+            // 디버깅: 테스트 사각형 추가
+            ltpSvg.append('rect')
+                .attr('x', 10)
+                .attr('y', 10)
+                .attr('width', 100)
+                .attr('height', 100)
+                .attr('fill', 'red')
+                .attr('stroke', 'black')
+                .attr('stroke-width', 2);
+
+            console.log('D3 지도 초기화 완료');
+            console.log('컨테이너 크기:', width, 'x', height);
+            console.log('Projection scale:', calculatedScale);
+            console.log('Projection translate:', [width / 2, height / 2]);
+            console.log('SVG 요소:', ltpSvg.node());
+            console.log('SVG 자식 요소 수:', ltpSvg.selectAll('*').size());
+
+            renderLtpMap();
+
+        } catch (error) {
+            console.error('지도 데이터 로드 실패:', error);
+            container.innerHTML = `
+                <div style="display: flex; align-items: center; justify-content: center; height: 100%; color: var(--text-secondary); flex-direction: column; gap: 12px;">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <line x1="12" y1="8" x2="12" y2="12"/>
+                        <line x1="12" y1="16" x2="12.01" y2="16"/>
+                    </svg>
+                    <div>지도 데이터를 불러올 수 없습니다.</div>
+                    <div style="font-size: 12px;">${error.message}</div>
+                </div>
+            `;
+        }
+    }
+
+    // D3 지도 렌더링
+    function renderLtpMap() {
+        console.log('renderLtpMap 호출됨. ltpSvg:', !!ltpSvg, 'seoulGeoData:', !!seoulGeoData);
+
+        if (!ltpSvg || !seoulGeoData) {
+            console.error('지도가 초기화되지 않았습니다. ltpSvg:', !!ltpSvg, 'seoulGeoData:', !!seoulGeoData);
+            return;
+        }
+
+        console.log('현재 LTP 데이터 개수:', currentLtpData.length);
+
+        // 기존 요소 제거
+        ltpSvg.selectAll('*').remove();
+
+        // 구별 건수 집계
+        const districtCounts = {};
+        currentLtpData.forEach(item => {
+            const sggCode = item.sgg_code;
+            districtCounts[sggCode] = (districtCounts[sggCode] || 0) + 1;
+        });
+
+        console.log('구별 건수 집계:', districtCounts);
+
+        // 전체 건수 업데이트
+        const totalCountEl = document.getElementById('ltpTotalCount');
+        if (totalCountEl) {
+            totalCountEl.textContent = currentLtpData.length.toLocaleString();
+        }
+
+        // 최대/최소값 계산 (색상 농도용)
+        const counts = Object.values(districtCounts).filter(c => c > 0);
+        const maxCount = counts.length > 0 ? Math.max(...counts) : 1;
+        const minCount = counts.length > 0 ? Math.min(...counts) : 0;
+
+        console.log('구별 건수:', districtCounts);
+        console.log('최대 건수:', maxCount, '최소 건수:', minCount);
+
+        // 색상 스케일 함수
+        const getColor = (count) => {
+            if (count === 0) return '#ffeeee';
+
+            const ratio = maxCount === minCount ? 1 : (count - minCount) / (maxCount - minCount);
+            const red = Math.round(255 - ratio * 57); // 255 -> 198
+            const green = Math.round(204 - ratio * 164); // 204 -> 40
+            const blue = Math.round(204 - ratio * 164); // 204 -> 40
+            return `rgb(${red}, ${green}, ${blue})`;
+        };
+
+        // 구 경계 그리기
+        console.log('GeoJSON features 수:', seoulGeoData.features.length);
+        const districts = ltpSvg.selectAll('g.district')
+            .data(seoulGeoData.features)
+            .enter()
+            .append('g')
+            .attr('class', 'district')
+            .attr('data-district', d => d.properties.SIG_CD || d.properties.adm_cd)
+            .attr('data-name', d => d.properties.SIG_KOR_NM || d.properties.name);
+
+        console.log('생성된 district 그룹 수:', districts.size());
+
+        // Path 추가
+        districts.append('path')
+            .attr('d', d => {
+                const pathData = ltpPath(d);
+                if (!pathData) {
+                    console.warn('경로 데이터 생성 실패:', d.properties.SIG_KOR_NM || d.properties.name);
+                }
+                return pathData;
+            })
+            .attr('fill', d => {
+                const sggCode = d.properties.SIG_CD || d.properties.adm_cd;
+                const count = districtCounts[sggCode] || 0;
+                const color = getColor(count);
+                return color;
+            })
+            .attr('stroke', '#333') // 디버깅: 명확한 색상 사용
+            .attr('stroke-width', 2)
+            .style('cursor', 'pointer')
+            .each(function(d, i) {
+                // 첫 번째 path 요소의 상세 정보 로그
+                if (i === 0) {
+                    const pathElem = d3.select(this);
+                    console.log('첫 번째 path 요소 정보:', {
+                        'd 속성': pathElem.attr('d'),
+                        'fill': pathElem.attr('fill'),
+                        'stroke': pathElem.attr('stroke'),
+                        'bbox': this.getBBox ? this.getBBox() : 'getBBox not available'
+                    });
+                }
+            })
+            .on('mouseover', function() {
+                d3.select(this)
+                    .attr('stroke-width', 3)
+                    .style('filter', 'brightness(0.9)');
+            })
+            .on('mouseout', function() {
+                const isSelected = d3.select(this.parentNode).classed('selected');
+                if (!isSelected) {
+                    d3.select(this)
+                        .attr('stroke-width', 2)
+                        .attr('stroke', '#333') // 검정색 경계 유지
+                        .style('filter', 'none');
+                } else {
+                    // 선택된 구는 파란색 경계와 어두운 필터 유지
+                    d3.select(this)
+                        .attr('stroke-width', 3)
+                        .attr('stroke', '#1a73e8')
+                        .style('filter', 'brightness(0.85)');
+                }
+            });
+
+        console.log('path 요소 추가 완료. 총 path 수:', ltpSvg.selectAll('path').size());
+
+        // 구 이름과 건수를 한 줄로 표시 (예: "강서구 (20)")
+        // 먼저 텍스트 배경용 반투명 사각형 추가
+        const labelGroups = districts.append('g')
+            .attr('class', 'label-group')
+            .attr('pointer-events', 'none');
+
+        // 배경 사각형 (텍스트 크기에 맞춰 동적으로 생성)
+        labelGroups.each(function(d, i) {
+            const group = d3.select(this);
+            const districtName = d.properties.SIG_KOR_NM || d.properties.name;
+            const sggCode = d.properties.SIG_CD || d.properties.adm_cd;
+            const count = districtCounts[sggCode] || 0;
+            const labelText = `${districtName} (${count})`;
+
+            // 구의 path 요소를 찾아 bounding box 계산
+            const districtPath = d3.select(districts.nodes()[i]).select('path').node();
+            const pathBBox = districtPath.getBBox();
+
+            // D3의 centroid 사용 (실제 폴리곤 중심)
+            const centroid = ltpPath.centroid(d);
+
+            // 임시 텍스트 요소로 크기 측정
+            const tempText = group.append('text')
+                .attr('font-size', '11px')
+                .attr('font-weight', '600')
+                .text(labelText);
+
+            const textBBox = tempText.node().getBBox();
+            tempText.remove();
+
+            // 배경 사각형의 실제 크기 (패딩 포함)
+            const rectPadding = 3;
+            const rectWidth = textBBox.width + rectPadding * 2;
+            const rectHeight = textBBox.height + rectPadding * 2;
+
+            // 초기 중심점은 D3 centroid 사용
+            let centroidX = centroid[0];
+            let centroidY = centroid[1];
+
+            // 텍스트 영역이 구 경계를 벗어나지 않도록 강제 조정
+            // 텍스트가 완전히 구 내부에 들어오도록 더 여유있게 마진 설정
+            const margin = 10; // 마진을 더 크게
+            const halfWidth = rectWidth / 2;
+            const halfHeight = rectHeight / 2;
+
+            // 구의 너비와 높이 계산
+            const bboxWidth = pathBBox.width;
+            const bboxHeight = pathBBox.height;
+
+            // 텍스트가 들어갈 수 있는 실제 범위 계산
+            let minX = pathBBox.x + halfWidth + margin;
+            let maxX = pathBBox.x + bboxWidth - halfWidth - margin;
+            let minY = pathBBox.y + halfHeight + margin;
+            let maxY = pathBBox.y + bboxHeight - halfHeight - margin;
+
+            // 범위가 유효한지 확인
+            if (maxX > minX && maxY > minY) {
+                // X, Y 좌표를 범위 내로 제한 (클램핑)
+                centroidX = Math.max(minX, Math.min(maxX, centroidX));
+                centroidY = Math.max(minY, Math.min(maxY, centroidY));
+            } else {
+                // 구가 너무 작으면 마진을 줄여서 재시도
+                const smallMargin = 3;
+                minX = pathBBox.x + halfWidth + smallMargin;
+                maxX = pathBBox.x + bboxWidth - halfWidth - smallMargin;
+                minY = pathBBox.y + halfHeight + smallMargin;
+                maxY = pathBBox.y + bboxHeight - halfHeight - smallMargin;
+
+                if (maxX > minX && maxY > minY) {
+                    centroidX = Math.max(minX, Math.min(maxX, centroidX));
+                    centroidY = Math.max(minY, Math.min(maxY, centroidY));
+                }
+                // else: centroid를 그대로 사용
+            }
+
+            // 특정 구에 대한 수동 위치 조정
+            if (sggCode === '11110') {
+                // 종로구: 구의 아래쪽으로 이동 + 1 정도 우측 위로
+                centroidY = pathBBox.y + bboxHeight - halfHeight - 25;
+                centroidX += 12.5;
+                centroidY -= 12.5;
+            } else if (sggCode === '11470') {
+                // 양천구: 1 정도 아래로
+                centroidY += 12.5;
+            } else if (sggCode === '11650') {
+                // 서초구: 좌측 상단으로 4 정도
+                centroidX -= 50;
+                centroidY -= 50;
+            } else if (sggCode === '11410') {
+                // 서대문구: 좌측 하단으로 1 정도
+                centroidX -= 12.5;
+                centroidY += 12.5;
+            } else if (sggCode === '11590') {
+                // 동작구: 위로 1 정도
+                centroidY -= 12.5;
+            }
+
+            // SVG clipPath를 사용하여 텍스트가 구 경계를 절대 벗어나지 않도록 함
+            const clipId = `clip-${sggCode}`;
+            const defs = ltpSvg.select('defs').empty() ? ltpSvg.append('defs') : ltpSvg.select('defs');
+
+            defs.append('clipPath')
+                .attr('id', clipId)
+                .append('path')
+                .attr('d', ltpPath(d));
+
+            // clip-path 적용된 그룹
+            const clippedGroup = group.append('g')
+                .attr('clip-path', `url(#${clipId})`);
+
+            // 배경 사각형 추가
+            clippedGroup.append('rect')
+                .attr('x', centroidX - halfWidth)
+                .attr('y', centroidY - halfHeight)
+                .attr('width', rectWidth)
+                .attr('height', rectHeight)
+                .attr('fill', 'rgba(255, 255, 255, 0.9)')
+                .attr('rx', 3)
+                .attr('ry', 3);
+
+            // 실제 텍스트 추가
+            clippedGroup.append('text')
+                .attr('class', 'district-label')
+                .attr('x', centroidX)
+                .attr('y', centroidY)
+                .attr('text-anchor', 'middle')
+                .attr('dominant-baseline', 'central')
+                .attr('font-size', '11px')
+                .attr('font-weight', '600')
+                .attr('fill', '#000')
+                .style('user-select', 'none')
+                .text(labelText);
+        });
+
+        console.log('=== renderLtpMap 완료 ===');
+        console.log('최종 SVG 구조:', {
+            'SVG 존재': !!ltpSvg.node(),
+            'district 그룹 수': ltpSvg.selectAll('g.district').size(),
+            'path 수': ltpSvg.selectAll('path').size(),
+            'text 수': ltpSvg.selectAll('text').size()
+        });
+    }
+
+    // 토지거래허가 지도 업데이트
+    function updateLtpMap() {
+        if (!seoulGeoData) {
+            console.log('지도가 아직 로드되지 않았습니다. 초기화를 시도합니다...');
+            initLtpMap();
+            return;
+        }
+
+        renderLtpMap();
+    }
+
+    // 기존 initLtpMapEvents 함수는 D3로 대체되므로 제거
+
+    // 토지거래허가 목록 초기화
+    function clearLtpList() {
+        const container = document.querySelector('.transaction-list-container');
+        if (!container) return;
+
+        const headerEl = document.querySelector('.transaction-list-section h3');
+        if (headerEl) {
+            headerEl.innerHTML = '📋 허가 내역';
+        }
+
+        container.innerHTML = `
+            <div class="empty-state" style="padding: 40px 20px; text-align: center; color: var(--text-secondary); font-size: 14px;">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="margin-bottom: 12px; opacity: 0.3;">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke-width="2"/>
+                    <line x1="9" y1="9" x2="15" y2="9" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="9" y1="12" x2="15" y2="12" stroke-width="2" stroke-linecap="round"/>
+                    <line x1="9" y1="15" x2="13" y2="15" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <p>구를 선택하세요</p>
+            </div>
+        `;
+    }
+
+    // 토지거래허가 목록 렌더링
+    function renderLtpList(sggCode, districtName) {
+        const container = document.querySelector('.transaction-list-container');
+        if (!container) return;
+
+        // 해당 구의 데이터만 필터링 (타입 변환하여 비교)
+        const filteredData = currentLtpData.filter(item => String(item.sgg_code) === String(sggCode));
+
+        // 헤더 업데이트
+        const headerEl = document.querySelector('.transaction-list-section h3');
+        if (headerEl && districtName) {
+            headerEl.innerHTML = `📋 허가 내역 <span style="color: var(--primary-color); font-size: 14px;">(${districtName})</span>`;
+        }
+
+        if (filteredData.length === 0) {
+            container.innerHTML = `
+                <div class="empty-state" style="padding: 40px 20px; text-align: center; color: var(--text-secondary); font-size: 14px;">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" style="margin-bottom: 12px; opacity: 0.3;">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2" stroke-width="2"/>
+                        <line x1="9" y1="9" x2="15" y2="9" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="9" y1="12" x2="15" y2="12" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="9" y1="15" x2="13" y2="15" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <p>선택한 기간에 해당하는<br>토지거래허가 내역이 없습니다.</p>
+                </div>
+            `;
+            return;
+        }
+
+        // 동일 주소끼리 그룹화
+        const groupedData = {};
+        filteredData.forEach(item => {
+            const address = item.address_raw || `${item.bjd_name} ${item.jibun}`;
+            if (!groupedData[address]) {
+                groupedData[address] = {
+                    address,
+                    roadAddress: item.road_address || '-',
+                    buildingName: item.bld_sigungu_name || item.bld_reg_name || '-',
+                    items: []
+                };
+            }
+            groupedData[address].items.push(item);
+        });
+
+        // 카드 렌더링
+        const html = Object.values(groupedData).map((group, idx) => {
+            // job_gbn_name 별로 그룹화
+            const jobTypeMap = {
+                '허가': { type: 'permit', class: 'ltp-badge-permit' },
+                '취하': { type: 'withdraw', class: 'ltp-badge-withdraw' },
+                '불허가': { type: 'reject', class: 'ltp-badge-reject' },
+                '미결': { type: 'pending', class: 'ltp-badge-pending' },
+                '반려': { type: 'return', class: 'ltp-badge-return' },
+                '취소': { type: 'cancel', class: 'ltp-badge-cancel' },
+                '기타': { type: 'other', class: 'ltp-badge-other' }
+            };
+
+            // 각 job_gbn_name별로 아이템 그룹화
+            const itemsByJobType = {};
+            group.items.forEach(item => {
+                const jobName = item.job_gbn_name || '알 수 없음';
+                if (!itemsByJobType[jobName]) {
+                    itemsByJobType[jobName] = [];
+                }
+                itemsByJobType[jobName].push(item);
+            });
+
+            console.log(`카드 ${idx + 1}: ${group.address}`);
+            Object.keys(itemsByJobType).forEach(jobName => {
+                console.log(`  - ${jobName}: ${itemsByJobType[jobName].length}건`);
+            });
+
+            // 뱃지 데이터 준비 (각 뱃지에 대해 고유 ID 부여)
+            const badges = [];
+
+            Object.keys(itemsByJobType).forEach(jobName => {
+                const items = itemsByJobType[jobName];
+                const jobConfig = jobTypeMap[jobName];
+
+                const details = items.map(item => ({
+                    date: item.handle_date ? `${item.handle_date.substring(0,4)}-${item.handle_date.substring(4,6)}-${item.handle_date.substring(6,8)}` : '-',
+                    accNo: item.acc_no || '-'
+                }));
+
+                badges.push({
+                    type: jobConfig ? jobConfig.type : 'unknown',
+                    label: `${jobName} ${items.length}건`,
+                    details: details,
+                    class: jobConfig ? jobConfig.class : 'ltp-badge-unknown',
+                    jobName: jobName
+                });
+            });
+
+            // 고유한 카드 ID 생성 (구 코드 + 주소 기반 해시)
+            const cardId = `ltp-card-${sggCode}-${group.address.replace(/[^가-힣0-9]/g, '')}`;
+            if (!window.ltpBadgeData) {
+                window.ltpBadgeData = {};
+            }
+            window.ltpBadgeData[cardId] = badges;
+
+            // 카드 데이터 저장 (핀 기능용)
+            if (!window.ltpCardData) {
+                window.ltpCardData = {};
+            }
+            window.ltpCardData[cardId] = {
+                address: group.address,
+                roadAddress: group.roadAddress,
+                buildingName: group.buildingName,
+                badges: badges
+            };
+
+            // 핀 상태 확인
+            const isPinned = pinnedLtpCards.has(cardId);
+
+            // 뱃지 HTML 생성
+            let badgesHtml = '';
+            if (badges.length > 0) {
+                badgesHtml = '<div class="ltp-badge-group">';
+                badges.forEach((badge, badgeIdx) => {
+                    const badgeId = `${cardId}-badge-${badgeIdx}`;
+                    badgesHtml += `<span class="ltp-badge ${badge.class}" data-badge-id="${badgeId}" data-card-id="${cardId}" data-badge-idx="${badgeIdx}">${badge.label}</span>`;
+                });
+                badgesHtml += '</div>';
+            }
+
+            // 별 아이콘 HTML
+            const pinIconHtml = `
+                <div class="ltp-pin-icon ${isPinned ? 'pinned' : ''}" data-card-id="${cardId}">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                </div>
+            `;
+
+            return `
+                <div class="ltp-card" data-card-id="${cardId}">
+                    <div class="ltp-card-header">
+                        <div class="ltp-card-address">${group.address}</div>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            ${badgesHtml}
+                            ${pinIconHtml}
+                        </div>
+                    </div>
+                    <div class="ltp-card-body">
+                        <div class="ltp-card-info">
+                            <span class="ltp-info-label">건물명:</span>
+                            <span class="ltp-info-value">${group.buildingName}</span>
+                        </div>
+                        <div class="ltp-card-info">
+                            <span class="ltp-info-label">도로명:</span>
+                            <span class="ltp-info-value">${group.roadAddress}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+
+        container.innerHTML = html;
+
+        // 스크롤을 맨 위로 이동
+        container.scrollTop = 0;
+
+        // 뱃지 클릭 이벤트 리스너 추가
+        container.querySelectorAll('.ltp-badge').forEach(badge => {
+            badge.addEventListener('click', function(e) {
+                e.stopPropagation();
+
+                // "데이터 없음" 뱃지는 클릭 이벤트 무시
+                if (this.classList.contains('ltp-badge-no-data')) {
+                    return;
+                }
+
+                const cardId = this.getAttribute('data-card-id');
+                const badgeIdx = parseInt(this.getAttribute('data-badge-idx'));
+
+                if (window.ltpBadgeData && window.ltpBadgeData[cardId]) {
+                    const badgeData = window.ltpBadgeData[cardId][badgeIdx];
+                    if (badgeData) {
+                        window.showLtpModal(badgeData.jobName || '알 수 없음', badgeData.details);
+                    }
+                }
+            });
+        });
+
+        // 별 아이콘 클릭 이벤트 리스너 추가
+        container.querySelectorAll('.ltp-pin-icon').forEach(pinIcon => {
+            pinIcon.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const cardId = this.getAttribute('data-card-id');
+                toggleLtpPin(cardId);
+            });
+        });
+
+        // 핀 아이콘 상태 업데이트 (localStorage에서 불러온 핀 상태 반영)
+        updatePinIcons();
+
+        // 핀된 카드의 데이터를 최신 데이터로 업데이트
+        updatePinnedLtpCardsData();
+    }
+
+    // LTP 모달 표시 함수
+    window.showLtpModal = function(type, details) {
+        const modal = document.createElement('div');
+        modal.className = 'ltp-modal-overlay';
+        modal.innerHTML = `
+            <div class="ltp-modal">
+                <div class="ltp-modal-header">
+                    <h3>${type} 내역</h3>
+                    <button class="ltp-modal-close" onclick="this.closest('.ltp-modal-overlay').remove()">×</button>
+                </div>
+                <div class="ltp-modal-body">
+                    ${details.map((item, idx) => `
+                        <div class="ltp-modal-item">
+                            <div class="ltp-modal-item-title">${idx + 1}. ${item.date}</div>
+                            <div class="ltp-modal-item-content">접수번호: ${item.accNo}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+
+        // 모달 외부 클릭시 닫기
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                modal.remove();
+            }
+        });
+    };
+
+    // 토지거래허가 카드 핀 토글 함수
+    function toggleLtpPin(cardId) {
+        if (pinnedLtpCards.has(cardId)) {
+            // 핀 해제
+            pinnedLtpCards.delete(cardId);
+        } else {
+            // 핀 추가 (최대 5개 제한)
+            if (pinnedLtpCards.size >= MAX_PINNED_CARDS) {
+                alert(`최대 ${MAX_PINNED_CARDS}개까지만 고정할 수 있습니다.`);
+                return;
+            }
+
+            // 카드 데이터 가져오기
+            const cardData = window.ltpCardData && window.ltpCardData[cardId];
+            if (cardData) {
+                pinnedLtpCards.set(cardId, cardData);
+            }
+        }
+
+        // localStorage에 저장
+        savePinnedLtpCardsToStorage();
+
+        // UI 업데이트
+        updatePinnedLtpCards();
+        updatePinIcons();
+    }
+
+    // 핀된 카드를 localStorage에 저장
+    function savePinnedLtpCardsToStorage() {
+        try {
+            const pinnedArray = Array.from(pinnedLtpCards.entries());
+            localStorage.setItem(LTP_PINNED_STORAGE_KEY, JSON.stringify(pinnedArray));
+        } catch (e) {
+            console.error('Failed to save pinned cards to localStorage:', e);
+        }
+    }
+
+    // localStorage에서 핀된 카드 불러오기
+    function loadPinnedLtpCardsFromStorage() {
+        try {
+            const stored = localStorage.getItem(LTP_PINNED_STORAGE_KEY);
+            if (stored) {
+                const pinnedArray = JSON.parse(stored);
+                pinnedLtpCards = new Map(pinnedArray);
+
+                // UI 업데이트
+                updatePinnedLtpCards();
+                updatePinIcons();
+            }
+        } catch (e) {
+            console.error('Failed to load pinned cards from localStorage:', e);
+            pinnedLtpCards = new Map();
+        }
+    }
+
+    // 핀된 카드의 데이터를 현재 조회 기간에 맞게 업데이트
+    function updatePinnedLtpCardsData() {
+        // 핀된 카드가 없으면 리턴
+        if (pinnedLtpCards.size === 0) return;
+
+        // 각 핀된 카드의 cardId에 해당하는 최신 데이터를 찾아서 업데이트
+        const updatedCards = new Map();
+
+        for (const [cardId, oldCardData] of pinnedLtpCards.entries()) {
+            // cardId에서 구 코드와 주소 정보 추출
+            // cardId 형식: ltp-card-{sggCode}-{normalizedAddress}
+            const match = cardId.match(/^ltp-card-(\d+)-(.+)$/);
+            if (!match) {
+                // 형식이 맞지 않으면 기존 데이터 유지
+                updatedCards.set(cardId, oldCardData);
+                continue;
+            }
+
+            const sggCode = match[1];
+
+            // currentLtpData에서 해당 구의 데이터 필터링
+            const districtData = currentLtpData.filter(item => String(item.sgg_code) === String(sggCode));
+
+            // 동일 주소끼리 그룹화
+            const groupedData = {};
+            districtData.forEach(item => {
+                const address = item.address_raw || `${item.bjd_name} ${item.jibun}`;
+                if (!groupedData[address]) {
+                    groupedData[address] = {
+                        address,
+                        roadAddress: item.road_address || '-',
+                        buildingName: item.bld_sigungu_name || item.bld_reg_name || '-',
+                        items: []
+                    };
+                }
+                groupedData[address].items.push(item);
+            });
+
+            // oldCardData의 주소와 일치하는 그룹 찾기
+            let matchingGroup = null;
+            for (const group of Object.values(groupedData)) {
+                // 정규화된 주소로 비교
+                const normalizedGroupAddress = group.address.replace(/[^가-힣0-9]/g, '');
+                const normalizedOldAddress = oldCardData.address.replace(/[^가-힣0-9]/g, '');
+                if (normalizedGroupAddress === normalizedOldAddress) {
+                    matchingGroup = group;
+                    break;
+                }
+            }
+
+            if (matchingGroup) {
+                // 매칭되는 그룹이 있으면 최신 데이터로 업데이트
+                const jobTypeMap = {
+                    '허가': { type: 'permit', class: 'ltp-badge-permit' },
+                    '취하': { type: 'withdraw', class: 'ltp-badge-withdraw' },
+                    '불허가': { type: 'reject', class: 'ltp-badge-reject' },
+                    '미결': { type: 'pending', class: 'ltp-badge-pending' },
+                    '반려': { type: 'return', class: 'ltp-badge-return' },
+                    '취소': { type: 'cancel', class: 'ltp-badge-cancel' },
+                    '기타': { type: 'other', class: 'ltp-badge-other' }
+                };
+
+                // 각 job_gbn_name별로 아이템 그룹화
+                const itemsByJobType = {};
+                matchingGroup.items.forEach(item => {
+                    const jobName = item.job_gbn_name || '알 수 없음';
+                    if (!itemsByJobType[jobName]) {
+                        itemsByJobType[jobName] = [];
+                    }
+                    itemsByJobType[jobName].push(item);
+                });
+
+                // 뱃지 데이터 준비
+                const badges = [];
+                Object.keys(itemsByJobType).forEach(jobName => {
+                    const items = itemsByJobType[jobName];
+                    const jobConfig = jobTypeMap[jobName];
+
+                    const details = items.map(item => ({
+                        date: item.handle_date ? `${item.handle_date.substring(0,4)}-${item.handle_date.substring(4,6)}-${item.handle_date.substring(6,8)}` : '-',
+                        accNo: item.acc_no || '-'
+                    }));
+
+                    badges.push({
+                        type: jobConfig ? jobConfig.type : 'unknown',
+                        label: `${jobName} ${items.length}건`,
+                        details: details,
+                        class: jobConfig ? jobConfig.class : 'ltp-badge-unknown',
+                        jobName: jobName
+                    });
+                });
+
+                updatedCards.set(cardId, {
+                    address: matchingGroup.address,
+                    roadAddress: matchingGroup.roadAddress,
+                    buildingName: matchingGroup.buildingName,
+                    badges: badges
+                });
+            } else {
+                // 매칭되는 그룹이 없으면 "데이터 없음" 뱃지로 표시
+                updatedCards.set(cardId, {
+                    address: oldCardData.address,
+                    roadAddress: oldCardData.roadAddress,
+                    buildingName: oldCardData.buildingName,
+                    badges: [{
+                        type: 'no-data',
+                        label: '데이터 없음',
+                        details: [],
+                        class: 'ltp-badge-no-data',
+                        jobName: '데이터 없음'
+                    }]
+                });
+            }
+        }
+
+        // pinnedLtpCards를 업데이트된 데이터로 교체
+        pinnedLtpCards = updatedCards;
+
+        // localStorage에 저장
+        savePinnedLtpCardsToStorage();
+
+        // UI 업데이트
+        updatePinnedLtpCards();
+    }
+
+    // 핀된 카드 UI 업데이트
+    function updatePinnedLtpCards() {
+        const container = document.getElementById('pinnedCardsContainer');
+        const countEl = document.getElementById('pinnedCount');
+
+        if (!container || !countEl) return;
+
+        // 카운터 업데이트
+        countEl.textContent = `(${pinnedLtpCards.size}/${MAX_PINNED_CARDS})`;
+
+        // 핀된 카드가 없으면 플레이스홀더 표시
+        if (pinnedLtpCards.size === 0) {
+            container.innerHTML = `
+                <div class="pin-placeholder" style="padding: 12px; background-color: var(--card-bg); border: 2px dashed var(--border-color); border-radius: 8px; text-align: center; color: var(--text-secondary); font-size: 14px;">
+                    별 아이콘을 클릭하여 관심 지역이나 단지를 고정할 수 있습니다. (최대 5개)
+                </div>
+            `;
+            return;
+        }
+
+        // 핀된 카드들 렌더링
+        const html = Array.from(pinnedLtpCards.entries()).map(([cardId, cardData]) => {
+            // 뱃지 HTML 생성
+            let badgesHtml = '';
+            if (cardData.badges && cardData.badges.length > 0) {
+                badgesHtml = '<div class="ltp-badge-group">';
+                cardData.badges.forEach((badge, badgeIdx) => {
+                    badgesHtml += `<span class="ltp-badge ${badge.class}" data-badge-id="${cardId}-badge-${badgeIdx}" data-card-id="${cardId}" data-badge-idx="${badgeIdx}">${badge.label}</span>`;
+                });
+                badgesHtml += '</div>';
+            }
+
+            // 별 아이콘 HTML (항상 pinned 상태)
+            const pinIconHtml = `
+                <div class="ltp-pin-icon pinned" data-card-id="${cardId}" data-in-pinned-section="true">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                </div>
+            `;
+
+            return `
+                <div class="ltp-card pinned" data-card-id="${cardId}">
+                    <div class="ltp-card-header">
+                        <div class="ltp-card-address">${cardData.address}</div>
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            ${badgesHtml}
+                            ${pinIconHtml}
+                        </div>
+                    </div>
+                    <div class="ltp-card-body">
+                        <div class="ltp-card-info">
+                            <span class="ltp-info-label">건물명:</span>
+                            <span class="ltp-info-value">${cardData.buildingName}</span>
+                        </div>
+                        <div class="ltp-card-info">
+                            <span class="ltp-info-label">도로명:</span>
+                            <span class="ltp-info-value">${cardData.roadAddress}</span>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }).join('');
+
+        container.innerHTML = html;
+
+        // 핀된 섹션의 뱃지 클릭 이벤트 리스너 추가
+        container.querySelectorAll('.ltp-badge').forEach(badge => {
+            badge.addEventListener('click', function(e) {
+                e.stopPropagation();
+
+                // "데이터 없음" 뱃지는 클릭 이벤트 무시
+                if (this.classList.contains('ltp-badge-no-data')) {
+                    return;
+                }
+
+                const cardId = this.getAttribute('data-card-id');
+                const badgeIdx = parseInt(this.getAttribute('data-badge-idx'));
+
+                // pinnedLtpCards에서 해당 카드의 뱃지 데이터 가져오기
+                const cardData = pinnedLtpCards.get(cardId);
+                if (cardData && cardData.badges && cardData.badges[badgeIdx]) {
+                    const badgeData = cardData.badges[badgeIdx];
+                    window.showLtpModal(badgeData.jobName || '알 수 없음', badgeData.details);
+                }
+            });
+        });
+
+        // 핀된 섹션의 별 아이콘에 이벤트 리스너 추가
+        container.querySelectorAll('.ltp-pin-icon').forEach(pinIcon => {
+            pinIcon.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const cardId = this.getAttribute('data-card-id');
+                toggleLtpPin(cardId);
+            });
+        });
+    }
+
+    // 핀 아이콘 상태 업데이트 (목록의 카드들)
+    function updatePinIcons() {
+        const container = document.querySelector('.transaction-list-container');
+        if (!container) return;
+
+        container.querySelectorAll('.ltp-pin-icon').forEach(pinIcon => {
+            const cardId = pinIcon.getAttribute('data-card-id');
+            const isPinned = pinnedLtpCards.has(cardId);
+
+            if (isPinned) {
+                pinIcon.classList.add('pinned');
+            } else {
+                pinIcon.classList.remove('pinned');
+            }
         });
     }
 
@@ -3397,6 +5548,7 @@
             initStatusFilter();
             initSortFilter();
             initDateRangeFilter();
+            initLtpDateRangeFilter();
             initPyeongFilter();
             initPriceFilter();
             initPaginationControls();
@@ -3457,8 +5609,199 @@
         });
     }
 
+    // 구 선택 드롭다운 초기화
+    function initDistrictSelect() {
+        const districtSelect = document.getElementById('districtSelect');
+        if (!districtSelect) return;
+
+        districtSelect.addEventListener('change', function() {
+            const sggCode = this.value;
+            // 구 이름만 추출 (건수 부분 제거)
+            const fullText = this.options[this.selectedIndex].text;
+            const districtName = fullText.split(' (')[0];
+
+            if (!sggCode) {
+                // 선택 해제
+                selectedSggCode = null;
+                clearLtpList();
+                // 지도에서 모든 선택 상태 제거
+                if (ltpSvg) {
+                    ltpSvg.selectAll('g.district').classed('selected', false);
+                    ltpSvg.selectAll('g.district path')
+                        .attr('stroke-width', 2)
+                        .attr('stroke', '#333')
+                        .style('filter', 'none');
+                }
+                return;
+            }
+
+            selectedSggCode = sggCode;
+            console.log(`${districtName}(${sggCode}) 선택됨`);
+
+            // 지도에서 선택 표시 업데이트
+            if (ltpSvg) {
+                // 모든 구 초기화
+                ltpSvg.selectAll('g.district').classed('selected', false);
+                ltpSvg.selectAll('g.district path')
+                    .attr('stroke-width', 2)
+                    .attr('stroke', '#333')
+                    .style('filter', 'none');
+
+                // 선택된 구 강조
+                const selectedDistrict = ltpSvg.select(`g.district[data-district="${sggCode}"]`);
+                if (!selectedDistrict.empty()) {
+                    selectedDistrict.classed('selected', true);
+                    selectedDistrict.select('path')
+                        .attr('stroke-width', 3)
+                        .attr('stroke', '#1a73e8')
+                        .style('filter', 'brightness(0.85)');
+                }
+            }
+
+            // 해당 구의 데이터 필터링 및 표시
+            renderLtpList(sggCode, districtName);
+        });
+    }
+
+    // 구 선택 드롭다운 옵션 업데이트 (구별 건수 포함)
+    function updateDistrictDropdown() {
+        const districtSelect = document.getElementById('districtSelect');
+        if (!districtSelect) return;
+
+        // 구별 건수 집계
+        const districtCounts = {};
+        currentLtpData.forEach(item => {
+            const sggCode = item.sgg_code;
+            districtCounts[sggCode] = (districtCounts[sggCode] || 0) + 1;
+        });
+
+        // 기존 선택값 저장
+        const currentValue = districtSelect.value;
+
+        // 드롭다운 옵션 생성
+        districtSelect.innerHTML = '';
+
+        // 서울시 구 코드 매핑 (alphabetical order by district name)
+        const districts = [
+            { code: '11680', name: '강남구' },
+            { code: '11740', name: '강동구' },
+            { code: '11305', name: '강북구' },
+            { code: '11500', name: '강서구' },
+            { code: '11620', name: '관악구' },
+            { code: '11215', name: '광진구' },
+            { code: '11530', name: '구로구' },
+            { code: '11545', name: '금천구' },
+            { code: '11350', name: '노원구' },
+            { code: '11320', name: '도봉구' },
+            { code: '11230', name: '동대문구' },
+            { code: '11590', name: '동작구' },
+            { code: '11440', name: '마포구' },
+            { code: '11410', name: '서대문구' },
+            { code: '11650', name: '서초구' },
+            { code: '11200', name: '성동구' },
+            { code: '11290', name: '성북구' },
+            { code: '11710', name: '송파구' },
+            { code: '11470', name: '양천구' },
+            { code: '11560', name: '영등포구' },
+            { code: '11170', name: '용산구' },
+            { code: '11380', name: '은평구' },
+            { code: '11110', name: '종로구' },
+            { code: '11140', name: '중구' },
+            { code: '11260', name: '중랑구' }
+        ];
+
+        // 각 구에 대한 옵션 생성
+        districts.forEach(district => {
+            const option = document.createElement('option');
+            option.value = district.code;
+            const count = districtCounts[district.code] || 0;
+            option.textContent = `${district.name} (${count}건)`;
+            districtSelect.appendChild(option);
+        });
+
+        // 이전 선택값 복원 또는 강남구 기본 선택
+        if (currentValue && districtSelect.querySelector(`option[value="${currentValue}"]`)) {
+            districtSelect.value = currentValue;
+        } else if (!selectedSggCode) {
+            districtSelect.value = '11680'; // 강남구 기본값
+        }
+    }
+
     // 페이지 로드 시 토글 초기화
     initFilterToggle();
+    initDistrictSelect();
+
+    // 초기 드롭다운 옵션 설정 (데이터 로드 전)
+    (function() {
+        const districtSelect = document.getElementById('districtSelect');
+        if (!districtSelect) return;
+
+        const districts = [
+            { code: '11680', name: '강남구' },
+            { code: '11740', name: '강동구' },
+            { code: '11305', name: '강북구' },
+            { code: '11500', name: '강서구' },
+            { code: '11620', name: '관악구' },
+            { code: '11215', name: '광진구' },
+            { code: '11530', name: '구로구' },
+            { code: '11545', name: '금천구' },
+            { code: '11350', name: '노원구' },
+            { code: '11320', name: '도봉구' },
+            { code: '11230', name: '동대문구' },
+            { code: '11590', name: '동작구' },
+            { code: '11440', name: '마포구' },
+            { code: '11410', name: '서대문구' },
+            { code: '11650', name: '서초구' },
+            { code: '11200', name: '성동구' },
+            { code: '11290', name: '성북구' },
+            { code: '11710', name: '송파구' },
+            { code: '11470', name: '양천구' },
+            { code: '11560', name: '영등포구' },
+            { code: '11170', name: '용산구' },
+            { code: '11380', name: '은평구' },
+            { code: '11110', name: '종로구' },
+            { code: '11140', name: '중구' },
+            { code: '11260', name: '중랑구' }
+        ];
+
+        districts.forEach(district => {
+            const option = document.createElement('option');
+            option.value = district.code;
+            option.textContent = `${district.name} (0건)`;
+            districtSelect.appendChild(option);
+        });
+
+        // 강남구 기본 선택
+        districtSelect.value = '11680';
+    })();
+
+    // 윈도우 리사이즈 이벤트 핸들러: 화면 크기에 따라 지도 레이블 표시/숨김
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+        // 디바운싱: 리사이즈 이벤트가 너무 자주 발생하지 않도록
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+            updateMapLabelsVisibility();
+        }, 150);
+    });
+
+    // 화면 크기에 따라 지도 레이블 표시/숨김 업데이트 함수
+    function updateMapLabelsVisibility() {
+        const labelGroups = d3.selectAll('#ltpMapContainer .label-group');
+        const isMobile = window.innerWidth <= 1024;
+
+        if (isMobile) {
+            labelGroups.style('display', 'none');
+        } else {
+            labelGroups.style('display', 'block');
+        }
+    }
+
+    // 초기 로드 시 레이블 표시 상태 설정
+    updateMapLabelsVisibility();
+
+    // 초기 로드 시 핀된 카드 UI 초기화
+    updatePinnedLtpCards();
 </script>
 </body>
 
