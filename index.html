@@ -2099,7 +2099,7 @@
         /* Responsive Design for Land Permission Tab */
         @media (max-width: 1200px) {
             .land-permission-container {
-                padding: 0 20px 80px 20px;
+                padding: 0 0 80px 0;
             }
 
             .land-permission-main {
@@ -2150,7 +2150,7 @@
 
         @media (max-width: 768px) {
             .land-permission-container {
-                padding: 12px 12px 80px 12px;
+                padding: 0 0 80px 0;
             }
 
             .pin-section,
@@ -2192,8 +2192,8 @@
 
     <!-- Tab Navigation -->
     <div class="tab-navigation">
-        <button class="tab-button active" data-tab="listings">매물 목록</button>
-        <button class="tab-button" data-tab="land-permission">토지거래허가내역 (beta)</button>
+        <button class="tab-button active" data-tab="listings">매물목록</button>
+        <button class="tab-button" data-tab="land-permission">토지거래허가내역</button>
         <button class="tab-button" data-tab="faq">FAQ</button>
     </div>
 
@@ -3757,8 +3757,10 @@
             const diffTime = Math.abs(end - start);
             const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
-            if (diffDays > 365) {
-                alert('날짜 범위는 최대 1년(365일)까지만 선택할 수 있습니다.');
+            if (diffDays > 31) {
+                alert('날짜 범위는 최대 31일까지만 선택할 수 있습니다.');
+                ltpAbsoluteStartDateText.style.borderColor = '#e53935';
+                ltpAbsoluteEndDateText.style.borderColor = '#e53935';
                 return;
             }
 
@@ -4330,7 +4332,7 @@
                         <line x1="9" y1="12" x2="15" y2="12" stroke-width="2" stroke-linecap="round"/>
                         <line x1="9" y1="15" x2="13" y2="15" stroke-width="2" stroke-linecap="round"/>
                     </svg>
-                    <p>선택한 기간에 해당하는<br>토지거래허가 내역이 없습니다.</p>
+                    <p>선택한 기간에 해당하는<br>토지거래허가 내역이 없습니다.<br>(데이터는 보통 평일 오전 09 ~ 10시 사이에 갱신됩니다)</p>
                 </div>
             `;
             return;
@@ -5715,7 +5717,7 @@
             const option = document.createElement('option');
             option.value = district.code;
             const count = districtCounts[district.code] || 0;
-            option.textContent = `${district.name} (${count}건)`;
+            option.textContent = `${district.name} (${count})`;
             districtSelect.appendChild(option);
         });
 
@@ -5767,7 +5769,7 @@
         districts.forEach(district => {
             const option = document.createElement('option');
             option.value = district.code;
-            option.textContent = `${district.name} (0건)`;
+            option.textContent = `${district.name} (0)`;
             districtSelect.appendChild(option);
         });
 
