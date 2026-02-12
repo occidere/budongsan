@@ -1862,6 +1862,18 @@
             line-height: 1.4;
         }
 
+        .ltp-card-address a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .ltp-card-address a:hover {
+            text-decoration: underline;
+            opacity: 0.8;
+        }
+
         .ltp-card-body {
             display: flex;
             flex-direction: column;
@@ -1884,6 +1896,12 @@
         .ltp-info-value {
             color: var(--text-secondary);
             word-break: break-all;
+        }
+
+        .ltp-info-value.building-name {
+            color: var(--text-primary);
+            font-weight: 500;
+            font-size: 12.5px;
         }
 
         .ltp-badge-group {
@@ -2801,6 +2819,19 @@
         '11710': '송파구',
         '11740': '강동구'
     };
+
+    // 모바일 디바이스 감지 함수
+    function isMobileDevice() {
+        return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
+
+    // 네이버 지도 URL 생성 함수
+    function getNaverMapUrl(address) {
+        const baseUrl = isMobileDevice()
+            ? 'https://m.map.naver.com/search2/search.naver?query='
+            : 'https://map.naver.com/p/search/';
+        return baseUrl + encodeURIComponent(address);
+    }
 
     // 다크모드 초기화
     function initDarkMode() {
@@ -3783,6 +3814,7 @@
         // 초기 데이터 로딩은 탭 전환 시에 수행 (지도 초기화 후)
     }
 
+
     // 토지거래허가 데이터 로딩
     async function loadLtpData() {
         if (!ltpStartDate || !ltpEndDate) {
@@ -4446,7 +4478,11 @@
             return `
                 <div class="ltp-card" data-card-id="${cardId}">
                     <div class="ltp-card-header">
-                        <div class="ltp-card-address">${group.address}</div>
+                        <div class="ltp-card-address">
+                            <a href="${getNaverMapUrl(group.address)}" target="_blank" rel="noopener noreferrer">
+                                ${group.address}
+                            </a>
+                        </div>
                         <div style="display: flex; align-items: center; gap: 8px;">
                             ${badgesHtml}
                             ${pinIconHtml}
@@ -4455,7 +4491,7 @@
                     <div class="ltp-card-body">
                         <div class="ltp-card-info">
                             <span class="ltp-info-label">건물명:</span>
-                            <span class="ltp-info-value">${group.buildingName}</span>
+                            <span class="ltp-info-value building-name">${group.buildingName}</span>
                         </div>
                         <div class="ltp-card-info">
                             <span class="ltp-info-label">도로명:</span>
@@ -4763,7 +4799,11 @@
             return `
                 <div class="ltp-card pinned" data-card-id="${cardId}">
                     <div class="ltp-card-header">
-                        <div class="ltp-card-address">${cardData.address}</div>
+                        <div class="ltp-card-address">
+                            <a href="${getNaverMapUrl(cardData.address)}" target="_blank" rel="noopener noreferrer">
+                                ${cardData.address}
+                            </a>
+                        </div>
                         <div style="display: flex; align-items: center; gap: 8px;">
                             ${badgesHtml}
                             ${pinIconHtml}
@@ -4772,7 +4812,7 @@
                     <div class="ltp-card-body">
                         <div class="ltp-card-info">
                             <span class="ltp-info-label">건물명:</span>
-                            <span class="ltp-info-value">${cardData.buildingName}</span>
+                            <span class="ltp-info-value building-name">${cardData.buildingName}</span>
                         </div>
                         <div class="ltp-card-info">
                             <span class="ltp-info-label">도로명:</span>
