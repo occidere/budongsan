@@ -1547,7 +1547,7 @@
       "sigungu": "도봉구",
       "bjd_name": "쌍문동",
       "jibun": "54",
-      "road_address": "서울특별시 도봉구 해등로 242-12",
+      "road_address": "서울특별시 도봉구 해등로 242-18",
       "bld_reg_name": "현대아파트",
       "bld_sigungu_name": "현대아파트"
     },
@@ -4182,7 +4182,7 @@
     },
     {
       "bubn": "0000",
-      "bobn": "8532",
+      "bobn": "0832",
       "jimok_code": "08",
       "jimok": "대",
       "handle_date": "20260223",
@@ -4197,15 +4197,15 @@
       "lawd_cd": "1150010900",
       "exec_ymd": null,
       "deal_end_ymd": null,
-      "address_raw": "강서구 방화동 8532",
+      "address_raw": "강서구 방화동 832",
       "acc_year": "2026",
       "obj_seqno": "1",
       "sigungu": "강서구",
       "bjd_name": "방화동",
-      "jibun": "8532",
-      "road_address": "",
-      "bld_reg_name": "",
-      "bld_sigungu_name": ""
+      "jibun": "832",
+      "road_address": "서울특별시 강서구 방화대로47길 55",
+      "bld_reg_name": "방화3단지아파트",
+      "bld_sigungu_name": "방화3단지아파트"
     },
     {
       "bubn": "0000",
@@ -5235,7 +5235,7 @@
       "sigungu": "영등포구",
       "bjd_name": "대림동",
       "jibun": "777-1",
-      "road_address": "서울특별시 영등포구 대림로31길 39",
+      "road_address": "서울특별시 영등포구 가마산로 312",
       "bld_reg_name": "신동아아파트",
       "bld_sigungu_name": "신동아아파트"
     },
@@ -5725,7 +5725,7 @@
       "sigungu": "서초구",
       "bjd_name": "서초동",
       "jibun": "1312-3",
-      "road_address": "서울특별시 서초구 서운로 200",
+      "road_address": "서울특별시 서초구 서운로 197",
       "bld_reg_name": "롯데캐슬클래식",
       "bld_sigungu_name": "롯데캐슬클래식아파트"
     },
@@ -6434,6 +6434,33 @@
       "road_address": "서울특별시 송파구 올림픽로45길 11",
       "bld_reg_name": "극동아파트",
       "bld_sigungu_name": "극동아파트"
+    },
+    {
+      "bubn": "0003",
+      "bobn": "0142",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260223",
+      "sgg_code": "11710",
+      "acc_no": "0000775",
+      "decision_code": "008",
+      "job_gbn": "1",
+      "job_gbn_name": "취하",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1171011400",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "송파구 마천동 142-3",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "송파구",
+      "bjd_name": "마천동",
+      "jibun": "142-3",
+      "road_address": "서울특별시 송파구 마천로43길 28",
+      "bld_reg_name": "",
+      "bld_sigungu_name": ""
     }
   ]
 }
