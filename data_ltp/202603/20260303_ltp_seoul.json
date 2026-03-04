@@ -953,9 +953,9 @@
       "sigungu": "성북구",
       "bjd_name": "정릉동",
       "jibun": "1017",
-      "road_address": "서울특별시 성북구 북악산로 847",
+      "road_address": "서울특별시 성북구 북악산로 845",
       "bld_reg_name": "정릉 쌍용아파트",
-      "bld_sigungu_name": "정릉 쌍용아파트"
+      "bld_sigungu_name": "정릉쌍용아파트"
     },
     {
       "bubn": "0000",
@@ -2228,9 +2228,9 @@
       "sigungu": "노원구",
       "bjd_name": "하계동",
       "jibun": "251",
-      "road_address": "서울특별시 노원구 한글비석로 91",
+      "road_address": "서울특별시 노원구 한글비석로1길 68",
       "bld_reg_name": "하계1차청구아파트",
-      "bld_sigungu_name": "하계1차청구아파트"
+      "bld_sigungu_name": "청구아파트"
     },
     {
       "bubn": "0000",
@@ -2721,6 +2721,35 @@
       "bld_sigungu_name": "백련산 힐스테이트1차"
     }
   ],
+  "11410": [
+    {
+      "bubn": "0000",
+      "bobn": "0082",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260303",
+      "sgg_code": "11410",
+      "acc_no": "0000451",
+      "decision_code": "008",
+      "job_gbn": "1",
+      "job_gbn_name": "취하",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1141011100",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "서대문구 홍제동 82",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "서대문구",
+      "bjd_name": "홍제동",
+      "jibun": "82",
+      "road_address": "서울특별시 서대문구 통일로25길 30",
+      "bld_reg_name": "홍제한양아파트",
+      "bld_sigungu_name": "홍제한양아파트"
+    }
+  ],
   "11440": [
     {
       "bubn": "0000",
@@ -2772,7 +2801,7 @@
       "sigungu": "마포구",
       "bjd_name": "성산동",
       "jibun": "446",
-      "road_address": "서울특별시 마포구 월드컵북로 233",
+      "road_address": "서울특별시 마포구 월드컵북로 235",
       "bld_reg_name": "성산시영아파트",
       "bld_sigungu_name": "성산시영아파트"
     },
@@ -5353,7 +5382,7 @@
       "sigungu": "송파구",
       "bjd_name": "방이동",
       "jibun": "212-8",
-      "road_address": "서울특별시 송파구 오금로31길 28",
+      "road_address": "서울특별시 송파구 오금로31길 27",
       "bld_reg_name": "코오롱아파트",
       "bld_sigungu_name": "코오롱아파트"
     },
