@@ -2706,44 +2706,45 @@
 
 <script>
     const COMPLEXES = [
-        {id: '3354', start_date: '2025-12-20', is_active: true}, // 신도림대림1,2차(e편한세상)
-        {id: '3355', start_date: '2026-01-01', is_active: true}, // 신도림대림3차(e편한세상)
-        {id: '3356', start_date: '2025-12-20', is_active: true}, // 신도림4차e-편한세상
-        {id: '8714', start_date: '2026-01-01', is_active: true}, // 신도림5차e-편한세상
-        {id: '8715', start_date: '2026-01-01', is_active: true}, // 신도림6차e-편한세상
-        {id: '8919', start_date: '2025-12-20', is_active: true}, // 신도림7차e-편한세상
-        {id: '1074', start_date: '2025-12-20', is_active: true}, // 신도림동아1차
-        {id: '3209', start_date: '2025-12-20', is_active: true}, // 신도림동아2차
-        {id: '3210', start_date: '2025-12-20', is_active: true}, // 신도림동아3차
-        {id: '27310', start_date: '2026-01-01', is_active: true}, // 디큐브시티(주상복합)
-        {id: '149', start_date: '2026-01-01', is_active: true}, // 미성
-        {id: '3211', start_date: '2026-01-01', is_active: true}, // 현대
-        {id: '151', start_date: '2026-01-01', is_active: true}, // 우성1차
-        {id: '153', start_date: '2026-01-01', is_active: true}, // 우성2차
-        {id: '152', start_date: '2026-01-01', is_active: true}, // 신도림우성3차
-        {id: '150', start_date: '2026-01-01', is_active: true}, // 신도림우성5차
-        {id: '13085', start_date: '2026-01-01', is_active: true}, // 신도림SK뷰(주상복합)
-        {id: '17667', start_date: '2026-01-01', is_active: true}, // 신도림팰러티움(주상복합)
-        {id: '3204', start_date: '2025-12-20', is_active: true}, // 신도림태영타운
-        {id: '9937', start_date: '2026-01-01', is_active: true}, // 신도림현대
-        {id: '132', start_date: '2026-01-01', is_active: true}, // 신도림롯데
-        {id: '912', start_date: '2025-12-20', is_active: true}, // 구로두산
-        {id: '3457', start_date: '2025-12-20', is_active: true}, // 영등포푸르지오
-        {id: '1636', start_date: '2026-01-01', is_active: true}, // 주공9단지
-        {id: '3342', start_date: '2026-01-01', is_active: true}, // 우방리버파크
-        {id: '100692', start_date: '2026-01-01', is_active: true}, // 래미안옥수리버젠
-        {id: '111117', start_date: '2026-01-01', is_active: true}, // 위례지웰푸르지오
-        {id: '119933', start_date: '2026-01-01', is_active: true}, // e편한세상강동에코포레
-        {id: '19578', start_date: '2026-01-01', is_active: true}, // 프라이어팰리스
-        {id: '109217', start_date: '2026-01-01', is_active: true}, // 성내올림픽파크한양수자인
-        {id: '849', start_date: '2026-01-07', is_active: true}, // 두산
-        {id: '22806', start_date: '2026-01-07', is_active: true}, // 신도림푸르지오3차(주상복합)
-        {id: '3603', start_date: '2026-01-07', is_active: true}, // 라일락서해그랑블
-        {id: '154299', start_date: '2026-01-12', is_active: true}, // 철산자이더헤리티지
-        {id: '144109', start_date: '2026-01-12', is_active: true}, // 송도더샵파크애비뉴
-        {id: '3452', start_date: '2026-01-12', is_active: true}, // 문래자이
-        {id: '2645', start_date: '2026-01-13', is_active: true}, // 상록우성
-        {id: '27508', start_date: '2026-01-13', is_active: true}, // 판교푸르지오그랑블
+        { id: '3354', start_date: '2025-12-20', is_active: true }, // 신도림대림1,2차(e편한세상)
+        { id: '3355', start_date: '2026-01-01', is_active: true }, // 신도림대림3차(e편한세상)
+        { id: '3356', start_date: '2025-12-20', is_active: true }, // 신도림4차e-편한세상
+        { id: '8714', start_date: '2026-01-01', is_active: true }, // 신도림5차e-편한세상
+        { id: '8715', start_date: '2026-01-01', is_active: true }, // 신도림6차e-편한세상
+        { id: '8919', start_date: '2025-12-20', is_active: true }, // 신도림7차e-편한세상
+        { id: '1074', start_date: '2025-12-20', is_active: true }, // 신도림동아1차
+        { id: '3209', start_date: '2025-12-20', is_active: true }, // 신도림동아2차
+        { id: '3210', start_date: '2025-12-20', is_active: true }, // 신도림동아3차
+        { id: '27310', start_date: '2026-01-01', is_active: true }, // 디큐브시티(주상복합)
+        { id: '149', start_date: '2026-01-01', is_active: true }, // 미성
+        { id: '3211', start_date: '2026-01-01', is_active: true }, // 현대
+        { id: '151', start_date: '2026-01-01', is_active: true }, // 우성1차
+        { id: '153', start_date: '2026-01-01', is_active: true }, // 우성2차
+        { id: '152', start_date: '2026-01-01', is_active: true }, // 신도림우성3차
+        { id: '150', start_date: '2026-01-01', is_active: true }, // 신도림우성5차
+        { id: '13085', start_date: '2026-01-01', is_active: true }, // 신도림SK뷰(주상복합)
+        { id: '17667', start_date: '2026-01-01', is_active: true }, // 신도림팰러티움(주상복합)
+        { id: '3204', start_date: '2025-12-20', is_active: true }, // 신도림태영타운
+        { id: '9937', start_date: '2026-01-01', is_active: true }, // 신도림현대
+        { id: '132', start_date: '2026-01-01', is_active: true }, // 신도림롯데
+        { id: '912', start_date: '2025-12-20', is_active: true }, // 구로두산
+        { id: '3457', start_date: '2025-12-20', is_active: true }, // 영등포푸르지오
+        { id: '1636', start_date: '2026-01-01', is_active: true }, // 주공9단지
+        { id: '3342', start_date: '2026-01-01', is_active: true }, // 우방리버파크
+        { id: '100692', start_date: '2026-01-01', is_active: true }, // 래미안옥수리버젠
+        { id: '111117', start_date: '2026-01-01', is_active: true }, // 위례지웰푸르지오
+        { id: '119933', start_date: '2026-01-01', is_active: true }, // e편한세상강동에코포레
+        { id: '19578', start_date: '2026-01-01', is_active: true }, // 프라이어팰리스
+        { id: '109217', start_date: '2026-01-01', is_active: true }, // 성내올림픽파크한양수자인
+        { id: '849', start_date: '2026-01-07', is_active: true }, // 두산
+        { id: '22806', start_date: '2026-01-07', is_active: true }, // 신도림푸르지오3차(주상복합)
+        { id: '3603', start_date: '2026-01-07', is_active: true }, // 라일락서해그랑블
+        { id: '154299', start_date: '2026-01-12', is_active: true }, // 철산자이더헤리티지
+        { id: '144109', start_date: '2026-01-12', is_active: true }, // 송도더샵파크애비뉴
+        { id: '3452', start_date: '2026-01-12', is_active: true }, // 문래자이
+        { id: '2645', start_date: '2026-01-13', is_active: true }, // 상록우성
+        { id: '27508', start_date: '2026-01-13', is_active: true }, // 판교푸르지오그랑블
+        { id: '1954', start_date: '2026-03-16', is_active: true }, // 양지1단지금호
     ].filter(complex => complex.is_active);
 
     const DIRECTION_MAP = {
