@@ -77,7 +77,7 @@
       "sigungu": "종로구",
       "bjd_name": "무악동",
       "jibun": "82",
-      "road_address": "서울특별시 종로구 통일로 246-9",
+      "road_address": "서울특별시 종로구 통일로 246-20",
       "bld_reg_name": "무악현대아파트",
       "bld_sigungu_name": "무악현대아파트"
     },
@@ -131,7 +131,7 @@
       "sigungu": "종로구",
       "bjd_name": "무악동",
       "jibun": "82",
-      "road_address": "서울특별시 종로구 통일로 246-9",
+      "road_address": "서울특별시 종로구 통일로 246-20",
       "bld_reg_name": "무악현대아파트",
       "bld_sigungu_name": "무악현대아파트"
     },
@@ -650,7 +650,7 @@
       "sigungu": "성동구",
       "bjd_name": "하왕십리동",
       "jibun": "990",
-      "road_address": "서울특별시 성동구 왕십리로31나길 18",
+      "road_address": "서울특별시 성동구 왕십리로31나길 22",
       "bld_reg_name": "한신무학아파트",
       "bld_sigungu_name": "한신무학아파트"
     }
@@ -679,7 +679,7 @@
       "sigungu": "성북구",
       "bjd_name": "보문동1가",
       "jibun": "228",
-      "road_address": "서울특별시 성북구 보문로26길 18",
+      "road_address": "서울특별시 성북구 보문로26길 17",
       "bld_reg_name": "보문리슈빌하우트",
       "bld_sigungu_name": "보문리슈빌하우트"
     },
@@ -976,9 +976,9 @@
       "sigungu": "성북구",
       "bjd_name": "정릉동",
       "jibun": "1017",
-      "road_address": "서울특별시 성북구 북악산로 845",
+      "road_address": "서울특별시 성북구 북악산로 847",
       "bld_reg_name": "정릉 쌍용아파트",
-      "bld_sigungu_name": "정릉쌍용아파트"
+      "bld_sigungu_name": "정릉 쌍용아파트"
     },
     {
       "bubn": "0000",
@@ -1707,7 +1707,7 @@
       "sigungu": "강북구",
       "bjd_name": "미아동",
       "jibun": "258-81",
-      "road_address": "서울특별시 강북구 오패산로52바길 27-7",
+      "road_address": "서울특별시 강북구 오패산로52바길 27-6",
       "bld_reg_name": "",
       "bld_sigungu_name": "극동빌라"
     },
@@ -2492,9 +2492,9 @@
       "sigungu": "도봉구",
       "bjd_name": "방학동",
       "jibun": "271-4",
-      "road_address": "서울특별시 도봉구 시루봉로 101",
+      "road_address": "서울특별시 도봉구 시루봉로 105",
       "bld_reg_name": "",
-      "bld_sigungu_name": "유화유치원"
+      "bld_sigungu_name": "신동아상가"
     }
   ],
   "11350": [
@@ -7381,60 +7381,6 @@
       "bld_sigungu_name": "강남한양수자인아파트"
     },
     {
-      "bubn": "0000",
-      "bobn": "0503",
-      "jimok_code": "08",
-      "jimok": "대",
-      "handle_date": "20260325",
-      "sgg_code": "11680",
-      "acc_no": "0000560",
-      "decision_code": "002",
-      "job_gbn": "1",
-      "job_gbn_name": "허가",
-      "land_gbn": "1",
-      "use_purp_code": "01",
-      "use_purp": "주거용",
-      "lawd_cd": "1168010600",
-      "exec_ymd": null,
-      "deal_end_ymd": null,
-      "address_raw": "강남구 대치동 503",
-      "acc_year": "2026",
-      "obj_seqno": "1",
-      "sigungu": "강남구",
-      "bjd_name": "대치동",
-      "jibun": "503",
-      "road_address": "서울특별시 강남구 선릉로 120",
-      "bld_reg_name": "",
-      "bld_sigungu_name": "개포1,2차우성아파트"
-    },
-    {
-      "bubn": "0000",
-      "bobn": "0506",
-      "jimok_code": "08",
-      "jimok": "대",
-      "handle_date": "20260325",
-      "sgg_code": "11680",
-      "acc_no": "0000561",
-      "decision_code": "002",
-      "job_gbn": "1",
-      "job_gbn_name": "허가",
-      "land_gbn": "1",
-      "use_purp_code": "01",
-      "use_purp": "주거용",
-      "lawd_cd": "1168010600",
-      "exec_ymd": null,
-      "deal_end_ymd": null,
-      "address_raw": "강남구 대치동 506",
-      "acc_year": "2026",
-      "obj_seqno": "1",
-      "sigungu": "강남구",
-      "bjd_name": "대치동",
-      "jibun": "506",
-      "road_address": "서울특별시 강남구 삼성로 151",
-      "bld_reg_name": "선경아파트9동",
-      "bld_sigungu_name": "선경아파트"
-    },
-    {
       "bubn": "0038",
       "bobn": "0134",
       "jimok_code": "08",
@@ -8275,6 +8221,33 @@
     }
   ],
   "11740": [
+    {
+      "bubn": "0000",
+      "bobn": "0054",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260325",
+      "sgg_code": "11740",
+      "acc_no": "0000199",
+      "decision_code": "012",
+      "job_gbn": "1",
+      "job_gbn_name": "취소",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1174010500",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "강동구 길동 54",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "강동구",
+      "bjd_name": "길동",
+      "jibun": "54",
+      "road_address": "서울특별시 강동구 명일로 293",
+      "bld_reg_name": "삼익파크",
+      "bld_sigungu_name": "삼익파크"
+    },
     {
       "bubn": "0000",
       "bobn": "0513",
