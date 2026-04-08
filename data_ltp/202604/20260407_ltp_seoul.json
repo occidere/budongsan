@@ -733,7 +733,7 @@
       "sigungu": "광진구",
       "bjd_name": "자양동",
       "jibun": "579",
-      "road_address": "서울특별시 광진구 뚝섬로41길 20",
+      "road_address": "서울특별시 광진구 뚝섬로 569",
       "bld_reg_name": "우성아파트",
       "bld_sigungu_name": "우성아파트"
     },
@@ -2138,7 +2138,7 @@
       "use_purp": "주거용",
       "lawd_cd": "1132010600",
       "exec_ymd": null,
-      "deal_end_ymd": null,
+      "deal_end_ymd": "20260408",
       "address_raw": "도봉구 방학동 272",
       "acc_year": "2026",
       "obj_seqno": "1",
@@ -2660,9 +2660,9 @@
       "sigungu": "노원구",
       "bjd_name": "공릉동",
       "jibun": "737",
-      "road_address": "서울특별시 노원구 공릉로46길 32",
-      "bld_reg_name": "삼익 포레스트 아파트",
-      "bld_sigungu_name": "삼익포레스트아파트"
+      "road_address": "서울특별시 노원구 공릉로46길 28",
+      "bld_reg_name": "삼익아파트",
+      "bld_sigungu_name": "삼익아파트"
     },
     {
       "bubn": "0000",
@@ -2687,9 +2687,9 @@
       "sigungu": "노원구",
       "bjd_name": "공릉동",
       "jibun": "737",
-      "road_address": "서울특별시 노원구 공릉로46길 32",
-      "bld_reg_name": "삼익 포레스트 아파트",
-      "bld_sigungu_name": "삼익포레스트아파트"
+      "road_address": "서울특별시 노원구 공릉로46길 28",
+      "bld_reg_name": "삼익아파트",
+      "bld_sigungu_name": "삼익아파트"
     },
     {
       "bubn": "0000",
@@ -3038,9 +3038,9 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "624",
-      "road_address": "서울특별시 노원구 동일로227길 26",
-      "bld_reg_name": "상계주공아파트",
-      "bld_sigungu_name": "상계주공15단지아파트"
+      "road_address": "서울특별시 노원구 동일로227길 86",
+      "bld_reg_name": "상계주공16단지아파트",
+      "bld_sigungu_name": "상계주공16단지아파트"
     },
     {
       "bubn": "0000",
@@ -3605,9 +3605,9 @@
       "sigungu": "노원구",
       "bjd_name": "월계동",
       "jibun": "85-7",
-      "road_address": "서울특별시 노원구 화랑로45길 127",
+      "road_address": "서울특별시 노원구 화랑로45길 61",
       "bld_reg_name": "",
-      "bld_sigungu_name": "대한통운 서울북부지점"
+      "bld_sigungu_name": "현대자동차(성북출고센타)"
     },
     {
       "bubn": "0000",
@@ -4204,6 +4204,87 @@
       "road_address": "서울특별시 은평구 은평로 220",
       "bld_reg_name": "녹번역e편한세상캐슬",
       "bld_sigungu_name": "녹번역e편한세상캐슬"
+    },
+    {
+      "bubn": "0000",
+      "bobn": "0431",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260407",
+      "sgg_code": "11380",
+      "acc_no": "0001046",
+      "decision_code": "002",
+      "job_gbn": "1",
+      "job_gbn_name": "허가",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1138010100",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "은평구 수색동 431",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "은평구",
+      "bjd_name": "수색동",
+      "jibun": "431",
+      "road_address": "서울특별시 은평구 은평터널로 16",
+      "bld_reg_name": "",
+      "bld_sigungu_name": "DMC파인시티자이"
+    },
+    {
+      "bubn": "0055",
+      "bobn": "0100",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260407",
+      "sgg_code": "11380",
+      "acc_no": "0001047",
+      "decision_code": "002",
+      "job_gbn": "1",
+      "job_gbn_name": "허가",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1138010200",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "은평구 녹번동 100-55",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "은평구",
+      "bjd_name": "녹번동",
+      "jibun": "100-55",
+      "road_address": "서울특별시 은평구 녹번로 40",
+      "bld_reg_name": "현대 아파트",
+      "bld_sigungu_name": "현대 아파트"
+    },
+    {
+      "bubn": "0000",
+      "bobn": "0013",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260407",
+      "sgg_code": "11380",
+      "acc_no": "0001048",
+      "decision_code": "002",
+      "job_gbn": "1",
+      "job_gbn_name": "허가",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1138011400",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "은평구 진관동 13",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "은평구",
+      "bjd_name": "진관동",
+      "jibun": "13",
+      "road_address": "서울특별시 은평구 진관4로 47",
+      "bld_reg_name": "은평뉴타운 상림마을",
+      "bld_sigungu_name": "은평뉴타운상림마을"
     },
     {
       "bubn": "0000",
@@ -7370,7 +7451,7 @@
       "sigungu": "구로구",
       "bjd_name": "고척동",
       "jibun": "306",
-      "road_address": "서울특별시 구로구 고척로52길 22",
+      "road_address": "서울특별시 구로구 고척로52길 21",
       "bld_reg_name": "경남2차아파트",
       "bld_sigungu_name": "경남2차아파트"
     },
@@ -10654,33 +10735,6 @@
       "bld_sigungu_name": "현대리버빌아파트"
     },
     {
-      "bubn": "0001",
-      "bobn": "0173",
-      "jimok_code": "08",
-      "jimok": "대",
-      "handle_date": "20260407",
-      "sgg_code": "11710",
-      "acc_no": "0001228",
-      "decision_code": "002",
-      "job_gbn": "1",
-      "job_gbn_name": "허가",
-      "land_gbn": "1",
-      "use_purp_code": "01",
-      "use_purp": "주거용",
-      "lawd_cd": "1171010500",
-      "exec_ymd": null,
-      "deal_end_ymd": null,
-      "address_raw": "송파구 석촌동 173-1",
-      "acc_year": "2026",
-      "obj_seqno": "1",
-      "sigungu": "송파구",
-      "bjd_name": "석촌동",
-      "jibun": "173-1",
-      "road_address": "서울특별시 송파구 백제고분로37길 2",
-      "bld_reg_name": "",
-      "bld_sigungu_name": "루컴스 힐 더 테라스"
-    },
-    {
       "bubn": "0000",
       "bobn": "0331",
       "jimok_code": "08",
@@ -10757,7 +10811,7 @@
       "sigungu": "송파구",
       "bjd_name": "석촌동",
       "jibun": "285",
-      "road_address": "서울특별시 송파구 백제고분로 348",
+      "road_address": "서울특별시 송파구 가락로11길 36",
       "bld_reg_name": "잠실한솔아파트",
       "bld_sigungu_name": "잠실한솔아파트"
     },
@@ -11434,9 +11488,9 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1360",
+      "road_address": "서울특별시 강동구 양재대로 1342",
       "bld_reg_name": "",
-      "bld_sigungu_name": "포레온스테이션5"
+      "bld_sigungu_name": "둔촌파출소"
     },
     {
       "bubn": "0000",
@@ -11542,9 +11596,9 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1360",
+      "road_address": "서울특별시 강동구 양재대로 1342",
       "bld_reg_name": "",
-      "bld_sigungu_name": "포레온스테이션5"
+      "bld_sigungu_name": "둔촌파출소"
     },
     {
       "bubn": "0001",
@@ -11569,9 +11623,9 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1360",
+      "road_address": "서울특별시 강동구 양재대로 1342",
       "bld_reg_name": "",
-      "bld_sigungu_name": "포레온스테이션5"
+      "bld_sigungu_name": "둔촌파출소"
     },
     {
       "bubn": "0000",
