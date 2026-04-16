@@ -895,7 +895,7 @@
       "sigungu": "중랑구",
       "bjd_name": "면목동",
       "jibun": "193-1",
-      "road_address": "서울특별시 중랑구 동일로101길 63",
+      "road_address": "서울특별시 중랑구 중랑천로 20",
       "bld_reg_name": "면목한신아파트",
       "bld_sigungu_name": "면목한신아파트"
     },
@@ -1192,7 +1192,7 @@
       "sigungu": "중랑구",
       "bjd_name": "면목동",
       "jibun": "193-1",
-      "road_address": "서울특별시 중랑구 동일로101길 63",
+      "road_address": "서울특별시 중랑구 중랑천로 20",
       "bld_reg_name": "면목한신아파트",
       "bld_sigungu_name": "면목한신아파트"
     },
@@ -1435,7 +1435,7 @@
       "sigungu": "중랑구",
       "bjd_name": "신내동",
       "jibun": "479",
-      "road_address": "서울특별시 중랑구 봉화산로56길 123",
+      "road_address": "서울특별시 중랑구 봉화산로56길 145-1",
       "bld_reg_name": "중앙하이츠아파트",
       "bld_sigungu_name": "중앙하이츠아파트"
     },
@@ -3468,7 +3468,7 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "1289",
-      "road_address": "서울특별시 노원구 덕릉로 730",
+      "road_address": "서울특별시 노원구 덕릉로94길 21",
       "bld_reg_name": "상계불암대림아파트",
       "bld_sigungu_name": "상계불암대림아파트"
     },
@@ -4008,9 +4008,9 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "624",
-      "road_address": "서울특별시 노원구 동일로227길 26",
-      "bld_reg_name": "상계주공아파트",
-      "bld_sigungu_name": "상계주공15단지아파트"
+      "road_address": "서울특별시 노원구 동일로227길 86",
+      "bld_reg_name": "상계주공16단지아파트",
+      "bld_sigungu_name": "상계주공16단지아파트"
     },
     {
       "bubn": "0000",
@@ -4062,9 +4062,9 @@
       "sigungu": "노원구",
       "bjd_name": "월계동",
       "jibun": "85-7",
-      "road_address": "서울특별시 노원구 화랑로45길 49",
+      "road_address": "서울특별시 노원구 화랑로45길 63",
       "bld_reg_name": "",
-      "bld_sigungu_name": "현대자동차(성북출고센타)"
+      "bld_sigungu_name": "대한통운 서울북부지점"
     },
     {
       "bubn": "0000",
@@ -6805,6 +6805,33 @@
   "11530": [
     {
       "bubn": "0000",
+      "bobn": "0470",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260415",
+      "sgg_code": "11530",
+      "acc_no": "0000736",
+      "decision_code": "012",
+      "job_gbn": "1",
+      "job_gbn_name": "취소",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1153010700",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "구로구 개봉동 470",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "구로구",
+      "bjd_name": "개봉동",
+      "jibun": "470",
+      "road_address": "서울특별시 구로구 남부순환로95길 54",
+      "bld_reg_name": "삼환아파트",
+      "bld_sigungu_name": "삼환아파트"
+    },
+    {
+      "bubn": "0000",
       "bobn": "1278",
       "jimok_code": "08",
       "jimok": "대",
@@ -6858,7 +6885,7 @@
       "bld_sigungu_name": "한마을아파트"
     },
     {
-      "bubn": "0179",
+      "bubn": "0017",
       "bobn": "0742",
       "jimok_code": "08",
       "jimok": "대",
@@ -6874,13 +6901,13 @@
       "lawd_cd": "1153010200",
       "exec_ymd": null,
       "deal_end_ymd": null,
-      "address_raw": "구로구 구로동 742-179",
+      "address_raw": "구로구 구로동 742-17",
       "acc_year": "2026",
       "obj_seqno": "1",
       "sigungu": "구로구",
       "bjd_name": "구로동",
-      "jibun": "742-179",
-      "road_address": "",
+      "jibun": "742-17",
+      "road_address": "서울특별시 구로구 구로동로8길 93",
       "bld_reg_name": "",
       "bld_sigungu_name": ""
     },
@@ -7102,33 +7129,6 @@
     }
   ],
   "11545": [
-    {
-      "bubn": "0000",
-      "bobn": "1026",
-      "jimok_code": "08",
-      "jimok": "대",
-      "handle_date": "20260415",
-      "sgg_code": "11545",
-      "acc_no": "0000486",
-      "decision_code": "002",
-      "job_gbn": "1",
-      "job_gbn_name": "허가",
-      "land_gbn": "1",
-      "use_purp_code": "01",
-      "use_purp": "주거용",
-      "lawd_cd": "1154510300",
-      "exec_ymd": null,
-      "deal_end_ymd": null,
-      "address_raw": "금천구 시흥동 1026",
-      "acc_year": "2026",
-      "obj_seqno": "1",
-      "sigungu": "금천구",
-      "bjd_name": "시흥동",
-      "jibun": "1026",
-      "road_address": "서울특별시 금천구 시흥대로 165",
-      "bld_reg_name": "남서울힐스테이트",
-      "bld_sigungu_name": "남서울힐스테이트"
-    },
     {
       "bubn": "0000",
       "bobn": "0769",
@@ -8940,7 +8940,7 @@
       "sigungu": "관악구",
       "bjd_name": "봉천동",
       "jibun": "1000",
-      "road_address": "서울특별시 관악구 관악로40길 60",
+      "road_address": "서울특별시 관악구 관악로 304",
       "bld_reg_name": "현대아파트",
       "bld_sigungu_name": "현대아파트"
     },
@@ -9293,9 +9293,9 @@
       "sigungu": "서초구",
       "bjd_name": "잠원동",
       "jibun": "60-3",
-      "road_address": "서울특별시 서초구 신반포로 251",
+      "road_address": "서울특별시 서초구 신반포로 253",
       "bld_reg_name": "",
-      "bld_sigungu_name": "메이플 자이 1단지"
+      "bld_sigungu_name": "메이플 자이 2단지"
     },
     {
       "bubn": "0000",
@@ -9482,9 +9482,9 @@
       "sigungu": "서초구",
       "bjd_name": "잠원동",
       "jibun": "60-3",
-      "road_address": "서울특별시 서초구 신반포로 251",
+      "road_address": "서울특별시 서초구 신반포로 253",
       "bld_reg_name": "",
-      "bld_sigungu_name": "메이플 자이 1단지"
+      "bld_sigungu_name": "메이플 자이 2단지"
     },
     {
       "bubn": "0003",
@@ -10513,6 +10513,33 @@
       "road_address": "서울특별시 강남구 광평로34길 55",
       "bld_reg_name": "강남데시앙포레",
       "bld_sigungu_name": "강남데시앙포레"
+    },
+    {
+      "bubn": "0000",
+      "bobn": "0747",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260415",
+      "sgg_code": "11680",
+      "acc_no": "0000954",
+      "decision_code": "008",
+      "job_gbn": "1",
+      "job_gbn_name": "취하",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1168011500",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "강남구 수서동 747",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "강남구",
+      "bjd_name": "수서동",
+      "jibun": "747",
+      "road_address": "서울특별시 강남구 광평로31길 27",
+      "bld_reg_name": "삼성아파트103동",
+      "bld_sigungu_name": "삼성아파트"
     },
     {
       "bubn": "0000",
@@ -11675,7 +11702,7 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1342",
+      "road_address": "서울특별시 강동구 양재대로 1340",
       "bld_reg_name": "",
       "bld_sigungu_name": "둔촌파출소"
     },
@@ -11918,7 +11945,7 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1342",
+      "road_address": "서울특별시 강동구 양재대로 1340",
       "bld_reg_name": "",
       "bld_sigungu_name": "둔촌파출소"
     },
@@ -12242,7 +12269,7 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1342",
+      "road_address": "서울특별시 강동구 양재대로 1340",
       "bld_reg_name": "",
       "bld_sigungu_name": "둔촌파출소"
     },
@@ -12323,7 +12350,7 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1342",
+      "road_address": "서울특별시 강동구 양재대로 1340",
       "bld_reg_name": "",
       "bld_sigungu_name": "둔촌파출소"
     },
@@ -12350,7 +12377,7 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1342",
+      "road_address": "서울특별시 강동구 양재대로 1340",
       "bld_reg_name": "",
       "bld_sigungu_name": "둔촌파출소"
     },
@@ -12377,7 +12404,7 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1342",
+      "road_address": "서울특별시 강동구 양재대로 1340",
       "bld_reg_name": "",
       "bld_sigungu_name": "둔촌파출소"
     },
@@ -12404,7 +12431,7 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1342",
+      "road_address": "서울특별시 강동구 양재대로 1340",
       "bld_reg_name": "",
       "bld_sigungu_name": "둔촌파출소"
     },
@@ -12431,7 +12458,7 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1342",
+      "road_address": "서울특별시 강동구 양재대로 1340",
       "bld_reg_name": "",
       "bld_sigungu_name": "둔촌파출소"
     },
@@ -12458,7 +12485,7 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1342",
+      "road_address": "서울특별시 강동구 양재대로 1340",
       "bld_reg_name": "",
       "bld_sigungu_name": "둔촌파출소"
     },
@@ -12485,7 +12512,7 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1342",
+      "road_address": "서울특별시 강동구 양재대로 1340",
       "bld_reg_name": "",
       "bld_sigungu_name": "둔촌파출소"
     },
