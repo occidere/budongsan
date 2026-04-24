@@ -1167,9 +1167,9 @@
       "sigungu": "도봉구",
       "bjd_name": "창동",
       "jibun": "815",
-      "road_address": "서울특별시 도봉구 마들로 573",
-      "bld_reg_name": "창동2차 현대아파트",
-      "bld_sigungu_name": "창동2차현대아파트"
+      "road_address": "서울특별시 도봉구 도봉로136길 111",
+      "bld_reg_name": "창동3차 현대아파트",
+      "bld_sigungu_name": "창동2, 3차 현대아파트"
     }
   ],
   "11350": [
@@ -2658,9 +2658,9 @@
       "sigungu": "서대문구",
       "bjd_name": "홍은동",
       "jibun": "455",
-      "road_address": "서울특별시 서대문구 세검정로1길 93",
-      "bld_reg_name": "홍은동벽산아파트",
-      "bld_sigungu_name": "홍은동벽산아파트"
+      "road_address": "서울특별시 서대문구 세검정로1길 95",
+      "bld_reg_name": "홍은벽산아파트",
+      "bld_sigungu_name": "홍은벽산아파트"
     },
     {
       "bubn": "0000",
@@ -3578,7 +3578,7 @@
       "sigungu": "마포구",
       "bjd_name": "상암동",
       "jibun": "1655",
-      "road_address": "서울특별시 마포구 상암산로1길 24",
+      "road_address": "서울특별시 마포구 월드컵북로 381",
       "bld_reg_name": "상암 월드컵파크 4단지",
       "bld_sigungu_name": "상암 월드컵파크 4단지"
     },
@@ -7017,7 +7017,7 @@
       "sigungu": "영등포구",
       "bjd_name": "신길동",
       "jibun": "102-8",
-      "road_address": "서울특별시 영등포구 영등포로64길 8",
+      "road_address": "서울특별시 영등포구 영등포로64길 11",
       "bld_reg_name": "신길우성아파트",
       "bld_sigungu_name": "신길우성아파트"
     },
@@ -7044,7 +7044,7 @@
       "sigungu": "영등포구",
       "bjd_name": "대림동",
       "jibun": "777-1",
-      "road_address": "서울특별시 영등포구 대림로31길 39",
+      "road_address": "서울특별시 영등포구 가마산로 312",
       "bld_reg_name": "신동아아파트",
       "bld_sigungu_name": "신동아아파트"
     },
@@ -7071,7 +7071,7 @@
       "sigungu": "영등포구",
       "bjd_name": "대림동",
       "jibun": "777-1",
-      "road_address": "서울특별시 영등포구 대림로31길 39",
+      "road_address": "서울특별시 영등포구 가마산로 312",
       "bld_reg_name": "신동아아파트",
       "bld_sigungu_name": "신동아아파트"
     },
@@ -7424,9 +7424,9 @@
       "sigungu": "동작구",
       "bjd_name": "사당동",
       "jibun": "105",
-      "road_address": "서울특별시 동작구 동작대로29길 110",
-      "bld_reg_name": "신동아아파트",
-      "bld_sigungu_name": "신동아아파트"
+      "road_address": "서울특별시 동작구 동작대로29길 91",
+      "bld_reg_name": "사당우성아파트",
+      "bld_sigungu_name": "사당우성아파트"
     },
     {
       "bubn": "0013",
@@ -7804,7 +7804,7 @@
       "sigungu": "관악구",
       "bjd_name": "신림동",
       "jibun": "306-56",
-      "road_address": "서울특별시 관악구 호암로18나길 34",
+      "road_address": "서울특별시 관악구 호암로18나길 30",
       "bld_reg_name": "",
       "bld_sigungu_name": ""
     },
@@ -10405,6 +10405,60 @@
       "road_address": "서울특별시 송파구 마천로57길 30",
       "bld_reg_name": "",
       "bld_sigungu_name": "진산빌라"
+    },
+    {
+      "bubn": "0001",
+      "bobn": "0095",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260423",
+      "sgg_code": "11710",
+      "acc_no": "0001642",
+      "decision_code": "002",
+      "job_gbn": "1",
+      "job_gbn_name": "허가",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1171010700",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "송파구 가락동 95-1",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "송파구",
+      "bjd_name": "가락동",
+      "jibun": "95-1",
+      "road_address": "서울특별시 송파구 송파대로32길 15",
+      "bld_reg_name": "가락금호아파트 106동",
+      "bld_sigungu_name": "가락금호아파트"
+    },
+    {
+      "bubn": "0000",
+      "bobn": "0878",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260423",
+      "sgg_code": "11710",
+      "acc_no": "0001643",
+      "decision_code": "002",
+      "job_gbn": "1",
+      "job_gbn_name": "허가",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1171010900",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "송파구 장지동 878",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "송파구",
+      "bjd_name": "장지동",
+      "jibun": "878",
+      "road_address": "서울특별시 송파구 위례광장로 185",
+      "bld_reg_name": "위례신도시 송파푸르지오",
+      "bld_sigungu_name": "위례신도시 송파푸르지오"
     },
     {
       "bubn": "0015",
