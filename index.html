@@ -5572,8 +5572,6 @@
             cardsContainer.innerHTML = '<div class="loading">매물 데이터 로딩 중...</div>';
 
             // Load data from fulldata_all.json
-            // Note: fulldata_all.json is tracked by Git LFS, but when checked out locally
-            // (including in GitHub Pages deployment), it contains the actual file content
             const response = await fetch('./data/fulldata_all.json');
             if (!response.ok) {
                 throw new Error(`HTTP ${response.status}: ${response.statusText}`);
