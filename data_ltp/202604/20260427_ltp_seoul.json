@@ -4531,6 +4531,33 @@
     },
     {
       "bubn": "0000",
+      "bobn": "0550",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260427",
+      "sgg_code": "11440",
+      "acc_no": "0000778",
+      "decision_code": "002",
+      "job_gbn": "1",
+      "job_gbn_name": "허가",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1144010400",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "마포구 도화동 550",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "마포구",
+      "bjd_name": "도화동",
+      "jibun": "550",
+      "road_address": "서울특별시 마포구 도화길 28",
+      "bld_reg_name": "삼성아파트",
+      "bld_sigungu_name": "삼성아파트"
+    },
+    {
+      "bubn": "0000",
       "bobn": "0802",
       "jimok_code": "08",
       "jimok": "대",
@@ -7134,33 +7161,6 @@
       "bld_sigungu_name": "삼호아파트"
     },
     {
-      "bubn": "0410",
-      "bobn": "0294",
-      "jimok_code": "08",
-      "jimok": "대",
-      "handle_date": "20260427",
-      "sgg_code": "11590",
-      "acc_no": "0001013",
-      "decision_code": "002",
-      "job_gbn": "1",
-      "job_gbn_name": "허가",
-      "land_gbn": "1",
-      "use_purp_code": "01",
-      "use_purp": "주거용",
-      "lawd_cd": "1159010100",
-      "exec_ymd": null,
-      "deal_end_ymd": null,
-      "address_raw": "동작구 노량진동 294-410",
-      "acc_year": "2026",
-      "obj_seqno": "1",
-      "sigungu": "동작구",
-      "bjd_name": "노량진동",
-      "jibun": "294-410",
-      "road_address": "",
-      "bld_reg_name": "",
-      "bld_sigungu_name": ""
-    },
-    {
       "bubn": "0000",
       "bobn": "1154",
       "jimok_code": "08",
@@ -7264,7 +7264,7 @@
       "sigungu": "동작구",
       "bjd_name": "사당동",
       "jibun": "105",
-      "road_address": "서울특별시 동작구 동작대로29길 91",
+      "road_address": "서울특별시 동작구 동작대로29길 115",
       "bld_reg_name": "사당우성아파트",
       "bld_sigungu_name": "사당우성아파트"
     },
@@ -7291,7 +7291,7 @@
       "sigungu": "동작구",
       "bjd_name": "사당동",
       "jibun": "105",
-      "road_address": "서울특별시 동작구 동작대로29길 91",
+      "road_address": "서울특별시 동작구 동작대로29길 115",
       "bld_reg_name": "사당우성아파트",
       "bld_sigungu_name": "사당우성아파트"
     },
@@ -7318,7 +7318,7 @@
       "sigungu": "동작구",
       "bjd_name": "사당동",
       "jibun": "105",
-      "road_address": "서울특별시 동작구 동작대로29길 91",
+      "road_address": "서울특별시 동작구 동작대로29길 115",
       "bld_reg_name": "사당우성아파트",
       "bld_sigungu_name": "사당우성아파트"
     },
@@ -7345,7 +7345,7 @@
       "sigungu": "동작구",
       "bjd_name": "사당동",
       "jibun": "105",
-      "road_address": "서울특별시 동작구 동작대로29길 91",
+      "road_address": "서울특별시 동작구 동작대로29길 115",
       "bld_reg_name": "사당우성아파트",
       "bld_sigungu_name": "사당우성아파트"
     },
@@ -8699,9 +8699,9 @@
       "sigungu": "서초구",
       "bjd_name": "잠원동",
       "jibun": "60-3",
-      "road_address": "서울특별시 서초구 신반포로 253",
+      "road_address": "서울특별시 서초구 신반포로 251",
       "bld_reg_name": "",
-      "bld_sigungu_name": "메이플 자이 2단지"
+      "bld_sigungu_name": "메이플 자이 1단지"
     },
     {
       "bubn": "0000",
@@ -9266,9 +9266,9 @@
       "sigungu": "서초구",
       "bjd_name": "잠원동",
       "jibun": "56-3",
-      "road_address": "서울특별시 서초구 잠원로 148",
+      "road_address": "서울특별시 서초구 잠원로 150",
       "bld_reg_name": "잠원한신아파트",
-      "bld_sigungu_name": "잠원연합상가"
+      "bld_sigungu_name": "잠원한신아파트"
     },
     {
       "bubn": "0001",
@@ -9401,9 +9401,9 @@
       "sigungu": "서초구",
       "bjd_name": "잠원동",
       "jibun": "60-3",
-      "road_address": "서울특별시 서초구 신반포로 253",
+      "road_address": "서울특별시 서초구 신반포로 251",
       "bld_reg_name": "",
-      "bld_sigungu_name": "메이플 자이 2단지"
+      "bld_sigungu_name": "메이플 자이 1단지"
     },
     {
       "bubn": "0000",
@@ -9862,9 +9862,9 @@
       "sigungu": "강남구",
       "bjd_name": "개포동",
       "jibun": "12",
-      "road_address": "서울특별시 강남구 개포로109길 9",
-      "bld_reg_name": "대한예수교장로회 한울교회",
-      "bld_sigungu_name": "대치아파트"
+      "road_address": "서울특별시 강남구 개포로109길 21",
+      "bld_reg_name": "대청아파트306동",
+      "bld_sigungu_name": "대청아파트"
     },
     {
       "bubn": "0004",
@@ -9916,9 +9916,9 @@
       "sigungu": "강남구",
       "bjd_name": "개포동",
       "jibun": "12",
-      "road_address": "서울특별시 강남구 개포로109길 9",
-      "bld_reg_name": "대한예수교장로회 한울교회",
-      "bld_sigungu_name": "대치아파트"
+      "road_address": "서울특별시 강남구 개포로109길 21",
+      "bld_reg_name": "대청아파트306동",
+      "bld_sigungu_name": "대청아파트"
     },
     {
       "bubn": "0000",
@@ -9943,9 +9943,9 @@
       "sigungu": "강남구",
       "bjd_name": "개포동",
       "jibun": "12",
-      "road_address": "서울특별시 강남구 개포로109길 9",
-      "bld_reg_name": "대한예수교장로회 한울교회",
-      "bld_sigungu_name": "대치아파트"
+      "road_address": "서울특별시 강남구 개포로109길 21",
+      "bld_reg_name": "대청아파트306동",
+      "bld_sigungu_name": "대청아파트"
     },
     {
       "bubn": "0000",
@@ -10296,7 +10296,7 @@
       "sigungu": "송파구",
       "bjd_name": "가락동",
       "jibun": "120-4",
-      "road_address": "서울특별시 송파구 중대로12길 35",
+      "road_address": "서울특별시 송파구 송이로 166",
       "bld_reg_name": "가락우성2차아파트",
       "bld_sigungu_name": "가락우성2차아파트"
     },
@@ -12107,7 +12107,34 @@
       "sigungu": "강동구",
       "bjd_name": "암사동",
       "jibun": "442-1",
-      "road_address": "서울특별시 강동구 올림픽로104길 42",
+      "road_address": "서울특별시 강동구 올림픽로104길 41",
+      "bld_reg_name": "한강현대아파트",
+      "bld_sigungu_name": "한강현대아파트"
+    },
+    {
+      "bubn": "0001",
+      "bobn": "0442",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260427",
+      "sgg_code": "11740",
+      "acc_no": "0001159",
+      "decision_code": "008",
+      "job_gbn": "1",
+      "job_gbn_name": "취하",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1174010700",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "강동구 암사동 442-1",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "강동구",
+      "bjd_name": "암사동",
+      "jibun": "442-1",
+      "road_address": "서울특별시 강동구 올림픽로104길 41",
       "bld_reg_name": "한강현대아파트",
       "bld_sigungu_name": "한강현대아파트"
     }
