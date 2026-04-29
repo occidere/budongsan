@@ -999,7 +999,7 @@
       "sigungu": "성동구",
       "bjd_name": "금호동4가",
       "jibun": "1553",
-      "road_address": "서울특별시 성동구 독서당로 344",
+      "road_address": "서울특별시 성동구 금호로 40",
       "bld_reg_name": "힐스테이트 서울숲리버",
       "bld_sigungu_name": "힐스테이트 서울숲리버"
     },
@@ -1622,7 +1622,7 @@
       "sigungu": "중랑구",
       "bjd_name": "면목동",
       "jibun": "193-1",
-      "road_address": "서울특별시 중랑구 중랑천로 20",
+      "road_address": "서울특별시 중랑구 동일로101길 63",
       "bld_reg_name": "면목한신아파트",
       "bld_sigungu_name": "면목한신아파트"
     },
@@ -2297,9 +2297,9 @@
       "sigungu": "중랑구",
       "bjd_name": "신내동",
       "jibun": "656",
-      "road_address": "서울특별시 중랑구 신내로 155",
-      "bld_reg_name": "화성아파트",
-      "bld_sigungu_name": "두산, 화성아파트"
+      "road_address": "서울특별시 중랑구 신내로17길 13",
+      "bld_reg_name": "화성,두산아파트",
+      "bld_sigungu_name": "화성,두산아파트"
     },
     {
       "bubn": "0000",
@@ -2623,7 +2623,7 @@
       "sigungu": "성북구",
       "bjd_name": "정릉동",
       "jibun": "1037",
-      "road_address": "서울특별시 성북구 아리랑로19가길 20",
+      "road_address": "서울특별시 성북구 아리랑로19가길 21",
       "bld_reg_name": "정릉꿈에그린",
       "bld_sigungu_name": "정릉꿈에그린"
     }
@@ -5059,7 +5059,7 @@
       "sigungu": "노원구",
       "bjd_name": "공릉동",
       "jibun": "740",
-      "road_address": "서울특별시 노원구 공릉로39길 10",
+      "road_address": "서울특별시 노원구 공릉로 157",
       "bld_reg_name": "대아아파트",
       "bld_sigungu_name": "대아아파트"
     },
@@ -7036,7 +7036,7 @@
       "sigungu": "마포구",
       "bjd_name": "도화동",
       "jibun": "353",
-      "road_address": "서울특별시 마포구 새창로8길 72",
+      "road_address": "서울특별시 마포구 도화4길 73",
       "bld_reg_name": "현대홈타운",
       "bld_sigungu_name": "현대홈타운"
     },
@@ -7117,7 +7117,7 @@
       "sigungu": "마포구",
       "bjd_name": "중동",
       "jibun": "390",
-      "road_address": "서울특별시 마포구 성암로11길 60",
+      "road_address": "서울특별시 마포구 성암로11길 56",
       "bld_reg_name": "DMC마포청구아파트",
       "bld_sigungu_name": "DMC마포청구아파트"
     },
@@ -9260,7 +9260,7 @@
     },
     {
       "bubn": "0000",
-      "bobn": "1464",
+      "bobn": "1461",
       "jimok_code": "08",
       "jimok": "대",
       "handle_date": "20260428",
@@ -9275,15 +9275,15 @@
       "lawd_cd": "1150010400",
       "exec_ymd": null,
       "deal_end_ymd": null,
-      "address_raw": "강서구 가양동 1464",
+      "address_raw": "강서구 가양동 1461",
       "acc_year": "2026",
       "obj_seqno": "1",
       "sigungu": "강서구",
       "bjd_name": "가양동",
-      "jibun": "1464",
-      "road_address": "서울특별시 강서구 허준로 50",
-      "bld_reg_name": "",
-      "bld_sigungu_name": "동양고등학교"
+      "jibun": "1461",
+      "road_address": "서울특별시 강서구 허준로 47",
+      "bld_reg_name": "가양2단지성지아파트",
+      "bld_sigungu_name": "가양도시개발공사아파트"
     },
     {
       "bubn": "0000",
@@ -9661,9 +9661,9 @@
       "sigungu": "구로구",
       "bjd_name": "고척동",
       "jibun": "296",
-      "road_address": "서울특별시 구로구 고척로52길 53",
+      "road_address": "서울특별시 구로구 고척로52길 48",
       "bld_reg_name": "고척대우아파트",
-      "bld_sigungu_name": "고척대우아파트"
+      "bld_sigungu_name": "고척대우아파트상가"
     },
     {
       "bubn": "0009",
@@ -12665,6 +12665,33 @@
       "road_address": "서울특별시 영등포구 국제금융로7길 15",
       "bld_reg_name": "",
       "bld_sigungu_name": "여의상가"
+    },
+    {
+      "bubn": "0000",
+      "bobn": "0785",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260428",
+      "sgg_code": "11560",
+      "acc_no": "0001356",
+      "decision_code": "008",
+      "job_gbn": "1",
+      "job_gbn_name": "취하",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1156013300",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "영등포구 대림동 785",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "영등포구",
+      "bjd_name": "대림동",
+      "jibun": "785",
+      "road_address": "서울특별시 영등포구 도신로4길 6",
+      "bld_reg_name": "현대2차아파트",
+      "bld_sigungu_name": "현대2차아파트"
     }
   ],
   "11590": [
@@ -12853,9 +12880,9 @@
       "sigungu": "동작구",
       "bjd_name": "사당동",
       "jibun": "105",
-      "road_address": "서울특별시 동작구 동작대로29길 119",
-      "bld_reg_name": "극동아파트",
-      "bld_sigungu_name": "극동아파트"
+      "road_address": "서울특별시 동작구 동작대로29길 115",
+      "bld_reg_name": "사당우성아파트",
+      "bld_sigungu_name": "사당우성아파트"
     },
     {
       "bubn": "0000",
@@ -13719,7 +13746,7 @@
       "sigungu": "관악구",
       "bjd_name": "봉천동",
       "jibun": "1000",
-      "road_address": "서울특별시 관악구 관악로 304",
+      "road_address": "서울특별시 관악구 관악로40길 60",
       "bld_reg_name": "현대아파트",
       "bld_sigungu_name": "현대아파트"
     },
@@ -14288,9 +14315,9 @@
       "sigungu": "서초구",
       "bjd_name": "잠원동",
       "jibun": "65-32",
-      "road_address": "서울특별시 서초구 잠원로 94",
-      "bld_reg_name": "신반포중앙쇼핑센터",
-      "bld_sigungu_name": "한신빌딩"
+      "road_address": "서울특별시 서초구 잠원로 88",
+      "bld_reg_name": "신반포아파트",
+      "bld_sigungu_name": "신반포아파트"
     },
     {
       "bubn": "0019",
@@ -14506,8 +14533,8 @@
       "sigungu": "강남구",
       "bjd_name": "개포동",
       "jibun": "12",
-      "road_address": "서울특별시 강남구 개포로109길 9",
-      "bld_reg_name": "대한예수교장로회 한울교회",
+      "road_address": "서울특별시 강남구 개포로109길 5",
+      "bld_reg_name": "대치아파트108동",
       "bld_sigungu_name": "대치아파트"
     },
     {
@@ -14668,8 +14695,8 @@
       "sigungu": "강남구",
       "bjd_name": "개포동",
       "jibun": "12",
-      "road_address": "서울특별시 강남구 개포로109길 9",
-      "bld_reg_name": "대한예수교장로회 한울교회",
+      "road_address": "서울특별시 강남구 개포로109길 5",
+      "bld_reg_name": "대치아파트108동",
       "bld_sigungu_name": "대치아파트"
     },
     {
@@ -14749,8 +14776,8 @@
       "sigungu": "강남구",
       "bjd_name": "개포동",
       "jibun": "12",
-      "road_address": "서울특별시 강남구 개포로109길 9",
-      "bld_reg_name": "대한예수교장로회 한울교회",
+      "road_address": "서울특별시 강남구 개포로109길 5",
+      "bld_reg_name": "대치아파트108동",
       "bld_sigungu_name": "대치아파트"
     },
     {
@@ -14783,33 +14810,6 @@
   ],
   "11710": [
     {
-      "bubn": "0008",
-      "bobn": "0053",
-      "jimok_code": "08",
-      "jimok": "대",
-      "handle_date": "20260428",
-      "sgg_code": "11710",
-      "acc_no": "0000776",
-      "decision_code": "002",
-      "job_gbn": "1",
-      "job_gbn_name": "허가",
-      "land_gbn": "1",
-      "use_purp_code": "01",
-      "use_purp": "주거용",
-      "lawd_cd": "1171010600",
-      "exec_ymd": null,
-      "deal_end_ymd": null,
-      "address_raw": "송파구 삼전동 53-8",
-      "acc_year": "2026",
-      "obj_seqno": "1",
-      "sigungu": "송파구",
-      "bjd_name": "삼전동",
-      "jibun": "53-8",
-      "road_address": "서울특별시 송파구 삼전로2길 53",
-      "bld_reg_name": "",
-      "bld_sigungu_name": "쌍용하이츠빌라"
-    },
-    {
       "bubn": "0000",
       "bobn": "0151",
       "jimok_code": "08",
@@ -14835,60 +14835,6 @@
       "road_address": "서울특별시 송파구 가락로 192",
       "bld_reg_name": "2차한양아파트",
       "bld_sigungu_name": "2차한양아파트"
-    },
-    {
-      "bubn": "0000",
-      "bobn": "0007",
-      "jimok_code": "08",
-      "jimok": "대",
-      "handle_date": "20260428",
-      "sgg_code": "11710",
-      "acc_no": "0001074",
-      "decision_code": "002",
-      "job_gbn": "1",
-      "job_gbn_name": "허가",
-      "land_gbn": "1",
-      "use_purp_code": "02",
-      "use_purp": "복지편익시설용",
-      "lawd_cd": "1171010200",
-      "exec_ymd": null,
-      "deal_end_ymd": null,
-      "address_raw": "송파구 신천동 7",
-      "acc_year": "2026",
-      "obj_seqno": "1",
-      "sigungu": "송파구",
-      "bjd_name": "신천동",
-      "jibun": "7",
-      "road_address": "서울특별시 송파구 올림픽로35길 104",
-      "bld_reg_name": "장미아파트",
-      "bld_sigungu_name": "장미아파트"
-    },
-    {
-      "bubn": "0001",
-      "bobn": "0547",
-      "jimok_code": "08",
-      "jimok": "대",
-      "handle_date": "20260428",
-      "sgg_code": "11710",
-      "acc_no": "0001399",
-      "decision_code": "002",
-      "job_gbn": "1",
-      "job_gbn_name": "허가",
-      "land_gbn": "1",
-      "use_purp_code": "01",
-      "use_purp": "주거용",
-      "lawd_cd": "1171011300",
-      "exec_ymd": null,
-      "deal_end_ymd": null,
-      "address_raw": "송파구 거여동 547-1",
-      "acc_year": "2026",
-      "obj_seqno": "1",
-      "sigungu": "송파구",
-      "bjd_name": "거여동",
-      "jibun": "547-1",
-      "road_address": "서울특별시 송파구 오금로64나길 2",
-      "bld_reg_name": "위엔빌",
-      "bld_sigungu_name": "위엔빌"
     },
     {
       "bubn": "0000",
@@ -14940,7 +14886,7 @@
       "sigungu": "송파구",
       "bjd_name": "방이동",
       "jibun": "212-8",
-      "road_address": "서울특별시 송파구 오금로31길 28",
+      "road_address": "서울특별시 송파구 오금로31길 27",
       "bld_reg_name": "코오롱아파트",
       "bld_sigungu_name": "코오롱아파트"
     },
@@ -16211,7 +16157,7 @@
       "sigungu": "강동구",
       "bjd_name": "길동",
       "jibun": "474",
-      "road_address": "서울특별시 강동구 천호대로 1239",
+      "road_address": "서울특별시 강동구 천호대로199길 10",
       "bld_reg_name": "GS강동자이아파트",
       "bld_sigungu_name": "GS강동자이아파트"
     },
