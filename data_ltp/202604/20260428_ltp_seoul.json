@@ -2623,9 +2623,9 @@
       "sigungu": "중랑구",
       "bjd_name": "신내동",
       "jibun": "656",
-      "road_address": "서울특별시 중랑구 신내로 155",
-      "bld_reg_name": "화성아파트",
-      "bld_sigungu_name": "두산, 화성아파트"
+      "road_address": "서울특별시 중랑구 신내로17길 13",
+      "bld_reg_name": "화성,두산아파트",
+      "bld_sigungu_name": "화성,두산아파트"
     },
     {
       "bubn": "0000",
@@ -2949,7 +2949,7 @@
       "sigungu": "성북구",
       "bjd_name": "정릉동",
       "jibun": "1037",
-      "road_address": "서울특별시 성북구 아리랑로19가길 21",
+      "road_address": "서울특별시 성북구 아리랑로19가길 20",
       "bld_reg_name": "정릉꿈에그린",
       "bld_sigungu_name": "정릉꿈에그린"
     }
@@ -4116,9 +4116,9 @@
       "sigungu": "노원구",
       "bjd_name": "월계동",
       "jibun": "556",
-      "road_address": "서울특별시 노원구 초안산로1길 18",
-      "bld_reg_name": "월계2단지주공(아)",
-      "bld_sigungu_name": "월계주공2단지아파트"
+      "road_address": "서울특별시 노원구 초안산로1길 15",
+      "bld_reg_name": "월계1단지주공영구임대(아)",
+      "bld_sigungu_name": "월계주공1단지아파트"
     },
     {
       "bubn": "0000",
@@ -4899,9 +4899,9 @@
       "sigungu": "노원구",
       "bjd_name": "월계동",
       "jibun": "556",
-      "road_address": "서울특별시 노원구 초안산로1길 18",
-      "bld_reg_name": "월계2단지주공(아)",
-      "bld_sigungu_name": "월계주공2단지아파트"
+      "road_address": "서울특별시 노원구 초안산로1길 15",
+      "bld_reg_name": "월계1단지주공영구임대(아)",
+      "bld_sigungu_name": "월계주공1단지아파트"
     },
     {
       "bubn": "0000",
@@ -7335,7 +7335,7 @@
       "sigungu": "마포구",
       "bjd_name": "도화동",
       "jibun": "353",
-      "road_address": "서울특별시 마포구 도화4길 73",
+      "road_address": "서울특별시 마포구 새창로8길 72",
       "bld_reg_name": "현대홈타운",
       "bld_sigungu_name": "현대홈타운"
     },
@@ -7416,7 +7416,7 @@
       "sigungu": "마포구",
       "bjd_name": "중동",
       "jibun": "390",
-      "road_address": "서울특별시 마포구 성암로11길 56",
+      "road_address": "서울특별시 마포구 성암로11길 60",
       "bld_reg_name": "DMC마포청구아파트",
       "bld_sigungu_name": "DMC마포청구아파트"
     },
@@ -7497,7 +7497,7 @@
       "sigungu": "마포구",
       "bjd_name": "상암동",
       "jibun": "1655",
-      "road_address": "서울특별시 마포구 월드컵북로 381",
+      "road_address": "서울특별시 마포구 상암산로1길 24",
       "bld_reg_name": "상암 월드컵파크 4단지",
       "bld_sigungu_name": "상암 월드컵파크 4단지"
     },
@@ -10107,9 +10107,9 @@
       "handle_date": "20260428",
       "sgg_code": "11530",
       "acc_no": "0001470",
-      "decision_code": "002",
+      "decision_code": "012",
       "job_gbn": "1",
-      "job_gbn_name": "허가",
+      "job_gbn_name": "취소",
       "land_gbn": "1",
       "use_purp_code": "01",
       "use_purp": "주거용",
@@ -12150,6 +12150,33 @@
       "road_address": "서울특별시 구로구 경인로8길 75",
       "bld_reg_name": "삼천리아파트상가",
       "bld_sigungu_name": "삼천리아파트"
+    },
+    {
+      "bubn": "0000",
+      "bobn": "0476",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260428",
+      "sgg_code": "11530",
+      "acc_no": "0001560",
+      "decision_code": "002",
+      "job_gbn": "1",
+      "job_gbn_name": "허가",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1153010700",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "구로구 개봉동 476",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "구로구",
+      "bjd_name": "개봉동",
+      "jibun": "476",
+      "road_address": "서울특별시 구로구 경인로 382",
+      "bld_reg_name": "한마을아파트",
+      "bld_sigungu_name": "한마을아파트"
     },
     {
       "bubn": "0000",
@@ -14587,9 +14614,9 @@
       "sigungu": "서초구",
       "bjd_name": "잠원동",
       "jibun": "65-32",
-      "road_address": "서울특별시 서초구 잠원로 94",
-      "bld_reg_name": "신반포중앙쇼핑센터",
-      "bld_sigungu_name": "한신빌딩"
+      "road_address": "서울특별시 서초구 잠원로 88",
+      "bld_reg_name": "신반포아파트",
+      "bld_sigungu_name": "신반포아파트"
     },
     {
       "bubn": "0019",
@@ -14722,7 +14749,7 @@
       "sigungu": "서초구",
       "bjd_name": "서초동",
       "jibun": "1312-3",
-      "road_address": "서울특별시 서초구 서운로 197",
+      "road_address": "서울특별시 서초구 서운로 200",
       "bld_reg_name": "롯데캐슬클래식",
       "bld_sigungu_name": "롯데캐슬클래식아파트"
     },
@@ -14749,9 +14776,9 @@
       "sigungu": "서초구",
       "bjd_name": "잠원동",
       "jibun": "56-3",
-      "road_address": "서울특별시 서초구 잠원로 148",
+      "road_address": "서울특별시 서초구 잠원로 150",
       "bld_reg_name": "잠원한신아파트",
-      "bld_sigungu_name": "잠원연합상가"
+      "bld_sigungu_name": "잠원한신아파트"
     }
   ],
   "11680": [
@@ -16294,9 +16321,9 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1340",
+      "road_address": "서울특별시 강동구 양재대로 1360",
       "bld_reg_name": "",
-      "bld_sigungu_name": "둔촌파출소"
+      "bld_sigungu_name": "포레온스테이션5"
     },
     {
       "bubn": "0001",
@@ -16321,9 +16348,9 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1340",
+      "road_address": "서울특별시 강동구 양재대로 1360",
       "bld_reg_name": "",
-      "bld_sigungu_name": "둔촌파출소"
+      "bld_sigungu_name": "포레온스테이션5"
     },
     {
       "bubn": "0000",
@@ -16402,7 +16429,7 @@
       "sigungu": "강동구",
       "bjd_name": "길동",
       "jibun": "474",
-      "road_address": "서울특별시 강동구 천호대로199길 10",
+      "road_address": "서울특별시 강동구 천호대로 1239",
       "bld_reg_name": "GS강동자이아파트",
       "bld_sigungu_name": "GS강동자이아파트"
     },
@@ -16861,9 +16888,9 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1340",
+      "road_address": "서울특별시 강동구 양재대로 1360",
       "bld_reg_name": "",
-      "bld_sigungu_name": "둔촌파출소"
+      "bld_sigungu_name": "포레온스테이션5"
     },
     {
       "bubn": "0001",
@@ -16888,9 +16915,9 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1340",
+      "road_address": "서울특별시 강동구 양재대로 1360",
       "bld_reg_name": "",
-      "bld_sigungu_name": "둔촌파출소"
+      "bld_sigungu_name": "포레온스테이션5"
     },
     {
       "bubn": "0000",
@@ -17023,9 +17050,9 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1340",
+      "road_address": "서울특별시 강동구 양재대로 1360",
       "bld_reg_name": "",
-      "bld_sigungu_name": "둔촌파출소"
+      "bld_sigungu_name": "포레온스테이션5"
     },
     {
       "bubn": "0000",
