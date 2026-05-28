@@ -407,8 +407,8 @@
       "sigungu": "광진구",
       "bjd_name": "자양동",
       "jibun": "670",
-      "road_address": "서울특별시 광진구 뚝섬로56가길 10",
-      "bld_reg_name": "현대3차아파트편익시설",
+      "road_address": "서울특별시 광진구 뚝섬로58길 101",
+      "bld_reg_name": "자양현대3차아파트",
       "bld_sigungu_name": "자양현대3차아파트"
     },
     {
@@ -434,7 +434,7 @@
       "sigungu": "광진구",
       "bjd_name": "자양동",
       "jibun": "579",
-      "road_address": "서울특별시 광진구 뚝섬로41길 20",
+      "road_address": "서울특별시 광진구 뚝섬로 569",
       "bld_reg_name": "우성아파트",
       "bld_sigungu_name": "우성아파트"
     },
@@ -817,6 +817,33 @@
       "road_address": "서울특별시 동대문구 답십리로 130",
       "bld_reg_name": "래미안위브",
       "bld_sigungu_name": "래미안위브"
+    },
+    {
+      "bubn": "0001",
+      "bobn": "0989",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260526",
+      "sgg_code": "11230",
+      "acc_no": "0001420",
+      "decision_code": "002",
+      "job_gbn": "1",
+      "job_gbn_name": "허가",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1123010500",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "동대문구 답십리동 989-1",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "동대문구",
+      "bjd_name": "답십리동",
+      "jibun": "989-1",
+      "road_address": "서울특별시 동대문구 답십리로59길 33",
+      "bld_reg_name": "우성그린아파트",
+      "bld_sigungu_name": "우성그린아파트"
     }
   ],
   "11260": [
@@ -1005,7 +1032,7 @@
       "sigungu": "중랑구",
       "bjd_name": "신내동",
       "jibun": "661",
-      "road_address": "서울특별시 중랑구 봉화산로 189",
+      "road_address": "서울특별시 중랑구 봉화산로 193",
       "bld_reg_name": "",
       "bld_sigungu_name": "신내대명아파트"
     },
@@ -2710,7 +2737,7 @@
       "sigungu": "강북구",
       "bjd_name": "미아동",
       "jibun": "1354",
-      "road_address": "서울특별시 강북구 솔샘로 159",
+      "road_address": "서울특별시 강북구 인수봉로 18",
       "bld_reg_name": "벽산라이브파크",
       "bld_sigungu_name": "벽산라이브파크"
     }
@@ -3443,9 +3470,9 @@
       "sigungu": "노원구",
       "bjd_name": "중계동",
       "jibun": "585",
-      "road_address": "서울특별시 노원구 한글비석로15길 119",
+      "road_address": "서울특별시 노원구 덕릉로 613",
       "bld_reg_name": "중계3차우성아파트",
-      "bld_sigungu_name": "중계3차우성아파트"
+      "bld_sigungu_name": "우성3차아파트"
     },
     {
       "bubn": "0000",
@@ -4064,9 +4091,9 @@
       "sigungu": "노원구",
       "bjd_name": "월계동",
       "jibun": "556",
-      "road_address": "서울특별시 노원구 초안산로1길 15",
-      "bld_reg_name": "월계1단지주공영구임대(아)",
-      "bld_sigungu_name": "월계주공1단지아파트"
+      "road_address": "서울특별시 노원구 초안산로1길 18",
+      "bld_reg_name": "월계2단지주공(아)",
+      "bld_sigungu_name": "월계주공2단지아파트"
     },
     {
       "bubn": "0000",
@@ -4550,9 +4577,9 @@
       "sigungu": "노원구",
       "bjd_name": "공릉동",
       "jibun": "737",
-      "road_address": "서울특별시 노원구 공릉로46길 28",
-      "bld_reg_name": "삼익아파트",
-      "bld_sigungu_name": "삼익아파트"
+      "road_address": "서울특별시 노원구 공릉로46길 32",
+      "bld_reg_name": "삼익 포레스트 아파트",
+      "bld_sigungu_name": "삼익포레스트아파트"
     },
     {
       "bubn": "0000",
@@ -4847,7 +4874,7 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "749-5",
-      "road_address": "서울특별시 노원구 동일로 1356",
+      "road_address": "서울특별시 노원구 동일로 1362",
       "bld_reg_name": "상계주공아파트",
       "bld_sigungu_name": "상계주공4단지아파트"
     },
@@ -7146,9 +7173,9 @@
       "sigungu": "서대문구",
       "bjd_name": "홍은동",
       "jibun": "455",
-      "road_address": "서울특별시 서대문구 세검정로1길 95",
-      "bld_reg_name": "홍은벽산아파트",
-      "bld_sigungu_name": "홍은벽산아파트"
+      "road_address": "서울특별시 서대문구 세검정로1길 93",
+      "bld_reg_name": "홍은동벽산아파트",
+      "bld_sigungu_name": "홍은동벽산아파트"
     },
     {
       "bubn": "0000",
@@ -7173,9 +7200,9 @@
       "sigungu": "서대문구",
       "bjd_name": "홍은동",
       "jibun": "455",
-      "road_address": "서울특별시 서대문구 세검정로1길 95",
-      "bld_reg_name": "홍은벽산아파트",
-      "bld_sigungu_name": "홍은벽산아파트"
+      "road_address": "서울특별시 서대문구 세검정로1길 93",
+      "bld_reg_name": "홍은동벽산아파트",
+      "bld_sigungu_name": "홍은동벽산아파트"
     },
     {
       "bubn": "0000",
@@ -10616,9 +10643,9 @@
       "sigungu": "동작구",
       "bjd_name": "사당동",
       "jibun": "105",
-      "road_address": "서울특별시 동작구 동작대로29길 115",
-      "bld_reg_name": "사당우성아파트",
-      "bld_sigungu_name": "사당우성아파트"
+      "road_address": "서울특별시 동작구 동작대로29길 110",
+      "bld_reg_name": "신동아아파트",
+      "bld_sigungu_name": "신동아아파트"
     },
     {
       "bubn": "0008",
@@ -10832,9 +10859,9 @@
       "sigungu": "동작구",
       "bjd_name": "사당동",
       "jibun": "105",
-      "road_address": "서울특별시 동작구 동작대로29길 115",
-      "bld_reg_name": "사당우성아파트",
-      "bld_sigungu_name": "사당우성아파트"
+      "road_address": "서울특별시 동작구 동작대로29길 110",
+      "bld_reg_name": "신동아아파트",
+      "bld_sigungu_name": "신동아아파트"
     },
     {
       "bubn": "0000",
@@ -14811,9 +14838,9 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1360",
+      "road_address": "서울특별시 강동구 양재대로 1342",
       "bld_reg_name": "",
-      "bld_sigungu_name": "포레온스테이션5"
+      "bld_sigungu_name": "둔촌파출소"
     },
     {
       "bubn": "0006",
@@ -14946,9 +14973,9 @@
       "sigungu": "강동구",
       "bjd_name": "둔촌동",
       "jibun": "170-1",
-      "road_address": "서울특별시 강동구 양재대로 1360",
+      "road_address": "서울특별시 강동구 양재대로 1342",
       "bld_reg_name": "",
-      "bld_sigungu_name": "포레온스테이션5"
+      "bld_sigungu_name": "둔촌파출소"
     },
     {
       "bubn": "0006",
