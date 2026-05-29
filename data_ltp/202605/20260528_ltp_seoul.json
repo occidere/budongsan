@@ -160,7 +160,7 @@
       "sigungu": "성동구",
       "bjd_name": "하왕십리동",
       "jibun": "990",
-      "road_address": "서울특별시 성동구 왕십리로31나길 18",
+      "road_address": "서울특별시 성동구 왕십리로31나길 22",
       "bld_reg_name": "한신무학아파트",
       "bld_sigungu_name": "한신무학아파트"
     },
@@ -599,6 +599,35 @@
       "bld_sigungu_name": "광진 한화꿈에그린아파트"
     }
   ],
+  "11230": [
+    {
+      "bubn": "0105",
+      "bobn": "0127",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260528",
+      "sgg_code": "11230",
+      "acc_no": "0001330",
+      "decision_code": "002",
+      "job_gbn": "1",
+      "job_gbn_name": "허가",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1123010400",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "동대문구 전농동 127-105",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "동대문구",
+      "bjd_name": "전농동",
+      "jibun": "127-105",
+      "road_address": "서울특별시 동대문구 서울시립대로25길 18",
+      "bld_reg_name": "",
+      "bld_sigungu_name": ""
+    }
+  ],
   "11260": [
     {
       "bubn": "0006",
@@ -731,9 +760,9 @@
       "sigungu": "중랑구",
       "bjd_name": "신내동",
       "jibun": "656",
-      "road_address": "서울특별시 중랑구 신내로17길 13",
-      "bld_reg_name": "화성,두산아파트",
-      "bld_sigungu_name": "화성,두산아파트"
+      "road_address": "서울특별시 중랑구 신내로 155",
+      "bld_reg_name": "화성아파트",
+      "bld_sigungu_name": "두산, 화성아파트"
     },
     {
       "bubn": "0000",
@@ -2359,9 +2388,9 @@
       "sigungu": "노원구",
       "bjd_name": "중계동",
       "jibun": "585",
-      "road_address": "서울특별시 노원구 한글비석로15길 119",
+      "road_address": "서울특별시 노원구 덕릉로 613",
       "bld_reg_name": "중계3차우성아파트",
-      "bld_sigungu_name": "중계3차우성아파트"
+      "bld_sigungu_name": "우성3차아파트"
     },
     {
       "bubn": "0000",
@@ -2521,7 +2550,7 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "1293",
-      "road_address": "서울특별시 노원구 덕릉로122길 12-6",
+      "road_address": "서울특별시 노원구 덕릉로118길 29",
       "bld_reg_name": "불암현대아파트",
       "bld_sigungu_name": "불암현대아파트"
     },
@@ -2764,7 +2793,7 @@
       "sigungu": "노원구",
       "bjd_name": "중계동",
       "jibun": "30-10",
-      "road_address": "서울특별시 노원구 중계로4가길 7",
+      "road_address": "서울특별시 노원구 중계로4가길 9",
       "bld_reg_name": "",
       "bld_sigungu_name": ""
     },
@@ -2791,7 +2820,7 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "1299",
-      "road_address": "서울특별시 노원구 노원로30길 81",
+      "road_address": "서울특별시 노원구 상계로12길 65",
       "bld_reg_name": "청솔상계양우아파트",
       "bld_sigungu_name": "청솔상계양우아파트"
     },
@@ -2926,7 +2955,7 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "1293",
-      "road_address": "서울특별시 노원구 덕릉로122길 12-6",
+      "road_address": "서울특별시 노원구 덕릉로118길 29",
       "bld_reg_name": "불암현대아파트",
       "bld_sigungu_name": "불암현대아파트"
     },
@@ -3385,9 +3414,9 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "728-3",
-      "road_address": "서울특별시 노원구 동일로 1384",
+      "road_address": "서울특별시 노원구 동일로 1390",
       "bld_reg_name": "상계주공아파트",
-      "bld_sigungu_name": "상계주공아파트 601동"
+      "bld_sigungu_name": "상계주공아파트 602동"
     },
     {
       "bubn": "0007",
@@ -3412,9 +3441,9 @@
       "sigungu": "노원구",
       "bjd_name": "월계동",
       "jibun": "85-7",
-      "road_address": "서울특별시 노원구 화랑로45길 61",
+      "road_address": "서울특별시 노원구 화랑로45길 49",
       "bld_reg_name": "",
-      "bld_sigungu_name": "대한통운 서울북부지점"
+      "bld_sigungu_name": "현대자동차(성북출고센타)"
     },
     {
       "bubn": "0000",
@@ -3844,9 +3873,9 @@
       "sigungu": "노원구",
       "bjd_name": "하계동",
       "jibun": "251",
-      "road_address": "서울특별시 노원구 한글비석로1길 68",
+      "road_address": "서울특별시 노원구 한글비석로 91",
       "bld_reg_name": "하계1차청구아파트",
-      "bld_sigungu_name": "청구아파트"
+      "bld_sigungu_name": "하계1차청구아파트"
     },
     {
       "bubn": "0000",
@@ -4901,9 +4930,9 @@
       "sigungu": "서대문구",
       "bjd_name": "홍은동",
       "jibun": "455",
-      "road_address": "서울특별시 서대문구 세검정로1길 93",
-      "bld_reg_name": "홍은동벽산아파트",
-      "bld_sigungu_name": "홍은동벽산아파트"
+      "road_address": "서울특별시 서대문구 세검정로1길 95",
+      "bld_reg_name": "홍은벽산아파트",
+      "bld_sigungu_name": "홍은벽산아파트"
     }
   ],
   "11440": [
@@ -6529,9 +6558,9 @@
       "sigungu": "구로구",
       "bjd_name": "고척동",
       "jibun": "296",
-      "road_address": "서울특별시 구로구 고척로52길 48",
+      "road_address": "서울특별시 구로구 고척로52길 53",
       "bld_reg_name": "고척대우아파트",
-      "bld_sigungu_name": "고척대우아파트상가"
+      "bld_sigungu_name": "고척대우아파트"
     },
     {
       "bubn": "0000",
@@ -7372,9 +7401,9 @@
       "sigungu": "동작구",
       "bjd_name": "사당동",
       "jibun": "105",
-      "road_address": "서울특별시 동작구 동작대로29길 110",
-      "bld_reg_name": "신동아아파트",
-      "bld_sigungu_name": "신동아아파트"
+      "road_address": "서울특별시 동작구 동작대로29길 91",
+      "bld_reg_name": "사당우성아파트",
+      "bld_sigungu_name": "사당우성아파트"
     },
     {
       "bubn": "0000",
@@ -7590,7 +7619,7 @@
       "sigungu": "관악구",
       "bjd_name": "봉천동",
       "jibun": "1708",
-      "road_address": "서울특별시 관악구 봉천로 387",
+      "road_address": "서울특별시 관악구 은천로 86",
       "bld_reg_name": "두산아파트",
       "bld_sigungu_name": "두산아파트"
     },
@@ -7997,9 +8026,9 @@
       "sigungu": "서초구",
       "bjd_name": "잠원동",
       "jibun": "60-3",
-      "road_address": "서울특별시 서초구 신반포로 253",
+      "road_address": "서울특별시 서초구 신반포로 251",
       "bld_reg_name": "",
-      "bld_sigungu_name": "메이플 자이 2단지"
+      "bld_sigungu_name": "메이플 자이 1단지"
     },
     {
       "bubn": "0000",
@@ -8348,7 +8377,7 @@
       "sigungu": "서초구",
       "bjd_name": "서초동",
       "jibun": "1648-2",
-      "road_address": "서울특별시 서초구 사임당로19길 10",
+      "road_address": "서울특별시 서초구 사임당로19길 6",
       "bld_reg_name": "서초현대아파트",
       "bld_sigungu_name": "서초현대아파트"
     }
@@ -8566,7 +8595,7 @@
       "sigungu": "강남구",
       "bjd_name": "대치동",
       "jibun": "1027",
-      "road_address": "서울특별시 강남구 삼성로51길 37",
+      "road_address": "서울특별시 강남구 삼성로51길 35",
       "bld_reg_name": "래미안 대치 팰리스",
       "bld_sigungu_name": "래미안 대치 팰리스"
     },
@@ -9081,7 +9110,7 @@
       "sigungu": "송파구",
       "bjd_name": "송파동",
       "jibun": "33",
-      "road_address": "서울특별시 송파구 송파대로48길 29",
+      "road_address": "서울특별시 송파구 송파대로48길 34",
       "bld_reg_name": "호수임광아파트",
       "bld_sigungu_name": "호수임광아파트"
     },
@@ -9243,7 +9272,7 @@
       "sigungu": "송파구",
       "bjd_name": "송파동",
       "jibun": "33",
-      "road_address": "서울특별시 송파구 송파대로48길 29",
+      "road_address": "서울특별시 송파구 송파대로48길 34",
       "bld_reg_name": "호수임광아파트",
       "bld_sigungu_name": "호수임광아파트"
     },
