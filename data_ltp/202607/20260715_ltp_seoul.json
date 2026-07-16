@@ -222,6 +222,33 @@
   "11200": [
     {
       "bubn": "0000",
+      "bobn": "0053",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260715",
+      "sgg_code": "11200",
+      "acc_no": "0001695",
+      "decision_code": "012",
+      "job_gbn": "1",
+      "job_gbn_name": "취소",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1120010300",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "성동구 홍익동 53",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "성동구",
+      "bjd_name": "홍익동",
+      "jibun": "53",
+      "road_address": "서울특별시 성동구 무학로12길 11",
+      "bld_reg_name": "청계대주파크빌",
+      "bld_sigungu_name": "청계대주파크빌"
+    },
+    {
+      "bubn": "0000",
       "bobn": "0314",
       "jimok_code": "08",
       "jimok": "대",
@@ -1327,7 +1354,7 @@
       "sigungu": "중랑구",
       "bjd_name": "신내동",
       "jibun": "479",
-      "road_address": "서울특별시 중랑구 봉화산로56길 145-1",
+      "road_address": "서울특별시 중랑구 봉화산로56길 123",
       "bld_reg_name": "중앙하이츠아파트",
       "bld_sigungu_name": "중앙하이츠아파트"
     },
@@ -1651,7 +1678,7 @@
       "sigungu": "중랑구",
       "bjd_name": "신내동",
       "jibun": "479",
-      "road_address": "서울특별시 중랑구 봉화산로56길 145-1",
+      "road_address": "서울특별시 중랑구 봉화산로56길 123",
       "bld_reg_name": "중앙하이츠아파트",
       "bld_sigungu_name": "중앙하이츠아파트"
     },
@@ -1871,7 +1898,7 @@
       "sigungu": "강북구",
       "bjd_name": "미아동",
       "jibun": "1354",
-      "road_address": "서울특별시 강북구 인수봉로 18",
+      "road_address": "서울특별시 강북구 솔샘로 159",
       "bld_reg_name": "벽산라이브파크",
       "bld_sigungu_name": "벽산라이브파크"
     },
@@ -2550,9 +2577,9 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "624",
-      "road_address": "서울특별시 노원구 동일로227길 86",
-      "bld_reg_name": "상계주공16단지아파트",
-      "bld_sigungu_name": "상계주공16단지아파트"
+      "road_address": "서울특별시 노원구 동일로227길 26",
+      "bld_reg_name": "상계주공아파트",
+      "bld_sigungu_name": "상계주공15단지아파트"
     },
     {
       "bubn": "0002",
@@ -2847,9 +2874,9 @@
       "sigungu": "노원구",
       "bjd_name": "중계동",
       "jibun": "445",
-      "road_address": "서울특별시 노원구 덕릉로79길 35",
+      "road_address": "서울특별시 노원구 덕릉로79길 23",
       "bld_reg_name": "염광아파트",
-      "bld_sigungu_name": "염광아파트 상가"
+      "bld_sigungu_name": "염광아파트"
     },
     {
       "bubn": "0000",
@@ -2874,9 +2901,9 @@
       "sigungu": "노원구",
       "bjd_name": "중계동",
       "jibun": "445",
-      "road_address": "서울특별시 노원구 덕릉로79길 35",
+      "road_address": "서울특별시 노원구 덕릉로79길 23",
       "bld_reg_name": "염광아파트",
-      "bld_sigungu_name": "염광아파트 상가"
+      "bld_sigungu_name": "염광아파트"
     },
     {
       "bubn": "0000",
@@ -2928,7 +2955,7 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "1289",
-      "road_address": "서울특별시 노원구 덕릉로 730",
+      "road_address": "서울특별시 노원구 덕릉로94길 21",
       "bld_reg_name": "상계불암대림아파트",
       "bld_sigungu_name": "상계불암대림아파트"
     },
@@ -4012,9 +4039,9 @@
       "sigungu": "서대문구",
       "bjd_name": "홍은동",
       "jibun": "455",
-      "road_address": "서울특별시 서대문구 세검정로1길 95",
-      "bld_reg_name": "홍은벽산아파트",
-      "bld_sigungu_name": "홍은벽산아파트"
+      "road_address": "서울특별시 서대문구 세검정로1길 93",
+      "bld_reg_name": "홍은동벽산아파트",
+      "bld_sigungu_name": "홍은동벽산아파트"
     },
     {
       "bubn": "0000",
@@ -6376,6 +6403,33 @@
       "road_address": "서울특별시 영등포구 당산로 95",
       "bld_reg_name": "현대아파트",
       "bld_sigungu_name": "현대아파트"
+    },
+    {
+      "bubn": "0000",
+      "bobn": "1127",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260715",
+      "sgg_code": "11560",
+      "acc_no": "0002139",
+      "decision_code": "002",
+      "job_gbn": "1",
+      "job_gbn_name": "허가",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1156013300",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "영등포구 대림동 1127",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "영등포구",
+      "bjd_name": "대림동",
+      "jibun": "1127",
+      "road_address": "서울특별시 영등포구 신길로 29",
+      "bld_reg_name": "e편한세상 영등포 아델포레",
+      "bld_sigungu_name": "e편한세상 영등포 아델포레"
     }
   ],
   "11590": [
@@ -7540,7 +7594,7 @@
       "sigungu": "강남구",
       "bjd_name": "대치동",
       "jibun": "1027",
-      "road_address": "서울특별시 강남구 삼성로51길 37",
+      "road_address": "서울특별시 강남구 삼성로51길 35",
       "bld_reg_name": "래미안 대치 팰리스",
       "bld_sigungu_name": "래미안 대치 팰리스"
     },
@@ -8543,7 +8597,7 @@
       "sigungu": "강동구",
       "bjd_name": "암사동",
       "jibun": "442-1",
-      "road_address": "서울특별시 강동구 올림픽로104길 41",
+      "road_address": "서울특별시 강동구 올림픽로104길 42",
       "bld_reg_name": "한강현대아파트",
       "bld_sigungu_name": "한강현대아파트"
     },
