@@ -1057,7 +1057,7 @@
       "sigungu": "성북구",
       "bjd_name": "보문동1가",
       "jibun": "228",
-      "road_address": "서울특별시 성북구 보문로26길 17",
+      "road_address": "서울특별시 성북구 보문로26길 18",
       "bld_reg_name": "보문리슈빌하우트",
       "bld_sigungu_name": "보문리슈빌하우트"
     },
@@ -1678,9 +1678,9 @@
       "sigungu": "성북구",
       "bjd_name": "동소문동7가",
       "jibun": "23",
-      "road_address": "서울특별시 성북구 동소문로15길 99",
+      "road_address": "서울특별시 성북구 동소문로13길 47",
       "bld_reg_name": "동소문2차 한신휴플러스",
-      "bld_sigungu_name": "한신휴아파트"
+      "bld_sigungu_name": "동소문2차한신휴플러스"
     }
   ],
   "11305": [
@@ -2114,7 +2114,7 @@
       "sigungu": "도봉구",
       "bjd_name": "방학동",
       "jibun": "689",
-      "road_address": "서울특별시 도봉구 방학로 116",
+      "road_address": "서울특별시 도봉구 방학로 112-9",
       "bld_reg_name": "방학 동부센트레빌",
       "bld_sigungu_name": "방학동부센트레빌"
     },
@@ -2168,7 +2168,7 @@
       "sigungu": "도봉구",
       "bjd_name": "도봉동",
       "jibun": "644",
-      "road_address": "서울특별시 도봉구 마들로 895",
+      "road_address": "서울특별시 도봉구 마들로 891",
       "bld_reg_name": "도봉파크빌3단지아파트",
       "bld_sigungu_name": "도봉파크빌3단지아파트"
     },
@@ -2791,7 +2791,7 @@
       "sigungu": "노원구",
       "bjd_name": "하계동",
       "jibun": "288",
-      "road_address": "서울특별시 노원구 노원로 314",
+      "road_address": "서울특별시 노원구 노원로18길 19",
       "bld_reg_name": "하계2차현대아파트",
       "bld_sigungu_name": "하계2차현대아파트"
     },
@@ -3304,9 +3304,9 @@
       "sigungu": "노원구",
       "bjd_name": "하계동",
       "jibun": "251",
-      "road_address": "서울특별시 노원구 한글비석로 91",
+      "road_address": "서울특별시 노원구 한글비석로1길 68",
       "bld_reg_name": "하계1차청구아파트",
-      "bld_sigungu_name": "하계1차청구아파트"
+      "bld_sigungu_name": "청구아파트"
     },
     {
       "bubn": "0000",
@@ -3871,7 +3871,7 @@
       "sigungu": "노원구",
       "bjd_name": "중계동",
       "jibun": "23-2",
-      "road_address": "서울특별시 노원구 중계로4다길 4",
+      "road_address": "서울특별시 노원구 중계로4다길 10-6",
       "bld_reg_name": "",
       "bld_sigungu_name": ""
     },
@@ -4033,9 +4033,9 @@
       "sigungu": "노원구",
       "bjd_name": "월계동",
       "jibun": "85-7",
-      "road_address": "서울특별시 노원구 화랑로45길 49",
+      "road_address": "서울특별시 노원구 화랑로45길 127",
       "bld_reg_name": "",
-      "bld_sigungu_name": "현대자동차(성북출고센타)"
+      "bld_sigungu_name": "대한통운 서울북부지점"
     }
   ],
   "11380": [
@@ -6668,7 +6668,7 @@
       "sigungu": "영등포구",
       "bjd_name": "문래동6가",
       "jibun": "55-1",
-      "road_address": "서울특별시 영등포구 선유서로9길 10",
+      "road_address": "서울특별시 영등포구 선유서로 31",
       "bld_reg_name": "문래동현대6차아파트",
       "bld_sigungu_name": "문래동현대6차아파트"
     },
@@ -6728,6 +6728,33 @@
     }
   ],
   "11590": [
+    {
+      "bubn": "0000",
+      "bobn": "0421",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260721",
+      "sgg_code": "11590",
+      "acc_no": "0001804",
+      "decision_code": "008",
+      "job_gbn": "1",
+      "job_gbn_name": "취하",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1159010200",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "동작구 상도동 421",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "동작구",
+      "bjd_name": "상도동",
+      "jibun": "421",
+      "road_address": "서울특별시 동작구 상도로55길 47",
+      "bld_reg_name": "래미안상도2차아파트",
+      "bld_sigungu_name": "래미안상도2차아파트"
+    },
     {
       "bubn": "0000",
       "bobn": "0328",
@@ -6805,9 +6832,9 @@
       "sigungu": "동작구",
       "bjd_name": "사당동",
       "jibun": "105",
-      "road_address": "서울특별시 동작구 동작대로29길 119",
-      "bld_reg_name": "극동아파트",
-      "bld_sigungu_name": "극동아파트"
+      "road_address": "서울특별시 동작구 동작대로29길 110",
+      "bld_reg_name": "신동아아파트",
+      "bld_sigungu_name": "신동아아파트"
     },
     {
       "bubn": "0000",
@@ -7164,7 +7191,7 @@
       "sigungu": "송파구",
       "bjd_name": "방이동",
       "jibun": "212-8",
-      "road_address": "서울특별시 송파구 오금로31길 28",
+      "road_address": "서울특별시 송파구 오금로31길 27",
       "bld_reg_name": "코오롱아파트",
       "bld_sigungu_name": "코오롱아파트"
     },
