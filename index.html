@@ -28,6 +28,7 @@
     <!-- D3.js and TopoJSON for Land Permission Map -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
+    <script src="https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 
     <style>
         :root {
@@ -145,6 +146,7 @@
         }
 
         .card {
+            position: relative;
             background: var(--bg-secondary);
             border-radius: 12px;
             padding: 20px;
@@ -325,6 +327,37 @@
             font-size: 20px;
             font-weight: 700;
             color: #e53935;
+        }
+
+        .card-download-btn {
+            position: absolute;
+            bottom: 12px;
+            right: 12px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid var(--border-color);
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            padding: 0;
+            transition: background-color 0.2s, color 0.2s, transform 0.2s;
+            z-index: 2;
+        }
+
+        .card-download-btn:hover {
+            background: var(--bg-hover);
+            color: #1a73e8;
+            transform: translateY(-2px);
+        }
+
+        .card-download-btn svg {
+            width: 16px;
+            height: 16px;
+            pointer-events: none;
         }
 
         .trade-type {
@@ -3099,7 +3132,7 @@
         // 직거래 여부
         const isDirectTrade = rep.article_detail?.direct_trade === true;
         return `
-        <div class="card ${isDeleted ? 'deleted' : ''}">
+        <div class="card ${isDeleted ? 'deleted' : ''}" data-complex-name="${rep.complex_name}">
             <div class="card-header">
                 <div class="card-header-row">
                     <a href="${articleUrl}" target="_blank">${rep.complex_name}</a>
@@ -3128,8 +3161,43 @@
                 <span class="price-label">${priceDisplay.label}</span>
                 <div class="price-value">${priceDisplay.value}</div>
             </div>
+            <button type="button" class="card-download-btn" title="이미지로 저장" aria-label="이미지로 저장" onclick="saveCardAsImage(this)">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3v12"/>
+                    <path d="M7 10l5 5 5-5"/>
+                    <path d="M5 21h14"/>
+                </svg>
+            </button>
         </div>
     `;
+    }
+
+    // 매물 카드를 이미지로 저장
+    function saveCardAsImage(btn) {
+        const card = btn.closest('.card');
+        if (!card || typeof html2canvas === 'undefined') {
+            alert('이미지 저장 기능을 사용할 수 없습니다.');
+            return;
+        }
+        btn.disabled = true;
+        btn.style.visibility = 'hidden';
+        html2canvas(card, {
+            backgroundColor: getComputedStyle(card).backgroundColor || '#ffffff',
+            scale: 2,
+            useCORS: true
+        }).then(canvas => {
+            const complexName = card.getAttribute('data-complex-name') || '매물';
+            const link = document.createElement('a');
+            link.download = `${complexName}_${formatDateOnly(new Date().toISOString())}.png`;
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }).catch(err => {
+            console.error('카드 이미지 저장 실패:', err);
+            alert('이미지 저장에 실패했습니다.');
+        }).finally(() => {
+            btn.disabled = false;
+            btn.style.visibility = 'visible';
+        });
     }
 
     // 단지명 동적 생성 로직 수정
