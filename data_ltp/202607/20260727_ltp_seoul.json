@@ -2165,7 +2165,7 @@
       "use_purp": "주거용",
       "lawd_cd": "1132010700",
       "exec_ymd": null,
-      "deal_end_ymd": null,
+      "deal_end_ymd": "20260727",
       "address_raw": "도봉구 창동 812",
       "acc_year": "2026",
       "obj_seqno": "1",
@@ -2307,7 +2307,7 @@
       "sigungu": "도봉구",
       "bjd_name": "창동",
       "jibun": "821",
-      "road_address": "서울특별시 도봉구 우이천로4라길 11-4",
+      "road_address": "서울특별시 도봉구 우이천로4라길 11-14",
       "bld_reg_name": "초안산신도브래뉴",
       "bld_sigungu_name": "초안산신도브래뉴"
     },
@@ -2550,7 +2550,7 @@
       "sigungu": "도봉구",
       "bjd_name": "창동",
       "jibun": "808",
-      "road_address": "서울특별시 도봉구 노해로69가길 11",
+      "road_address": "서울특별시 도봉구 노해로69길 103",
       "bld_reg_name": "동아청솔아파트",
       "bld_sigungu_name": "동아청솔아파트"
     },
@@ -3200,7 +3200,7 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "749-5",
-      "road_address": "서울특별시 노원구 동일로 1356",
+      "road_address": "서울특별시 노원구 동일로 1362",
       "bld_reg_name": "상계주공아파트",
       "bld_sigungu_name": "상계주공4단지아파트"
     },
@@ -3551,9 +3551,9 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "730-2",
-      "road_address": "서울특별시 노원구 동일로 1383",
+      "road_address": "서울특별시 노원구 동일로 1389",
       "bld_reg_name": "상계주공아파트",
-      "bld_sigungu_name": "상계주공아파트 301동"
+      "bld_sigungu_name": "상계주공아파트 302동"
     },
     {
       "bubn": "0000",
@@ -3773,6 +3773,33 @@
     }
   ],
   "11380": [
+    {
+      "bubn": "0000",
+      "bobn": "0088",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260727",
+      "sgg_code": "11380",
+      "acc_no": "0002327",
+      "decision_code": "008",
+      "job_gbn": "1",
+      "job_gbn_name": "취하",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1138010600",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "은평구 대조동 88",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "은평구",
+      "bjd_name": "대조동",
+      "jibun": "88",
+      "road_address": "",
+      "bld_reg_name": "",
+      "bld_sigungu_name": ""
+    },
     {
       "bubn": "0000",
       "bobn": "0368",
@@ -4640,33 +4667,6 @@
       "road_address": "서울특별시 마포구 와우산로30길 44",
       "bld_reg_name": "대원파크빌",
       "bld_sigungu_name": "대원파크빌"
-    },
-    {
-      "bubn": "0000",
-      "bobn": "0380",
-      "jimok_code": "08",
-      "jimok": "대",
-      "handle_date": "20260727",
-      "sgg_code": "11440",
-      "acc_no": "0001487",
-      "decision_code": "001",
-      "job_gbn": "1",
-      "job_gbn_name": "미결",
-      "land_gbn": "1",
-      "use_purp_code": "01",
-      "use_purp": "주거용",
-      "lawd_cd": "1144010500",
-      "exec_ymd": null,
-      "deal_end_ymd": null,
-      "address_raw": "마포구 용강동 380",
-      "acc_year": "2026",
-      "obj_seqno": "1",
-      "sigungu": "마포구",
-      "bjd_name": "용강동",
-      "jibun": "380",
-      "road_address": "서울특별시 마포구 큰우물로 28",
-      "bld_reg_name": "래미안아파트",
-      "bld_sigungu_name": "래미안아파트"
     }
   ],
   "11470": [
@@ -4990,7 +4990,7 @@
       "sigungu": "양천구",
       "bjd_name": "신정동",
       "jibun": "334",
-      "road_address": "서울특별시 양천구 신목로 9",
+      "road_address": "서울특별시 양천구 신목로 16",
       "bld_reg_name": "쌍용아파트",
       "bld_sigungu_name": "쌍용아파트"
     },
@@ -7023,7 +7023,7 @@
       "sigungu": "동작구",
       "bjd_name": "상도동",
       "jibun": "244-330",
-      "road_address": "서울특별시 동작구 성대로19가길 7",
+      "road_address": "서울특별시 동작구 성대로17길 6",
       "bld_reg_name": "",
       "bld_sigungu_name": ""
     },
@@ -7565,7 +7565,7 @@
       "sigungu": "관악구",
       "bjd_name": "봉천동",
       "jibun": "1000",
-      "road_address": "서울특별시 관악구 관악로 304",
+      "road_address": "서울특별시 관악구 관악로40길 60",
       "bld_reg_name": "현대아파트",
       "bld_sigungu_name": "현대아파트"
     },
@@ -8244,8 +8244,8 @@
       "sigungu": "강남구",
       "bjd_name": "개포동",
       "jibun": "12",
-      "road_address": "서울특별시 강남구 개포로109길 5",
-      "bld_reg_name": "대치아파트108동",
+      "road_address": "서울특별시 강남구 개포로109길 9",
+      "bld_reg_name": "대한예수교장로회 한울교회",
       "bld_sigungu_name": "대치아파트"
     }
   ],
