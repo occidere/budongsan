@@ -1,6 +1,33 @@
 {
   "11110": [
     {
+      "bubn": "0045",
+      "bobn": "0056",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260804",
+      "sgg_code": "11110",
+      "acc_no": "0000438",
+      "decision_code": "002",
+      "job_gbn": "1",
+      "job_gbn_name": "허가",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1111010100",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "종로구 청운동 56-45",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "종로구",
+      "bjd_name": "청운동",
+      "jibun": "56-45",
+      "road_address": "서울특별시 종로구 자하문로33길 43",
+      "bld_reg_name": "청운현대(아)상가동",
+      "bld_sigungu_name": "청운현대아파트"
+    },
+    {
       "bubn": "0000",
       "bobn": "0703",
       "jimok_code": "08",
@@ -450,8 +477,8 @@
       "job_gbn": "1",
       "job_gbn_name": "허가",
       "land_gbn": "1",
-      "use_purp_code": "01",
-      "use_purp": "주거용",
+      "use_purp_code": "04",
+      "use_purp": "사업용",
       "lawd_cd": "1120010800",
       "exec_ymd": null,
       "deal_end_ymd": null,
@@ -814,8 +841,8 @@
       "sigungu": "광진구",
       "bjd_name": "자양동",
       "jibun": "670",
-      "road_address": "서울특별시 광진구 뚝섬로58길 101",
-      "bld_reg_name": "자양현대3차아파트",
+      "road_address": "서울특별시 광진구 뚝섬로56가길 10",
+      "bld_reg_name": "현대3차아파트편익시설",
       "bld_sigungu_name": "자양현대3차아파트"
     },
     {
@@ -1416,9 +1443,9 @@
       "sigungu": "노원구",
       "bjd_name": "중계동",
       "jibun": "445",
-      "road_address": "서울특별시 노원구 덕릉로79길 23",
+      "road_address": "서울특별시 노원구 덕릉로79길 35",
       "bld_reg_name": "염광아파트",
-      "bld_sigungu_name": "염광아파트"
+      "bld_sigungu_name": "염광아파트 상가"
     },
     {
       "bubn": "0000",
@@ -1497,9 +1524,9 @@
       "sigungu": "노원구",
       "bjd_name": "하계동",
       "jibun": "251",
-      "road_address": "서울특별시 노원구 한글비석로1길 68",
+      "road_address": "서울특별시 노원구 한글비석로 91",
       "bld_reg_name": "하계1차청구아파트",
-      "bld_sigungu_name": "청구아파트"
+      "bld_sigungu_name": "하계1차청구아파트"
     },
     {
       "bubn": "0003",
@@ -1632,9 +1659,9 @@
       "sigungu": "노원구",
       "bjd_name": "하계동",
       "jibun": "251",
-      "road_address": "서울특별시 노원구 한글비석로1길 68",
+      "road_address": "서울특별시 노원구 한글비석로 91",
       "bld_reg_name": "하계1차청구아파트",
-      "bld_sigungu_name": "청구아파트"
+      "bld_sigungu_name": "하계1차청구아파트"
     },
     {
       "bubn": "0000",
@@ -1794,9 +1821,9 @@
       "sigungu": "노원구",
       "bjd_name": "월계동",
       "jibun": "85-7",
-      "road_address": "서울특별시 노원구 화랑로45길 49",
+      "road_address": "서울특별시 노원구 화랑로45길 63",
       "bld_reg_name": "",
-      "bld_sigungu_name": "현대자동차(성북출고센타)"
+      "bld_sigungu_name": "대한통운 서울북부지점"
     },
     {
       "bubn": "0000",
@@ -1983,7 +2010,7 @@
       "sigungu": "노원구",
       "bjd_name": "공릉동",
       "jibun": "590-1",
-      "road_address": "서울특별시 노원구 동일로176길 39-8",
+      "road_address": "서울특별시 노원구 동일로176길 39-12",
       "bld_reg_name": "현대아파트",
       "bld_sigungu_name": "현대아파트"
     },
