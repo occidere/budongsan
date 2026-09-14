@@ -3175,9 +3175,9 @@
     }
 
     // 매물 카드를 이미지로 저장
-    // 네이버 썸네일 서버는 CORS 헤더를 제공하지 않아, html2canvas가 원본 URL을
-    // 그대로 사용하면 카드 안의 이미지를 캡처하지 못한다. 화면 표시는 원본 URL을
-    // 유지하고, 내보내기용으로 복제된 카드에서만 CORS 지원 프록시를 사용한다.
+    // 네이버 썸네일은 CORS를 허용하지 않는다. 저장 전에 프록시를 통해 이미지를
+    // data URL로 완전히 읽어 둔 뒤, html2canvas가 복제한 카드에 주입한다.
+    // 따라서 캡처 시점의 외부 이미지 재로딩 순서에 영향을 받지 않는다.
     function getExportImageUrl(imageUrl) {
         if (!imageUrl) return imageUrl;
 
@@ -3196,7 +3196,47 @@
         }
     }
 
-    function saveCardAsImage(btn) {
+    async function loadExportImageAsDataUrl(imageUrl) {
+        const exportImageUrl = getExportImageUrl(imageUrl);
+        if (!exportImageUrl || exportImageUrl.startsWith('data:')) {
+            return exportImageUrl;
+        }
+
+        const response = await fetch(exportImageUrl, {
+            mode: 'cors',
+            cache: 'no-store'
+        });
+        if (!response.ok) {
+            throw new Error(`이미지 요청 실패: ${response.status}`);
+        }
+
+        const blob = await response.blob();
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = () => resolve(reader.result);
+            reader.onerror = () => reject(reader.error || new Error('이미지 변환 실패'));
+            reader.readAsDataURL(blob);
+        });
+    }
+
+    async function preloadExportImages(card) {
+        const requests = new Map();
+
+        card.querySelectorAll('img.card-image').forEach((image) => {
+            const source = image.currentSrc || image.src;
+            if (source && !requests.has(source)) {
+                requests.set(source, loadExportImageAsDataUrl(source));
+            }
+        });
+
+        const sources = new Map();
+        for (const [source, request] of requests) {
+            sources.set(source, await request);
+        }
+        return sources;
+    }
+
+    async function saveCardAsImage(btn) {
         const card = btn.closest('.card');
         if (!card || typeof html2canvas === 'undefined') {
             alert('이미지 저장 기능을 사용할 수 없습니다.');
@@ -3207,40 +3247,42 @@
         btn.style.visibility = 'hidden';
         card.dataset.exportingCard = 'true';
 
-        html2canvas(card, {
-            backgroundColor: getComputedStyle(card).backgroundColor || '#ffffff',
-            scale: 2,
-            useCORS: true,
-            allowTaint: false,
-            imageTimeout: 20000,
-            onclone: (clonedDocument) => {
-                const clonedCard = clonedDocument.querySelector('.card[data-exporting-card="true"]');
-                if (!clonedCard) return;
+        try {
+            const exportImages = await preloadExportImages(card);
+            const canvas = await html2canvas(card, {
+                backgroundColor: getComputedStyle(card).backgroundColor || '#ffffff',
+                scale: 2,
+                useCORS: true,
+                allowTaint: false,
+                imageTimeout: 20000,
+                onclone: (clonedDocument) => {
+                    const clonedCard = clonedDocument.querySelector('.card[data-exporting-card="true"]');
+                    if (!clonedCard) return;
 
-                clonedCard.querySelectorAll('img.card-image').forEach((image) => {
-                    const source = image.getAttribute('src');
-                    const exportImageUrl = getExportImageUrl(source);
+                    clonedCard.querySelectorAll('img.card-image').forEach((image) => {
+                        const source = image.currentSrc || image.src;
+                        const dataUrl = exportImages.get(source);
+                        if (dataUrl) {
+                            image.removeAttribute('crossorigin');
+                            image.setAttribute('src', dataUrl);
+                        }
+                    });
+                }
+            });
 
-                    if (exportImageUrl && exportImageUrl !== source) {
-                        image.setAttribute('crossorigin', 'anonymous');
-                        image.setAttribute('src', exportImageUrl);
-                    }
-                });
-            }
-        }).then(canvas => {
             const complexName = card.getAttribute('data-complex-name') || '매물';
             const link = document.createElement('a');
             link.download = `${complexName}_${formatDateOnly(new Date().toISOString())}.png`;
             link.href = canvas.toDataURL('image/png');
             link.click();
-        }).catch(err => {
+        } catch (err) {
             console.error('카드 이미지 저장 실패:', err);
-            alert('이미지 저장에 실패했습니다.');
-        }).finally(() => {
+            alert('매물 이미지를 불러오지 못해 저장에 실패했습니다. 잠시 후 다시 시도해 주세요.');
+        } finally {
             delete card.dataset.exportingCard;
             btn.disabled = false;
             btn.style.visibility = 'visible';
-        });
+        }
     }
 
     // 단지명 동적 생성 로직 수정
