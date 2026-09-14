@@ -3175,18 +3175,58 @@
     }
 
     // 매물 카드를 이미지로 저장
+    // 네이버 썸네일 서버는 CORS 헤더를 제공하지 않아, html2canvas가 원본 URL을
+    // 그대로 사용하면 카드 안의 이미지를 캡처하지 못한다. 화면 표시는 원본 URL을
+    // 유지하고, 내보내기용으로 복제된 카드에서만 CORS 지원 프록시를 사용한다.
+    function getExportImageUrl(imageUrl) {
+        if (!imageUrl) return imageUrl;
+
+        try {
+            const sourceUrl = new URL(imageUrl, window.location.href);
+            if (sourceUrl.protocol === 'data:' || sourceUrl.origin === window.location.origin) {
+                return sourceUrl.href;
+            }
+
+            return `https://images.weserv.nl/?url=${encodeURIComponent(
+                `${sourceUrl.host}${sourceUrl.pathname}${sourceUrl.search}`
+            )}`;
+        } catch (error) {
+            console.warn('이미지 내보내기 URL을 변환하지 못했습니다:', error);
+            return imageUrl;
+        }
+    }
+
     function saveCardAsImage(btn) {
         const card = btn.closest('.card');
         if (!card || typeof html2canvas === 'undefined') {
             alert('이미지 저장 기능을 사용할 수 없습니다.');
             return;
         }
+
         btn.disabled = true;
         btn.style.visibility = 'hidden';
+        card.dataset.exportingCard = 'true';
+
         html2canvas(card, {
             backgroundColor: getComputedStyle(card).backgroundColor || '#ffffff',
             scale: 2,
-            useCORS: true
+            useCORS: true,
+            allowTaint: false,
+            imageTimeout: 20000,
+            onclone: (clonedDocument) => {
+                const clonedCard = clonedDocument.querySelector('.card[data-exporting-card="true"]');
+                if (!clonedCard) return;
+
+                clonedCard.querySelectorAll('img.card-image').forEach((image) => {
+                    const source = image.getAttribute('src');
+                    const exportImageUrl = getExportImageUrl(source);
+
+                    if (exportImageUrl && exportImageUrl !== source) {
+                        image.setAttribute('crossorigin', 'anonymous');
+                        image.setAttribute('src', exportImageUrl);
+                    }
+                });
+            }
         }).then(canvas => {
             const complexName = card.getAttribute('data-complex-name') || '매물';
             const link = document.createElement('a');
@@ -3197,6 +3237,7 @@
             console.error('카드 이미지 저장 실패:', err);
             alert('이미지 저장에 실패했습니다.');
         }).finally(() => {
+            delete card.dataset.exportingCard;
             btn.disabled = false;
             btn.style.visibility = 'visible';
         });
