@@ -9,6 +9,10 @@ on:
       - 'data/fulldata_all.json'
       - 'data_ltp/**'
       - 'data_geo/**'
+      - 'scripts/build_web_data.py'
+      - 'test/test_web_data.py'
+      - 'test/test_lazy_loading.cjs'
+      - '.github/workflows/deploy-github-pages.yml'
   workflow_dispatch:
 
 permissions:
@@ -38,6 +42,14 @@ jobs:
           cp *.png _site/
           cp -r data_ltp _site/
           cp -r data_geo _site/
+
+      - name: Build compact per-complex data (deployment only)
+        run: |
+          python3 -m unittest discover -s test -p test_web_data.py
+          if grep -q 'function refreshSelectedComplexes' index.html; then
+            node --test test/test_lazy_loading.cjs
+          fi
+          time python3 scripts/build_web_data.py data/fulldata_all.json _site/data
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
