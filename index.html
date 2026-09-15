@@ -2804,6 +2804,9 @@
     };
 
     let allData = {};
+    let dataManifest = null;
+    const complexRequests = new Map();
+    let cardsRequestVersion = 0;
     let selectedComplexes = new Set();
     let selectedTradeTypes = new Set(['A1', 'B1', 'B2']);
     let selectedStatuses = new Set(['active']);
@@ -3287,12 +3290,12 @@
 
     // 단지명 동적 생성 로직 수정
     // COMPLEXES에 displayName 동적 추가 (sector + 단지명)
-    // fulldata_all.json에 없는 단지는 COMPLEXES에서 제거
+    // 매물 전체 대신 작은 manifest에서 단지 표시 정보를 읽는다.
     function addDisplayNameToComplexes(data) {
         // 뒤에서부터 순회하면서 제거 (인덱스 안전성)
         for (let i = COMPLEXES.length - 1; i >= 0; i--) {
             const complex = COMPLEXES[i];
-            const complexData = data[complex.id];
+            const complexData = data.complexes[complex.id];
 
             // 데이터가 없으면 COMPLEXES에서 제거
             if (!complexData) {
@@ -3301,21 +3304,8 @@
                 continue;
             }
 
-            let sector = '';
-            let complexName = '';
-            for (const key in complexData) {
-                if (complexData[key].representative) {
-                    // sector
-                    if (complexData[key].representative.address && complexData[key].representative.address.sector) {
-                        sector = complexData[key].representative.address.sector;
-                    }
-                    // 단지명
-                    if (complexData[key].representative.complex_name) {
-                        complexName = complexData[key].representative.complex_name;
-                    }
-                    break;
-                }
-            }
+            const sector = complexData.sector || '';
+            const complexName = complexData.name || '';
 
             // 단지명이 없으면 COMPLEXES에서 제거
             if (!complexName) {
@@ -3500,7 +3490,8 @@
 
         // localStorage에 저장된 값이 없으면 기본 단지 추가
         if (selectedComplexes.size === 0) {
-            selectedComplexes.add('3354');
+            const defaultComplex = COMPLEXES.find(c => c.id === '3354') || COMPLEXES[0];
+            if (defaultComplex) selectedComplexes.add(defaultComplex.id);
             saveFiltersToStorage();
         }
     }
@@ -5601,6 +5592,62 @@
     }
 
     function renderCards() {
+        return refreshSelectedComplexes();
+    }
+
+    async function fetchDataJson(url) {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 30000);
+        try {
+            const response = await fetch(url, {signal: controller.signal, cache: 'no-cache'});
+            if (!response.ok) throw new Error(`HTTP ${response.status}: ${url}`);
+            return await response.json();
+        } finally {
+            clearTimeout(timeout);
+        }
+    }
+
+    function loadComplexData(id) {
+        if (Object.prototype.hasOwnProperty.call(allData, id)) return Promise.resolve(allData[id]);
+        if (complexRequests.has(id)) return complexRequests.get(id);
+        const entry = dataManifest?.complexes[id];
+        if (!entry) return Promise.reject(new Error(`단지 데이터가 없습니다: ${id}`));
+        const request = fetchDataJson(`./data/${entry.file}`).then(data => {
+            if (!data || Array.isArray(data) || typeof data !== 'object') {
+                throw new Error(`잘못된 단지 데이터: ${id}`);
+            }
+            allData[id] = data;
+            return data;
+        }).finally(() => complexRequests.delete(id));
+        complexRequests.set(id, request);
+        return request;
+    }
+
+    async function refreshSelectedComplexes() {
+        const version = ++cardsRequestVersion;
+        const ids = Array.from(selectedComplexes);
+        const cardsContainer = document.getElementById('cards');
+        if (ids.some(id => !Object.prototype.hasOwnProperty.call(allData, id))) {
+            totalFilteredData = [];
+            renderPagination();
+            cardsContainer.innerHTML = '<div class="loading" role="status">선택한 단지의 매물 데이터를 불러오는 중...</div>';
+        }
+        try {
+            await Promise.all(ids.map(loadComplexData));
+            // 선택/필터가 바뀐 뒤 도착한 이전 요청은 화면을 갱신하지 않는다.
+            if (version !== cardsRequestVersion) return;
+            updateTradeTypeCounts();
+            renderLoadedCards();
+            updateMap();
+        } catch (error) {
+            if (version !== cardsRequestVersion) return;
+            console.error('단지 데이터 로드 실패:', error);
+            cardsContainer.innerHTML = '<p class="error-message">선택한 단지 데이터를 불러오지 못했습니다. <button type="button" id="retryComplexData">다시 시도</button></p>';
+            document.getElementById('retryComplexData').addEventListener('click', renderCards);
+        }
+    }
+
+    function renderLoadedCards() {
         const cardsContainer = document.getElementById('cards');
         let filteredData = [];
 
@@ -5724,26 +5771,14 @@
             const cardsContainer = document.getElementById('cards');
             cardsContainer.innerHTML = '<div class="loading">매물 데이터 로딩 중...</div>';
 
-            // Load data from fulldata_all.json
-            const response = await fetch('./data/fulldata_all.json');
-            if (!response.ok) {
-                throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+            // 전체 매물은 가져오지 않고 검색/선택용 단지 목록만 읽는다.
+            dataManifest = await fetchDataJson('./data/manifest.json');
+            if (dataManifest.schema_version !== 1 || !dataManifest.complexes) {
+                throw new Error('지원하지 않는 데이터 목록 형식');
             }
-            const data = await response.json();
-
-            // Validate that data contains expected complex IDs and provide graceful degradation
-            // Create a clean copy with missing complexes initialized
-            allData = {};
-            COMPLEXES.forEach(complex => {
-                if (data[complex.id]) {
-                    allData[complex.id] = data[complex.id];
-                } else {
-                    allData[complex.id] = {}; // Initialize empty object for missing complex
-                }
-            });
-
-            // COMPLEXES에 displayName 동적 추가 (sector + 단지명)
-            addDisplayNameToComplexes(data);
+            addDisplayNameToComplexes(dataManifest);
+            const availableIds = new Set(COMPLEXES.map(complex => complex.id));
+            selectedComplexes = new Set([...selectedComplexes].map(String).filter(id => availableIds.has(id)));
 
             // UI를 복원된 상태와 동기화
             syncUIWithFilters();
@@ -5761,13 +5796,12 @@
             initPriceFilter();
             initPaginationControls();
             initMap();
-            renderCards();
-            updateMap();
+            await renderCards();
         } catch (error) {
             console.error('데이터 로드 실패:', error);
             document.getElementById('cards').innerHTML = `
                     <p class="error-message">
-                        데이터를 불러올 수 없습니다. 로컬 서버에서 실행해주세요.
+                        데이터 목록을 불러오지 못했습니다. <button type="button" onclick="location.reload()">새로고침</button>
                     </p>
                 `;
         }
