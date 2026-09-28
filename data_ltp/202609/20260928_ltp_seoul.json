@@ -1956,7 +1956,7 @@
       "sigungu": "도봉구",
       "bjd_name": "방학동",
       "jibun": "275",
-      "road_address": "서울특별시 도봉구 방학로11길 36",
+      "road_address": "서울특별시 도봉구 방학로11길 30",
       "bld_reg_name": "벽산아파트",
       "bld_sigungu_name": "벽산아파트"
     },
@@ -2363,7 +2363,7 @@
       "sigungu": "노원구",
       "bjd_name": "중계동",
       "jibun": "20",
-      "road_address": "서울특별시 노원구 중계로6나길 2-6",
+      "road_address": "서울특별시 노원구 중계로6길 50-1",
       "bld_reg_name": "",
       "bld_sigungu_name": ""
     },
@@ -2390,7 +2390,7 @@
       "sigungu": "노원구",
       "bjd_name": "상계동",
       "jibun": "1293",
-      "road_address": "서울특별시 노원구 덕릉로122길 12-6",
+      "road_address": "서울특별시 노원구 덕릉로118길 29",
       "bld_reg_name": "불암현대아파트",
       "bld_sigungu_name": "불암현대아파트"
     },
@@ -2660,9 +2660,9 @@
       "sigungu": "노원구",
       "bjd_name": "공릉동",
       "jibun": "708",
-      "road_address": "서울특별시 노원구 동일로 1127",
+      "road_address": "서울특별시 노원구 섬밭로 156",
       "bld_reg_name": "공릉아파트",
-      "bld_sigungu_name": "공릉1단지아파트"
+      "bld_sigungu_name": "공릉2단지아파트"
     },
     {
       "bubn": "0000",
@@ -3038,9 +3038,9 @@
       "sigungu": "노원구",
       "bjd_name": "월계동",
       "jibun": "85-7",
-      "road_address": "서울특별시 노원구 화랑로45길 49",
+      "road_address": "서울특별시 노원구 화랑로45길 127",
       "bld_reg_name": "",
-      "bld_sigungu_name": "현대자동차(성북출고센타)"
+      "bld_sigungu_name": "대한통운 서울북부지점"
     },
     {
       "bubn": "0000",
@@ -3181,6 +3181,33 @@
     },
     {
       "bubn": "0001",
+      "bobn": "0280",
+      "jimok_code": "08",
+      "jimok": "대",
+      "handle_date": "20260928",
+      "sgg_code": "11380",
+      "acc_no": "0002855",
+      "decision_code": "002",
+      "job_gbn": "1",
+      "job_gbn_name": "허가",
+      "land_gbn": "1",
+      "use_purp_code": "01",
+      "use_purp": "주거용",
+      "lawd_cd": "1138010200",
+      "exec_ymd": null,
+      "deal_end_ymd": null,
+      "address_raw": "은평구 녹번동 280-1",
+      "acc_year": "2026",
+      "obj_seqno": "1",
+      "sigungu": "은평구",
+      "bjd_name": "녹번동",
+      "jibun": "280-1",
+      "road_address": "서울특별시 은평구 통일로 586-19",
+      "bld_reg_name": "녹번JR아파트",
+      "bld_sigungu_name": "녹번JR아파트"
+    },
+    {
+      "bubn": "0001",
       "bobn": "0140",
       "jimok_code": "08",
       "jimok": "대",
@@ -3313,33 +3340,6 @@
       "road_address": "서울특별시 은평구 연서로41가길 11-5",
       "bld_reg_name": "N겔러리아빌",
       "bld_sigungu_name": "N겔러리아빌"
-    },
-    {
-      "bubn": "0000",
-      "bobn": "0636",
-      "jimok_code": "08",
-      "jimok": "대",
-      "handle_date": "20260928",
-      "sgg_code": "11380",
-      "acc_no": "0002885",
-      "decision_code": "002",
-      "job_gbn": "1",
-      "job_gbn_name": "허가",
-      "land_gbn": "1",
-      "use_purp_code": "01",
-      "use_purp": "주거용",
-      "lawd_cd": "1138010300",
-      "exec_ymd": null,
-      "deal_end_ymd": null,
-      "address_raw": "은평구 불광동 636",
-      "acc_year": "2026",
-      "obj_seqno": "1",
-      "sigungu": "은평구",
-      "bjd_name": "불광동",
-      "jibun": "636",
-      "road_address": "서울특별시 은평구 불광로 170",
-      "bld_reg_name": "북한산 한양 수자인 아파트",
-      "bld_sigungu_name": "북한산 한양 수자인 아파트"
     },
     {
       "bubn": "0026",
@@ -4481,7 +4481,7 @@
       "sigungu": "영등포구",
       "bjd_name": "양평동3가",
       "jibun": "66",
-      "road_address": "서울특별시 영등포구 선유로 172",
+      "road_address": "서울특별시 영등포구 선유동1로 71",
       "bld_reg_name": "양평동삼호아파트",
       "bld_sigungu_name": "양평동삼호아파트"
     },
@@ -4535,9 +4535,9 @@
       "sigungu": "영등포구",
       "bjd_name": "신길동",
       "jibun": "1367-1",
-      "road_address": "서울특별시 영등포구 여의대방로61길 1",
+      "road_address": "서울특별시 영등포구 여의대방로61길 1-1",
       "bld_reg_name": "",
-      "bld_sigungu_name": "전철아파트"
+      "bld_sigungu_name": "부운빌딩"
     },
     {
       "bubn": "0000",
@@ -5430,7 +5430,7 @@
       "sigungu": "관악구",
       "bjd_name": "봉천동",
       "jibun": "1708",
-      "road_address": "서울특별시 관악구 은천로 86",
+      "road_address": "서울특별시 관악구 봉천로 387",
       "bld_reg_name": "두산아파트",
       "bld_sigungu_name": "두산아파트"
     },
